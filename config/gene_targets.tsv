@@ -1,0 +1,59 @@
+# Gene targets + S7 nomenclature reconciliation.
+#
+# DESIGN NOTE (this is the load-bearing decision):
+#   These patterns are a ONE-TIME CANDIDATE GENERATOR, not the source of truth.
+#   Route order is /gene -> /product -> manual coords. Every hit is then verified
+#   by hand and FROZEN as (coords + aa_sha256) into the seed table. Afterwards
+#   re-extraction is a REGRESSION TEST against the frozen SHA, so a future RefSeq
+#   re-annotation that renames the product breaks the test loudly instead of
+#   silently dropping the gene. Patterns may therefore be generous: recall here,
+#   precision from the human pass.
+#
+# side: exclusion | partner
+# aa_min/aa_max: sanity window only (S4 step 3: 40-260 aa for exclusion factors);
+#   a hit outside the window is FLAGGED for review, never auto-dropped.
+gene_canonical	side	synonyms	name_regex	phenotype_regex	aa_min	aa_max	restrict_inc_group	notes
+traS	exclusion	NA	entry exclusion.*TraS|TraS\b	entry exclusion protein	40	260	NA	R100: product-route only, no /gene qualifier
+traT	exclusion	NA	TraT\b	complement resistance	200	260	NA	"surface exclusion" REMOVED from pattern: in AP001918.1 (F) and AP000342.1 (R100) BOTH traS and traT carry the identical product "surface exclusion protein", so the product route cannot separate them -- it filled traT rows with the traS CDS. Only the /gene route discriminates in these two elements. See docs/traT_audit.md for the 116-120 attribution
+excA	exclusion	exc	ExcA\b	entry exclusion	40	260	NA	R64/R621a
+excB	exclusion	exc	ExcB\b	entry exclusion	40	260	NA	translational reinitiation from excA
+eex	exclusion	NA	\bEex	entry exclusion	40	260	NA	pKM101 (/gene="eex"), SXT (/gene="EexR1" -- trailing \b cannot match, pattern anchored at start instead), R391
+eexA	exclusion	trhZ	EexA\b|TrhZ\b|R0018\b	entry exclusion	40	260	NA	R27 inner-membrane, entry R27 locus tag R0018 (AAF69857.1, 130aa) added: resolved by UniProt homolog A0A0H2XLF7 at 78.1% identity, corroborated by the Z-operon ORF numbering
+eexB	exclusion	ORF016	EexB\b|ORF016	surface exclusion	40	260	NA	R27 outer-membrane, surface
+eexC	exclusion	NA	EexC\b	entry exclusion	40	260	NA	IncC; C-terminal specificity
+sfx	exclusion	NA	Sfx\b	NA	40	260	IncC,IncA	IncC/IncA ONLY (restrict_inc_group). "surface exclusion" dropped from pattern: pED208 M13465.1 calls the F-like traS/traT system "sfx"
+trbK	exclusion	NA	TrbK\b	entry exclusion	40	260	NA	RP4 47-aa mature lipoprotein
+mbeD	exclusion	NA	MbeD\b	mobilization protein D	40	260	NA	ColE1
+ses	exclusion	NA	Ses\b	surface exclusion	40	260	NA	pLS20; essentially no sequence family
+prgA	exclusion	sec10	PrgA\b|Sec10\b	NA	40	1500	NA	pCF10 PrgA = surface exclusion (891aa, gene-route). NOT aggregation substance -- that is PrgB/Asc10, a different protein. "aggregation substance" removed from pattern: it false-positived on pAM373 EP0041
+sea1	exclusion	NA	Sea1\b	NA	40	1500	NA	pAD1 Sea1 891aa, same size class as pCF10 PrgA. "surface exclusion" dropped: it is a generic token that does not discriminate (see traT). MUST be absent from pAM373 (negative arm)
+yddJ	exclusion	NA	YddJ\b|DUF4467	NA	40	260	NA	ICEBs1; cystatin-like fold
+traD	partner	NA	TraD\b	NA	NA	NA	NA	pKM101 VirB6 (346aa, AAA86455.1). NB traD is the T4CP in F and a regulator in R64 -- matching is per-element so no cross-contamination, but never treat traD as VirB6 outside pKM101
+trhG	partner	NA	TrhG\b|R0128\b	NA	NA	NA	NA	R27 VirB6 (F-TraG homolog), located in Tra1 F operon. R27 locus tag R0128 (AAF69966.1, 1329aa) added: UniProt homolog A0A0H2XKG9 at 76.1% identity, sits 9 bp after trhH
+trbK-like	exclusion	NA	TrbK\b	entry exclusion	40	260	NA	pKPC_UVA01; unannotated in both records
+trbL-like	partner	NA	TrbL\b	NA	NA	NA	NA	pKPC_UVA01 VirB6 by homology to RP4 Tra2
+traG	partner	NA	TraG\b|VirB6|conjugal transfer protein TraG	NA	NA	NA	NA	F/R100 specificity 610-673; SXT 606-608
+traG_C	partner	NA	TraG\b|VirB6	NA	NA	NA	NA	IncC TraG
+traY	partner	NA	TraY\b|VirB6	NA	NA	NA	NA	IncI1 -- NB: F-plasmid TraY is a DIFFERENT protein, not VirB6
+traN	partner	NA	TraN\b|mating pair stabilization	NA	NA	NA	NA	IncC; also F-like MPS adhesin
+conG	partner	NA	ConG\b|VirB6	NA	NA	NA	NA	ICEBs1; specificity 276-295, E288 pivotal
+trbL	partner	NA	TrbL\b|VirB6	NA	NA	NA	NA	E4 HYPOTHESIS for RP4 trbK -- candidates table ONLY, never seed
+# ---------------------------------------------------------------------------
+# WHY name_regex AND phenotype_regex ARE SEPARATE COLUMNS
+#
+# Three false positives, all the same failure mode: a PHENOTYPE phrase in
+# /product was treated as GENE IDENTITY.
+#
+#   "surface exclusion"    -> F/R100 traS and traT carry the IDENTICAL product
+#                             string, so the traT pattern matched the traS CDS
+#   "aggregation substance" -> matched pAM373 EP0041 (PrgB/Asc10 class), which
+#                             broke the negative arm; PrgA is surface exclusion,
+#                             the aggregation substance is a different protein
+#   "entry exclusion"      -> matched R16a /gene="trbK" (an IncP-type entry
+#                             exclusion lipoprotein at 35.7 kb) and filed it as
+#                             IncC eexC, producing a nonsense 128 kb adjacency
+#                             to a TraG at 164 kb
+#
+# name_regex assigns identity and contains gene-NAME tokens ONLY.
+# phenotype_regex never assigns identity; it only FLAGS a CDS for human review.
+# A phenotype phrase says what a protein does, not which gene it is.

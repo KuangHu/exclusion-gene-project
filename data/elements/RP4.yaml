@@ -1,0 +1,123 @@
+# RP4 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: RP4
+element_type: plasmid
+inc_group: IncP-alpha
+mpf_class: MPF_T
+host: Escherichia coli
+size_bp: 60096
+accessions:
+  primary: BN000925.1
+  crosscheck: CP152305.1
+  parts: []
+  status: PINNED
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: trbK
+  type: entry
+  evidence_tier: E2
+  specificity_determinant: not mapped
+  note: 47-aa mature lipoprotein after signal cleavage (69-aa precursor)
+  sequence:
+    protein_accession: CAJ85697.1
+    length_aa: 69
+    aa_sha256: 23dde58dab57d3c66e099ad94fdc0b0c65ec5e3e828309ced2d50fcc32c7c64b
+    coords: BN000925.1:27450..27659
+    strand: +
+    route: gene
+  hmm_hit: HIT
+  hmm_model: TrbK_RP4 TIGR04359.1 score=75.6
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: trbL
+  family: VirB6
+  virb_equivalent: VirB6
+  status: predicted
+  specificity_residues: null
+  note: E4 hypothesis. Adjacency is confirmed but the interaction is untested
+  sequence:
+    protein_accession: CAJ85698.1
+    length_aa: 528
+    aa_sha256: b05af4436bbcd68cd7831b8fe9faa1d1ccff977eba915a866098fe5bd5702485
+    coords: BN000925.1:27666..29252
+    strand: +
+    route: gene
+  domain_id: PF04610 (TrbL)
+context:
+  operon:
+    name: Tra2 trb operon (Mpf)
+    genes:
+    - trbA
+    - trbB
+    - trbC
+    - trbD
+    - trbE
+    - trbF
+    - trbG
+    - trbH
+    - trbI
+    - trbJ
+    - trbK
+    - trbL
+    - trbM
+    - trbN
+    - trbO
+    - trbP
+    orientation: +
+    promoter: trbBp, main promoter of the mpf genes
+    coords_kb: Tra2 core 18.825-29.276 kb (18.03-29.26 kb whole region)
+  virb_mapping:
+    trbB: VirB11
+    trbC: VirB2 (pilin)
+    trbD: VirB3
+    trbE: VirB4
+    trbF: VirB8
+    trbG: VirB9
+    trbJ: VirB5
+    trbL: VirB6
+    trbN: VirB1
+  tra1:
+    note: DNA processing + coupling, 13 genes traA-traM in three operons
+    operons:
+      leading:
+      - traK
+      - traL
+      - traM
+      relaxase:
+      - traH
+      - traI
+      - traJ
+      primase:
+      - traA
+      - traB
+      - traC
+      - traD
+      - traE
+      - traF
+      - traG
+    system:
+      t4cp: TraG
+      relaxase: TraI
+      primase: TraC
+  regulation: TrbA (first gene of the trb operon) trans-represses traJp, traKp, traGp and itself; KorA/KorB
+    global control
+  adjacency:
+    proximity:
+      measured_bp: 6
+      measured_from: BN000925.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: null
+notes:
+- 'SIGNATURE: of the 12 core ORFs trbB-trbM, the ten trbB-trbL are all required for transfer EXCEPT trbK.
+  A non-essential gene embedded in an otherwise essential mpf operon is the exclusion-gene signature'
+schema_version: 1.1.0
+scope: entry_exclusion_only

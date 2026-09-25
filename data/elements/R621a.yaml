@@ -1,0 +1,73 @@
+# R621a -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: R621a
+element_type: plasmid
+inc_group: IncI-gamma
+mpf_class: MPF_I
+host: Salmonella enterica ser. Typhimurium
+size_bp: 93185
+accessions:
+  primary: AP011954.1
+  crosscheck: NC_015965.1
+  parts: []
+  status: PROVISIONAL
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: excA
+  type: entry
+  evidence_tier: E1
+  specificity_determinant: null
+  specificity_determinant_note: sakuma2013 maps the discriminating segment on the DONOR TraY, not on ExcA
+  sequence:
+    protein_accession: BAK64483.1
+    length_aa: 204
+    aa_sha256: cb6b79a76aa892f5952cbad1f7059c2ac8279eb7b7c41c2c6d7c642e96701ff0
+    coords: AP011954.1:48762..49376
+    strand: '-'
+    route: gene
+  hmm_hit: HIT
+  hmm_model: surf_exc_IncI1 NF033891.1 score=216.4
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: traY
+  family: unassigned
+  virb_equivalent: null
+  status: verified
+  specificity_residues: TraY C-terminal segment (R621a); contrast R64 internal
+  specificity_source: sakuma2013 -- reciprocal TraY swap
+  sequence:
+    protein_accession: BAK64484.1
+    length_aa: 745
+    aa_sha256: 9177558bfefb2b2d72c1f886f3c76556969599c17efd99d0f9d6b18a3cc8fbaf
+    coords: AP011954.1:49452..51689
+    strand: '-'
+    route: gene
+  family_note: MPF_I inner-membrane Mpf protein
+  domain_id: IPR027628 (DotA_TraY) -- no Pfam
+context:
+  operon:
+    name: excA-traY cluster, as R64
+    genes:
+    - excA
+    - traY
+    orientation: +
+  adjacency:
+    proximity:
+      measured_bp: 75
+      measured_from: AP011954.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: null
+notes:
+- 'CONTROL VALUE: every Tra/Trb protein of R64 and R621a is >95% identical EXCEPT ExcA and TraY. The cleanest
+  available instance of exclusion specificity co-varying with its target and nothing else'
+schema_version: 1.1.0
+scope: entry_exclusion_only

@@ -1,0 +1,123 @@
+# SXT -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: SXT
+element_type: ICE
+inc_group: not_applicable
+mpf_class: MPF_F
+host: Vibrio cholerae
+size_bp: 104025
+accessions:
+  primary: KJ817376.1
+  crosscheck: null
+  parts: []
+  status: PROVISIONAL
+  represents:
+  - SXT
+  - R391
+  note: ICDC-1307. Phenotype and the 606-608 mapping derive from SXT-MO10, for which only the ARG cluster
+    (AY034138.1) exists
+  record_scope: ICE
+  min_expected_bp: 15000
+exclusion:
+  gene: eex
+  type: entry
+  evidence_tier: E1
+  gene_name_in_record: EexR1
+  specificity_determinant: C-terminal 56 aa
+  compartment: cytoplasmic
+  sequence:
+    protein_accession: AKA21199.1
+    length_aa: 143
+    aa_sha256: 4419c74f454d7ef438362c438c6deaced1f2bb112447c8085576a8a9eb3c5e92
+    coords: KJ817376.1:5856..6287
+    strand: +
+    route: gene_regex
+  hmm_hit: HIT
+  hmm_model: EexR NF041429.1 score=274.5
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: traG
+  family: VirB6
+  virb_equivalent: VirB6
+  status: verified
+  specificity_residues: aa 606-607-608. SXT (S group) P-G-E; R391 (R group) T-G-D
+  compartment: cytoplasmic
+  note: 'DISCREPANCY: the reference protocol records the R-group triplet as T-D-D, the curated table as
+    T-G-D. Position 607 is unresolved and must be settled from R391 sequence before any S/R group assignment
+    is published'
+  sequence:
+    protein_accession: AKA21200.1
+    length_aa: 1189
+    aa_sha256: 5098b5fd46bb82a0b4ef4dadfdddeca378e8ba7070fac1ce0cb5ef08bcf4f242
+    coords: KJ817376.1:6320..9889
+    strand: '-'
+    route: gene
+  domain_id: PF07916 (TraG_N)
+context:
+  operon:
+    name: P_L regulatory transcript (eex is NOT in a tra operon)
+    genes:
+    - croS
+    - setD
+    - setC
+    - '...'
+    - eex
+    orientation: convergent with traG
+    note: in R391 the eex gene is separated from the P_L module by the mer operon. eex is not SetCD-regulated
+  tra_operons:
+  - - traL
+    - traE
+    - traK
+    - traB
+  - - traV
+    - traA
+  - - s054 (dsbC)
+    - traC
+    - trhF
+    - traW
+    - traU
+    - traN
+  - - traF
+    - traH
+    - traG
+  note: tra operon synteny is identical to IncC
+  other_required:
+  - traI (relaxase)
+  - traD (coupling)
+  - traJ = s043 (coupling)
+  - s063
+  - mobI
+  integration:
+  - int
+  - xis
+  regulation:
+  - setR (repressor, lambda-CI-like)
+  - setC
+  - setD (FlhD2C2-like activator)
+  - croS
+  hotspots:
+    HS1: s043-traL
+    HS2: traA-s054
+    HS3: s073-traF
+  adjacency:
+    proximity:
+      measured_bp: 32
+      measured_from: KJ817376.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: false
+      same_operon: false
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: false
+    note: eex is in the P_L regulatory transcript, transcribed CONVERGENTLY with traG. Not in the tra
+      operon, not same-strand -- but only 32 bp away, so the discovery window finds it regardless
+notes:
+- 'VERIFIED 2026-09-01: TraG residues 606-608 read P-G-E in KJ817376.1, confirming ICDC-1307 is an S-group
+  element despite the EexR1 gene name'
+- Both specificity determinants are CYTOPLASMIC. A naive periplasmic-interface model will be wrong --
+  store predicted topology and interface compartment separately
+schema_version: 1.1.0
+scope: entry_exclusion_only

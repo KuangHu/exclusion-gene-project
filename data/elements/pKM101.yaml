@@ -1,0 +1,106 @@
+# pKM101 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: pKM101
+element_type: plasmid
+inc_group: IncN
+mpf_class: MPF_T
+host: Escherichia coli
+size_bp: null
+accessions:
+  primary: null
+  crosscheck: null
+  parts:
+  - U09868.1
+  - U72482.2
+  status: ASSEMBLE
+  note: no complete-plasmid record exists; U09868.1 carries the whole virB-colinear cluster plus eex
+  record_scope: fragment
+  min_expected_bp: 1000
+exclusion:
+  gene: eex
+  type: entry
+  evidence_tier: E2
+  specificity_determinant: not mapped
+  sequence:
+    protein_accession: AAA86454.1
+    length_aa: 75
+    aa_sha256: fd988b8cd6b2e4c33a938ce55b103064a88dd68b10c9b35eba4741806d8c6956
+    coords: U09868.1:6533..6760
+    strand: +
+    route: gene
+  hmm_hit: HIT
+  hmm_model: Eex_IncN NF033894.1 score=70.5
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: traD
+  family: VirB6
+  virb_equivalent: VirB6
+  status: predicted
+  specificity_residues: null
+  note: 'CORRECTION: pKM101 TraG is VirB11 (331 aa ATPase, 3'' end of the cluster), NOT the VirB6 homolog.
+    TraD (346 aa) is VirB6 and is the gene immediately downstream of eex'
+  sequence:
+    protein_accession: AAA86455.1
+    length_aa: 346
+    aa_sha256: 4695cb4e7b2ce75d2e7b12d3a245d2f7c9039dee207bd8fb9dcc8690c0940d26
+    coords: U09868.1:6776..7816
+    strand: +
+    route: gene
+  domain_id: PF04610 (TrbL)
+context:
+  operon:
+    name: tra mating-bridge cluster (virB1-virB11 fully colinear)
+    genes:
+    - traL
+    - traM
+    - traA
+    - traB
+    - traC
+    - eex
+    - traD
+    - traN
+    - traE
+    - traO
+    - traF
+    - traG
+    orientation: +
+    promoter: two promoters, upstream of traL and upstream of traN
+  virb_mapping:
+    traL: VirB1
+    traM: VirB2 (pilin)
+    traA: VirB3
+    traB: VirB4
+    traC: VirB5
+    traD: VirB6
+    traN: VirB7
+    traE: VirB8
+    traO: VirB9
+    traF: VirB10
+    traG: VirB11
+  system:
+    relaxase: TraI (43% identical to R388 TrwC)
+    t4cp: TraJ
+    accessory: TraK (TrwA-like)
+    omcc: TraN/TraO/TraF core, 1.05 MDa, 14 copies (PDB 2YPW / EMD-2232)
+    second_adhesin: pep
+  adjacency:
+    proximity:
+      measured_bp: 15
+      measured_from: U09868.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: eex sits between the VirB5 (traC) and VirB6 (traD) homologs
+notes:
+- 'VERIFIED 2026-09-01 from the U09868.1 feature table: eex 6533..6760 (+), traC ends 6525 (7 bp gap),
+  traD starts 6776 (15 bp gap). The GenBank DEFINITION line places eex after traG, but that line contains
+  a duplicated ''(traB), (traC)'' which shifts every subsequent name by two. The feature table is the
+  authority and the original curation was correct'
+schema_version: 1.1.0
+scope: entry_exclusion_only

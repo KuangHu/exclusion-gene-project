@@ -1,0 +1,6 @@
+seed	anchor	anchor_gene	offset	slot_gene	slot_aa	slot_start	slot_end	slot_strand	slot_product	slot_maxkd	slot_lipobox	slot_family
+ICEBs1	FA_orf15	conG	3	conJ	126	16495	16875	+	DUF4467 domain-containing protein	2.06	1	**PF14729:99**
+pAM373	FA_orf15	EP0024	3	EP0021	39	14090	14209	+	hypothetical protein	1.0	1	
+ICEBs1	FA_orf14	cwlT	2	conJ	126	16495	16875	+	DUF4467 domain-containing protein	2.06	1	**PF14729:99**
+pLS20	FA_orf14	?	2	?	45	27717	27854	-	hypothetical protein	0.18	0	
+pAD1	FA_orf14	GKQ57_14575	2	GKQ57_14585	108	31346	31672	+	type II toxin-antitoxin system PemK/MazF family toxin	1.13	0	

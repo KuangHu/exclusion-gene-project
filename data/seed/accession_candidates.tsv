@@ -1,0 +1,282 @@
+element_id	role	tier	expected_organism	source	accver	length	organism	organism_ok	is_derivative	title
+F	positive	B	Escherichia coli	plsdb	NZ_CP128219.1	232324		YES		Escherichia coli strain TG1 plasmid F, complete sequence
+F	positive	B	Escherichia coli	plsdb	NZ_OQ683454.1	60270		YES		Escherichia coli str. K-12 substr. MG1655 strain K-12 plasmid pox38, complete sequence
+F	positive	B	Escherichia coli	plsdb	NZ_CP053608.1	242042		YES		Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+F	positive	B	Escherichia coli	plsdb	NZ_CP053606.1	231547		YES		Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+F	positive	B	Escherichia coli	plsdb	NZ_CP010212.1	5282		YES		Escherichia coli strain M11 plasmid F, complete sequence
+F	positive	B	Escherichia coli	plsdb	NZ_CP011496.1	67545		YES		Escherichia coli strain NCM3722 isolate K-12 plasmid F, complete sequence
+F	positive	B	Escherichia coli	plsdb	NC_025014.1	2154		YES		Escherichia coli plasmid F, complete sequence
+F	positive	B	Escherichia coli	plsdb	NC_002483.1	99159		YES		Escherichia coli K-12 plasmid F, complete sequence
+F	positive	B	Escherichia coli	ncbi	CP128219.1	232324	Escherichia coli	YES		Escherichia coli strain TG1 plasmid F, complete sequence
+F	positive	B	Escherichia coli	ncbi	AP001918.1	99159	Escherichia coli K-12	YES		Escherichia coli K-12 plasmid F DNA, complete sequence
+F	positive	B	Escherichia coli	ncbi	CP053606.1	231547	Escherichia coli	YES		Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+F	positive	B	Escherichia coli	ncbi	CP010212.1	5282	Escherichia coli	YES		Escherichia coli strain M11 plasmid F, complete sequence
+F	positive	B	Escherichia coli	ncbi	AF106329.1	13310	Escherichia coli	YES		Escherichia coli plasmid F putative methyltransferase, putative antirestriction protein, single stranded DNA b
+F	positive	B	Escherichia coli	ncbi	AH003523.2	2490	Escherichia coli	YES	YES	Escherichia coli plasmid F snrB (snrB) and repA2 (repA2) genes, complete cds; replication protein (repA1) gene
+F	positive	B	Escherichia coli	ncbi	OQ683454.1	60270	Escherichia coli str. K-12 substr. MG1655	YES		Escherichia coli str. K-12 substr. MG1655 plasmid pox38, complete sequence
+R100	positive	A	Shigella flexneri	plsdb	NZ_OQ683449.1	94282		NO		Escherichia coli str. K-12 substr. MG1655 strain K-12 plasmid R100_1, complete sequence
+R100	positive	A	Shigella flexneri	plsdb	NZ_CP014208.1	331058		NO		Pantoea ananatis strain R100 plasmid unnamed, complete sequence
+R100	positive	A	Shigella flexneri	plsdb	NC_002134.1	94281		YES		Shigella flexneri 2b plasmid R100, complete sequence
+R100	positive	A	Shigella flexneri	ncbi	NG_048161.1	1406	Shigella flexneri 2b	YES		Shigella flexneri 2b 222 plasmid R100 tet(B) gene for tetracycline efflux MFS transporter Tet(B), complete CDS
+R100	positive	A	Shigella flexneri	ncbi	AP000342.1	94281	Shigella flexneri 2b	YES		Shigella flexneri 2b plasmid R100 DNA, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP150842.1	177364		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 plasmid pMP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP150843.1	45503		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 plasmid pCP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_ON887286.1	17446		unasserted		Enterococcus hirae strain R1 plasmid pEh-R1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP127118.1	42658		unasserted		Paenarthrobacter sp. R1 plasmid unnamed3, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP127117.1	68437		unasserted		Paenarthrobacter sp. R1 plasmid unnamed2, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP127116.1	139717		unasserted		Paenarthrobacter sp. R1 plasmid unnamed1, complete sequence
+R1	positive	B	NA	plsdb	NZ_OX460337.1	1787		unasserted		Escherichia coli strain EC0026B isolate EC0026B_R1 plasmid 4, complete sequence
+R1	positive	B	NA	plsdb	NZ_OX460338.1	88654		unasserted		Escherichia coli strain EC0026B isolate EC0026B_R1 plasmid 2, complete sequence
+R1	positive	B	NA	plsdb	NZ_OX460339.1	73432		unasserted		Escherichia coli strain EC0026B isolate EC0026B_R1 plasmid 3, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP110113.1	146004		unasserted		Sphingomonas sp. R1 plasmid pR1b, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP110112.1	257344		unasserted		Sphingomonas sp. R1 plasmid pR1a, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP091526.1	36202		unasserted		Staphylococcus aureus strain N09CSA16 plasmid pFOS-R1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP046520.1	3200		unasserted		Clostridium sp. 16K-1-R1 plasmid unnamed5, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP046519.1	3842		unasserted		Clostridium sp. 16K-1-R1 plasmid unnamed4, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP046518.1	12363		unasserted		Clostridium sp. 16K-1-R1 plasmid unnamed3, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP046517.1	69833		unasserted		Clostridium sp. 16K-1-R1 plasmid unnamed2, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP046516.1	82399		unasserted		Clostridium sp. 16K-1-R1 plasmid unnamed1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP098756.1	9489		unasserted		Brevibacillus ruminantium strain BB3-R1 plasmid unnamed, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP084206.1	138128		unasserted		Escherichia coli strain EC2648-R1 plasmid pKPC-fusion, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP091080.1	20174		unasserted		Xanthomonas arboricola pv. pruni strain R1 plasmid pR1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP091079.1	41093		unasserted		Xanthomonas arboricola pv. pruni strain R1 plasmid pXap41, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP068794.1	45508		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain R1 plasmid pCP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP068793.1	177322		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain R1 plasmid pMP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP038666.1	45503		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 plasmid pCP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP038665.1	177363		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 plasmid pMP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP038990.1	45503		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. R2 plasmid pCP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038989.1	177364		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. R2 plasmid pMP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038986.1	43155		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. R1 plasmid pCP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038985.1	177364		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. R1 plasmid pMP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038982.1	46549		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. S2 plasmid pCP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038981.1	177363		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. S2 plasmid pMP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038978.1	45503		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. S1 plasmid pCP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038977.1	177364		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. S1 plasmid pMPI, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP038994.1	51683		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. R6 plasmid pCP1
+R1	positive	B	NA	plsdb	NZ_CP038993.1	177364		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain ATCC 13939 substr. R6 plasmid pMP1, complete sequen
+R1	positive	B	NA	plsdb	NZ_CP075940.1	8175		unasserted		Clostridium perfringens strain CPI 53k-r1 plasmid pCPCPI53k-r1_6
+R1	positive	B	NA	plsdb	NZ_CP075939.1	10357		unasserted		Clostridium perfringens strain CPI 53k-r1 plasmid pCPCPI53k-r1_5
+R1	positive	B	NA	plsdb	NZ_CP075938.1	63715		unasserted		Clostridium perfringens strain CPI 53k-r1 plasmid pCPCPI53k-r1_4
+R1	positive	B	NA	plsdb	NZ_CP075937.1	48590		unasserted		Clostridium perfringens strain CPI 53k-r1 plasmid pCPCPI53k-r1_3
+R1	positive	B	NA	plsdb	NZ_CP075936.1	70011		unasserted		Clostridium perfringens strain CPI 53k-r1 plasmid pCPCPI53k-r1_2
+R1	positive	B	NA	plsdb	NZ_CP075935.1	129891		unasserted		Clostridium perfringens strain CPI 53k-r1 plasmid pCPCPI53k-r1_1
+R1	positive	B	NA	plsdb	NZ_CP031707.1	127578		unasserted		Escherichia coli strain R1 plasmid pVirR1, complete sequence
+R1	positive	B	NA	plsdb	NZ_KY749247.1	97566		unasserted		Salmonella enterica subsp. enterica serovar Paratyphi B plasmid R1, complete sequence
+R1	positive	B	NA	plsdb	NZ_LT221037.1	60299		unasserted		Yersinia pseudotuberculosis strain Yps.R1 plasmid pYps.R1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP041262.2	195404		unasserted		Enterococcus faecium strain VVEswe-R plasmid pVVEswe-R1, complete sequence
+R1	positive	B	NA	plsdb	NZ_MH287044.1	98766		unasserted		Escherichia coli strain 5.1-R1 plasmid pCERC6, complete sequence
+R1	positive	B	NA	plsdb	NZ_KX356458.1	9712		unasserted		Escherichia coli strain 11.1-R1 plasmid pCERC7, complete sequence
+R1	positive	B	NA	plsdb	NZ_KX291024.1	6200		unasserted		Escherichia coli strain 10.1-R1 plasmid pCERC2, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP053347.1	22113		unasserted		Sphingomonas sp. AP4-R1 plasmid unnamed1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP053345.1	124450		unasserted		Herbiconiux sp. SALV-R1 plasmid unnamed1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP038032.2	33016		unasserted		Rhodococcus ruber strain R1 plasmid unnamed2, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP038031.2	179109		unasserted		Rhodococcus ruber strain R1 plasmid unnamed1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP031503.1	46159		unasserted		Deinococcus radiodurans strain R1 dM1 plasmid pSP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP031502.1	177339		unasserted		Deinococcus radiodurans strain R1 dM1 plasmid pMP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP033574.1	167144		unasserted		Shewanella algae strain KC-Na-R1 plasmid pKC-Na-R1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP018844.1	9323		unasserted		Staphylococcus epidermidis strain 14.1.R1 plasmid pHOB2, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP018843.1	24769		unasserted		Staphylococcus epidermidis strain 14.1.R1 plasmid pHOB1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP015084.1	61707		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain R1 plasmid CP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP015083.1	203183		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 strain R1 plasmid MP1, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP012356.1	53985		unasserted		Cutibacterium acnes strain PA_15_1_R1 plasmid unnamed, complete sequence
+R1	positive	B	NA	plsdb	NZ_CP010410.1	508653		unasserted		Xanthomonas sacchari strain R1 plasmid unnamed, complete sequence
+R1	positive	B	NA	plsdb	NC_019062.1	30016		unasserted		Escherichia coli plasmid p838C-R1, complete sequence
+R1	positive	B	NA	plsdb	NC_018107.1	353865		unasserted		Klebsiella michiganensis E718 plasmid pKOX_R1, complete sequence
+R1	positive	B	NA	plsdb	NC_010369.1	194963		unasserted		Halobacterium salinarum R1 plasmid PHS2, complete sequence
+R1	positive	B	NA	plsdb	NC_010368.1	284332		unasserted		Halobacterium salinarum R1 plasmid PHS3, complete sequence
+R1	positive	B	NA	plsdb	NC_010367.1	40894		unasserted		Halobacterium salinarum R1 plasmid PHS4, complete sequence
+R1	positive	B	NA	plsdb	NC_010366.1	147625		unasserted		Halobacterium salinarum R1 plasmid PHS1, complete sequence
+R1	positive	B	NA	plsdb	NC_000959.1	45704		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 plasmid CP1, complete sequence
+R1	positive	B	NA	plsdb	NC_000958.1	177466		unasserted		Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539 plasmid MP1, complete sequence
+R1	positive	B	NA	ncbi	NZ_CP127115.1	4785499	Paenarthrobacter sp. R1	unasserted		Paenarthrobacter sp. R1 chromosome, complete genome
+R1	positive	B	NA	ncbi	PZ779507.1	896	Radopholus similis	unasserted		Radopholus similis isolate r1 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 
+R1	positive	B	NA	ncbi	PZ713573.1	479	Nigrospora sp.	unasserted		Nigrospora sp. isolate R1 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 an
+R1	positive	B	NA	ncbi	PZ683564.1	441	Penicillium rubens	unasserted		Penicillium rubens isolate R1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, comple
+R1	positive	B	NA	ncbi	PX710014.1	472	Paeonia lactiflora	unasserted		Paeonia lactiflora voucher R1 5.8S ribosomal RNA gene, partial sequence; internal transcribed spacer 2, comple
+R1	positive	B	NA	ncbi	PZ574758.1	640	Rhizoctonia solani	unasserted		Rhizoctonia solani isolate R1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and int
+R1	positive	B	NA	ncbi	CM176872.1	2631827	Enterococcus sp. R1	unasserted		Enterococcus sp. R1 chromosome, complete sequence, whole genome shotgun sequence
+R1	positive	B	NA	ncbi	CM176613.1	6293424	Rhodococcus erythropolis	unasserted		Rhodococcus erythropolis strain RQ07 R1 Wt chromosome, complete sequence, whole genome shotgun sequence
+R1	positive	B	NA	ncbi	NZ_CP065486.1	1859381	Streptococcus thermophilus	unasserted		Streptococcus thermophilus strain R1 chromosome, complete genome
+R6-5	positive	B	NA	ncbi	NG_047324.1	992	Escherichia coli	unasserted		Escherichia coli plasmid R6-5 aadA1 gene for ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1, c
+R6-5	positive	B	NA	ncbi	ON411488.1	1005	Fusarium proliferatum	unasserted		Fusarium proliferatum isolate R6.5 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene an
+R6-5	positive	B	NA	ncbi	MH709295.1	429	Synechococcus sp. R6-5	unasserted		Synechococcus sp. R6-5 ferredoxin:protochlorophyllide reductase ATP-dependent subunit N gene, partial cds; and
+R6-5	positive	B	NA	ncbi	MH704048.1	514	Synechococcus sp. R6-5	unasserted		Synechococcus sp. R6-5 photosystem I reaction center subunit VIII (psaI) gene, complete cds
+R6-5	positive	B	NA	ncbi	M38048.1	2381	Plasmid R65	unasserted		Plasmid R6-5 (from E.coli) traX, conjugative transfer co-repressor (finO) and ORF286 genes, complete cds
+ColB2	positive	B	NA	ncbi	PX247854.1	574	Colletotrichum kahawae	unasserted		Colletotrichum kahawae isolate ColB2 small subunit ribosomal RNA gene, partial sequence; internal transcribed 
+ColB2	positive	B	NA	ncbi	K02667.1	360	Plasmid ColB2	unasserted		ColB2 plasmid transfer (tra) operon, traA (pilin) gene, complete cds
+ColB2	positive	B	NA	ncbi	U51860.1	3645	Escherichia coli	unasserted		Escherichia coli plasmid ColB2 transfer proteins TraL, TraE, TraK, TraB, and TraP genes, complete cds
+pED208	positive	B	Salmonella enterica	plsdb	CP146035.1	92869		YES		Salmonella enterica subsp. enterica serovar Typhi strain ST-2 plasmid pED208, complete sequence
+pED208	positive	B	Salmonella enterica	plsdb	NZ_AF411480.1	32647		YES		Salmonella enterica subsp. enterica serovar Typhi plasmid pED208, complete sequence
+pED208	positive	B	Salmonella enterica	ncbi	AF411480.1	32647	Salmonella enterica subsp. enterica serovar Typhi	YES		Salmonella typhi plasmid pED208 IncFV plasmid transfer region, complete sequence
+pED208	positive	B	Salmonella enterica	ncbi	AY075109.1	850	Salmonella enterica subsp. enterica serovar Typhi	YES		Salmonella typhi plasmid pED208 X protein (X) gene, complete cds
+R64	positive	A	Salmonella enterica	plsdb	NC_005014.1	120826		YES		Salmonella enterica subsp. enterica serovar Typhimurium plasmid R64, complete sequence
+R64	positive	A	Salmonella enterica	ncbi	AP005147.1	120826	Salmonella enterica subsp. enterica serovar Typhimurium	YES		Salmonella enterica subsp. enterica serovar Typhimurium plasmid R64 DNA, complete sequence
+R144	positive	B	NA	ncbi	PZ236463.1	598	Rhizopus delemar	unasserted		Rhizopus delemar isolate R144 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 
+R144	positive	B	NA	ncbi	OP524232.1	768	Drummondita longifolia	unasserted		Drummondita longifolia isolate R144 small subunit ribosomal RNA gene, partial sequence; internal transcribed s
+R144	positive	B	NA	ncbi	FO080694.2	38688	Caenorhabditis elegans	unasserted		Caenorhabditis elegans Cosmid R144, complete sequence
+R144	positive	B	NA	ncbi	JQ975976.1	1347	uncultured fungus	unasserted		Uncultured fungus clone R144 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S rib
+R144	positive	B	NA	ncbi	HQ649833.1	558	Macrophomina phaseolina	unasserted		Macrophomina phaseolina isolate r144 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 a
+R144	positive	B	NA	ncbi	KU750269.1	1332	Parasenecio longispicus	unasserted		Parasenecio longispicus voucher R144 tRNA-Lys (trnK) gene, partial sequence; trnK-rps16 intergenic spacer, com
+R144	positive	B	NA	ncbi	KU750169.1	2074	Parasenecio longispicus	unasserted		Parasenecio longispicus voucher R144 trnL-UAG-rpl32 intergenic spacer, partial sequence; Rpl32 (rpl32) gene, c
+R144	positive	B	NA	ncbi	KU750596.1	2329	Parasenecio longispicus	unasserted		Parasenecio longispicus voucher R144 trnT-UGU-trnL-UAA intergenic spacer, partial sequence; tRNA-Leu (trnL-UAA
+R144	positive	B	NA	ncbi	KU750490.1	2392	Parasenecio longispicus	unasserted		Parasenecio longispicus voucher R144 PsbK (psbK) gene, partial cds; psbK-psbI intergenic spacer, complete sequ
+R144	positive	B	NA	ncbi	KU750379.1	1388	Parasenecio longispicus	unasserted		Parasenecio longispicus voucher R144 rps16-trnQ intergenic spacer, partial sequence; tRNA-Gln (trnQ-UUG) gene 
+R144	positive	B	NA	ncbi	KU750063.1	1175	Parasenecio longispicus	unasserted		Parasenecio longispicus voucher R144 ycf3-trnS-GCU intergenic spacer, partial sequence; tRNA-Ser (trnS-GCU) ge
+R144	positive	B	NA	ncbi	DQ255942.1	695	Lyssavirus rabies	unasserted		Rabies virus isolate IIL R144 transmembrane glycoprotein G gene, partial cds; G-L intergenic spacer, complete 
+R621a	positive	A	Salmonella enterica	plsdb	NC_015965.1	93185		YES		Salmonella enterica subsp. enterica serovar Typhimurium plasmid R621a, complete sequence
+R621a	positive	A	Salmonella enterica	ncbi	AP011954.1	93185	Salmonella enterica subsp. enterica serovar Typhimurium	YES		Salmonella enterica subsp. enterica serovar Typhimurium plasmid R621a DNA, complete sequence
+pKM101	positive	C	NA	ncbi	D90147.1	1990	Escherichia coli	unasserted		Escherichia coli plasmid pKM101 mucA, mucB genes, complete cds
+pKM101	positive	C	NA	ncbi	AF000361.1	2101	IncN plasmid pKM101	unasserted		IncN plasmid pKM101 TraIH (traIH) gene, partial cds, and TraJ (traJ) and TraK (traK) genes, complete cds
+pKM101	positive	C	NA	ncbi	AF000360.1	1701	IncN plasmid pKM101	unasserted		IncN plasmid pKM101 IS26 (IS46) element TnpA (tnpA) gene, complete cds
+pKM101	positive	C	NA	ncbi	U42978.1	824	Plasmid pKM101	unasserted		Plasmid pKM101 FlpA (fipA) gene, complete cds
+pKM101	positive	C	NA	ncbi	AF236660.1	714	Escherichia coli	unasserted		Escherichia coli plasmid pKM101 TraC gene, complete cds
+pKM101	positive	C	NA	ncbi	U72482.2	13833	Plasmid pKM101	unasserted		Plasmid pKM101 resolvase (uvp1), RepA protein (repA), ArdK protein (ardK), Mpr protein (mpr), MucB protein (mu
+pKM101	positive	C	NA	ncbi	U09868.1	12416	Escherichia coli	unasserted		Escherichia coli pKM101 conjugation proteins (traL), (traM), (traA), (traB), (traC), (traB), (traC), (traD), (
+pKM101	positive	C	NA	ncbi	GQ915613.1	1660	Escherichia coli	unasserted		Escherichia coli strain GA120 plasmid pKM101 MucA gene, complete cds; and MucB gene, partial cds
+pKM101	positive	C	NA	ncbi	M13388.1	1797	Plasmid pKM101	unasserted		Plasmid pKM101 (from E.coli) mucAB operon encoding proteins functional in UV mutagenesis, complete cds
+RP4	positive	B	Escherichia coli	plsdb	CP152305.1	60095		YES		Escherichia coli strain J53/RP4 plasmid pRP4, complete sequence
+RP4	positive	B	Escherichia coli	ncbi	NZ_PP591959.1	60095	Escherichia coli	YES		Escherichia coli strain J53/RP4 plasmid RP4, complete sequence
+RP4	positive	B	Escherichia coli	ncbi	PP591959.1	60095	Escherichia coli	YES		Escherichia coli strain J53/RP4 plasmid RP4, complete sequence
+RP4	positive	B	Escherichia coli	ncbi	S37640.1	1380	Escherichia coli	YES		Escherichia coli plasmid RK2 KilBI (kilBI) gene, complete cds; and unknown gene
+R388	positive	A	Escherichia coli	plsdb	NC_028464.1	33913		YES		Escherichia coli plasmid R388, complete sequence
+R388	positive	A	Escherichia coli	ncbi	NG_051851.1	437	Escherichia coli	YES		Escherichia coli plasmid R388 dfrB2 gene for trimethoprim-resistant dihydrofolate reductase DfrB2, complete CD
+R388	positive	A	Escherichia coli	ncbi	BR000038.1	33913	Escherichia coli	YES		TPA_inf: Escherichia coli plasmid R388 DNA, complete sequence
+R388	positive	A	Escherichia coli	ncbi	U12441.2	6431	Escherichia coli	YES		Escherichia coli plasmid R388 class 1 integron In3, complete sequence
+R27	positive	A	Salmonella enterica	plsdb	NC_002305.1	180461		YES		Salmonella enterica subsp. enterica serovar Typhi plasmid R27, complete sequence
+R27	positive	A	Salmonella enterica	ncbi	AF250878.1	180461	Salmonella enterica subsp. enterica serovar Typhi	YES		Salmonella typhi R27 plasmid complete sequence
+R27	positive	A	Salmonella enterica	ncbi	U59130.1	743	Salmonella enterica subsp. enterica serovar Typhimurium	YES		Salmonella typhimurium plasmid R27 HtdF gene, complete cds, and HtdK gene, partial cds
+R27	positive	A	Salmonella enterica	ncbi	AF223162.1	9147	Salmonella enterica subsp. enterica serovar Typhi	YES	YES	Salmonella typhi plasmid R27 transposon Tn10, complete sequence
+R27	positive	A	Salmonella enterica	ncbi	AF105019.1	38245	Salmonella enterica subsp. enterica serovar Typhi	YES		Salmonella typhi plasmid R27 tra2 region, complete sequence
+R27	positive	A	Salmonella enterica	ncbi	AF085349.1	2400	Salmonella enterica subsp. enterica serovar Typhi	YES		Salmonella typhi plasmid R27 transfer protein TrhC (trhC) gene, complete cds
+pVCR94	positive	B	Vibrio cholerae	plsdb	NZ_CP033514.1	171829		YES		Vibrio cholerae strain E4 plasmid pVCR94, complete sequence
+pVCR94	positive	B	Vibrio cholerae	ncbi	CP033514.1	171829	Vibrio cholerae	YES		Vibrio cholerae strain E4 plasmid pVCR94, complete sequence
+R16a	positive	A	Escherichia coli	plsdb	NZ_KX156773.1	173094		YES		Escherichia coli strain K-12 plasmid R16a, complete sequence
+R16a	positive	A	Escherichia coli	ncbi	KX156773.1	173094	Escherichia coli	YES		Escherichia coli strain K-12 plasmid R16a, complete sequence
+ColE1	positive	A	Escherichia coli	plsdb	NZ_CP132199.1	9292		NO		Serratia marcescens strain GES6 plasmid pSM05-colE1, complete sequence
+ColE1	positive	A	Escherichia coli	plsdb	NC_001371.1	6646		YES		Escherichia coli plasmid ColE1, complete sequence
+ColE1	positive	A	Escherichia coli	ncbi	J01566.1	6646	Escherichia coli	YES		Escherichia coli plasmid ColE1, complete sequence
+ColE1	positive	A	Escherichia coli	ncbi	AH003522.2	230	Escherichia coli	YES	YES	Escherichia coli plasmid ColE1 transposons Tn7, complete sequence
+pKPC_UVA01	positive	A	Klebsiella pneumoniae	plsdb	NZ_CP009465.1	43621		YES		Klebsiella pneumoniae strain CAV1016 plasmid pKPC_UVA01, complete sequence
+pKPC_UVA01	positive	A	Klebsiella pneumoniae	plsdb	NZ_CP017937.1	43621		YES		Klebsiella pneumoniae strain CAV1016 plasmid pKPC_UVA01, complete sequence
+pKPC_UVA01	positive	A	Klebsiella pneumoniae	ncbi	CP017937.1	43621	Klebsiella pneumoniae	YES		Klebsiella pneumoniae strain CAV1016 plasmid pKPC_UVA01, complete sequence
+pKPC_UVA01	positive	A	Klebsiella pneumoniae	ncbi	CP009465.1	43621	Klebsiella pneumoniae	YES		Klebsiella pneumoniae strain CAV1016 plasmid pKPC_UVA01, complete sequence
+SXT	positive	C	Vibrio cholerae	ncbi	KJ817376.1	104025	Vibrio cholerae O1	YES		Vibrio cholerae O1 strain ICDC-1307 SXT element, complete sequence
+SXT	positive	C	Vibrio cholerae	ncbi	KC709654.1	2645	Vibrio cholerae O1 biovar El Tor	YES	YES	Vibrio cholerae O1 biovar El Tor strain IDH02301 transposon SXT IS4 family transposase gene, complete cds, and
+SXT	positive	C	Vibrio cholerae	ncbi	HM015627.1	2625	Vibrio cholerae O1 biovar El Tor	YES	YES	Vibrio cholerae O1 biovar El Tor strain MCV09 transposon SXT QnrVC3 (qnrVC3) and dihydrofolate reductase (dfr6
+SXT	positive	C	Vibrio cholerae	ncbi	GQ495078.1	641	Vibrio cholerae	YES	YES	Vibrio cholerae strain A880 transposon SXT element, complete sequence
+SXT	positive	C	Vibrio cholerae	ncbi	GQ495077.1	641	Vibrio cholerae	YES	YES	Vibrio cholerae strain MCV08 transposon SXT element, complete sequence
+SXT	positive	C	Vibrio cholerae	ncbi	GQ495076.1	641	Vibrio cholerae	YES	YES	Vibrio cholerae strain MCV09 transposon SXT element, complete sequence
+SXT	positive	C	Vibrio cholerae	ncbi	GQ495075.1	1242	Vibrio cholerae	YES	YES	Vibrio cholerae strain MCV09 transposon SXT element integrase (int) gene, complete cds
+SXT	positive	C	Vibrio cholerae	ncbi	AY034138.1	19997	Vibrio cholerae MO10	YES		Vibrio cholerae strain MO10 SXT element antibiotic resistance gene cluster, complete sequence
+SXT	positive	C	Vibrio cholerae	ncbi	AF099172.1	1242	Vibrio cholerae	YES		Vibrio cholerae SXT element integrase (int) gene, complete cds
+SXT	positive	C	Vibrio cholerae	ncbi	AB535680.1	20747	Vibrio cholerae O1 biovar El Tor	YES		Vibrio cholerae O1 biovar El Tor SXT conjugative element gene cluster, complete sequence, strain: KN14
+SXT	positive	C	Vibrio cholerae	ncbi	AB450045.1	19086	Vibrio cholerae O1 biovar El Tor	YES		Vibrio cholerae O1 biovar El tor SXT conjugative element gene cluster, complete sequence, strain: HN1
+R391	positive	C	Providencia rettgeri	ncbi	AY090559.1	88532	Providencia rettgeri	YES		Providencia rettgeri conjugative genomic island R391, complete sequence
+ICEBs1	positive	C	Bacillus subtilis	NONE						NO CANDIDATE FOUND
+pLS20	positive	B	Bacillus subtilis	plsdb	NC_015148.1	65774		YES		Bacillus subtilis subsp. natto plasmid pLS20, complete sequence
+pLS20	positive	B	Bacillus subtilis	ncbi	AB615352.1	65774	Bacillus subtilis subsp. natto	YES		Bacillus subtilis subsp. natto plasmid pLS20 DNA, complete sequence, strain: IFO 3335
+pLS20	positive	B	Bacillus subtilis	ncbi	U26059.1	3136	Bacillus subtilis	YES		Bacillus subtilis plasmid pLS20 replication region and putative phosphatase gene, complete cds
+pLS20	positive	B	Bacillus subtilis	ncbi	GQ337014.1	3491	Bacillus subtilis	YES		Bacillus subtilis strain IF03335 plasmid pLS20 Alp7A (alp7A) and Alp7R (alp7R) genes, complete cds
+pCF10	positive	B	Enterococcus faecalis	plsdb	NC_006827.2	67673		YES		Enterococcus faecalis plasmid pCF10, complete sequence
+pCF10	positive	B	Enterococcus faecalis	ncbi	AY855841.2	67673	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pCF10, complete sequence
+pCF10	positive	B	Enterococcus faecalis	ncbi	AY288104.1	1786	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pCF10 putative relaxase (pcfG) gene, complete cds
+pAD1	positive	B	Enterococcus faecalis	plsdb	NZ_CP046109.1	74657		YES		Enterococcus faecalis strain 133170041-3 plasmid pAD1, complete sequence
+pAD1	positive	B	Enterococcus faecalis	ncbi	CP046109.1	74657	Enterococcus faecalis	YES		Enterococcus faecalis strain 133170041-3 plasmid pAD1, complete sequence
+pAD1	positive	B	Enterococcus faecalis	ncbi	AF394225.1	1000	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pAD1 CylR1 (cylR1) and CylR2 (cylR2) genes, complete cds
+pAD1	positive	B	Enterococcus faecalis	ncbi	AF343839.1	1892	Enterococcus faecalis OG1X	YES		Enterococcus faecalis strain OG1X plasmid pAD1 conjugation protein gene, complete cds; and unknown gene
+pAD1	positive	B	Enterococcus faecalis	ncbi	U00681.1	1509	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pAD1 TraB (traB) gene, complete cds (traC) and (repA) genes, partial cds
+pAD1	positive	B	Enterococcus faecalis	ncbi	AH011360.2	23020	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pAD1 putative ssb protein, putative DNA nuclease, putative transcription regulat
+pAD1	positive	B	Enterococcus faecalis	ncbi	AB007844.1	2972	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pAD1 uvrC, uvrB, uvrA genes, complete cds
+pAM373	negative	A	Enterococcus faecalis	plsdb	NC_002630.1	36804		YES		Enterococcus faecalis plasmid pAM373, complete sequence
+pAM373	negative	A	Enterococcus faecalis	ncbi	AE002565.1	36804	Enterococcus faecalis	YES		Enterococcus faecalis plasmid pAM373, complete sequence
+RSF1010	negative	A	NA	ncbi	NG_047464.1	1037	Escherichia coli	unasserted		Escherichia coli plasmid RSF1010 aph(6)-Id gene for aminoglycoside O-phosphotransferase APH(6)-Id, complete CD
+RSF1010	negative	A	NA	ncbi	NG_047412.1	966	Escherichia coli	unasserted		Escherichia coli plasmid RSF1010 aph(3'')-Ib gene for aminoglycoside O-phosphotransferase APH(3'')-Ib, complet
+RSF1010	negative	A	NA	ncbi	NC_001740.1	8684	Escherichia coli	unasserted		Escherichia coli plasmid RSF1010, complete sequence
+RSF1010	negative	A	NA	ncbi	M28829.1	8684	Escherichia coli	unasserted		Escherichia coli plasmid RSF1010, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP118263.1	157890		YES		Agrobacterium vitis strain T60/94 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048576.1	222621		YES		Agrobacterium tumefaciens strain cl001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048526.1	203341		YES		Agrobacterium tumefaciens strain Sta004 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048596.1	177577		YES		Agrobacterium tumefaciens strain But001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048467.1	194792		YES		Agrobacterium tumefaciens strain Yub002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP118250.1	203380		NO		Rhizobium rhizogenes strain C16/80 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048587.1	177576		YES		Agrobacterium pusense strain CC001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048572.1	252582		YES		Agrobacterium tumefaciens strain Gle001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048531.1	177577		YES		Agrobacterium tumefaciens strain Sta003 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048495.1	184669		YES		Agrobacterium tumefaciens strain Tul001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048521.1	214233		YES		Agrobacterium tumefaciens strain Sta005 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048535.1	252582		YES		Agrobacterium tumefaciens strain Sta002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048567.1	209962		YES		Agrobacterium tumefaciens strain Gle002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048500.1	209936		YES		Agrobacterium tumefaciens strain Teh002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048516.1	209962		YES		Agrobacterium tumefaciens strain Sut001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048546.1	177579		YES		Agrobacterium tumefaciens strain SJ001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048480.1	177577		YES		Agrobacterium tumefaciens strain Yol001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048505.1	209960		YES		Agrobacterium tumefaciens strain Teh001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048561.1	252603		YES		Agrobacterium fabrum strain Kin001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048554.1	252603		YES		Agrobacterium tumefaciens strain Kin002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048476.1	177577		YES		Agrobacterium tumefaciens strain Yol002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048484.1	252582		YES		Agrobacterium tumefaciens strain Tul004 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048511.1	209960		YES		Agrobacterium tumefaciens strain Sut002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP048542.1	177577		YES		Agrobacterium tumefaciens strain SJ002 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	CP048550.1	170004		YES		Agrobacterium tumefaciens strain Kin003 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	CP048488.1	252582		YES		Agrobacterium tumefaciens strain Tul003 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	CP048472.1	177576		YES		Agrobacterium tumefaciens strain Yub001 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000035.1	189226		YES		Agrobacterium sp. strain EHA101 plasmid pTi_EHA101, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000034.1	182368		YES		Agrobacterium sp. strain C58PMP90 plasmid pTi_C58PMP90, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000036.1	180882		YES		Agrobacterium fabrum str. C58 substr. GV3101 plasmid pTi_GV3101, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000037.1	139561		YES		Agrobacterium sp. strain LBA4404 plasmid pTi_LBA4404, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000063.1	177558		YES		Agrobacterium fabrum strain CFBP6549 plasmid pTi_CFBP6549, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000060.1	218220		YES		Agrobacterium radiobacter strain CFBP2407 plasmid pTi_CFBP2407, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000056.1	159663		YES		Agrobacterium vitis strain Tun201 plasmid pTi_Tun201, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000051.1	216754		YES		Agrobacterium tumefaciens strain CFBP5503 plasmid pTi_CFBP5503, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000046.1	178205		YES		Agrobacterium tumefaciens strain CFBP2177 plasmid pTi_CFBP2177, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000026.1	228503		YES		Agrobacterium genomosp. 6 strain CFBP1873 plasmid pTi_CFBP1873, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000075.1	231210		YES		Agrobacterium vitis strain CFBP2681 plasmid pTi_CFBP2681, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000047.1	185402		YES		Agrobacterium tumefaciens strain CFBP2516 plasmid pTi_CFBP2516, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000061.1	194259		YES		Agrobacterium radiobacter strain CFBP2413 plasmid pTi_CFBP2413, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000054.1	218289		YES		Agrobacterium radiobacter strain Tun154 plasmid pTi_Tun154, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000053.1	217655		YES		Agrobacterium tumefaciens strain DC12-001 plasmid pTi_DC12-001, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000048.1	217843		NO		Rhizobium rhizogenes strain CFBP2746 plasmid pTi_CFBP2746, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000043.1	238155		NO		Rhizobium rhizogenes strain CFBP1905 plasmid pTi_CFBP1905, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000029.1	220031		YES		Agrobacterium genomosp. 6 strain CFBP5499 plasmid pTi_CFBP5499, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000071.1	211026		YES		Agrobacterium radiobacter strain Tun183 plasmid pTi_Tun183, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000055.1	217272		YES		Agrobacterium rubi strain Tun159 plasmid pTi_Tun159, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000040.1	214233		YES		Agrobacterium fabrum strain C58 plasmid pTi_C58, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000049.1	218205		NO		Rhizobium rhizogenes strain CFBP4423 plasmid pTi_CFBP4423, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000057.1	203533		YES		Agrobacterium fabrum strain CFBP5505 plasmid pTi_CFBP5505, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000052.1	217804		YES		Agrobacterium radiobacter strain CFBP7000 plasmid pTi_CFBP7000, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000074.1	215564		YES		Agrobacterium larrymoorei strain CFBP5481 plasmid pTi_CFBP5481, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000073.1	201992		YES		Agrobacterium radiobacter strain Tun188 plasmid pTi_Tun188, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000062.1	237718		YES		Agrobacterium tomkonis strain CFBP4424 plasmid pTi_CFBP4424, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000050.1	177135		YES		Agrobacterium radiobacter strain CFBP4442 plasmid pTi_CFBP4442, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000044.1	203551		YES		Agrobacterium fabrum strain CFBP1933 plasmid pTi_CFBP1933, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000030.1	191583		YES		Agrobacterium tumefaciens strain CFBP5767 plasmid pTi_CFBP5767, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000066.1	194466		YES	YES	Agrobacterium deltaense strain CFBP7129 plasmid pTi_CFBP7129, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000028.1	193011		YES		Agrobacterium tumefaciens strain CFBP2712 plasmid pTi_CFBP2712, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000065.1	183209		YES		Agrobacterium radiobacter strain CFBP7128 plasmid pTi_CFBP7128, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000041.1	206707		YES		Agrobacterium radiobacter strain CFBP296 plasmid pTi_CFBP296, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000031.1	204033		YES		Agrobacterium tumefaciens strain Tun198 plasmid pTi_Tun198, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000027.1	197348		NO		Rhizobium rhizogenes strain CFBP2692 plasmid pTi_CFBP2692, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000070.1	186980		YES		Agrobacterium radiobacter strain Tun178 plasmid pTi_Tun178, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000068.1	200539		YES	YES	Agrobacterium deltaense strain Tun151 plasmid pTi_Tun151, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000058.1	185662		NO		Rhizobium rhizogenes strain CFBP1317 plasmid pTi_CFBP1317, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000069.1	209570		YES	YES	Agrobacterium deltaense strain Tun176 plasmid pTi_Tun176, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000064.1	187163		YES		Agrobacterium radiobacter strain CFBP7126 plasmid pTi_CFBP7126, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000039.1	204399		YES	YES	Agrobacterium deltaense strain Tun180 plasmid pTi_Tun180, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000025.1	220031		YES		Agrobacterium genomosp. 6 strain AR125 plasmid pTi_AR125, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000059.1	186866		YES		Agrobacterium radiobacter strain CFBP1898 plasmid pTi_CFBP1898, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_KY000032.1	193028		YES		Agrobacterium fabrum strain CFBP2788 plasmid pTi_CFBP2788, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP042277.1	177577		YES		Agrobacterium tumefaciens strain 186 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	plsdb	NZ_CP011249.1	194264		YES		Agrobacterium tumefaciens strain Ach5 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	DQ058764.1	244978	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens Ti plasmid pTiBo542, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	AF242881.1	194140	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens octopine-type Ti plasmid, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	M77784.1	3268	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens octopine Ti plasmid transport protein (occQ, occM, occP, and occT) genes, complete c
+Ti	candidate	B	Agrobacterium	ncbi	M65107.1	987	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens nopaline Ti plasmid pTiC58 NOCR (nocR) gene, complete cds
+Ti	candidate	B	Agrobacterium	ncbi	U16142.1	1154	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens Ti plasmid DNA-binding protein VirG gene, complete cds, and VirB11 gene, partial cds
+Ti	candidate	B	Agrobacterium	ncbi	U16786.1	1496	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens plasmid Ti plasmid pTiR10 TraM (traM) gene, complete cds
+Ti	candidate	B	Agrobacterium	ncbi	AF534915.1	5887	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens octopine type Ti plasmid pTiB6S3TraC oph gene cluster, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	AF065242.2	38235	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens chrysopine-type Ti plasmid pTiChry5 right T-DNA and amadori opine catabolic locus, c
+Ti	candidate	B	Agrobacterium	ncbi	D30626.1	966	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens nopaline type Ti plasmid AK6b gene, complete cds
+Ti	candidate	B	Agrobacterium	ncbi	NZ_CP048488.1	252582	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens strain Tul003 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	NZ_CP007228.1	205997	Agrobacterium tumefaciens LBA4213 (Ach5)	YES		Agrobacterium tumefaciens LBA4213 (Ach5) plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	NZ_CP029048.1	192674	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens strain 183 plasmid pTi, complete sequence
+Ti	candidate	B	Agrobacterium	ncbi	NZ_CP048472.1	177576	Agrobacterium tumefaciens	YES		Agrobacterium tumefaciens strain Yub001 plasmid pTi, complete sequence

@@ -1,0 +1,72 @@
+LOCUS       X52553                  1033 bp    DNA     linear   BCT 18-JUL-1996
+DEFINITION  Escherichia coli plasmid R6-5 traT gene for TraT lipoprotein.
+ACCESSION   X52553
+VERSION     X52553.1
+KEYWORDS    lipoprotein; traT gene.
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 1033)
+  AUTHORS   Sukupolvi,S. and O'Connor,C.D.
+  TITLE     TraT lipoprotein, a plasmid-specified mediator of interactions
+            between gram-negative bacteria and their environment
+  JOURNAL   Microbiol. Rev. 54 (4), 331-341 (1990)
+   PUBMED   2087219
+REFERENCE   2  (bases 1 to 1033)
+  AUTHORS   O'Connor,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-1990) O'Connor D., Department of Biochemistry,
+            University of Southampton, Medical & Biological Sciences Bldg,
+            Bassett Crescent East, Southampton SO9 3TU, UK
+COMMENT     *source: pKT107.
+FEATURES             Location/Qualifiers
+     source          1..1033
+                     /organism="Escherichia coli K-12"
+                     /mol_type="genomic DNA"
+                     /strain="K-12"
+                     /db_xref="taxon:83333"
+                     /clone="pDOC2"
+                     /cell_line="c600rif(pKT107)"
+                     /plasmid="R6-5"
+     regulatory      245..249
+                     /regulatory_class="ribosome_binding_site"
+                     /note="ribosome binding site"
+     CDS             256..987
+                     /codon_start=1
+                     /transl_table=11
+                     /product="precursor peptide (AA -20 to 223)"
+                     /protein_id="CAA36788.1"
+                     /db_xref="GOA:P32885"
+                     /db_xref="InterPro:IPR008874"
+                     /db_xref="UniProtKB/Swiss-Prot:P32885"
+                     /translation="MKMKKLMMVALVSSTLALSGCGAMSTAIKKRNLEVKTQMSETIW
+                     LEPASERTVFLQIKNTSDKDMSGLQGKIADAVKAKGYQVVTSPDKAYYWIQANVLKAD
+                     KMDLRESQGWLNRGYEGAAVGAALGAGITGYNSNSAGATLGVGLAAGLVGMAADAMVE
+                     DVNYTMITDVQIAERTKATVTTDNVAALRQGTSGAKIQTSTETGNQHKYQTRVVSNAN
+                     KVNLKFEEAKPVLEDQLAKSIANIL"
+     sig_peptide     256..315
+                     /note="signal peptide (AA -20 to -1)"
+     mat_peptide     316..984
+                     /product="TraT lipoprotein (AA 1-223)"
+ORIGIN      
+        1 cgaattaagg cgagttagtg gttgtgtaag cgtaagagaa tggatgcaat ctcaggtaaa
+       61 tgaacaaact aatgaagatt tgcatctgga ttttgataat atggattttc atcgtactaa
+      121 tcctgcacag ggttacctat gtcaggtatt ggtgtggata tcggtggtaa ttcatatggt
+      181 tatagttcaa aacgatatga tgagtgaatc ttaatttgta tattatgacg ttttattcaa
+      241 tatgaaggaa cattgatgaa aatgaaaaaa ttgatgatgg ttgcactggt cagttccact
+      301 ctggcccttt cagggtgtgg tgcgatgagc acagcaatca agaagcgtaa ccttgaggtg
+      361 aagactcaga tgagtgagac catctggctt gaacccgcca gcgaacgcac ggtatttctg
+      421 cagatcaaaa acacgtctga taaagacatg agtgggctgc agggcaaaat tgctgatgct
+      481 gtgaaagcaa aaggatatca ggtggtgact tctccggata aagcctacta ctggattcag
+      541 gcgaatgtgc tgaaggccga taagatggat ctgcgggagt ctcagggatg gctgaaccgt
+      601 ggttatgaag gcgcagcagt tggtgcagcg ttaggtgccg gtattaccgg ctataactca
+      661 aattctgccg gtgccacact cggtgtaggc cttgctgctg gtctggtggg tatggctgca
+      721 gatgcgatgg tggaagatgt gaactatacc atgatcacgg atgtacagat tgcagagcgt
+      781 actaaggcaa cggtgacaac ggataatgtt gccgccctgc gtcagggcac atcaggtgcg
+      841 aaaattcaga ccagtactga aacaggtaac cagcataaat accagacccg tgtggtttca
+      901 aatgcgaaca aggttaacct gaaatttgaa gaggcgaagc ctgttctcga agaccaactg
+      961 gccaaatcaa tcgcaaatat tctctgaacc tcgtcaggag gctgatctga ccggcctcct
+     1021 tgctgacgcc tcg
+//
+

@@ -1,0 +1,18 @@
+# Cloned upstream repo (github.com/macsy-models/CONJScan) -- has its own .git
+data/CONJScan/
+
+# Reproducible reference data, fetched from public sources
+data/hmm/
+data/positional/
+
+# Job output; regenerable and noisy
+logs/
+archive/
+
+# Python
+__pycache__/
+*.pyc
+
+# Scratch / temp
+*.tmp
+*.swp

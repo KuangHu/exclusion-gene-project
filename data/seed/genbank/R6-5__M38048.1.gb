@@ -1,0 +1,117 @@
+LOCUS       R65TRAX                 2381 bp    DNA     linear   BCT 23-JUL-2016
+DEFINITION  Plasmid R6-5 (from E.coli) traX, conjugative transfer co-repressor
+            (finO) and ORF286 genes, complete cds.
+ACCESSION   M38048
+VERSION     M38048.1
+KEYWORDS    conjugative transfer co-repressor; finO gene; traX gene.
+SOURCE      Plasmid R65
+  ORGANISM  Plasmid R65
+            other sequences; plasmids.
+REFERENCE   1  (bases 1 to 2381)
+  AUTHORS   Cram,D.S., Loh,S.M., Cheah,K.C. and Skurray,R.A.
+  TITLE     Sequence and conservation of genes at the distal end of the
+            transfer region on plasmids F and R6-5
+  JOURNAL   Gene 104 (1), 85-90 (1991)
+   PUBMED   1916281
+COMMENT     Draft entry and computer-readable sequence for [Unpublished (1990)]
+            kindly submitted
+            by S.M.Loh, 28-AUG-1990.
+               Monash University
+               Dept Microbiology
+               Wellington Road
+               Clayton, Melbourne
+               Victoria, Australia 3168.
+FEATURES             Location/Qualifiers
+     source          1..2381
+                     /organism="Plasmid R65"
+                     /mol_type="genomic DNA"
+                     /host="K-12"
+                     /db_xref="taxon:2493"
+                     /plasmid="Plasmid R65"
+     gene            35..799
+                     /gene="traX"
+     regulatory      35..43
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="traX"
+     CDS             53..799
+                     /gene="traX"
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="AAA98314.1"
+                     /translation="MTTDNTNTTRNDSLAARTDTWLQSFLVWSPGQRDIIKTVALVLM
+                     VLDHINLIFQLKQEWMFLAGRGAFPLFALVWGLNLSRHAHIRQPAINRLWGWGIIAQF
+                     AYYLAGFPWYEGNILFAFAVAAQVLTWCETRSGWRTAAAILLMALWGPLSGTSYGIAG
+                     LLMLAVSYRLYRAEDRAERLALLACLLAVIPALNLASSDAAAVAGLVMTVLTVGLVSC
+                     AGKSLPRFWPGDFFPVFYACHLAVLGVLAL"
+     regulatory      843..851
+                     /regulatory_class="ribosome_binding_site"
+                     /note="ORF286"
+     CDS             858..1718
+                     /note="ORF286"
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="AAA98315.1"
+                     /translation="MKITDHKLSEGIALTFRVPEGNIKHPLIILCHGFCGIRNVLLPC
+                     FANAFTEAGFATITFDYRGFGESDGERGRLVPAMQTEDIISVINWAEKQECIDNQRIG
+                     LWGTSLGGGHVFSARAQDQRVKCIVSQLAFADGDVLVTGEMNESERASFLSTLNKMAE
+                     KKKNTGKEMFVGVTRVLSDNESKVFFEKVKGQYPEMDIKIPFLTVMETLQYKPAESAA
+                     KVQCPVLIVIAGQDSVNPPEQGKALYDAVASGTKELYEEADACHYDIYEGAFFERVAA
+                     VQTQWFKKHL"
+     gene            1805..2381
+                     /gene="finO"
+     regulatory      1805..1813
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="finO"
+     CDS             1821..2381
+                     /gene="finO"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conjugative transfer co-repressor"
+                     /protein_id="AAA98316.1"
+                     /translation="MTEQKRPVLTLKRKTEGETPTRSRKTIINVTTPPKWKVKKQKLA
+                     EKAAREAELTAKKAQARQALSIYLNLPTLDEAVNTLKPWWPGLFDGDTPRLLACGIRD
+                     VLLEDVAQRNIPLSHKKLRRALKAITRSESYLCAMKAGACRYDTEGYVTEHISQEEEV
+                     YAAERLDKIRRQNRIKAELQAVLDEQ"
+ORIGIN      
+        1 ctgcagaaag agaaaaccct gggcggagac tgatacagga agataaacgc tgatgacaac
+       61 ggataacacg aacacgacac gtaacgattc actggctgca cggaccgata cctggttgca
+      121 gtcgtttctg gtctggtcac ccggacagcg ggatatcatc aaaacggtgg cgctggtgct
+      181 gatggtactg gaccacatca atctgatatt ccagctgaag caggaatgga tgtttctggc
+      241 cgggcgagga gcctttccgc tgtttgccct ggtgtggggg ctgaatctgt cccgtcatgc
+      301 gcatatccgg caaccggcca ttaaccggct gtggggatgg ggaattattg cccagttcgc
+      361 atattatctg gccggctttc cctggtatga ggggaatatc ctgtttgcct ttgcagtggc
+      421 ggcacaggtg ctgacgtggt gtgaaacgcg cagtgggtgg cgtacagcag cggccattct
+      481 tctgatggcc ctgtgggggc ctttgtccgg caccagttac ggcattgccg ggctgctgat
+      541 gctggcggtc agttaccgac tgtaccgggc ggaagacaga gcggaacgtc tggcgctgct
+      601 tgcatgcctg ctggccgtta ttccggcact taaccttgcc tccagtgatg cagcggcggt
+      661 ggccggtctt gtaatgacgg tgctgaccgt tggtctggtg tcgtgtgcag gaaaatcatt
+      721 accccgtttc tggcccgggg attttttccc ggtattctac gcctgtcatc tggctgtgct
+      781 gggcgttctg gcgttgtgac tggtatgata ctgacgctga ttctgattat taataaacaa
+      841 cataacacag gatatttatg aaaattacgg atcacaaact ctctgaaggt attgccctga
+      901 catttcgtgt tcctgaagga aatataaaac atcctttgat tatcttatgc catgggtttt
+      961 gcggtatcag gaatgttctg ctcccttgct ttgcgaatgc cttcacagaa gcaggattcg
+     1021 caacgattac ttttgattat cgaggattcg gtgagagtga tggagaacga gggcgtctgg
+     1081 ttcctgcaat gcagaccgaa gatattattt cagttatcaa ttgggcagaa aagcaggaat
+     1141 gtattgataa tcagcgtatt gggttatggg gaacatcgct gggagggggg catgtcttca
+     1201 gtgcacgtgc gcaggaccaa cgcgtaaaat gtattgtcag ccagctggct tttgctgacg
+     1261 gtgatgttct ggttaccgga gagatgaatg aatcggagag agcgtctttt ctgtccacgc
+     1321 tgaataaaat ggcagagaag aagaaaaaca ccgggaaaga gatgtttgtg ggggttaccc
+     1381 gggtactgag tgataatgaa tcaaaggtat tcttcgagaa ggtaaaaggt cagtatcctg
+     1441 aaatggatat aaaaatacct ttccttacgg ttatggagac gttgcaatat aaaccggcag
+     1501 agagcgcagc caaagtacag tgcccagttt tgattgttat tgccggccag gatagtgtta
+     1561 atccaccaga acagggaaaa gccttatatg atgctgttgc ttctggtact aaggaattat
+     1621 acgaggaagc tgacgcatgc cattatgata tttatgaagg cgcgtttttt gaacgtgtgg
+     1681 cggcagtaca gacgcaatgg tttaaaaaac atctttaatt gtcggtatta atatgtcaga
+     1741 ggtcgttgag gtcagcttaa tatcatagtg agtagtttca acgacctgga ggacatattt
+     1801 tcacaaaggt cagggcaatc atgacagagc agaaacgacc ggtactgaca ctgaaacgga
+     1861 aaacggaagg ggaaacaccg acccggagcc ggaaaaccat catcaatgtc accacgccac
+     1921 caaaatggaa ggtgaaaaag cagaaactgg cggagaaggc tgcccgggaa gcagagctga
+     1981 cagcaaaaaa agcgcaggcc agacaggcgc tgtccattta tctgaacctg cccacactgg
+     2041 atgaagccgt gaacaccctg aaaccctggt ggccgggatt atttgacggt gacacacccc
+     2101 ggcttctggc ctgcggtatc cgggacgtgt tactggaaga cgtggcgcag cggaatatcc
+     2161 cgctctcgca taaaaaactg cgcagggcgc tgaaggccat cacccgttca gaaagctatc
+     2221 tgtgtgccat gaaagccggt gcctgccggt atgacacgga agggtatgtg acggagcata
+     2281 tttctcagga ggaagaagtg tatgcggcag agcgtctgga taaaatccgc cgccagaacc
+     2341 ggataaaggc agaacttcag gccgtgcttg atgaacaata a
+//
+

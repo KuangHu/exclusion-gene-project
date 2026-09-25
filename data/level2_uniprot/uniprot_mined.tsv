@@ -1,0 +1,16 @@
+element_id	gene	side	uniprot	reviewed	length	n_domains	domains	subcellular_location	cautions	structures	function
+F	traS	exclusion	P09129	reviewed	173	2	InterPro:IPR060798(TraS);NCBIfam:NF010304(PRK13741.1)	Cell inner membrane		AlphaFoldDB:P09129;SMR:P09129	Involved in surface exclusion
+F	traG	partner	P33790	reviewed	938	3	InterPro:IPR012931(TraG_N_Proteobacteria);NCBIfam:NF010295(PRK13735.1);Pfam:PF07916(TraG_N)	Cell inner membrane (Multi-pass membrane protein)	[CAUTION] TraG is not responsible for the N-terminal acetylation of F pilin as stated by some authors	AlphaFoldDB:P33790	Plays a crucial role in donor-recipient cell interactions. Required for two stages of the conjugation process: pilus biosynthesis and mating aggregate stabilization. May interact with TraN
+ICEBs1	yddJ	exclusion	P96647	reviewed	126	2	InterPro:IPR028075(DUF4467);Pfam:PF14729(DUF4467)			AlphaFoldDB:P96647;SMR:P96647	
+ICEBs1	conG	partner	P96644	reviewed	815	4	CDD:cd06261(TM_PBP2);InterPro:IPR000515(MetI-like);InterPro:IPR058112(CD3337_EF1877-like);NCBIfam:NF046089(CD3337_EF1877)	Cell membrane (Multi-pass membrane protein)		AlphaFoldDB:P96644;SMR:P96644	
+IncC	traG_C	partner	A0ABN7GQU1	unreviewed	1204	2	InterPro:IPR012931(TraG_N_Proteobacteria);Pfam:PF07916(TraG_N)		[CAUTION] The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data		
+R100	traS	exclusion	Q6SIZ8	unreviewed	159	2	InterPro:IPR018898(Eex_TraS);Pfam:PF10624(TraS)			AlphaFoldDB:Q6SIZ8	
+R100	traG	partner	Q6SIZ9	unreviewed	940	3	InterPro:IPR012931(TraG_N_Proteobacteria);NCBIfam:NF010295(PRK13735.1);Pfam:PF07916(TraG_N)			AlphaFoldDB:Q6SIZ9	
+R64	excA	exclusion	U5KKN6	unreviewed	220	4	InterPro:IPR016389(Exclusion-determining_protein);NCBIfam:NF033891(surf_exc_IncI1);PIRSF:PIRSF003281(ExcA);Pfam:PF27689(Exclusion-determining_protein)			AlphaFoldDB:U5KKN6	
+R64	traY	partner	Q9WW95	unreviewed	745	2	InterPro:IPR027628(DotA_TraY);NCBIfam:TIGR04346(DotA_TraY)			AlphaFoldDB:Q9WW95	
+RP4	trbK	exclusion	Q79AR9	unreviewed	69	3	InterPro:IPR027584(TrbK_RP4);NCBIfam:TIGR04359(TrbK_RP4);PROSITE:PS51257(PROKAR_LIPOPROTEIN)			AlphaFoldDB:Q79AR9	
+RP4	trbL	partner	Q03536	unreviewed	528	4	InterPro:IPR007688(Conjugal_tfr_TrbL/VirB6);InterPro:IPR014150(Conjugal_tfr_TrbL);NCBIfam:TIGR02783(TrbL_P);Pfam:PF04610(TrbL)	Cell membrane (Multi-pass membrane protein)		AlphaFoldDB:Q03536	
+SXT	eex	exclusion	A0ABT6U7Q2	unreviewed	143	1	NCBIfam:NF041429(EexR)		[CAUTION] The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data		
+SXT	traG	partner	B4EWP8	unreviewed	1189	2	InterPro:IPR012931(TraG_N_Proteobacteria);Pfam:PF07916(TraG_N)			AlphaFoldDB:B4EWP8	
+pKM101	eex	exclusion	Q79SE7	unreviewed	75	3	InterPro:IPR047937(Eex_IncN-like);NCBIfam:NF033894(Eex_IncN);PROSITE:PS51257(PROKAR_LIPOPROTEIN)			AlphaFoldDB:Q79SE7;SMR:Q79SE7	
+pKM101	traD	partner	Q46701	unreviewed	346	2	InterPro:IPR007688(Conjugal_tfr_TrbL/VirB6);Pfam:PF04610(TrbL)	Cell membrane (Multi-pass membrane protein)		AlphaFoldDB:Q46701	

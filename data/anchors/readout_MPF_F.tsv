@@ -1,0 +1,730 @@
+seed	gene	product	aa	start	end	strand	n_families	families
+F	yaaA		99	66	365	1	1	HTH_Tnp_1(PF01527):40.4
+F	yaaB		288	362	1228	1	4	rve(PF00665):97.1;rve_2(PF13333):78.2;HTH_21(PF13276):45.6;rve_3(PF13683):37.5
+F	yacA		146	2110	2550	1	0	
+F	srnB		68	2869	3075	1	1	HOK_GEF(PF01848):36.0
+F	srnB'		49	2926	3075	1	1	HOK_GEF(PF01848):37.3
+F	repA2	replication regulatory protein	85	3359	3616	1	1	RepB-RCR_reg(PF10723):91.7
+F	repL		24	3850	3924	1	1	RepA1_leader(PF08048):48.6
+F	tnpX		698	4303	6399	-1	2	FunZ_C(PF30996):54.3;ORC-CDC6-like(PF24389):28.0
+F	tnpR		183	6415	6966	-1	2	Resolvase(PF00239):139.7;HTH_7(PF02796):37.2
+F	tnpA		1002	7130	10138	1	2	DDE_Tnp_Tn3(PF01526):494.2;DUF4158(PF13700):184.4
+F	ybaA		353	10729	11790	-1	2	EAL(PF00563):101.9;GerE(PF00196):31.7
+F	ybbA		137	11900	12313	-1	1	YuaE(PF27278):66.6
+F	ybcA		187	12477	13040	-1	1	Bactofilin(PF04519):68.3
+F	ybdA		137	13047	13460	-1	1	YuaE(PF27278):68.2
+F	ybdB		200	13453	14055	-1	0	
+F	ybfA		99	15158	15457	1	1	HTH_Tnp_1(PF01527):40.4
+F	ybfB		288	15454	16320	1	4	rve(PF00665):94.7;rve_2(PF13333):79.9;rve_3(PF13683):37.5;HTH_21(PF13276):34.6
+F	ybgA		84	16317	16571	-1	0	
+F	ybhA		110	17216	17548	1	1	DDE_Tnp_IS66(PF03050):97.9
+F	ybhB		301	17673	18578	-1	4	Tnp_IS2_N(PF30445):77.0;rve_3(PF13683):67.4;rve(PF00665):60.8;HTH_21(PF13276):43.2
+F	ybiA		136	18536	18946	-1	1	HTH_Tnp_1(PF01527):65.1
+F	ybiB		94	18858	19142	1	1	DDE_Tnp_IS66_C(PF13817):30.5
+F	ybjA		69	19245	19454	1	0	
+F	ycaA		231	20096	20791	-1	1	YuaM(PF30159):35.1
+F	ycbA		77	21222	21455	-1	0	
+F	ycbB		1758	21541	26817	-1	0	
+F	ycgA		89	26990	27259	1	0	
+F	ychA		1371	27486	31601	-1	3	Autotransporter(PF03797):133.6;AC_1(PF18883):85.5;Pertactin(PF03212):36.1
+F	ompP		315	32322	33269	1	1	Omptin(PF01278):405.1
+F	yddA		499	33362	34861	1	2	Abhydrolase_1(PF00561):123.1;Abhydrolase_4(PF08386):52.7
+F	ydfA		95	35217	35504	1	0	
+F	int		246	35618	36358	1	1	Phage_integrase(PF00589):54.6
+F	repB		325	36643	37620	-1	1	Rep3_N(PF01051):43.5
+F	ydhA		153	37942	38403	-1	0	
+F	ydiA		213	38460	39101	-1	0	
+F	ydjA		76	39088	39318	1	0	
+F	yeaA		78	40634	40870	-1	0	
+F	yebA		96	41216	41506	1	1	YuaX(PF27363):113.3
+F	yebB		299	41496	42395	1	1	CAP12-PCTIR_TIR(PF10137):126.3
+F	pifA		741	42445	44670	-1	1	KAP_NTPase(PF07693):148.7
+F	repC	replication protein	363	44672	45763	-1	0	
+F	ccdA(letA)		72	46340	46558	1	1	CcdA(PF07362):94.1
+F	ccdB(letD)		101	46560	46865	1	1	CcdB(PF01845):111.6
+F	resD	resolvase	268	46866	47672	1	1	Phage_integrase(PF00589):65.5
+F	repE	replication initiation protein	251	48446	49201	1	2	Rep3_N(PF01051):108.8;Rep3_C(PF21205):62.4
+F	sopA		391	49780	50955	1	2	AAA_31(PF13614):94.0;CbiA(PF01656):73.7
+F	sopB		323	50955	51926	1	1	SoPB_HTH(PF18090):143.2
+F	yfcA		90	52569	52841	1	0	
+F	yfcB		168	52855	53361	1	1	DUF1281(PF06924):114.5
+F	yfdA		145	53343	53780	1	2	DUF1281_C(PF18406):58.2;DUF1281(PF06924):35.4
+F	yfdB		101	53784	54089	1	0	
+F	yfeA		227	54166	54849	1	1	N6_N4_Mtase(PF01555):140.0
+F	yfeB		73	54850	55071	1	1	YubE(PF27407):107.5
+F	yffA		144	55085	55519	1	1	DUF1380(PF07128):172.3
+F	yffB		258	55565	56341	1	2	YubG_N(PF30111):212.1;YubG_C(PF30110):194.7
+F	yfgA		103	56429	56740	1	0	
+F	yfgB		141	56755	57180	1	1	Antirestrict(PF03230):92.4
+F	yfhA		140	57227	57649	1	0	
+F	yfhB		132	57956	58354	1	0	
+F	ssb	single-strand DNA binding protein	179	58643	59182	1	1	SSB(PF00436):125.6
+F	yfjA		79	59233	59472	1	1	DUF905(PF06006):111.9
+F	yfjB		652	59538	61496	1	2	ParB_N(PF02195):72.9;HTH_ParB(PF17762):32.9
+F	psiB		144	61551	61985	1	1	PsiB(PF06290):206.9
+F	psiA		239	61982	62701	1	1	PsiA(PF06952):328.7
+F	flmC		70	62918	63130	1	1	DUF5431(PF17496):127.0
+F	flmA		52	62976	63134	1	1	HOK_GEF(PF01848):74.8
+F	ygdA		105	63372	63689	-1	0	
+F	ygeA		95	64032	64319	1	0	
+F	ygeB		273	64438	65259	1	1	DUF932(PF06067):179.1
+F	ygfA		169	65556	66065	-1	1	SLT(PF01464):78.1
+F	traM		127	66479	66862	1	1	Tra_M(PF05261):154.0
+F	traJ		229	67049	67738	1	1	TraJ(PF27685):543.5
+F	traY		131	67837	68232	1	1	TraY(PF05509):132.0
+F	traA	prepropilin	121	68265	68630	1	1	TraA(PF05513):224.7
+F	traL		103	68645	68956	1	1	TraL(PF07178):104.2
+F	traE		188	68978	69544	1	1	TraE(PF05309):183.8
+F	traK		242	69531	70259	1	2	TraK_C(PF23536):84.1;TraK_N(PF06586):56.3
+F	traB		475	70259	71686	1	1	TrbI(PF03743):94.3
+F	traP		196	71676	72266	1	1	TraP(PF07296):319.9
+F	trbD		65	72253	72450	1	1	DUF2689(PF10894):38.0
+F	trbG		83	72462	72713	1	0	
+F	traV		171	72710	73225	1	1	TraV(PF09676):77.3
+F	traR		73	73360	73581	1	1	zf-dskA_traR(PF01258):51.0
+F	traC		875	73741	76368	1	4	TraC_F_IV(PF11130):306.8;P-loop_TraG(PF19044):98.5;DUF87(PF01935):29.2;TrwB_AAD_bind(PF10412):22.1
+F	trbI		128	76365	76751	1	1	TrbI_Ftype(PF09677):122.2
+F	traW		210	76748	77380	1	1	TraW_N(PF12477):44.8
+F	traU		330	77377	78369	1	1	TraU(PF06834):368.6
+F	trbC		212	78378	79016	1	1	TrbC_Ftype(PF09673):67.3
+F	traN		602	79013	80821	1	1	F_T4SS_TraN(PF06986):268.0
+F	trbE		86	80845	81105	1	1	TrbE(PF11100):57.1
+F	traF		257	81068	81841	1	1	TraF(PF13728):233.9
+F	trbA		115	81857	82204	1	1	Conjugal_tfr_repressor_TrbA(PF27686):225.0
+F	artA		104	82206	82520	-1	0	
+F	traQ		94	82601	82885	1	1	TraQ(PF09679):137.1
+F	trbB		181	82872	83417	1	1	TraF(PF13728):43.2
+F	trbJ		113	83347	83688	1	0	
+F	trbF		126	83675	84055	1	1	Plasmid_mob_TrbF(PF27688):198.6
+F	traH		458	84052	85428	1	1	TraH(PF06122):374.3
+F	traG		938	85425	88241	1	1	TraG_N(PF07916):386.1
+F	traS	surface exclusion protein	173	88274	88795	1	0	
+F	traT	surface exclusion protein	244	88817	89551	1	1	TraT(PF05818):278.9
+F	traD		717	89804	91957	1	4	TrwB_AAD_bind(PF10412):391.1;TraD_N(PF12615):119.8;TraG-D_C(PF12696):69.2;T4SS-DNA_transf(PF02534):31.4
+F	trbH		239	91957	92676	1	0	
+F	traI		1756	92673	97943	1	7	TrwC(PF08751):263.5;TraI_C(PF07057):141.7;AAA_30(PF13604):130.8;TraI_hel_assoc_N(PF22232):120.7
+F	traX		248	97963	98709	1	1	TraX(PF05857):230.6
+R100	merR	regulatory protein of mer operon	144	92	526	-1	3	MerR-DNA-bind(PF09278):69.5;MerR_1(PF13411):64.2;MerR(PF00376):42.5
+R100	merT	mercuric transport protein	116	598	948	1	1	MerT(PF02411):214.9
+R100	merP	mercuric transport protein	91	962	1237	1	1	HMA(PF00403):63.1
+R100	merC	mercuric transport protein	153	1234	1695	1	1	MerC(PF03203):85.8
+R100	merA	mercuric (ion) reductase	564	1747	3441	1	7	Pyr_redox_2(PF07992):229.0;Pyr_redox_dim(PF02852):107.3;Pyr_redox(PF00070):60.9;Pyr_redox_3(PF13738):50.2
+R100	merD		120	3459	3821	1	1	MerR_1(PF13411):58.7
+R100	yadA		78	3818	4054	1	1	MerE(PF05052):146.7
+R100	yaeA		235	4051	4758	1	1	EAL(PF00563):189.6
+R100	tniA	transposase of In21	559	4833	6512	1	3	TnsB_C(PF29688):153.3;Mu-transpos_C(PF09299):40.9;HTH_Tnp_Mu_2(PF09039):21.4
+R100	tniBdelta1	NTP-binding protein	286	6515	7375	1	2	TniB(PF05621):262.1;AAA_22(PF13401):54.0
+R100	yahA	possible transposase of IS1353	514	7426	8970	-1	7	rve(PF00665):64.6;HTH_Tnp_1(PF01527):54.3;rve_2(PF13333):50.1;HTH_21(PF13276):49.9
+R100	istA	possible transposase of IS1326	504	9102	10616	1	3	Mu-transpos_C_2(PF22483):60.3;HTH_IclR(PF09339):24.2;HTH_24(PF13412):22.8
+R100	istB	NTP-binding protein	261	10603	11388	1	3	IstB_IS21(PF01695):276.1;Bac_DnaA(PF00308):36.6;AAA(PF00004):24.6
+R100	ybbA		166	11564	12064	-1	3	Acetyltransf_1(PF00583):54.5;Acetyltransf_7(PF13508):51.9;Acetyltransf_10(PF13673):40.3
+R100	sul1	dihydropteroate synthetase typeI	288	12192	13058	-1	1	Pterin_bind(PF00809):237.3
+R100	qacEdelta1	putative ethidium bromide resistant protein	115	13025	13372	-1	1	Multi_Drug_Res(PF00893):117.6
+R100	aadA1	streptomycin adenyltransferase	336	13536	14546	-1	3	AadA_C(PF13427):118.7;Polbeta(PF18765):31.3;NTP_transf_2(PF01909):26.8
+R100	intR	integrase for In2	337	14476	15489	1	2	Phage_integrase(PF00589):168.3;Phage_int_SAM_4(PF13495):97.6
+R100	tnpM	Tn21 modulator protein	116	15692	16042	1	2	DUF3330(PF11809):129.8;EAL(PF00563):37.9
+R100	tnpR	resolvase for Tn21	186	16168	16728	1	2	Resolvase(PF00239):129.3;HTH_7(PF02796):56.7
+R100	tnpA	transposase for Tn21	988	16731	19697	1	2	DDE_Tnp_Tn3(PF01526):528.3;DUF4158(PF13700):192.4
+R100	ybjA		125	19764	20141	1	2	Acetyltransf_1(PF00583):41.0;Acetyltransf_7(PF13508):31.0
+R100	cat	chloramphenycol acetyltransferase	219	20342	21001	-1	1	CAT(PF00302):382.6
+R100	insA	IS1 transposition protein	91	21280	21555	1	2	HTH_Tnp_IS1(PF12759):104.8;Zn_ribbon_InsA(PF03811):75.3
+R100	insB	IS1 transposition protein	167	21474	21977	1	1	DDE_Tnp_IS1(PF03400):261.3
+R100	ycdA		78	23523	23759	-1	0	
+R100	ycdB		93	23788	24069	1	0	
+R100	stbB	plasmid stable inheritance protein	117	24192	24545	-1	1	Plasmid_stab_B(PF10784):104.5
+R100	stbA	plasmid stable inheritance protein	320	24545	25507	-1	3	StbA_N(PF06406):270.8;ParM_N(PF21523):242.3;MreB-like_C(PF21522):30.6
+R100	ycgA		215	26060	26707	1	1	N6_N4_Mtase(PF01555):140.2
+R100	ycgB		144	26943	27377	1	1	DUF1380(PF07128):167.6
+R100	ychA		275	27377	28204	1	2	YubG_N(PF30111):208.3;YubG_C(PF30110):194.6
+R100	yciA		190	28077	28649	1	0	
+R100	yciB		141	28622	29047	1	1	Antirestrict(PF03230):91.9
+R100	ycjA		140	29094	29516	1	0	
+R100	ycjB		117	29568	29921	1	0	
+R100	ydaA		83	30084	30335	1	0	
+R100	ydaB		76	30761	30991	1	0	
+R100	ydbA		453	31043	32404	1	1	DUF3560(PF12083):125.4
+R100	ydcA		187	32451	33014	1	1	MTS(PF05175):32.3
+R100	yddA		155	33100	33567	-1	0	
+R100	ssb	single strand DNA binding protein	188	33830	34396	1	1	SSB(PF00436):129.5
+R100	ydeA		79	34448	34687	1	1	DUF905(PF06006):114.4
+R100	ydeB		473	34748	36169	1	2	ParB_N(PF02195):67.5;HTH_ParB(PF17762):29.9
+R100	ydgA	transposase of Tn10	402	36239	37447	1	1	DDE_Tnp_1(PF01609):87.3
+R100	ydhA		401	37813	39018	-1	1	Glt_symporter(PF03616):546.7
+R100	ydjA		106	39462	39782	1	1	ABM(PF03992):58.8
+R100	ydjB		162	39673	40161	1	0	
+R100	yeaA		228	40169	40855	1	2	HTH_5(PF01022):34.6;HTH_20(PF12840):31.1
+R100	tetR	repressor of tet operon	207	40833	41456	-1	2	TetR_C_1(PF02909):105.0;TetR_N(PF00440):49.9
+R100	tetA	tetracycline resistance protein	401	41538	42743	1	2	MFS_1(PF07690):183.7;Sugar_tr(PF00083):29.0
+R100	tetC		222	42856	43524	-1	1	TetR_N(PF00440):53.6
+R100	tetD		138	43537	43953	1	2	HTH_18(PF12833):76.5;HTH_AraC(PF00165):70.5
+R100	yedA	transposase of Tn10	402	43963	45171	-1	1	DDE_Tnp_1(PF01609):87.3
+R100	yefA		191	45293	45868	1	0	
+R100	psiB	plasmid SOS inhibition protein	144	45937	46371	1	1	PsiB(PF06290):212.0
+R100	psiA	plasmid SOS inhibition protein	239	46368	47087	1	1	PsiA(PF06952):327.3
+R100	mok	modulator of Hok protein	70	47309	47521	1	1	DUF5431(PF17496):140.0
+R100	hok	post-segregation killing protein	52	47367	47525	1	1	HOK_GEF(PF01848):76.5
+R100	yehA		125	47763	48140	-1	0	
+R100	yeiA		98	48440	48736	1	0	
+R100	32		273	48847	49668	1	1	DUF932(PF06067):179.2
+R100	X		169	49965	50474	-1	1	SLT(PF01464):78.2
+R100	traM		127	50890	51273	1	1	Tra_M(PF05261):156.3
+R100	traJ	positive rugulator of tra operon	223	51467	52138	1	1	TraJ(PF27685):49.2
+R100	traY	component of oriT-specific nickase	75	52275	52502	1	1	TraY(PF05509):77.6
+R100	traA	prepropilin	119	52535	52894	1	1	TraA(PF05513):201.2
+R100	traL		103	52909	53220	1	1	TraL(PF07178):104.2
+R100	traE		188	53242	53808	1	1	TraE(PF05309):174.3
+R100	traK		242	53795	54523	1	2	TraK_C(PF23536):80.0;TraK_N(PF06586):56.3
+R100	traB		483	54523	55974	1	1	TrbI(PF03743):94.2
+R100	traP		195	55943	56530	1	1	TraP(PF07296):269.6
+R100	trbD		122	56469	56837	1	1	DUF2689(PF10894):44.1
+R100	traV		171	56834	57349	1	1	TraV(PF09676):78.4
+R100	traR		73	57484	57705	1	1	zf-dskA_traR(PF01258):51.0
+R100	yfhA		137	57698	58111	1	0	
+R100	yfiA		157	58104	58577	1	0	
+R100	yfiB		72	58657	58875	1	0	
+R100	yfiC		115	58903	59250	1	0	
+R100	traC		876	59376	62006	1	4	TraC_F_IV(PF11130):304.1;P-loop_TraG(PF19044):97.1;DUF87(PF01935):28.0;TrwB_AAD_bind(PF10412):21.8
+R100	trbI		128	62003	62389	1	1	TrbI_Ftype(PF09677):119.8
+R100	traW		210	62386	63018	1	1	TraW_N(PF12477):44.8
+R100	traU		330	63015	64007	1	1	TraU(PF06834):369.5
+R100	ygeA		103	64031	64342	1	0	
+R100	trbC		212	64351	64989	1	1	TrbC_Ftype(PF09673):68.6
+R100	traN		300	64986	65888	1	0	
+R100	traZ		311	65901	66836	1	1	F_T4SS_TraN(PF06986):269.1
+R100	trbE		86	66860	67120	1	1	TrbE(PF11100):56.6
+R100	traF		253	67095	67856	1	1	TraF(PF13728):234.3
+R100	trbA		114	67870	68214	1	1	Conjugal_tfr_repressor_TrbA(PF27686):118.2
+R100	traQ	possible cleavage protein of preproplin	94	68333	68617	1	1	TraQ(PF09679):137.4
+R100	trbB		181	68604	69149	1	2	TraF(PF13728):44.4;Thioredoxin_2(PF13098):27.0
+R100	trbJ		115	69079	69426	1	0	
+R100	trbF		141	69374	69799	1	1	Plasmid_mob_TrbF(PF27688):182.3
+R100	traH		460	69777	71159	1	1	TraH(PF06122):381.7
+R100	traG		940	71156	73978	1	1	TraG_N(PF07916):374.0
+R100	traS	possible surface exclusion protein	159	74000	74479	1	1	TraS(PF10624):312.7
+R100	traT	surface exclusion protein	243	74528	75259	1	1	TraT(PF05818):278.9
+R100	yhfA		260	75417	76199	1	0	
+R100	traD		738	76250	78466	1	4	TrwB_AAD_bind(PF10412):391.2;TraD_N(PF12615):117.9;TraG-D_C(PF12696):70.3;T4SS-DNA_transf(PF02534):30.9
+R100	traI	DNA helicase I	1756	78466	83736	1	7	TrwC(PF08751):268.6;TraI_C(PF07057):144.2;AAA_30(PF13604):131.6;TraI_hel_assoc_N(PF22232):124.9
+R100	traX	possible pilin acetylase	248	83756	84502	1	1	TraX(PF05857):259.3
+R100	yieA		286	84561	85421	1	9	Abhydrolase_1(PF00561):122.9;Hydrolase_4(PF12146):74.3;Peptidase_S15(PF02129):57.2;Peptidase_S9(PF00326):45.0
+R100	finO	fertility inhibition protein	186	85524	86084	1	2	FinO_N(PF12602):129.0;ProQ(PF04352):94.6
+R100	yigA		70	86213	86425	1	0	
+R100	yigB		153	86669	87130	1	1	SNase(PF00565):107.1
+R100	yihA		196	87423	88013	1	1	DUF2726(PF10881):77.1
+R100	repA2	negative regulator of repA1 expression	84	88253	88507	1	1	RepB-RCR_reg(PF10723):102.4
+R100	repA6	regulatory reading frame	24	88745	88819	1	1	RepA1_leader(PF08048):54.1
+R100	repA1	replication initiation protein	285	88812	89669	1	1	IncFII_repA(PF02387):325.5
+R100	repA4		128	90032	90418	1	1	Rep_assoc_RepA4(PF27691):274.8
+R100	tir		217	90608	91261	1	1	Rce1-like(PF02517):62.5
+R100	pemI	plasmid stable inheritance protein	85	91354	91611	1	1	MazE_antitoxin(PF04014):30.6
+R100	pemK	plasmid stable inheritance protein	133	91544	91945	1	1	PemK_toxin(PF02452):100.4
+R100	yjcA		436	92230	93540	1	1	GmrSD_N(PF03235):71.0
+R100	insA	IS1 transposition protein	91	93569	93844	1	2	HTH_Tnp_IS1(PF12759):104.8;Zn_ribbon_InsA(PF03811):75.3
+R100	insB	IS1 transposition protein	167	93763	94266	1	1	DDE_Tnp_IS1(PF03400):261.3
+IncC_pVCR94	EEL44_05315	DNA cytosine methyltransferase	475	1	171829	1	1	DNA_methylase(PF00145):37.7
+IncC_pVCR94	EEL44_05325	IS30-like element ISAs2 family transposase	315	1799	2746	1	2	HTH_38(PF13936):43.7;HTH_23(PF13384):28.8
+IncC_pVCR94	EEL44_05330	ISL3-like element ISPpu12 family transposase	443	2734	4065	-1	3	DDE_Tnp_ISL3(PF01610):226.2;Zn_ribbon_ISL3(PF14690):49.2;HTH_Tnp_ISL3(PF13542):39.5
+IncC_pVCR94	EEL44_05335	lipoprotein signal peptidase	170	4087	4599	-1	1	Peptidase_A8(PF01252):143.6
+IncC_pVCR94	EEL44_05340	cation transporter	298	4603	5499	-1	1	Cation_efflux(PF01545):53.2
+IncC_pVCR94	cadR	Cd(II)/Pb(II)-responsive transcriptional regulator	135	5595	6002	1	3	MerR_1(PF13411):77.2;MerR-DNA-bind(PF09278):70.5;MerR(PF00376):59.5
+IncC_pVCR94	EEL44_05355	hypothetical protein	87	6489	6752	1	0	
+IncC_pVCR94	EEL44_05360	hypothetical protein	72	6756	6974	1	0	
+IncC_pVCR94	EEL44_05365	phage head-tail adapter protein	205	7068	7685	1	1	DUF8308(PF26975):26.3
+IncC_pVCR94	EEL44_05370	hypothetical protein	68	7686	7892	1	0	
+IncC_pVCR94	EEL44_05375	ASCH domain-containing protein	99	7897	8196	1	0	
+IncC_pVCR94	EEL44_05380	hypothetical protein	162	8288	8776	-1	0	
+IncC_pVCR94	topB	DNA topoisomerase III	730	8791	10983	-1	3	Topoisom_bac(PF01131):363.2;Toprim(PF01751):50.4;Zn_ribbon_Top1(PF01396):48.5
+IncC_pVCR94	EEL44_05390	hypothetical protein	77	10983	11216	-1	0	
+IncC_pVCR94	EEL44_05395	hypothetical protein	205	11198	11815	-1	0	
+IncC_pVCR94	EEL44_05400	conjugal transfer protein TraI	992	11982	14960	1	1	TraI_2(PF07514):297.0
+IncC_pVCR94	EEL44_05405	DUF87 domain-containing protein	621	14957	16822	1	4	TraG-D_C(PF12696):52.0;TrwB_AAD_bind(PF10412):47.4;AAA_10(PF12846):33.1;DUF87(PF01935):29.8
+IncC_pVCR94	EEL44_05410	hypothetical protein	194	16833	17417	1	0	
+IncC_pVCR94	EEL44_05415	DUF4400 domain-containing protein	209	17374	18003	1	1	DtrJ-like(PF14348):100.2
+IncC_pVCR94	EEL44_05420	hypothetical protein	148	18013	18459	1	0	
+IncC_pVCR94	EEL44_05425	hypothetical protein	125	18469	18846	1	0	
+IncC_pVCR94	EEL44_05430	hypothetical protein	220	18846	19508	1	0	
+IncC_pVCR94	EEL44_05435	hypothetical protein	125	19832	20209	1	0	
+IncC_pVCR94	EEL44_05445	pilus assembly protein	208	20631	21257	1	1	TraE(PF05309):95.3
+IncC_pVCR94	EEL44_05450	conjugal transfer protein TraK	305	21241	22158	1	1	TraK_C(PF23536):35.8
+IncC_pVCR94	EEL44_05455	conjugal transfer protein TraB	438	22155	23471	1	1	TrbI(PF03743):135.0
+IncC_pVCR94	traV	type IV conjugative transfer system protein TraV	192	23468	24046	1	1	TraV(PF09676):100.2
+IncC_pVCR94	EEL44_05465	conjugal transfer protein TraA	130	24050	24442	1	0	
+IncC_pVCR94	EEL44_05470	DUF4165 domain-containing protein	1843	24643	30174	1	5	Big_3_3(PF13750):208.6;DUF4165(PF13752):195.3;Big_3_2(PF12245):89.7;PKD(PF00801):34.5
+IncC_pVCR94	EEL44_05475	DsbC family protein	235	30323	31030	1	1	DsbC_N(PF10411):45.9
+IncC_pVCR94	traC	type IV secretion system protein TraC	815	31027	33474	1	4	TraC_F_IV(PF11130):354.2;P-loop_TraG(PF19044):128.3;AAA_10(PF12846):58.4;DUF87(PF01935):31.6
+IncC_pVCR94	EEL44_05485	hypothetical protein	105	33489	33806	1	0	
+IncC_pVCR94	EEL44_05490	S26 family signal peptidase	176	33803	34333	1	1	Peptidase_S26(PF10502):66.8
+IncC_pVCR94	EEL44_05495	conjugal transfer protein TraW	421	34296	35561	1	1	TrbC_Ftype(PF09673):68.0
+IncC_pVCR94	EEL44_05500	EAL domain-containing protein	223	35558	36229	1	1	EAL(PF00563):89.3
+IncC_pVCR94	EEL44_05505	conjugal transfer protein TraU	335	36226	37233	1	1	TraU(PF06834):332.9
+IncC_pVCR94	traN	conjugal transfer mating pair stabilization protein TraN	936	37337	40147	1	1	F_T4SS_TraN(PF06986):145.3
+IncC_pVCR94	EEL44_05515	hypothetical protein	286	40186	41046	-1	0	
+IncC_pVCR94	EEL44_05520	hypothetical protein	213	41169	41810	-1	0	
+IncC_pVCR94	EEL44_05525	hypothetical protein	106	42103	42423	1	0	
+IncC_pVCR94	EEL44_05530	hypothetical protein	61	42727	42912	1	0	
+IncC_pVCR94	EEL44_05535	CbbQ/NirQ/NorQ/GpvN family protein	322	43131	44099	1	2	AAA_5(PF07728):58.5;CbbQ_C(PF08406):56.4
+IncC_pVCR94	EEL44_05540	hypothetical protein	301	44110	45015	1	0	
+IncC_pVCR94	ssb	single-stranded DNA-binding protein	176	45076	45606	1	1	SSB(PF00436):125.3
+IncC_pVCR94	bet	phage recombination protein Bet	329	45701	46690	1	1	RecT(PF03837):81.0
+IncC_pVCR94	EEL44_05555	endonuclease	336	46752	47762	1	1	YqaJ(PF09588):92.6
+IncC_pVCR94	EEL44_05560	hypothetical protein	70	47668	47880	-1	0	
+IncC_pVCR94	EEL44_05565	DUF3150 domain-containing protein	425	47962	49239	1	1	DUF3150(PF11348):304.8
+IncC_pVCR94	EEL44_05570	VWA domain-containing protein	598	49324	51120	1	3	VWA(PF00092):38.6;VWA_2(PF13519):30.3;CobT(PF06213):28.5
+IncC_pVCR94	EEL44_05575	DUF3085 domain-containing protein	162	51235	51723	1	1	DUF3085(PF11284):65.5
+IncC_pVCR94	EEL44_05580	hypothetical protein	110	51789	52121	1	0	
+IncC_pVCR94	EEL44_05585	hypothetical protein	179	52386	52925	1	0	
+IncC_pVCR94	EEL44_05590	hypothetical protein	166	53006	53506	1	0	
+IncC_pVCR94	EEL44_05595	DNA adenine modification methylase	294	53580	54464	1	1	N6_N4_Mtase(PF01555):33.4
+IncC_pVCR94	EEL44_05600	ferredoxin	74	54530	54754	1	1	Fer2(PF00111):41.3
+IncC_pVCR94	EEL44_05605	hypothetical protein	129	54816	55205	1	0	
+IncC_pVCR94	EEL44_05610	hypothetical protein	148	55195	55641	1	0	
+IncC_pVCR94	EEL44_05615	hypothetical protein	91	55646	55921	1	0	
+IncC_pVCR94	EEL44_05620	hypothetical protein	63	55979	56170	1	0	
+IncC_pVCR94	EEL44_05625	topoisomerase II	125	56215	56592	1	0	
+IncC_pVCR94	EEL44_05630	hypothetical protein	114	56784	57128	1	0	
+IncC_pVCR94	EEL44_05635	hypothetical protein	100	57206	57508	1	0	
+IncC_pVCR94	EEL44_05640	DNA cytosine methyltransferase	541	57586	59211	1	1	DNA_methylase(PF00145):101.3
+IncC_pVCR94	EEL44_05645	hypothetical protein	158	59227	59703	1	0	
+IncC_pVCR94	EEL44_05650	hypothetical protein	184	59777	60331	1	0	
+IncC_pVCR94	EEL44_05655	hypothetical protein	128	60564	60950	1	0	
+IncC_pVCR94	EEL44_05660	phosphoadenosine phosphosulfate reductase	816	61038	63488	1	0	
+IncC_pVCR94	EEL44_05665	hypothetical protein	67	63690	63893	1	0	
+IncC_pVCR94	EEL44_05670	5'-deoxynucleotidase	201	63965	64570	1	2	YfbR-like(PF12917):128.3;HD_3(PF13023):48.4
+IncC_pVCR94	EEL44_05675	hypothetical protein	89	64563	64832	1	0	
+IncC_pVCR94	EEL44_05680	hypothetical protein	72	64846	65064	1	0	
+IncC_pVCR94	EEL44_05685	pyruvate dehydrogenase	185	65138	65695	1	0	
+IncC_pVCR94	EEL44_05690	NgrC	283	65770	66621	1	0	
+IncC_pVCR94	EEL44_05695	hypothetical protein	128	67079	67465	1	0	
+IncC_pVCR94	EEL44_05700	DNA primase	575	67643	69370	1	3	DUF7146(PF23639):73.5;Toprim_3(PF13362):65.6;Zn_Ribbon_Prim(PF08273):51.1
+IncC_pVCR94	EEL44_05705	hypothetical protein	92	69357	69635	1	0	
+IncC_pVCR94	EEL44_05710	permease	79	69708	69947	1	0	
+IncC_pVCR94	EEL44_05715	hypothetical protein	133	70167	70568	1	1	MatP(PF06303):30.5
+IncC_pVCR94	EEL44_05720	hypothetical protein	241	70682	71407	1	0	
+IncC_pVCR94	EEL44_05730	MafI family immunity protein	90	75798	76070	1	0	
+IncC_pVCR94	EEL44_05735	hypothetical protein	74	76075	76299	1	0	
+IncC_pVCR94	EEL44_05740	hypothetical protein	111	76330	76665	1	0	
+IncC_pVCR94	EEL44_05745	hypothetical protein	150	76832	77284	1	0	
+IncC_pVCR94	EEL44_05750	hypothetical protein	200	77300	77902	-1	0	
+IncC_pVCR94	EEL44_05755	hypothetical protein	106	78151	78471	1	0	
+IncC_pVCR94	EEL44_05760	hypothetical protein	95	78490	78777	1	0	
+IncC_pVCR94	EEL44_05765	hypothetical protein	178	78770	79306	1	0	
+IncC_pVCR94	EEL44_05770	integrase	336	79309	80319	1	2	Phage_integrase(PF00589):104.9;Phage_int_SAM_1(PF02899):24.4
+IncC_pVCR94	EEL44_05775	3'-5' exonuclease	289	80324	81193	1	1	RNase_T(PF00929):62.8
+IncC_pVCR94	EEL44_05780	hypothetical protein	163	81190	81681	1	0	
+IncC_pVCR94	EEL44_05785	DNA replication terminus site-binding protein	291	81998	82873	1	1	Ter(PF05472):158.3
+IncC_pVCR94	EEL44_05790	DNA-binding protein	346	83026	84066	1	2	KfrA_N(PF11740):81.7;CENP-F_leu_zip(PF10473):40.2
+IncC_pVCR94	EEL44_05795	hypothetical protein	92	84066	84344	1	0	
+IncC_pVCR94	EEL44_05800	ATP-dependent helicase	503	84353	85864	1	5	UvrD-helicase(PF00580):60.2;AAA_19(PF13245):37.6;Viral_helicase1(PF01443):33.9;UvrD_C(PF13361):33.6
+IncC_pVCR94	EEL44_05805	conjugal transfer protein TraF	346	85975	87015	1	1	TraF(PF13728):221.6
+IncC_pVCR94	EEL44_05810	conjugal transfer protein TraH	477	87017	88450	1	1	TraH(PF06122):336.2
+IncC_pVCR94	EEL44_05815	conjugal transfer protein TraG	1204	88463	92077	1	1	TraG_N(PF07916):375.3
+IncC_pVCR94	EEL44_05820	permease	120	92115	92477	-1	0	
+IncC_pVCR94	EEL44_05825	nucleotide excision repair protein	90	93193	93465	1	1	HTH_35(PF13693):57.1
+IncC_pVCR94	EEL44_05830	lytic transglycosylase domain-containing protein	177	93465	93998	1	1	SLT(PF01464):34.1
+IncC_pVCR94	EEL44_05835	transcriptional regulator	202	94009	94617	1	1	FlhD(PF05247):53.5
+IncC_pVCR94	EEL44_05840	regulator	183	94614	95165	1	1	FlhC(PF05280):31.8
+IncC_pVCR94	EEL44_05845	DNA-binding protein	139	95225	95644	-1	1	Histone_HNS_N(PF22470):46.2
+IncC_pVCR94	EEL44_05850	hypothetical protein	97	95646	95939	-1	0	
+IncC_pVCR94	EEL44_05855	ParM/StbA family protein	327	95956	96939	-1	2	ALP_N(PF17989):113.9;MreB-like_C(PF21522):42.5
+IncC_pVCR94	EEL44_05860	hypothetical protein	188	97411	97977	1	1	MobI(PF19456):107.9
+IncC_pVCR94	EEL44_05865	hypothetical protein	95	97982	98269	1	0	
+IncC_pVCR94	EEL44_05870	plasmid replication protein	366	98254	99354	1	0	
+IncC_pVCR94	EEL44_05875	hypothetical protein	93	99700	99981	1	0	
+IncC_pVCR94	EEL44_05880	hypothetical protein	61	100002	100187	-1	0	
+IncC_pVCR94	EEL44_05885	hypothetical protein	144	100391	100825	-1	0	
+IncC_pVCR94	EEL44_05890	phosphohydrolase	371	100843	101958	-1	1	PAPS_reduct(PF01507):34.2
+IncC_pVCR94	EEL44_05895	hypothetical protein	202	102227	102835	1	0	
+IncC_pVCR94	EEL44_05900	hypothetical protein	173	102840	103361	1	0	
+IncC_pVCR94	EEL44_05905	hypothetical protein	173	103364	103885	1	0	
+IncC_pVCR94	EEL44_05910	hypothetical protein	147	104012	104455	1	0	
+IncC_pVCR94	EEL44_05915	hypothetical protein	104	104445	104759	1	0	
+IncC_pVCR94	EEL44_05920	hypothetical protein	284	104764	105618	1	0	
+IncC_pVCR94	EEL44_05925	S49 family peptidase	325	105600	106577	1	2	Peptidase_S49(PF01343):121.9;CLP_protease(PF00574):22.1
+IncC_pVCR94	EEL44_05930	DsbA family protein	286	106593	107453	1	3	Thioredoxin_4(PF13462):67.4;DSBA(PF01323):60.2;Thioredoxin_2(PF13098):36.7
+IncC_pVCR94	EEL44_05935	hypothetical protein	142	107487	107915	1	0	
+IncC_pVCR94	EEL44_05940	hypothetical protein	119	107972	108331	1	0	
+IncC_pVCR94	EEL44_05945	Fe3+-siderophore ABC transporter permease	148	108331	108777	1	0	
+IncC_pVCR94	EEL44_05950	nitrite reductase	172	108774	109292	1	0	
+IncC_pVCR94	EEL44_05955	hypothetical protein	76	109292	109522	1	0	
+IncC_pVCR94	EEL44_05960	hypothetical protein	285	109509	110366	1	0	
+IncC_pVCR94	EEL44_05965	hypothetical protein	62	110392	110580	1	0	
+IncC_pVCR94	EEL44_05970	nuclease	175	110597	111124	1	1	SNase(PF00565):98.5
+IncC_pVCR94	EEL44_05975	HU family DNA-binding protein	90	111182	111454	1	2	Bac_DNA_binding(PF00216):118.9;HU-HIG(PF18291):30.9
+IncC_pVCR94	EEL44_05980	chromosome segregation protein ParM	97	111542	111835	1	0	
+IncC_pVCR94	EEL44_05985	helix-turn-helix domain-containing protein	100	111862	112164	-1	2	HTH_37(PF13744):28.5;HTH_3(PF01381):28.0
+IncC_pVCR94	EEL44_05990	diaminopimelate decarboxylase	116	112169	112519	-1	1	Gp49(PF05973):81.8
+IncC_pVCR94	EEL44_05995	transcriptional regulator	182	112682	113230	1	1	ParB_C(PF23552):31.0
+IncC_pVCR94	EEL44_06000	hypothetical protein	83	113320	113571	1	0	
+IncC_pVCR94	EEL44_06005	hypothetical protein	64	113571	113765	1	0	
+IncC_pVCR94	EEL44_06010	hypothetical protein	123	113776	114147	1	0	
+IncC_pVCR94	EEL44_06015	hypothetical protein	156	114140	114610	1	0	
+IncC_pVCR94	EEL44_06020	hypothetical protein	113	114625	114966	-1	0	
+IncC_pVCR94	EEL44_06025	DUF1643 domain-containing protein	153	115084	115545	1	1	DUF1643(PF07799):93.1
+IncC_pVCR94	EEL44_06030	hypothetical protein	165	115548	116045	1	0	
+IncC_pVCR94	EEL44_06035	IS6 family transposase IS15DIV	234	116311	117015	1	3	DDE_Tnp_IS240(PF13610):164.3;rve(PF00665):37.3;DDE_Tnp_IS66(PF03050):27.3
+IncC_pVCR94	EEL44_06045	hypothetical protein	73	117155	117376	-1	0	
+IncC_pVCR94	EEL44_06050	resolvase	92	117373	117651	-1	0	
+IncC_pVCR94	EEL44_06055	hypothetical protein	61	117677	117862	1	0	
+IncC_pVCR94	EEL44_06060	hypothetical protein	112	117859	118197	-1	0	
+IncC_pVCR94	tet(C)	tetracycline efflux MFS transporter Tet(C)	396	118101	119291	-1	3	MFS_1(PF07690):162.8;Sugar_tr(PF00083):40.6;MFS_1_like(PF12832):32.9
+IncC_pVCR94	EEL44_06075	TetR family transcriptional regulator	219	119384	120043	1	2	TetR_C_1(PF02909):107.8;TetR_N(PF00440):58.9
+IncC_pVCR94	EEL44_06085	IS6 family transposase IS15DIV	234	120642	121346	1	3	DDE_Tnp_IS240(PF13610):164.3;rve(PF00665):37.3;DDE_Tnp_IS66(PF03050):27.3
+IncC_pVCR94	EEL44_06095	hypothetical protein	161	122056	122541	-1	3	Sigma70_r4_2(PF08281):31.1;HTH_24(PF13412):25.1;HTH_IclR(PF09339):23.8
+IncC_pVCR94	EEL44_06100	TlpA family protein disulfide reductase	161	122566	123051	-1	4	Redoxin(PF08534):66.6;AhpC-TSA(PF00578):61.0;Thioredoxin_8(PF13905):42.2;Thioredoxin_2(PF13098):34.2
+IncC_pVCR94	EEL44_06105	ABC transporter ATP-binding protein	231	123038	123733	-1	2	ABC_tran(PF00005):125.7;AAA_21(PF13304):31.6
+IncC_pVCR94	EEL44_06110	ABC transporter permease	376	123738	124868	-1	2	FtsX(PF02687):66.4;MacB_PCD(PF12704):42.5
+IncC_pVCR94	EEL44_06115	ABC transporter permease	427	124858	126141	-1	2	FtsX(PF02687):78.2;MacB_PCD(PF12704):38.4
+IncC_pVCR94	EEL44_06120	DUF2318 domain-containing protein	459	126144	127523	-1	2	FtrD-like(PF10080):99.0;YHS(PF04945):61.8
+IncC_pVCR94	EEL44_06125	iron transporter	175	127627	128154	-1	1	Iron_transport(PF10634):234.3
+IncC_pVCR94	EEL44_06130	FTR1 family iron permease	628	128195	130081	-1	1	FTR1(PF03239):170.2
+IncC_pVCR94	EEL44_06135	hypothetical protein	61	130084	130269	-1	0	
+IncC_pVCR94	EEL44_06140	Na(+)-translocating NADH-quinone reductase subunit C	271	130428	131243	-1	1	FMN_bind(PF04205):45.3
+IncC_pVCR94	EEL44_06145	protein disulfide oxidoreductase	168	131426	131932	-1	4	Redoxin(PF08534):54.7;AhpC-TSA(PF00578):52.8;Thioredoxin(PF00085):39.9;Thioredoxin_8(PF13905):36.6
+IncC_pVCR94	EEL44_06150	scsC protein	52	131922	132080	-1	1	DSBA(PF01323):33.4
+IncC_pVCR94	EEL44_06155	hypothetical protein	60	132102	132284	1	0	
+IncC_pVCR94	tetC	putative tetracyline resistance transcriptional regulator TetC	222	134857	135525	1	1	TetR_N(PF00440):53.6
+IncC_pVCR94	tet(B)	tetracycline efflux MFS transporter Tet(B)	401	135638	136843	-1	2	MFS_1(PF07690):185.0;Sugar_tr(PF00083):29.1
+IncC_pVCR94	EEL44_06190	TetR family transcriptional regulator	208	136922	137548	1	2	TetR_C_1(PF02909):105.0;TetR_N(PF00440):49.9
+IncC_pVCR94	EEL44_06195	ArsR family transcriptional regulator	228	137526	138212	-1	2	HTH_5(PF01022):34.6;HTH_20(PF12840):31.1
+IncC_pVCR94	EEL44_06200	amino acid-binding protein	119	138220	138579	-1	0	
+IncC_pVCR94	EEL44_06205	IS5-like element ISKpn26 family transposase	326	138624	139604	1	2	DDE_Tnp_1(PF01609):123.7;DUF772(PF05598):89.2
+IncC_pVCR94	EEL44_06210	antibiotic biosynthesis monooxygenase	87	139799	140062	-1	1	ABM(PF03992):35.4
+IncC_pVCR94	EEL44_06220	hypothetical protein	63	140790	140981	-1	0	
+IncC_pVCR94	EEL44_06225	type A-1 chloramphenicol O-acetyltransferase	219	141035	141694	1	1	CAT(PF00302):382.6
+IncC_pVCR94	EEL44_06230	GNAT family N-acetyltransferase	125	141895	142272	-1	2	Acetyltransf_1(PF00583):41.0;Acetyltransf_7(PF13508):31.0
+IncC_pVCR94	EEL44_06235	Tn3-like element TnAs3 family transposase	988	142339	145305	-1	2	DDE_Tnp_Tn3(PF01526):528.3;DUF4158(PF13700):192.4
+IncC_pVCR94	EEL44_06240	recombinase family protein	186	145308	145868	-1	2	Resolvase(PF00239):129.3;HTH_7(PF02796):56.7
+IncC_pVCR94	EEL44_06255	IS6 family transposase IS15DIV	234	146134	146838	-1	3	DDE_Tnp_IS240(PF13610):164.3;rve(PF00665):37.3;DDE_Tnp_IS66(PF03050):27.3
+IncC_pVCR94	EEL44_06260	recombinase family protein	175	146874	147401	1	1	Resolvase(PF00239):114.6
+IncC_pVCR94	EEL44_06270	IS3 family transposase	360	148478	149560	-1	2	rve(PF00665):65.9;rve_3(PF13683):45.3
+IncC_pVCR94	EEL44_06275	hypothetical protein	132	149557	149955	-1	1	HTH_Tnp_1(PF01527):29.4
+IncC_pVCR94	aph(3'')-Ib	aminoglycoside O-phosphotransferase APH(3'')-Ib	267	150348	151151	1	1	APH(PF01636):120.2
+IncC_pVCR94	EEL44_06290	aminoglycoside O-phosphotransferase APH(6)-Id	278	151151	151987	1	2	APH_6_hur(PF04655):390.3;APH(PF01636):26.7
+IncC_pVCR94	EEL44_06295	PSE family carbenicillin-hydrolyzing class A beta-lactamase CARB-4	288	152153	153019	1	2	Beta-lactamase2(PF13354):148.7;Beta-lactamase(PF00144):80.0
+IncC_pVCR94	EEL44_06300	hypothetical protein	89	152998	153267	-1	1	TnsB_N(PF27165):68.7
+IncC_pVCR94	EEL44_06315	IS6 family transposase IS15DIV	234	154084	154788	-1	3	DDE_Tnp_IS240(PF13610):164.3;rve(PF00665):37.3;DDE_Tnp_IS66(PF03050):27.3
+IncC_pVCR94	EEL44_06325	class 1 integron integrase IntI1	337	155325	156338	-1	2	Phage_integrase(PF00589):168.3;Phage_int_SAM_4(PF13495):97.6
+IncC_pVCR94	EEL44_06330	trimethoprim-resistant dihydrofolate reductase DfrA15	157	156495	156968	1	1	DHFR_1(PF00186):122.4
+IncC_pVCR94	EEL44_06335	quaternary ammonium compound efflux SMR transporter QacE delta 1	115	157169	157516	1	1	Multi_Drug_Res(PF00893):117.6
+IncC_pVCR94	sul1	sulfonamide-resistant dihydropteroate synthase Sul1	279	157510	158349	1	1	Pterin_bind(PF00809):237.4
+IncC_pVCR94	EEL44_06345	hypothetical protein	59	158279	158458	-1	0	
+IncC_pVCR94	EEL44_06350	GNAT family N-acetyltransferase	166	158477	158977	1	3	Acetyltransf_1(PF00583):54.5;Acetyltransf_7(PF13508):51.9;Acetyltransf_10(PF13673):40.3
+IncC_pVCR94	EEL44_06355	NTP-binding protein	37	159283	159396	-1	0	
+IncC_pVCR94	EEL44_06360	IS6-like element IS6100 family transposase	254	159484	160248	1	1	DDE_Tnp_IS240(PF13610):169.0
+IncC_pVCR94	EEL44_06365	DDE domain-containing protein	85	160312	160569	1	1	DDE_Tnp_IS240(PF13610):34.2
+IncC_pVCR94	EEL44_06380	resolvase	245	160823	161560	1	3	Resolvase(PF00239):76.5;TraD_b_g-type(PF27712):27.8;HTH_7(PF02796):25.4
+IncC_pVCR94	EEL44_06385	hypothetical protein	74	161557	161781	1	0	
+IncC_pVCR94	EEL44_06390	IS91 family transposase	497	161992	163485	1	2	Y2_Tnp(PF04986):125.2;Zn_Tnp_IS91(PF14319):70.4
+IncC_pVCR94	EEL44_06395	hypothetical protein	83	163516	163767	1	0	
+IncC_pVCR94	EEL44_06400	phosphoglucosamine mutase	100	163661	163963	-1	1	PGM_PMM_I(PF02878):84.1
+IncC_pVCR94	sul2	sulfonamide-resistant dihydropteroate synthase Sul2	271	164050	164865	-1	1	Pterin_bind(PF00809):209.7
+IncC_pVCR94	EEL44_06415	hypothetical protein	103	165172	165483	1	0	
+IncC_pVCR94	EEL44_06420	ParA family protein	261	165657	166442	1	4	AAA_31(PF13614):113.4;CbiA(PF01656):65.5;ParA(PF10609):34.0;MipZ(PF09140):32.4
+IncC_pVCR94	EEL44_06425	ParB/RepB/Spo0J family partition protein	393	166446	167627	1	3	KorB(PF08535):130.8;ParB_N(PF02195):58.4;HTH_ParB(PF17762):42.1
+IncC_pVCR94	EEL44_06430	hypothetical protein	90	167676	167948	1	1	HTH_43(PF09904):39.1
+IncC_pVCR94	EEL44_06435	restriction endonuclease subunit M	211	168011	168646	-1	1	N6_Mtase(PF02384):23.0
+IncC_pVCR94	EEL44_06440	hypothetical protein	125	169200	169577	1	0	
+IncC_pVCR94	EEL44_06445	hypothetical protein	93	169570	169851	1	0	
+IncC_pVCR94	EEL44_06450	thymidylate kinase	224	169826	170500	1	0	
+IncC_pVCR94	EEL44_06455	hypothetical protein	143	170568	170999	1	0	
+IncC_pVCR94	EEL44_06460	hypothetical protein	110	170984	171316	1	0	
+IncC_pVCR94	EEL44_06465	hypothetical protein	166	171325	171825	1	0	
+SXT	setR	setR	215	1847	2494	-1	3	Peptidase_S24(PF00717):101.1;HTH_3(PF01381):33.7;Phage_CI_repr(PF07022):26.9
+SXT		hypothetical protein	83	2612	2863	1	1	YdaS_toxin(PF15943):103.3
+SXT		hypothetical protein	289	2919	3788	1	0	
+SXT		hypothetical protein	220	3775	4437	1	1	DUF6475(PF20081):129.2
+SXT		hypothetical protein	182	4424	4972	1	1	SLT(PF01464):38.3
+SXT	setD	setD	99	4969	5268	1	1	FlhD(PF05247):65.3
+SXT	setC	setC	177	5265	5798	1	1	FlhC(PF05280):57.2
+SXT	EexR1	EexR1	143	5856	6287	1	0	
+SXT	traG	IncF plasmid conjugative transfer protein TraG	1189	6320	9889	-1	1	TraG_N(PF07916):358.1
+SXT	traH	IncF plasmid conjugative transfer pilus assembly protein TraH	462	9893	11281	-1	1	TraH(PF06122):338.7
+SXT	traF	IncF plasmid conjugative transfer pilus assembly protein TraF	314	11284	12228	-1	1	TraF(PF13728):233.6
+SXT	pcrA	ATP-dependent DNA helicase pcrA	630	12516	14408	-1	4	UvrD-helicase(PF00580):114.4;UvrD_C(PF13361):77.8;AAA_19(PF13245):52.7;Viral_helicase1(PF01443):21.6
+SXT		putative ATP-dependent endonuclease of the OLD family	654	14405	16369	-1	7	AAA_21(PF13304):65.5;AAA_15(PF13175):65.2;OLD-like_TOPRIM(PF20469):56.2;DUF2813(PF11398):50.3
+SXT		hypothetical protein	58	16543	16719	-1	0	
+SXT		hypothetical protein	235	16877	17584	-1	0	
+SXT		zinc-binding domain protein	357	17674	18747	-1	3	DUF7146(PF23639):72.2;Zn_Ribbon_Prim(PF08273):59.5;Toprim_3(PF13362):54.8
+SXT		hypothetical protein	113	18839	19180	-1	0	
+SXT	radC	DNA repair protein RadC	165	19180	19677	-1	2	RadC(PF04002):158.4;Prok-JAB(PF14464):26.2
+SXT	cobT	Cobalamin biosynthesis protein CobT	551	19760	21415	-1	3	CobT(PF06213):46.4;VWA(PF00092):34.8;CobT_C(PF11775):25.8
+SXT		hypothetical protein	146	21485	21925	-1	0	
+SXT		hypothetical protein	317	21987	22940	-1	1	DUF3150(PF11348):345.2
+SXT		hypothetical protein	255	23039	23806	-1	0	
+SXT		hypothetical protein	358	23806	24882	-1	2	AAA_5(PF07728):65.8;CbbQ_C(PF08406):65.1
+SXT		hypothetical protein	338	24975	25991	-1	1	YqaJ(PF09588):79.0
+SXT		hypothetical protein	47	26052	26195	-1	0	
+SXT		Recombination protein BET	272	26279	27097	-1	1	RecT(PF03837):73.2
+SXT		Single-stranded DNA-binding protein	139	27177	27596	-1	1	SSB(PF00436):68.2
+SXT		hypothetical protein	108	27612	27938	-1	0	
+SXT		hypothetical protein	42	27941	28069	1	0	
+SXT		hypothetical protein	200	28306	28908	1	0	
+SXT		Extracellular deoxyribonuclease Dns	224	29017	29691	1	1	Endonuclease_1(PF04231):132.1
+SXT		plasmid-related regulatory protein	172	29756	30274	-1	0	
+SXT		plasmid-related membrane protein	757	30294	32567	-1	2	Dynamin_N(PF00350):37.9;MMR_HSR1(PF01926):23.4
+SXT	traN	IncF plasmid conjugative transfer protein TraN	1230	33067	36759	-1	1	F_T4SS_TraN(PF06986):151.8
+SXT	traU	IncF plasmid conjugative transfer pilus assembly protein TraU	342	36762	37790	-1	1	TraU(PF06834):360.3
+SXT	traW	IncF plasmid conjugative transfer pilus assembly protein traW	374	37774	38898	-1	1	TrbC_Ftype(PF09673):76.2
+SXT	TrhF	Conjugative signal peptidase TrhF	170	38909	39421	-1	1	Peptidase_S26(PF10502):57.2
+SXT		hypothetical protein	115	39405	39752	-1	0	
+SXT	traC	IncF plasmid conjugative transfer pilus assembly protein TraC	799	39745	42144	-1	3	TraC_F_IV(PF11130):354.1;P-loop_TraG(PF19044):132.3;AAA_10(PF12846):52.0
+SXT	Thiol	Thiol:disulfide involved in conjugative transfer	230	42144	42836	-1	3	Thioredoxin_2(PF13098):42.3;DsbC_N(PF10411):40.8;Thioredoxin_4(PF13462):24.6
+SXT	Ync	Ync protein	312	42968	43906	-1	1	AbiEii(PF08843):125.7
+SXT	Ynd	Ynd protein	277	43899	44732	-1	2	AbiEi_3(PF11459):195.0;AbiEi_3_N(PF17194):122.4
+SXT	traA	Conjugative transfer protein TraA	128	44910	45296	-1	0	
+SXT	traV	Conjugative transfer protein TraV	216	45293	45943	-1	1	TraV(PF09676):73.6
+SXT	traB	IncF plasmid conjugative transfer pilus assembly protein TraB	429	45940	47229	-1	1	TrbI(PF03743):141.1
+SXT	traK	IncF plasmid conjugative transfer pilus assembly protein TraK	298	47232	48128	-1	1	TraK_C(PF23536):39.0
+SXT	traE	IncF plasmid conjugative transfer pilus assembly protein TraE	208	48112	48738	-1	1	TraE(PF05309):111.5
+SXT	traL	IncF plasmid conjugative transfer pilus assembly protein TraL	93	48735	49016	-1	1	TraL(PF07178):107.5
+SXT		orf49	195	49305	49892	1	0	
+SXT		hypothetical protein	211	49919	50554	-1	1	DtrJ-like(PF14348):88.1
+SXT		Conjugative transfer protein 234	186	50541	51101	-1	0	
+SXT	traD	IncF plasmid conjugative transfer protein TraD	606	51111	52931	-1	5	TrwB_AAD_bind(PF10412):61.4;TraG-D_C(PF12696):50.5;FtsK_SpoIIIE(PF01580):28.7;DUF87(PF01935):26.2
+SXT	traI	Conjugative transfer protein TraI, relaxase	716	52980	55130	-1	1	TraI_2(PF07514):283.0
+SXT		hypothetical protein	54	55252	55416	1	0	
+SXT		putative DNA helicase	711	55379	57514	-1	4	UvrD-helicase(PF00580):99.1;UvrD_C(PF13361):67.4;AAA_19(PF13245):54.9;UvrD_C_2(PF13538):29.7
+SXT		Helicase, C-terminal:Type III restriction enzyme, res subunit:DEAD/DEAH box helicase, N-terminal	2140	57520	63942	-1	4	DEAD(PF00270):79.6;MZB(PF09369):52.7;Helicase_C(PF00271):40.2;ResIII(PF04851):23.1
+SXT		Type II restriction enzyme, methylase subunit	1656	64135	69105	-1	3	Eco57I(PF07669):59.5;MmeI_Mtase(PF20473):29.0;N6_Mtase(PF02384):24.8
+SXT		putative ATP-dependent helicase	987	69108	72071	-1	4	Helicase_C(PF00271):60.8;SNF2-rel_dom(PF00176):59.0;ResIII(PF04851):44.8;DEAD(PF00270):42.0
+SXT		hypothetical protein	307	72098	73021	-1	3	BrxR_CTD(PF26107):80.2;WHD_BrxR(PF26109):58.4;WYL(PF13280):54.7
+SXT		hypothetical protein	99	73339	73638	-1	0	
+SXT	topIII	DNA polymerase III, epsilon subunit-like protein	301	73726	74631	-1	1	RNase_T(PF00929):55.2
+SXT		hypothetical protein	85	75015	75272	-1	0	
+SXT	UmuD	Error-prone repair protein UmuD	149	75271	75720	1	1	Peptidase_S24(PF00717):112.3
+SXT	rumB	rumB	89	75728	75997	1	1	IMS(PF00817):59.3
+SXT		hypothetical protein	214	76150	76794	1	0	
+SXT	tnpA	transposase	453	76596	77957	-1	1	DUF4158(PF13700):106.8
+SXT		hypothetical protein	60	78237	78419	1	0	
+SXT	sul2	Dihydropteroate synthase	271	78428	79243	1	1	Pterin_bind(PF00809):209.7
+SXT	strA	streptomycin phosphotransferase	267	79304	80107	1	1	APH(PF01636):120.2
+SXT	strB	streptomycin phosphotransferase	278	80107	80943	1	2	APH_6_hur(PF04655):390.3;APH(PF01636):26.7
+SXT		Permease of the drug/metabolite transporter (DMT) superfamily	139	81147	81566	1	1	EamA(PF00892):72.2
+SXT	tetA	Tetracycline efflux protein TetA	399	81598	82797	-1	2	MFS_1(PF07690):162.1;Sugar_tr(PF00083):43.0
+SXT	tetR	Transcriptional regulator, TetR family	225	82876	83553	1	2	TetR_C_1(PF02909):112.1;TetR_N(PF00440):62.0
+SXT	merR	MerR family transcriptional regulator	88	83744	84010	1	1	MerR-DNA-bind(PF09278):57.7
+SXT	strB	streptomycin phosphotransferase B	276	84068	84898	1	2	APH_6_hur(PF04655):386.9;APH(PF01636):29.2
+SXT	tnpB	tnpB putative transposase	148	84968	85414	-1	1	Zn_Tnp_IS91(PF14319):41.5
+SXT		truncated helix-turn	101	85526	85831	-1	1	HTH_1(PF00126):80.7
+SXT	floR	florfenicol/chloramphenicol resistance protein	404	85859	87073	-1	2	MFS_1(PF07690):130.1;Sugar_tr(PF00083):24.1
+SXT		hypothetical protein	294	87290	88174	-1	1	DUF3363(PF11843):301.7
+SXT		transposase family protein	307	88205	89128	-1	1	Y2_Tnp(PF04986):90.8
+SXT	dhfR	Dihydrofolate reductase	168	89665	90171	-1	1	DHFR_1(PF00186):168.2
+SXT		transposase family protein	497	90523	92016	-1	2	Y2_Tnp(PF04986):125.2;Zn_Tnp_IS91(PF14319):70.4
+SXT	tnpA	transposase A	992	92434	95412	-1	2	DDE_Tnp_Tn3(PF01526):413.2;DUF4158(PF13700):105.3
+SXT	tnp	transposase	197	95526	96119	-1	1	DDE_Tnp_Tn3(PF01526):197.3
+SXT	UmuC	Error-prone, lesion bypass DNA polymerase V (UmuC)	390	96403	97575	1	4	IMS_C(PF11799):84.1;DUF4113(PF13438):79.2;IMS(PF00817):70.4;IMS_HHH(PF11798):27.9
+SXT		hypothetical protein	44	98052	98186	-1	0	
+SXT		hypothetical protein	55	98231	98398	-1	0	
+SXT		hypothetical protein	324	98494	99468	1	2	ALP_N(PF17989):123.2;MreB-like_C(PF21522):41.2
+SXT		hypothetical protein	89	99471	99740	1	0	
+SXT	int	integrase-like protein	413	99742	100983	1	4	Arm-DNA-bind_3(PF13356):67.5;Phage_integrase(PF00589):48.9;Phage_int_M(PF22022):28.8;Phage_int_SAM_3(PF14659):25.8
+SXT	MutL	DNA mismatch repair protein MutL	672	101113	103131	-1	1	HATPase_c_3(PF13589):53.2
+SXT		hypothetical protein	42	103801	103929	-1	0	
+R27	R0210	unknown	328	1	180461	-1	0	
+R27	R0001	orf; hypothetical protein	125	407	784	-1	0	
+R27	R0002	hypothetical protein	291	843	1718	-1	0	
+R27	trhI	putative DNA helicase	594	2116	3900	-1	5	UvrD-helicase(PF00580):106.7;UvrD_C(PF13361):102.6;AAA_19(PF13245):60.2;UvrD_C_2(PF13538):36.6
+R27	R0004	orf; hypothetical protein	290	4082	4954	1	0	
+R27	trhN	putative mating pair stabilization protein	1058	4982	8158	-1	1	F_T4SS_TraN(PF06986):58.9
+R27	trhU	putative sex pilus assembly and synthesis	315	8181	9128	-1	1	TraU(PF06834):278.2
+R27	trhW	putative transfer protein, pilus formation	502	9378	10886	-1	1	TrbC_Ftype(PF09673):65.7
+R27	trhF	putative signal peptidase I	170	10873	11385	-1	1	Peptidase_S26(PF10502):74.3
+R27	R0009	orf; hypothetical protein	1406	11659	15879	-1	0	
+R27	htdK	putative H transfer determinant	187	16077	16640	-1	1	Whirly(PF08536):24.6
+R27	htdF	putative H transfer determinant	144	16637	17071	-1	0	
+R27	htdA	putative transfer repressor	150	17061	17513	-1	0	
+R27	R0013	orf; hypothetical protein	225	18079	18756	-1	0	
+R27	stbA	putative plasmid partition protein	344	18800	19834	-1	2	StbA_N(PF06406):213.1;ParM_N(PF21523):180.2
+R27	R0015	orf; hypothetical protein	315	20208	21155	1	1	Metallophos(PF00149):23.1
+R27	R0016	orf; hypothetical protein	279	21155	21994	1	0	
+R27	R0017	orf; hypothetical protein	173	21987	22508	1	0	
+R27	R0018	orf; hypothetical protein	130	22505	22897	1	0	
+R27	R0019	putative partition protein	335	23081	24088	-1	1	ParB(PF08775):103.5
+R27	R0020	putative partition protein	417	24085	25338	-1	3	AAA_31(PF13614):69.5;CbiA(PF01656):34.0;MipZ(PF09140):32.1
+R27	R0021	orf; hypothetical protein	135	26188	26595	-1	0	
+R27	R0022	orf; hypothetical protein	34	27134	27238	-1	0	
+R27	R0023	orf; hypothetical protein	106	27477	27797	-1	0	
+R27	trhC	putative transfer protein	893	28465	31146	-1	2	TraC_F_IV(PF11130):160.6;P-loop_TraG(PF19044):76.5
+R27	trhV	putative transfer protein	316	31155	32105	-1	1	TraV(PF09676):45.2
+R27	htdT	putative transfer protein	250	32115	32867	-1	0	
+R27	R0028	orf; hypothetical protein	170	32973	33485	-1	0	
+R27	trhB	putative transfer protein	452	33494	34852	-1	1	TrbI(PF03743):84.0
+R27	R0030	orf; hypothetical protein	146	34842	35282	-1	1	HtdO(PF28168):109.2
+R27	R0031	orf; hypothetical protein	410	35284	36516	-1	0	
+R27	trhE	orf; hypothetical protein	261	36519	37304	-1	1	TraE(PF05309):68.7
+R27	trhL	orf; hypothetical protein	105	37316	37633	-1	1	TraL(PF07178):40.6
+R27	trhA	orf; hypothetical protein	117	37685	38038	-1	0	
+R27	R0035	orf; hypothetical protein	197	38633	39226	1	0	
+R27	repHIA	replication initiation protein	291	39480	40355	-1	1	Rep3_N(PF01051):37.6
+R27	R0037	orf; hypothetical protein	358	40890	41966	1	0	
+R27	R0038	orf; hypothetical protein	66	41984	42184	1	0	
+R27	R0039	orf; hypothetical protein	235	42181	42888	1	0	
+R27	R0040	orf; hypothetical protein	273	43171	43992	1	0	
+R27	R0041	putative DNA adenine methylase (dam)	257	44007	44780	-1	1	MethyltransfD12(PF02086):163.8
+R27	R0042	orf; hypothetical protein	385	45191	46348	1	1	HTH_ParB(PF17762):23.8
+R27	R0043	putative DNA restriction methylase	558	46612	48288	1	2	DUF4942(PF13708):81.8;MTS(PF05175):23.7
+R27	R0044	orf; hypothetical protein	58	48303	48479	1	0	
+R27	R0045	orf; hypothetical protein	719	48925	51084	1	3	Big_3_3(PF13750):191.8;Big_3_2(PF12245):125.4;DUF4165(PF13752):58.7
+R27	R0046	IS30 transposase	383	51035	52186	-1	4	HTH_38(PF13936):82.6;Tnp_IS30_N(PF30461):75.6;rve(PF00665):54.6;HTH_23(PF13384):33.3
+R27	R0047	orf; hypothetical protein	112	52266	52604	1	0	
+R27	R0048	orf; hypothetical protein	67	53055	53258	1	0	
+R27	R0049	orf; hypothetical protein	171	53255	53770	1	0	
+R27	repHIB	replication protein	293	54356	55237	-1	1	Rep3_N(PF01051):37.8
+R27	R0051	orf; hypothetical protein	131	55629	56024	-1	1	Big_3_3(PF13750):28.4
+R27	R0052	orf; hypothetical protein	98	56230	56526	-1	0	
+R27	R0053	orf; hypothetical protein	83	56381	56632	-1	1	Big_3_2(PF12245):36.7
+R27	R0054	orf; hypothetical protein	202	56639	57247	-1	2	DUF4165(PF13752):46.2;Big_3_2(PF12245):30.0
+R27	R0055	orf; hypothetical protein	794	57498	59882	1	3	Big_3_3(PF13750):217.9;Big_3_2(PF12245):70.9;DUF4165(PF13752):69.5
+R27	R0056	orf; hypothetical protein	139	59970	60389	1	0	
+R27	R0057	orf; hypothetical protein	219	60422	61081	-1	0	
+R27	R0058	orf; hypothetical protein	101	61354	61659	-1	0	
+R27	R0059	orf; hypothetical protein	113	61718	62059	-1	0	
+R27	R0060	orf; hypothetical protein	258	62248	63024	-1	0	
+R27	R0061	orf; hypothetical protein	258	63174	63950	-1	0	
+R27	R0062	orf; hypothetical protein	108	64185	64511	-1	0	
+R27	R0063	orf; hypothetical protein	155	64810	65277	1	0	
+R27	R0064	orf; hypothetical protein	73	65319	65540	-1	0	
+R27	R0065	orf; hypothetical protein	317	65874	66827	1	0	
+R27	R0066	orf; hypothetical protein	110	67327	67659	1	0	
+R27	R0067	orf; hypothetical protein	54	67815	67979	1	0	
+R27	R0068	orf; hypothetical protein	268	68207	69013	1	0	
+R27	R0069	orf; hypothetical protein	148	69061	69507	1	0	
+R27	R0070	orf; hypothetical protein	791	69684	72059	1	1	PAPS_reduct(PF01507):25.6
+R27	R0071	orf; hypothetical protein	154	72242	72706	1	0	
+R27	R0072	orf; hypothetical protein	74	72793	73017	1	0	
+R27	R0073	orf; hypothetical protein	58	73125	73301	1	0	
+R27	R0074	orf; hypothetical protein	127	73332	73715	1	0	
+R27	R0075	orf; hypothetical protein	67	73779	73982	1	0	
+R27	R0076	putative IS10 transposase	402	74086	75294	1	1	DDE_Tnp_1(PF01609):87.3
+R27	gltS	putative glutamate permease	401	75660	76865	-1	1	Glt_symporter(PF03616):546.7
+R27	R0078	orf; hypothetical protein	106	77309	77629	1	1	ABM(PF03992):58.8
+R27	R0079	orf; hypothetical protein	165	77511	78008	1	0	
+R27	R0080	orf; hypothetical protein	228	78016	78702	1	2	HTH_5(PF01022):34.6;HTH_20(PF12840):31.1
+R27	tetR	tetracycline repressor protein	208	78680	79306	-1	2	TetR_C_1(PF02909):105.0;TetR_N(PF00440):49.9
+R27	tetA	tetracycline antiporter protein	401	79385	80590	1	2	MFS_1(PF07690):185.0;Sugar_tr(PF00083):29.1
+R27	tetC	tetracycline transcriptional regulator	222	80703	81371	-1	1	TetR_N(PF00440):53.6
+R27	tetD	hypothetical protein	138	81384	81800	1	2	HTH_18(PF12833):76.5;HTH_AraC(PF00165):70.5
+R27	R0085	IS10 transposase	402	81810	83018	-1	1	DDE_Tnp_1(PF01609):87.3
+R27	R0086	orf; hypothetical protein	82	83293	83541	1	0	
+R27	R0087	orf; hypothetical protein	126	83627	84007	1	0	
+R27	R0088	orf; hypothetical protein	102	84215	84523	1	0	
+R27	R0089	orf; hypothetical protein	163	84528	85019	1	1	DUF3085(PF11284):57.5
+R27	R0090	orf; hypothetical protein	86	85108	85368	1	0	
+R27	R0091	orf; hypothetical protein	185	85410	85967	-1	0	
+R27	R0092	orf; hypothetical protein	74	86024	86248	1	0	
+R27	R0093	orf; hypothetical protein	68	86283	86489	1	0	
+R27	insB	IS1 transposase	97	86785	87078	-1	1	DDE_Tnp_IS1(PF03400):117.2
+R27	insA	IS1 transposase	91	86997	87272	-1	2	HTH_Tnp_IS1(PF12759):106.6;Zn_ribbon_InsA(PF03811):76.4
+R27	corA	magnesium and cobalt transport protein	316	87426	88376	-1	1	CorA(PF01544):181.9
+R27	R0097	orf; hypothetical protein	93	88746	89027	1	0	
+R27	R0098	orf; hypothetical protein	107	89195	89518	1	0	
+R27	R0099	orf; hypothetical protein	93	89862	90143	1	0	
+R27	R0100	orf; hypothetical protein	201	90357	90962	1	0	
+R27	stm	plasmid maintenance protein	71	91263	91478	1	1	HOK_GEF(PF01848):66.8
+R27	R0102	orf; hypothetical protein	63	91540	91731	-1	0	
+R27	R0103	orf; hypothetical protein	88	91650	91916	-1	0	
+R27	R0104	orf; hypothetical protein	401	92336	93541	1	1	HTH_ParB(PF17762):25.5
+R27	R0105	orf; hypothetical protein	93	93607	93888	1	0	
+R27	R0106	orf; hypothetical protein	45	93885	94022	1	0	
+R27	R0107	orf; hypothetical protein	62	94240	94428	1	0	
+R27	R0108	orf; hypothetical protein	107	94710	95033	-1	0	
+R27	R0109	orf; hypothetical protein	145	95086	95523	1	0	
+R27	R0110	orf; hypothetical protein	181	95604	96149	1	0	
+R27	R0111	orf; hypothetical protein	78	96195	96431	1	1	DUF905(PF06006):60.4
+R27	R0112	orf; hypothetical protein	77	96807	97040	1	0	
+R27	R0113	orf; hypothetical protein	104	97355	97669	1	0	
+R27	R0114	orf; hypothetical protein	118	97756	98112	1	0	
+R27	R0115	orf; hypothetical protein	242	98139	98867	-1	1	NERD(PF08378):82.6
+R27	R0116	orf; hypothetical protein	393	98869	100050	-1	1	Peptidase_S49(PF01343):108.3
+R27	R0117	orf; hypothetical protein	220	100063	100725	-1	1	DtrJ-like(PF14348):46.1
+R27	R0118	orf; hypothetical protein	367	100712	101815	-1	0	
+R27	traG	orf; hypothetical protein	694	101815	103899	-1	2	TrwB_AAD_bind(PF10412):50.2;TraG-D_C(PF12696):36.4
+R27	traI	orf; hypothetical protein	1011	103899	106934	-1	1	TraI_2(PF07514):110.0
+R27	R0121	orf; hypothetical protein	240	106945	107667	-1	0	
+R27	R0122	orf; hypothetical protein	161	107664	108149	-1	1	MobI(PF19456):78.4
+R27	R0123	orf; hypothetical protein	266	108907	109707	1	0	
+R27	R0124	orf; hypothetical protein	170	109710	110222	1	0	
+R27	R0125	orf; hypothetical protein	42	110782	110910	1	0	
+R27	R0126	putative pilus assembly and synthesis protein	348	110834	111880	1	2	TraF(PF13728):171.3;Thioredoxin_2(PF13098):34.8
+R27	trhH	putative F pilus assembly protein	471	111870	113285	1	1	TraH(PF06122):201.7
+R27	R0128	orf; hypothetical protein	1329	113294	117283	1	1	TraG_N(PF07916):103.1
+R27	R0129	orf; hypothetical protein	203	117530	118141	-1	1	HAD_SAK_2(PF18143):79.6
+R27	bfpH	putative BfpH/trbN- like protein	171	118193	118708	-1	0	
+R27	dsbC	thiol:disulphide interchange protein	249	118856	119605	1	2	Thioredoxin_2(PF13098):60.4;DsbC_N(PF10411):54.2
+R27	R0132	orf; hypothetical protein	130	119631	120023	1	0	
+R27	R0133	orf; hypothetical protein	140	120046	120468	1	0	
+R27	R0134	orf; hypothetical protein	203	120527	121138	-1	0	
+R27	R0135	putative outer membrane protein	269	121245	122054	1	2	DSBA(PF01323):83.8;Thioredoxin_4(PF13462):50.9
+R27	mucB	putative UV protection protein	402	122106	123314	-1	3	IMS(PF00817):93.8;IMS_C(PF11799):73.2;DUF4113(PF13438):58.9
+R27	mucA	putative UV protection protein	165	123349	123846	-1	1	Peptidase_S24(PF00717):79.2
+R27	R0138	orf; hypothetical protein	132	124177	124575	1	0	
+R27	R0139	orf; hypothetical protein	117	124723	125076	1	0	
+R27	R0140	orf; hypothetical protein	948	125841	128687	1	0	
+R27	R0141	putative endolysin	73	128983	129204	1	0	
+R27	R0142	orf; hypothetical protein	128	129454	129840	1	0	
+R27	R0143	orf; hypothetical protein	141	129852	130277	-1	0	
+R27	citA	Putative citrate-proton symport protein	431	130558	131853	-1	2	Sugar_tr(PF00083):117.6;MFS_1(PF07690):109.4
+R27	citB	putative citrate utilisation protein	379	131908	133047	-1	2	CitB(PF27541):194.3;CitB_N(PF30183):105.5
+R27	R0146	orf; hypothetical protein	467	133034	134437	-1	5	FAD_binding_2(PF00890):107.0;DAO(PF01266):61.4;FAD_oxidored(PF12831):35.3;Pyr_redox_2(PF07992):35.0
+R27	nac	putative nitrogen assimilation regulatory protein	308	134535	135461	-1	2	LysR_substrate(PF03466):113.6;HTH_1(PF00126):64.4
+R27	R0148	putative transposase	468	135926	137332	1	4	HTH_32(PF13565):37.6;HTH_29(PF13551):29.7;HTH_28(PF13518):29.6;HTH_23(PF13384):24.7
+R27	R0149	orf; hypothetical protein	348	137384	138430	1	1	DUF3800(PF12686):24.8
+R27	R0150	orf; hypothetical protein	45	138447	138584	-1	0	
+R27	R0151	orf; hypothetical protein	259	138638	139417	-1	1	PLDc_2(PF13091):30.9
+R27	R0152	orf; hypothetical protein	307	139473	140396	-1	0	
+R27	parB	putative partition protein	171	140402	140917	-1	1	SNase(PF00565):81.4
+R27	R0154	EcoRII cytosine methylase	475	141140	142567	1	2	DNA_methylase(PF00145):251.0;DNA_meth_N(PF18284):51.9
+R27	R0155	orf; hypothetical protein	55	142699	142866	1	0	
+R27	R0156	orf; hypothetical protein	439	142891	144210	1	1	DUF1173(PF06666):144.8
+R27	R0157	orf; hypothetical protein	99	144128	144427	1	0	
+R27	tlpA	orf; hypothetical protein	406	144482	145702	-1	0	
+R27	R0159	orf; hypothetical protein	115	145705	146052	-1	1	DUF4942(PF13708):27.4
+R27	R0160	orf; hypothetical protein	151	146062	146517	-1	1	DUF4942(PF13708):38.2
+R27	R0161	orf; hypothetical protein	222	147026	147694	1	1	DUF6884(PF21818):32.7
+R27	R0162	orf; hypothetical protein	90	147691	147963	1	0	
+R27	R0163	orf; hypothetical protein	39	147997	148116	1	0	
+R27	h-ns	DNA binding protein, H-NS-like	134	148225	148629	1	2	Histone_HNS_N(PF22470):86.7;Histone_HNS(PF00816):62.4
+R27	R0165	orf; hypothetical protein	98	149031	149327	-1	0	
+R27	R0166	orf; hypothetical protein	149	149397	149846	-1	1	HNH_2(PF13391):48.7
+R27	R0167	orf; hypothetical protein	135	150154	150561	-1	0	
+R27	R0168	orf; hypothetical protein	268	150679	151485	-1	1	HNH_2(PF13391):28.9
+R27	R0169	orf; hypothetical protein	109	151891	152220	-1	0	
+R27	R0171	orf; hypothetical protein	132	152087	152485	-1	0	
+R27	R0172	orf; hypothetical protein	130	152485	152877	-1	0	
+R27	R0173	orf; hypothetical protein	91	153134	153409	-1	0	
+R27	R0174	orf; hypothetical protein	168	153527	154033	1	0	
+R27	R0175	orf; hypothetical protein	357	154290	155363	-1	1	CoiA_N(PF25164):29.1
+R27	R0176	orf; hypothetical protein	121	155234	155599	-1	0	
+R27	insB	IS1 transposase	167	155773	156276	-1	1	DDE_Tnp_IS1(PF03400):242.9
+R27	insA	IS1 transposase	91	156195	156470	-1	2	HTH_Tnp_IS1(PF12759):104.8;Zn_ribbon_InsA(PF03811):75.3
+R27	repFIB	replication protein	251	156848	157603	-1	2	Rep3_N(PF01051):107.1;Rep3_C(PF21205):63.1
+R27	insB	IS1 transposase	167	158185	158688	-1	1	DDE_Tnp_IS1(PF03400):245.0
+R27	insA	IS1 transposase	94	158607	158891	-1	2	HTH_Tnp_IS1(PF12759):104.7;Zn_ribbon_InsA(PF03811):46.1
+R27	hha	putative regulator of expression	61	159190	159375	-1	1	HHA(PF05321):70.6
+R27	R0183	orf; hypothetical protein	393	159617	160798	1	1	Phage_integrase(PF00589):47.4
+R27	R0184	orf; hypothetical protein	114	160823	161167	-1	0	
+R27	R0185	orf; hypothetical protein	302	161103	162011	-1	0	
+R27	R0186	orf; hypothetical protein	319	162022	162981	-1	1	Ter(PF05472):71.8
+R27	R0187	orf; hypothetical protein	91	163070	163345	-1	0	
+R27	R0188	orf; hypothetical protein	75	163352	163579	-1	0	
+R27	R0189	orf; hypothetical protein	151	163563	164018	-1	0	
+R27	R0190	orf; hypothetical protein	178	164035	164571	-1	0	
+R27	R0191	orf; hypothetical protein	85	164645	164902	-1	0	
+R27	R0192	orf; hypothetical protein	156	164910	165380	-1	0	
+R27	R0193	orf; hypothetical protein	89	165555	165824	-1	0	
+R27	R0194	orf; hypothetical protein	149	166237	166686	-1	0	
+R27	R0195	IS2 hypothetical orf	301	166661	167566	-1	4	Tnp_IS2_N(PF30445):77.0;rve_3(PF13683):67.4;rve(PF00665):60.8;HTH_21(PF13276):43.2
+R27	R0197	IS2 hypothetical orf	121	167524	167889	-1	1	HTH_Tnp_1(PF01527):65.8
+R27	R0198	orf; hypothetical protein	183	167978	168529	-1	0	
+R27	R0199	orf; hypothetical protein	311	168706	169641	-1	0	
+R27	R0200	orf; hypothetical protein	306	169714	170634	-1	0	
+R27	R0201	orf; hypothetical protein	311	170712	171647	-1	0	
+R27	R0202	orf; hypothetical protein	292	171718	172596	-1	0	
+R27	R0203	orf; hypothetical protein	174	172674	173198	-1	0	
+R27	R0204	orf; hypothetical protein	417	173473	174726	-1	2	DUF7146(PF23639):60.5;Toprim_3(PF13362):42.5
+R27	R0205	orf; hypothetical protein	73	174820	175041	-1	0	
+R27	R0206	orf; hypothetical protein	670	175113	177125	-1	1	VWA(PF00092):33.2
+R27	R0207	orf; hypothetical protein	375	177203	178330	-1	1	DUF3150(PF11348):80.7
+R27	R0208	orf; hypothetical protein	89	178401	178670	-1	0	
+R27	R0209	orf; hypothetical protein	358	178709	179785	-1	1	AAA_5(PF07728):111.6

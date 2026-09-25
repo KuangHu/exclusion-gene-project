@@ -1,0 +1,11 @@
+family	kind	in_position	total_hits	in_slot_ratio
+NF033894	known_exclusion_family	3704	4807	0.7705
+TIGR04359	known_exclusion_family	207	255	0.8118
+VirB10_family_0 (n=1223)	null_negative_anchor	4383	15199	0.2884
+VirB10_family_1 (n=105)	null_negative_anchor	409	1351	0.3027
+VirB10_family_2 (n=100)	null_negative_anchor	143	1189	0.1203
+VirB10_family_3 (n=65)	null_negative_anchor	62	853	0.0727
+VirB10_family_4 (n=52)	null_negative_anchor	169	236	0.7161
+VirB10_family_5 (n=26)	null_negative_anchor	82	110	0.7455
+VirB10_family_6 (n=14)	null_negative_anchor	33	560	0.0589
+VirB10_family_7 (n=13)	null_negative_anchor	12	7505	0.0016

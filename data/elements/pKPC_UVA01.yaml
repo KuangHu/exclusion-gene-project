@@ -1,0 +1,84 @@
+# pKPC_UVA01 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: pKPC_UVA01
+element_type: plasmid
+inc_group: IncP/IncN-like
+mpf_class: MPF_T
+host: Klebsiella pneumoniae CAV1016
+size_bp: 43621
+accessions:
+  primary: CP009465.1
+  crosscheck: NZ_CP009465.1
+  parts:
+  - CP017937.1
+  status: PROVISIONAL
+  note: two live duplicate records at identical length; the tie cannot be broken by aa_sha256 because
+    the trbK-like gene is absent from BOTH annotations
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: trbK-like
+  type: entry
+  evidence_tier: E2
+  exclusion_index: EI >300, ~400, 200-400 fold, max >2800 (kamruzzaman2022 as retrieved)
+  protein_length_reported_aa: 151
+  resolved_orf: AJE44581.1 (152 aa, CP009465.1:21029..21487, 47 bp upstream of trbL-like)
+  resolution_evidence: kamruzzaman2022 states 151 aa, explicitly TWICE RP4 TrbK's 69 aa. That excludes
+    the 63-aa lipobox candidate AJE44587.1 outright. AJE44581.1 is 152 aa (off by one, most likely initiator-Met
+    counting) at the operon position the paper's trbJ-trbK-trbL model requires.
+  resolution_caveat: UNCONFIRMED. The paper gives NO locus tag and NO coordinates. It describes a lipoprotein
+    signal, but AJE44581.1 has NO lipobox cysteine -- a comprehensive scan of BOTH pKPC records found
+    no ORF with a lipobox AND Asp at +2. Cleaving AJE44581.1 after ...SANA| does put Asp at +2 of the
+    mature peptide, consistent with the paper, but via signal peptidase I rather than lipoprotein processing.
+    Do not promote above E4 without the locus tag.
+  requirement: required in BOTH donor and recipient -- the only dual-requirement system in the set
+  specificity_determinant: not mapped
+  sequence:
+    status: NOT_RECOVERED
+    needs: manual coordinates from the primary paper
+  hmm_hit: no_seq
+  hmm_model: ''
+  benchmark_role: pending -- no sequence yet
+partner:
+  gene: trbL-like
+  family: VirB6
+  virb_equivalent: VirB6
+  status: predicted
+  specificity_residues: null
+  sequence:
+    protein_accession: AJE44582.1
+    length_aa: 324
+    aa_sha256: f8257e4d7d8cffadb441a76b1fea41d84855bb60c8a807c79ac51840d818bb74
+    coords: CP009465.1:21534..22508
+    strand: +
+    route: product
+  domain_id: PF04610 (TrbL)
+context:
+  operon:
+    name: IncP-type trb cluster
+    genes:
+    - trbJ-like
+    - trbK-like
+    - trbL-like
+    orientation: +
+    note: structurally isomorphic to RP4 Tra2. Full gene list and coordinates are not given in the literature
+      and must be computed from the accession, ideally by aligning against the RP4 trbA-trbP frame
+  adjacency:
+    proximity:
+      measured_bp: null
+      measured_from: null
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: by homology to RP4 Tra2; gene absent from both annotations so unmeasured
+notes:
+- Highest exclusion index in the set (EI ~1000). Dual donor+recipient requirement is mechanistically distinct
+  from every other row
+schema_version: 1.1.0
+scope: entry_exclusion_only

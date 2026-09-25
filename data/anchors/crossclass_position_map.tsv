@@ -1,0 +1,15 @@
+virb_position	mpf_T_family	mpf_T_name	mpf_F_family	mpf_F_name	evidence	best_evalue	bit	seed_pair
+VirB10	PF03743	TrbI	PF03743	TrbI	shared_family	identity		-
+VirD4	PF02534	T4SS-DNA_transf	PF10412	TrwB_AAD_bind	phmmer_hit	5.6e-51	164.9	R100/R388
+VirB4	PF03135	CagE_TrbE_VirB	PF11130	TraC_F_IV	phmmer_hit	1.8e-09	27.6	R27/R388
+VirB1	PF01464	SLT			unresolved			
+VirB2	PF04956	TrbC			unresolved			
+VirB3	PF05101	VirB3			unresolved			
+VirB4	PF27097	VirB4_TrbE_N			unresolved			
+VirB5	PF07996	T4SS			unresolved			
+VirB6	PF04610	TrbL			unresolved			
+VirB7	PF20898	P_T4SS_TraN			unresolved			
+VirB8	PF04335	VirB8			unresolved			
+VirB9	PF03524	CagX			unresolved			
+VirB11	PF00437	T2SSE			unresolved			
+TraN	PF06986	F_T4SS_TraN			unresolved			

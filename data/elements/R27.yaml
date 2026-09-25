@@ -1,0 +1,164 @@
+# R27 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: R27
+element_type: plasmid
+inc_group: IncHI1
+mpf_class: MPF_F chimera
+host: Salmonella enterica ser. Typhi
+size_bp: 180461
+accessions:
+  primary: AF250878.1
+  crosscheck: NC_002305.1
+  parts: []
+  status: PROVISIONAL
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: eexA
+  type: entry
+  evidence_tier: E3
+  synonym: trhZ
+  evidence_tier_note: 'E3 not E1/E2: the coordinates are HOMOLOGY-INFERRED plus positional corroboration,
+    NOT extracted from gunton2008. The phenotype is E2 in the literature but this ROW''s sequence provenance
+    is inference.'
+  homolog_source: 'A0A0H2XLF7 (TrhZ, 129 aa) from pAPEC-O1-R = NC_009838.1 / DQ517526.1, 241,387 bp. PlasmidFinder
+    (local PLSDB): IncHI2A + IncHI2. R27 is IncHI1A + IncHI1B(R27) -- so this is a CROSS-Inc-group comparison
+    inside the IncH family, and the 78.1% identity must be read as such. The positional corroboration
+    (R0015-R0018 matching the curated Z-operon ORF numbering) is independent of the homology and is the
+    stronger half of the evidence.'
+  localisation: inner membrane
+  specificity_determinant: not mapped
+  resolved_orf: R0018 / AAF69857.1, 130 aa, AF250878.1:22505..22897 (+)
+  resolution_method: 'UniProt homolog anchoring, not the paper. AF250878.1 carries NO trhZ/eexA name (locus
+    tags R0001-R0210 only). Searched the record with UniProt TrhZ homolog A0A0H2XLF7 (129 aa, pAPEC-O1-R):
+    best hit R0018 at 78.1% local identity, score 533 vs 52 for the runner-up. Corroborated positionally:
+    R0015/R0016/R0017/R0018 correspond exactly to the curated Z operon trhO(015)-orf016(eexB)-orf017-trhZ(eexA),
+    including the ORF numbering.'
+  note: eexB = R0016 / AAF69855.1, 279 aa (orf016, outer membrane, SURFACE exclusion) -- out of scope
+    under the entry-only cut, recorded here because the homolog search located it too
+  sequence:
+    protein_accession: AAF69857.1
+    length_aa: 130
+    aa_sha256: 1e62c0e79d127cf75dcdc69fb83813874f8ad515849b9a6086d09a4e10c683cd
+    coords: AF250878.1:22505..22897
+    strand: +
+    route: gene_regex
+  hmm_hit: no_hit
+  hmm_model: ''
+  benchmark_role: DE NOVO TARGET -- no existing HMM family finds this gene
+partner:
+  gene: trhG
+  family: VirB6
+  virb_equivalent: VirB6 (F-TraG homolog)
+  status: predicted
+  evidence_tier: E3
+  homolog_source: A0A0H2XKG9 (TrhG, 1317 aa) from pAPEC-O1-R (IncHI2), same cross-group caveat as eexA.
+    Corroborated by PF07916 TraG_N hit at score 72.1 and by sitting 9 bp after trhH.
+  located_in: Tra1, F operon
+  specificity_residues: null
+  resolved_orf: R0128 / AAF69966.1, 1329 aa, AF250878.1:113294..117283 (+)
+  resolution_method: 'UniProt homolog anchoring with A0A0H2XKG9 (TrhG, 1317 aa): 76.1% local identity,
+    score 5240 vs 69 for the runner-up. Corroborated positionally -- it sits 9 bp downstream of trhH (AAF69965.1),
+    matching the curated Tra1 F operon trhF-trhH-trhG.'
+  sequence:
+    protein_accession: AAF69966.1
+    length_aa: 1329
+    aa_sha256: b6c2f78c16b955314e316b3e1d58a274efabfc510661ca5a0cb65737a5f90f48
+    coords: AF250878.1:113294..117283
+    strand: +
+    route: gene_regex
+  domain_id: PF07916 (TraG_N)
+context:
+  operon:
+    name: Tra2 Z operon
+    genes:
+    - trhO (orf015)
+    - orf016 (eexB)
+    - orf017
+    - trhZ (eexA)
+    orientation: '-'
+    note: REVERSE relative to the other two Tra2 operons
+  tra1:
+    size_orfs: 14
+    operons:
+      H:
+      - traJ
+      - traG
+      - traI
+      - traH
+      R:
+      - trhR
+      - trhY
+      - trhX
+      F:
+      - trhF
+      - trhH
+      - trhG
+    note: oriT lies between traH and trhR. TraG here is the T4CP (VirD4 class), interacts with TrhB --
+      NOT the VirB6 homolog; that is TrhG
+  tra2:
+    size_kb: 36
+    n_orfs: 28
+    operons:
+      AC:
+      - trhA
+      - trhL
+      - trhE
+      - trhK
+      - orf030
+      - trhB
+      - orf028
+      - orf027
+      - trhV
+      - trhC
+      Z:
+      - trhO
+      - orf016
+      - orf017
+      - trhZ
+      AN:
+      - htdA
+      - htdF
+      - htdK
+      - orf009
+      - trhP
+      - trhW
+      - trhU
+      - trhN
+    orientations:
+      AC: +
+      Z: '-'
+      AN: +
+  components:
+    trhA: pilin
+    trhK: secretin-like (VirB9/TraK)
+    trhC: VirB4 ATPase
+    trhN: TraN homolog (Mps)
+    trhW: N-terminus is a fusion of F TrbC
+  regulation: TrhR/TrhY activate, HtdA represses; Hha/H-NS thermoregulation (optimal 30 C, suppressed
+    at 37 C); cAMP/CRP and growth-phase dependent
+  adjacency:
+    proximity:
+      measured_bp: 90396
+      measured_from: AF250878.1
+      within_discovery_window: false
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: false
+      genes_between: null
+    supports_discovery_heuristic: false
+    supports_synteny_claim: false
+    note: 'eexA in the Tra2 Z operon (reverse strand); target TrhG in the Tra1 F operon -- a different
+      transfer region entirely. NOW MEASURED (2026-09-02): eexA 22505..22897 and trhG 113294..117283 are
+      90,396 bp apart on the SAME strand -- 15x outside the +/-6 kb discovery window. Note the correction:
+      they ARE co-oriented, so the rule fails on DISTANCE and operon membership, not on strand. The quantitative
+      counterexample the set needed.'
+notes:
+- THE COUNTEREXAMPLE. eexA sits in Tra2 on the REVERSE strand; its predicted target TrhG is in Tra1; TrhN
+  (the eexB target) is in the Tra2 AN operon. None of the three are adjacent. This is the most complete
+  refutation available of the adjacency-plus-same-strand rule
+- Temperature MUST be recorded for any IncHI1 exclusion index -- conjugation is thermosensitive
+schema_version: 1.1.0
+scope: entry_exclusion_only

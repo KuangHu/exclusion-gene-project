@@ -1,0 +1,31 @@
+# CURATED anchor set. Hand-maintained; NOT generated.
+# The raw read-off from scripts/80_determine_anchors.py is anchor_set_RAW_readoff.tsv.
+# That script previously wrote HERE and clobbered this file, destroying the
+# threshold column, the VirB5 rationale and the VirB7 row. Paths are now separate.
+#
+# threshold:
+#   GA                     the model's gathering threshold
+#   GA AND aa>150          GA, plus a length conjunct (VirB5 only)
+#
+# NO ANCHOR THRESHOLD MAY BE AN E-VALUE. hmmsearch reports E = P * N, so an
+# E-value threshold depends on the size of the database searched: the same rule
+# on the same sequences gave 5,368 hits in a 1.1M-protein search and 5,341 in a
+# 7.7M-protein search. Bitscore cutoffs (GA) are invariant. Enforced by A13.
+#
+# RED LINE (v2 1.3): no exclusion-gene family appears here. TIGR04359, NF033894,
+# NF041429, NF033891, PF10624, PF14729 are POST-HOC CLASSIFICATION ONLY.
+virb	pfam_name	pfam_acc	threshold	role	validated_on	note
+VirB1	SLT	PF01464	GA	annotation	pKM101/traL	
+VirB2	TrbC	PF04956	GA	annotation	RP4/trbC;R751/trbC;pKM101/traM	
+VirB3	VirB3	PF05101	GA	annotation	RP4/trbD;pKM101/traA	
+VirB4	CagE_TrbE_VirB	PF03135	GA	entry_criterion	all four controls	SOLE entry filter (v2 3.1/3.2). Admits all four at GA: RP4 97, R751 90, pKM101 99, R388 121. Measured failure rate over 7,436 VirB4+: 0% by construction
+VirB4	VirB4_TrbE_N	PF27097	GA	entry_criterion_secondary	all four controls	Scores HIGHER on IncP (RP4 114 vs 97). Not required; kept as a sensitivity check on the VirB4-negative remainder
+VirB5	T4SS	PF07996	GA AND aa>150	slot_empty_test	RP4/trbJ;R751/trbJ;pKM101/traC;R388	THRESHOLD CORRECTED 2026-09-14: was 'E<=1e-5 AND aa>150'. That rule is WITHDRAWN -- see docs/virb5_evalue_threshold_invalid.md. Its stated rationale was that GA loses RP4 trbJ (17.7 bits) and R751 trbJ (22.2) while E-values rescue them (7.9e-07, 3.4e-08). Measured under the pipeline's own hmmsearch (job 25913366) the SAME proteins score 17.7 bits E=0.22 and 22.2 bits E=0.0093: BOTH FAIL E<=1e-5. The rescuing E-values came from a protein-vs-Pfam scan (N~30,134 models), not a model-vs-proteome search (N=1,099,911). The rule never rescued its own controls. It was also STRICTER than the GA it replaced -- E=1e-5 falls at ~31.7 bits vs GA 24.7 -- costing ~177 plasmids while documented as a loosening (GA 5,545 vs E-rule 5,368). Its recorded count of 5,424 reproduces from NEITHER rule; the 56-plasmid residual is unexplained and recorded as such. MEASURED AT GA AND aa>150 (job 25913461): 5,545 of 7,436 = 25.4% failure. RP4 and R751 are recovered instead by the DISJUNCTION with CONJScan T4SS_T_virB5, which scores them 105.6 and 122.3 -- see data/anchors/anchor_disjunction_v1_1.tsv. With that disjunction VirB5 failure is 7.5%. The aa>150 conjunct is RETAINED and must appear on BOTH arms. TIER: 7.5% sits between the core band (4.1-4.9%) and the peripheral band (13.2-20.9%); VirB5 is assigned NO binary tier label -- carry the failure rate itself.
+VirB6	TrbL	PF04610	GA	slot_downstream_boundary	all four controls	Clean single family: 137, 143, 145, 170. Measured failure 4.9%
+VirB7	P_T4SS_TraN	PF20898	GA	annotation_only	pKM101/traN 48 aa score 33.1	BLIND-SPOT CLAIM RETRACTED -- see docs/virb7_blindspot_RETRACTED.md. The family EXISTS (PF20898 P-type, PF06986 F-type). The earlier "no Pfam family" reading was an artefact of the labelling step: Pyrodigal does not call the 48 aa ORF at U09868.1:7899..8045, so nothing was ever scanned as VirB7. Usable for annotation; NOT for slot bounding, because the CALLER often will not supply the protein. Confirmed at scale by the ladder: PF20898 hits 206/7,436 = 2.8%, and PF06986 174/7,436 = 2.3%. A 97% failure rate for a family that demonstrably EXISTS is a caller limit, not a model limit -- these are 48 aa ORFs
+VirB8	VirB8	PF04335	GA	annotation	RP4/trbF;pKM101/traE	Measured failure 4.9%
+VirB9	CagX	PF03524	GA	annotation	RP4/trbG;R751/trbG;pKM101/traO	Measured failure 4.9%
+VirB10	TrbI	PF03743	GA	annotation	pKM101/traF	
+VirB11	T2SSE	PF00437	GA	annotation	RP4/trbB;R751/trbB;pKM101/traG	
+VirD4	T4SS-DNA_transf	PF02534	GA	annotation	coupling protein	Added for the neighbour-identity slot test: the 5'-of-VirB6 gene is scored against every canonical component, not against VirB5 alone
+TraN	F_T4SS_TraN	PF06986	GA	sect7_traN_slot	F/traN 268.0;IncC/traN 93.3	For a traN-slot extension (v2 7). WELL COVERED, contrary to the earlier pessimism

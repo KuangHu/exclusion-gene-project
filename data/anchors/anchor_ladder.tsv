@@ -1,0 +1,15 @@
+anchor	pfam_name	pfam_acc	threshold	role	n_proteins_hit	n_plasmids_with_hit	detection_pct	failure_pct
+VirB1	SLT	PF01464	GA	annotation	7479	5984	80.47	19.53
+VirB2	TrbC	PF04956	GA	annotation	6287	5884	79.13	20.87
+VirB3	VirB3	PF05101	GA	annotation	7153	6769	91.03	8.97
+VirB4	CagE_TrbE_VirB	PF03135	GA	entry_criterion	7869	7436	100.0	0.0
+VirB4	VirB4_TrbE_N	PF27097	GA	entry_criterion_secondary	7325	6926	93.14	6.86
+VirB5	T4SS	PF07996	E<=1e-5 AND aa>150	slot_empty_test	5556	5424	72.94	27.06
+VirB6	TrbL	PF04610	GA	slot_downstream_boundary	7530	7069	95.06	4.94
+VirB7	P_T4SS_TraN	PF20898	GA	annotation_only	207	206	2.77	97.23
+VirB8	VirB8	PF04335	GA	annotation	7520	7070	95.08	4.92
+VirB9	CagX	PF03524	GA	annotation	7567	7068	95.05	4.95
+VirB10	TrbI	PF03743	GA	annotation	7732	7083	95.25	4.75
+VirB11	T2SSE	PF00437	GA	annotation	8639	7087	95.31	4.69
+VirD4	T4SS-DNA_transf	PF02534	GA	annotation	8000	7133	95.93	4.07
+TraN	F_T4SS_TraN	PF06986	GA	sect7_traN_slot	181	174	2.34	97.66

@@ -1,0 +1,8 @@
+cluster	n_unique_r0	n_records_r0	branch	seeds	medoid_aa	hits_total	hits_in_slot	in_slot_over_total	hit_plasmids	median_hit_aa	profile_nseq	lipobox_pct
+15	3	13	novel_family		87	13	13	1.0	13	86	3	0.0
+0	2	2	novel_family		152	2	2	1.0	2	315	2	0.0
+1	323	705	novel_family		157	1172	714	0.609	1149	150	323	77.5
+12	3	14	novel_family		106	43	17	0.395	42	105	3	0.0
+5	5	7	novel_family		235	152	7	0.046	152	183	5	2.0
+4	2	2	novel_family		334	27390	185	0.007	12522	334	2	0.6
+3	2	2	novel_family		308	16974	29	0.002	10047	276	2	0.2

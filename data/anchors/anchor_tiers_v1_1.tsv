@@ -1,0 +1,33 @@
+# Anchor detection failure rates over the 7,436-plasmid MPF_T set (PF03135-admitted).
+#
+# CURATED. This REPLACES the binary core/peripheral label.
+#
+# WHY NO BINARY LABEL: VirB5 at 7.5% falls between the tightest group (4.1-4.9%)
+# and the next (9.0-20.9%). Any cutoff placed between them is arbitrary, and a
+# binary column would discard the failure rate -- which is the actual measurement.
+# `group` below is a DESCRIPTIVE annotation of where a rate falls, not a threshold
+# any downstream code may branch on. Code that needs a cut must declare its own
+# and say so; do not read `group` as a decision.
+#
+# failure_ga        Pfam model at its own threshold (anchor_set.tsv)
+# failure_final     after an ADMISSIBLE disjunction, else identical to failure_ga
+# disjunction       adopted / REJECTED (+ the control that rejected it) / n/a
+#
+# A rejected disjunction's union is NOT recorded here in the failure column,
+# deliberately: VirB2 would read 5.2% and VirB3 5.0%, and those numbers must not
+# become quotable. They are in data/anchors/peripheral_anchor_swap.tsv with their
+# rejection reasons attached.
+#
+anchor	failure_ga	failure_final	group	disjunction	note
+VirB4	0.0	0.0	entry	n/a	Entry criterion. 0% by construction -- the set IS the PF03135-positive plasmids. Not evidence of model quality
+VirD4	4.1	4.1	tightest	n/a	
+VirB10	4.7	4.7	tightest	n/a	
+VirB11	4.7	4.7	tightest	n/a	
+VirB8	4.9	4.9	tightest	n/a	
+VirB9	4.9	4.9	tightest	n/a	
+VirB6	4.9	4.9	tightest	REJECTED (band 15.6%)	Slot-defining. Disjunction rejected: only 15.6% of new admissions fall in the measured 274-426 aa band. A bad VirB6 would corrupt slot coordinates, so this rejection is load-bearing
+VirB5	25.4	7.5	between	adopted (band 91.3%, cross-class 6.6%)	Sits between the tightest group and the next with no clean boundary. Recovers RP4/R751, which PF07996 misses at GA AND at the withdrawn E-value rule. See docs/virb5_evalue_threshold_invalid.md
+VirB3	9.0	9.0	looser	REJECTED (cross-class 57.4%)	A MAJORITY of new admissions are MPF_F. Its band control was VACUOUS (1-2139 aa, 100%) so this rejection rests on ONE control, not two
+VirB1	19.5	13.2	looser	adopted (band 95.4%, cross-class 8.5%)	Absence is independently REAL: 1,118 of 1,452 VirB1-negative plasmids carry all seven core anchors. Excluded from tiering. Served as the negative control that made the VirB2/VirB3/VirB6 rejections interpretable
+VirB2	20.9	20.9	looser	REJECTED (cross-class 33.1%)	
+VirB7	97.2	97.2	caller-limited	n/a	NOT a model failure. PF20898 exists and works; Pyrodigal does not call the 48 aa ORF. See the VirB7 row in anchor_set.tsv

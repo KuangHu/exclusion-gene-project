@@ -1,0 +1,8 @@
+family	n_unique	median_aa	lipobox_strict_pct	lipobox_relaxed_pct	lipobox_structural_pct	median_max_kd	len_q1	len_q3	in_60_200_pct
+Eex_IncN	385	80	89.9	92.2	57.7	1.5	77	88	99.7
+ExcA	205	215	0.0	1.0	2.9	2.24	210	219	9.3
+TraS	162	163	6.8	85.8	90.1	2.34	159	165	92.6
+TrbK	49	75	87.8	93.9	65.3	1.74	72	78	85.7
+TrbK_Pfam	35	104	11.4	11.4	5.7	2.27	95	119	100.0
+TraT	10	243	60.0	90.0	30.0	2.11	242	417	20.0
+DUF4467	9	116	55.6	88.9	55.6	1.91	116	117	100.0

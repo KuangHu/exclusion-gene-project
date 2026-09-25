@@ -1,0 +1,30 @@
+# v1.1 anchor detection: Pfam OR CONJScan, with the SAME conjunct on both sides.
+#
+# CURATED. Generated scripts must not write here (A9).
+#
+# RULE (user-stated, v1.1): a disjunction is admissible only if the added side
+# carries the IDENTICAL conjunct as the Pfam side. A disjunction whose two arms
+# have different conjuncts is not a detector, it is two detectors with a union
+# taken over incomparable sets.
+#
+# A row is only added after BOTH controls pass on the new admissions:
+#   length band   >=80% inside the anchor's own robust band (Q1-1.5IQR, Q3+1.5IQR)
+#                 measured from the PFAM hits, never assumed or transferred
+#   cross-class   <10% of new plasmids also admitted by the MPF_F entry criterion
+#
+# The retracted phmmer recall failed exactly these: VirB5's "recovered" proteins
+# were median 816 aa against a 238 aa family, 85.6% already assigned elsewhere.
+#
+# conjunct is the anchor's OWN. VirB5's aa>150 is NOT transferred to other rows:
+# VirB2 is a pilin whose mature form is ~70-100 aa and aa>150 would delete it.
+#
+# status: ACTIVE     used by the v1.1 builder
+#         TESTED_NO  measured, controls failed or no material gain, kept as record
+#         PENDING    not yet measured
+#
+virb	pfam_acc	pfam_thresh	conjscan_profile	conjscan_thresh	conjunct	status	evidence
+VirB5	PF07996	GA	T4SS_T_virB5	GA	aa>150	ACTIVE	job 25913461. E-value threshold WITHDRAWN -- see docs/virb5_evalue_threshold_invalid.md. 25.4% -> 7.5%; band 91.3%, cross-class 6.6%. Recovers RP4/R751 (CONJScan 105.6/122.3) which PF07996 misses at GA AND at E<=1e-5
+VirB1	PF01464	GA	T4SS_T_virB1	GA	none	ACTIVE	job 25913461. PASSES both controls (band 95.4%, cross-class 8.5%) and stays peripheral 19.5% -> 13.2%. This is the NEGATIVE CONTROL that makes the three rejections readable: CONJScan profiles are not uniformly permissive
+VirB2	PF04956	GA	T4SS_T_virB2	GA	none	TESTED_NO	job 25913461. REJECTED: cross-class 33.1% MPF_F (limit 10%). Union would read 5.2% but is NOT read. GA stands at 20.9%. Two-tier NOT overturned for VirB2
+VirB3	PF05101	GA	T4SS_T_virB3	GA	none	TESTED_NO	job 25913461. REJECTED: cross-class 57.4% MPF_F -- a MAJORITY of new admissions are F-type. Union would read 5.0% but is NOT read. GA stands at 9.0%
+VirB6	PF04610	GA	T4SS_T_virB6	GA	none	TESTED_NO	job 25913461. REJECTED: only 15.6% of new admissions in the measured band. Slot-defining anchor, so a bad VirB6 would corrupt slot coordinates. GA stands at 4.9%

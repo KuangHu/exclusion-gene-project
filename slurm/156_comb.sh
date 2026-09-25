@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=comb
+#SBATCH --account=pc_rubinlab
+#SBATCH --partition=cf1
+#SBATCH --qos=cf_debug
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --time=1:00:00
+#SBATCH --output=/global/home/users/kh36969/exclusion_gene_project/logs/comb_%j.out
+#SBATCH --error=/global/home/users/kh36969/exclusion_gene_project/logs/comb_%j.err
+set -euo pipefail
+export PATH="/global/home/users/kh36969/.conda/envs/claude-env/bin:$PATH"
+cd /global/home/users/kh36969/exclusion_gene_project
+python3 -u scripts/156_combine_filters.py

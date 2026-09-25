@@ -1,0 +1,105 @@
+# R100 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: R100
+element_type: plasmid
+inc_group: IncFII
+mpf_class: MPF_F
+host: Shigella flexneri 2b
+size_bp: 94281
+accessions:
+  primary: AP000342.1
+  crosscheck: NC_002134.1
+  parts: []
+  status: PINNED
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: traS
+  type: entry
+  evidence_tier: E1
+  specificity_determinant: not mapped
+  sequence:
+    protein_accession: BAA78881.1
+    length_aa: 159
+    aa_sha256: d54e540dd46ba81e0898297f2996ec012d80fe45015f05178e28054d2fb4fc30
+    coords: AP000342.1:74000..74479
+    strand: +
+    route: gene
+  hmm_hit: HIT
+  hmm_model: TraS PF10624.15 score=312.5
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: traG
+  family: VirB6
+  virb_equivalent: VirB6
+  status: verified
+  specificity_residues: TraG 610-673 in F numbering; R100 equivalent must be projected through the alignment,
+    NOT copied as a bare range
+  specificity_measured: 'F vs R100 TraG: 92.8% identical overall, 51.6% over the window, 6.9x substitution
+    enrichment (p=4.2e-19)'
+  sequence:
+    protein_accession: BAA78880.1
+    length_aa: 940
+    aa_sha256: 9cf4ff1716fdaba21745849f336de75d519df30f6adc8d0be6194de7eae1d1e0
+    coords: AP000342.1:71156..73978
+    strand: +
+    route: gene
+  domain_id: PF07916 (TraG_N)
+context:
+  operon:
+    name: tra operon (P_Y) -- same architecture as F
+    genes:
+    - traY
+    - traA
+    - traL
+    - traE
+    - traK
+    - traB
+    - traP
+    - traV
+    - traC
+    - traW
+    - traU
+    - trbC
+    - traN
+    - traF
+    - trbB
+    - traH
+    - traG
+    - traS
+    - traT
+    - traD
+    - traI
+    - traX
+    orientation: +
+    note: gene order around traG-traS-traT is identical to F
+  adjacency:
+    proximity:
+      measured_bp: 21
+      measured_from: AP000342.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: null
+notes:
+- THE POSITION-CONSERVED / SEQUENCE-DIVERGED CONTROL, argued from HMM detection rather than percent identity.
+  The Pfam family PF10624 ('Plasmid conjugative transfer entry exclusion protein TraS'), built on the
+  IncFII type, scores R100 traS at 312.5 at the GA threshold and DOES NOT DETECT F traS at all. A purpose-built
+  family for this exact gene cannot cross from IncFII to IncFI. Yet both sit in the same operon slot immediately
+  downstream of traG. That is a threshold-anchored, reproducible statement and it is the cleanest single
+  argument for the position-first strategy.
+- 'DO NOT use the F/R100 TraS percent identity for this argument. The alignment is marginal -- 74 of 203
+  columns gapped (36%) -- and the value is unstable to method: 17.7% (BLOSUM62 -11/-1, id/alignment length),
+  27.9% (same alignment, id/ungapped columns), 25.5% (BLOSUM45), 40.0% (local, over a 15-residue block).
+  Both original figures were correct arithmetic under different denominators (see scripts/lib/metrics.py,
+  A6), but no single number here is a stable claim'
+- PGAP re-annotation of NC_002134.1 DROPPED the /gene="traS" qualifier that AP000342.1 carries -- the
+  origin of the GenBank-primary policy in scripts/lib/ncbi.py
+schema_version: 1.1.0
+scope: entry_exclusion_only

@@ -1,0 +1,17 @@
+# S7 nomenclature reconciliation. Historical names are retained so old
+# literature stays searchable. relation:
+#   synonym    historical name for the same gene -> map to canonical
+#   deprecated annotated as exclusion, is not -> never score as a hit
+#   collision  ONE name, TWO unrelated meanings -> must never be cross-matched
+historical_name	canonical	relation	element_scope	explanation
+trhZ	eexA	synonym	R27	R27 entry exclusion, inner membrane
+ORF016	eexB	synonym	R27	R27 surface exclusion, outer membrane
+sec10	prgA	synonym	pCF10	E. faecalis aggregation substance
+exc	excAB	synonym	R64;R621a	the excA/excB pair, translational reinitiation
+exc1	NA	deprecated	ColE1	annotated as exclusion; experimentally shown inactive
+exc2	NA	deprecated	ColE1	annotated as exclusion; experimentally shown inactive
+finO	NA	deprecated	ANY	fertility inhibition -- reduces DONATION not reception; not exclusion
+finP	NA	deprecated	ANY	fertility inhibition -- reduces DONATION not reception; not exclusion
+sfx	traS+traT	collision	pED208	MEANING 1 (1986, GenBank M13465.1, "surface exclusion system (sfx) genes traS and traT", /product="sfx protein"): the F-LIKE traS/traT SURFACE EXCLUSION SYSTEM. Not a protein name -- a system name.
+sfx	sfx	collision	pVCR94;R16a	MEANING 2 (modern, IncC/IncA): Sfx, a DISTINCT surface-exclusion PROTEIN found by TraDIS after eexC failed to explain residual exclusion. Unrelated to meaning 1. Matching meaning 1 with the IncC sfx pattern files F-like TraT as IncC Sfx and corrupts the S5 exclusion-group assignment. Gene target sfx is restricted to inc_group IncC,IncA for this reason.
+traTp	traT	synonym	pED208	M13465.1 (1986) names it traTp "encoding TraTP". Proven identical, not assumed: aa_sha256 72ee3706b9a67647, 245aa, matches traT in both CP146035.1 (WWQ71497.1) and AF411480.1 (AAM90725.2)

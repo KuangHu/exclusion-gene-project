@@ -1,0 +1,121 @@
+class	anchor	seed	pfam_model	pfam_bit	conjscan_profile	conjscan_bit
+MPF_T	VirB1	RP4	anchor_SLT	-	T4SS_T_virB1	-
+MPF_T	VirB1	R751	anchor_SLT	23	T4SS_T_virB1	-
+MPF_T	VirB1	pKM101	anchor_SLT	32	T4SS_T_virB1	158
+MPF_T	VirB1	R388	anchor_SLT	44	T4SS_T_virB1	184
+MPF_T	VirB1	R46	anchor_SLT	32	T4SS_T_virB1	158
+MPF_T	VirB2	RP4	anchor_TrbC	64	T4SS_T_virB2	63
+MPF_T	VirB2	R751	anchor_TrbC	63	T4SS_T_virB2	67
+MPF_T	VirB2	pKM101	anchor_TrbC	29	T4SS_T_virB2	24
+MPF_T	VirB2	R388	anchor_TrbC	71	T4SS_T_virB2	80
+MPF_T	VirB2	R46	anchor_TrbC	29	T4SS_T_virB2	24
+MPF_T	VirB3	RP4	anchor_VirB3	49	T4SS_T_virB3	77
+MPF_T	VirB3	R751	anchor_VirB3	47	T4SS_T_virB3	78
+MPF_T	VirB3	pKM101	anchor_VirB3	57	T4SS_T_virB3	62
+MPF_T	VirB3	R388	anchor_VirB3	81	T4SS_T_virB3	80
+MPF_T	VirB3	R46	anchor_VirB3	57	T4SS_T_virB3	62
+MPF_T	VirB4	RP4	anchor_CagE_TrbE_VirB	98	T4SS_virb4	694
+MPF_T	VirB4	R751	anchor_CagE_TrbE_VirB	91	T4SS_virb4	664
+MPF_T	VirB4	pKM101	anchor_CagE_TrbE_VirB	100	T4SS_virb4	774
+MPF_T	VirB4	R388	anchor_CagE_TrbE_VirB	122	T4SS_virb4	742
+MPF_T	VirB4	R46	anchor_CagE_TrbE_VirB	100	T4SS_virb4	774
+MPF_T	VirB5	RP4	anchor_T4SS	-	T4SS_T_virB5	106
+MPF_T	VirB5	R751	anchor_T4SS	-	T4SS_T_virB5	122
+MPF_T	VirB5	pKM101	anchor_T4SS	87	T4SS_T_virB5	58
+MPF_T	VirB5	R388	anchor_T4SS	123	T4SS_T_virB5	101
+MPF_T	VirB5	R46	anchor_T4SS	87	T4SS_T_virB5	58
+MPF_T	VirB6	RP4	TrbL	137	T4SS_T_virB6	462
+MPF_T	VirB6	R751	TrbL	143	T4SS_T_virB6	520
+MPF_T	VirB6	pKM101	TrbL	145	T4SS_T_virB6	210
+MPF_T	VirB6	R388	TrbL	171	T4SS_T_virB6	207
+MPF_T	VirB6	R46	TrbL	145	T4SS_T_virB6	210
+MPF_T	VirB8	RP4	anchor_VirB8	144	T4SS_T_virB8	211
+MPF_T	VirB8	R751	anchor_VirB8	146	T4SS_T_virB8	227
+MPF_T	VirB8	pKM101	anchor_VirB8	127	T4SS_T_virB8	208
+MPF_T	VirB8	R388	anchor_VirB8	158	T4SS_T_virB8	247
+MPF_T	VirB8	R46	anchor_VirB8	127	T4SS_T_virB8	208
+MPF_T	VirB9	RP4	anchor_CagX	182	T4SS_T_virB9	262
+MPF_T	VirB9	R751	anchor_CagX	187	T4SS_T_virB9	265
+MPF_T	VirB9	pKM101	anchor_CagX	150	T4SS_T_virB9	251
+MPF_T	VirB9	R388	anchor_CagX	158	T4SS_T_virB9	242
+MPF_T	VirB9	R46	anchor_CagX	150	T4SS_T_virB9	251
+MPF_T	VirB10	RP4	anchor_TrbI	220	T4SS_T_virB10	222
+MPF_T	VirB10	R751	anchor_TrbI	223	T4SS_T_virB10	219
+MPF_T	VirB10	pKM101	anchor_TrbI	156	T4SS_T_virB10	91
+MPF_T	VirB10	R388	anchor_TrbI	186	T4SS_T_virB10	90
+MPF_T	VirB10	R46	anchor_TrbI	156	T4SS_T_virB10	91
+MPF_T	VirB11	RP4	anchor_T2SSE	126	T4SS_T_virB11	337
+MPF_T	VirB11	R751	anchor_T2SSE	127	T4SS_T_virB11	342
+MPF_T	VirB11	pKM101	anchor_T2SSE	80	T4SS_T_virB11	123
+MPF_T	VirB11	R388	anchor_T2SSE	88	T4SS_T_virB11	108
+MPF_T	VirB11	R46	anchor_T2SSE	80	T4SS_T_virB11	123
+MPF_T	VirD4	RP4	anchor_T4SS-DNA_transf	561	T4SS_t4cp1	94
+MPF_T	VirD4	R751	anchor_T4SS-DNA_transf	525	T4SS_t4cp1	90
+MPF_T	VirD4	pKM101	anchor_T4SS-DNA_transf	-	T4SS_t4cp1	-
+MPF_T	VirD4	R388	anchor_T4SS-DNA_transf	52	T4SS_t4cp1	37
+MPF_T	VirD4	R46	anchor_T4SS-DNA_transf	38	T4SS_t4cp1	-
+MPF_F	TraU	F	mpff_TraU	369	T4SS_F_traU	502
+MPF_F	TraU	R100	mpff_TraU	370	T4SS_F_traU	503
+MPF_F	TraU	IncC	mpff_TraU	333	T4SS_F_traU	406
+MPF_F	TraU	SXT	mpff_TraU	360	T4SS_F_traU	383
+MPF_F	TraU	R27	mpff_TraU	278	T4SS_F_traU	411
+MPF_F	TraH	F	mpff_TraH	374	T4SS_F_traH	876
+MPF_F	TraH	R100	mpff_TraH	382	T4SS_F_traH	821
+MPF_F	TraH	IncC	mpff_TraH	336	T4SS_F_traH	275
+MPF_F	TraH	SXT	mpff_TraH	339	T4SS_F_traH	290
+MPF_F	TraH	R27	mpff_TraH	202	T4SS_F_traH	217
+MPF_F	TraF	F	mpff_TraF	234	T4SS_F_traF	141
+MPF_F	TraF	R100	mpff_TraF	234	T4SS_F_traF	141
+MPF_F	TraF	IncC	mpff_TraF	222	T4SS_F_traF	142
+MPF_F	TraF	SXT	mpff_TraF	234	T4SS_F_traF	198
+MPF_F	TraF	R27	mpff_TraF	171	T4SS_F_traF	99
+MPF_F	TraG_N	F	mpff_TraG_N	386	T4SS_F_traG	1474
+MPF_F	TraG_N	R100	mpff_TraG_N	374	T4SS_F_traG	1502
+MPF_F	TraG_N	IncC	mpff_TraG_N	375	T4SS_F_traG	-
+MPF_F	TraG_N	SXT	mpff_TraG_N	358	T4SS_F_traG	110
+MPF_F	TraG_N	R27	mpff_TraG_N	103	T4SS_F_traG	-
+MPF_F	TrbI	F	mpff_TrbI	94	T4SS_F_traB	189
+MPF_F	TrbI	R100	mpff_TrbI	94	T4SS_F_traB	190
+MPF_F	TrbI	IncC	mpff_TrbI	135	T4SS_F_traB	278
+MPF_F	TrbI	SXT	mpff_TrbI	141	T4SS_F_traB	259
+MPF_F	TrbI	R27	mpff_TrbI	84	T4SS_F_traB	183
+MPF_F	TraE	F	mpff_TraE	184	T4SS_F_traE	234
+MPF_F	TraE	R100	mpff_TraE	174	T4SS_F_traE	226
+MPF_F	TraE	IncC	mpff_TraE	95	T4SS_F_traE	198
+MPF_F	TraE	SXT	mpff_TraE	112	T4SS_F_traE	168
+MPF_F	TraE	R27	mpff_TraE	69	T4SS_F_traE	243
+MPF_F	TrbC_Ftype	F	mpff_TrbC_Ftype	67	T4SS_F_trbC	281
+MPF_F	TrbC_Ftype	R100	mpff_TrbC_Ftype	69	T4SS_F_trbC	283
+MPF_F	TrbC_Ftype	IncC	mpff_TrbC_Ftype	68	T4SS_F_trbC	87
+MPF_F	TrbC_Ftype	SXT	mpff_TrbC_Ftype	76	T4SS_F_trbC	48
+MPF_F	TrbC_Ftype	R27	mpff_TrbC_Ftype	66	T4SS_F_trbC	76
+MPF_F	F_T4SS_TraN	F	mpff_F_T4SS_TraN	268	T4SS_F_traN	655
+MPF_F	F_T4SS_TraN	R100	mpff_F_T4SS_TraN	269	T4SS_F_traN	455
+MPF_F	F_T4SS_TraN	IncC	mpff_F_T4SS_TraN	145	T4SS_F_traN	721
+MPF_F	F_T4SS_TraN	SXT	mpff_F_T4SS_TraN	152	T4SS_F_traN	521
+MPF_F	F_T4SS_TraN	R27	mpff_F_T4SS_TraN	59	T4SS_F_traN	780
+MPF_F	TraV	F	mpff_TraV	77	T4SS_F_traV	173
+MPF_F	TraV	R100	mpff_TraV	78	T4SS_F_traV	179
+MPF_F	TraV	IncC	mpff_TraV	100	T4SS_F_traV	183
+MPF_F	TraV	SXT	mpff_TraV	74	T4SS_F_traV	120
+MPF_F	TraV	R27	mpff_TraV	45	T4SS_F_traV	213
+MPF_F	TraC_F_IV	F	mpff_TraC_F_IV	307		n/a
+MPF_F	TraC_F_IV	R100	mpff_TraC_F_IV	304		n/a
+MPF_F	TraC_F_IV	IncC	mpff_TraC_F_IV	354		n/a
+MPF_F	TraC_F_IV	SXT	mpff_TraC_F_IV	354		n/a
+MPF_F	TraC_F_IV	R27	mpff_TraC_F_IV	161		n/a
+MPF_F	TrwB_AAD_bind	F	mpff_TrwB_AAD_bind	391	T4SS_t4cp2	151
+MPF_F	TrwB_AAD_bind	R100	mpff_TrwB_AAD_bind	391	T4SS_t4cp2	153
+MPF_F	TrwB_AAD_bind	IncC	mpff_TrwB_AAD_bind	47	T4SS_t4cp2	110
+MPF_F	TrwB_AAD_bind	SXT	mpff_TrwB_AAD_bind	61	T4SS_t4cp2	104
+MPF_F	TrwB_AAD_bind	R27	mpff_TrwB_AAD_bind	50	T4SS_t4cp2	88
+MPF_T	RELAXASE	RP4			MOBP1	
+MPF_T	RELAXASE	R751			MOBP1	
+MPF_T	RELAXASE	pKM101				
+MPF_T	RELAXASE	R388			MOBF	
+MPF_T	RELAXASE	R46			MOBF	
+MPF_F	RELAXASE	F			MOBF	
+MPF_F	RELAXASE	R100			MOBF	
+MPF_F	RELAXASE	IncC			MOBH	
+MPF_F	RELAXASE	SXT			MOBH	
+MPF_F	RELAXASE	R27			MOBH	

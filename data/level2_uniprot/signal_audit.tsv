@@ -1,0 +1,5 @@
+element_id	gene	uniprot	reviewed	length	uniprot_signal_end	lipobox_cys	uniprot_signal_suspect	verdict	detail	nterm
+pKM101	eex	Q79SE7	unreviewed	75		15	false	LIPOBOX_UNANNOTATED	lipobox Cys at 15 but UniProt annotates no Signal	MKKLLLLIPFFLVACDASHDVDWYKKHDKERK
+ICEBs1	yddJ	P96647	reviewed	126	27	19	true	SUSPECT_MISMATCH	Signal ends 27, lipobox Cys at 19 (offset -8)	MKNLFIFLSLMMMFVLTACGGSKYDDAIDDVI
+RP4	trbK	Q79AR9	unreviewed	69	21	23	true	SUSPECT_OFF_BY_ONE	Signal ends 21 so mature +1 = A22, but the lipobox Cys is at 23. A lipoprotein's mature +1 must be the Cys.	MKKSNFIAVAALAAVMAASLAGCDNKPDTDKL
+ICEBs1	conG	P96644	reviewed	815	25		false	signal_no_lipobox	Signal 1..25, no canonical lipobox -- SPase I substrate, not a lipoprotein	MVVMKKKRILIVSAIVLLFLTVASAVTVFSAD

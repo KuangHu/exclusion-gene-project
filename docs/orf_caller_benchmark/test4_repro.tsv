@@ -1,0 +1,10 @@
+pair	method	n1	n2	identical	only1	only2
+CP009465.1_vs_CP017937.1	1_genbank	47	47	False	3	3
+CP009465.1_vs_CP017937.1	2_pyrodigal_anon_def	50	50	True	0	0
+CP009465.1_vs_CP017937.1	3_pyrodigal_anon_m60	50	50	True	0	0
+CP009465.1_vs_CP017937.1	4_pyrodigal_normal	59	59	True	0	0
+CP009465.1_vs_CP017937.1	5_orfipy	160	160	True	0	0
+CP009465.1_vs_CP017937.1	6_sixframe_allstart	823	823	True	0	0
+CP009465.1_vs_CP017937.1	6b_sixframe_1ststart	161	161	True	0	0
+CP009465.1_vs_CP017937.1	7_storf_default	70	70	True	0	0
+CP009465.1_vs_CP017937.1	8_storf_con	71	71	True	0	0

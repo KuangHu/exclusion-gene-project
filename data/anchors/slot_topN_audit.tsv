@@ -1,0 +1,33 @@
+mpf_class	rank	slot	occupancy_pct	mean_pid	len_median	n_occupants	n_known_eex	known_eex	subGA_machine_pct	subGA_top
+MPF_T	1	T4SS_T_virB3>T4SS_T_virB1	75.0	13.1	105	43	0		0.0	none
+MPF_T	2	T4SS_T_virB6>T4SS_t4cp1	79.3	15.3	293	119	0		0.0	none
+MPF_T	3	T4SS_T_virB6>T4SS_virb4	82.5	14.6	114	297	13	Eex_IncN	0.3	virb4 0%
+MPF_T	4	T4SS_t4cp2>T4SS_t4cp1	42.2	33.2	129.5	64	0		0.0	none
+MPF_T	5	T4SS_T_virB6>T4SS_T_virB8	35.1	16.5	59.0	1104	3	Eex_IncN	0.0	none
+MPF_T	6	T4SS_T_virB1>T4SS_T_virB10	32.6	14.5	123	65	0		0.0	none
+MPF_T	7	T4SS_T_virB11>T4SS_T_virB9	27.9	22.3	140	25	0		0.0	none
+MPF_T	8	T4SS_t4cp2>T4SS_T_virB6	87.7	16.2	163	155	33	Eex_IncN	0.0	none
+MPF_F	1	T4SS_F_traG>T4SS_t4cp1	99.0	15.3	229	7743	1237	TraS_R100	0.1	F_traG 0%
+MPF_F	2	T4SS_t4cp1>T4SS_F_traG	99.1	17.2	229.0	8020	1252	TraS_R100	0.1	F_traG 0%
+MPF_F	3	T4SS_F_traN>T4SS_T_virB1	100.0	16.3	176	309	0		0.0	none
+MPF_F	4	T4SS_T_virB1>T4SS_F_traN	100.0	17.7	186	113	0		0.0	none
+MPF_F	5	T4SS_F_traF>T4SS_F_trbC	100.0	17.2	154.0	38	0		15.8	F_traN 16%
+MPF_F	6	T4SS_virb4>T4SS_F_traW	96.5	14.9	129.0	2156	0		0.8	virb4 1%
+MPF_F	7	T4SS_F_trbC>T4SS_F_traF	91.1	17.3	154.0	54	0		11.1	F_traN 11%
+MPF_F	8	T4SS_T_virB1>T4SS_F_traL	99.2	20.3	127	3943	0		0.0	none
+MPF_I	1	T4SS_I_trbA>T4SS_I_traY	99.3	22.2	207.0	324	198	ExcA	0.0	none
+MPF_I	2	T4SS_I_traK>T4SS_I_traL	99.7	20.9	1145	1983	0		0.0	none
+MPF_I	3	T4SS_I_traR>T4SS_I_traU	99.1	23.1	187	305	0		53.4	I_traT 52%, I_traU 2%
+MPF_I	4	T4SS_I_traE>T4SS_I_traI	98.7	28.7	194.0	1314	0		0.0	none
+MPF_I	5	T4SS_I_trbA>T4SS_t4cp1	91.1	14.8	210	49	0		10.2	I_trbB 10%
+MPF_I	6	T4SS_I_traI>T4SS_I_traE	99.8	29.3	194.0	3540	0		0.0	I_traE 0%
+MPF_I	7	T4SS_t4cp1>T4SS_I_traY	98.3	26.3	217.0	174	0		0.0	none
+MPF_I	8	T4SS_t4cp1>T4SS_I_trbA	91.5	18.5	257	63	0		19.0	I_trbB 19%
+MPF_FA	1	FA_orf17b>T4SS_virb4	72.7	22.7	160	57	0		0.0	none
+MPF_FA	2	T4SS_virb4>FA_orf15	77.0	13.8	160.0	130	4	DUF4467	9.2	virb4 9%
+MPF_FA	3	FA_orf15>T4SS_virb4	38.0	15.8	160	87	2	DUF4467	4.6	virb4 3%, FA_orf15 1%
+MPF_FA	4	FA_orf17a>T4SS_tcpA	61.8	30.8	115.0	98	0		0.0	none
+MPF_FA	5	T4SS_tcpA>FA_orf17a	77.6	31.6	115.0	104	0		0.0	none
+MPF_FA	6	T4SS_t4cp2>FA_orf13	93.8	21.8	277	81	0		0.0	none
+MPF_FA	7	FA_orf13>T4SS_t4cp2	97.1	17.1	277	65	0		0.0	none
+MPF_FA	8	FA_orf15>FA_orf14	18.1	25.5	293	15	0		0.0	none

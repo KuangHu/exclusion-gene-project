@@ -1,0 +1,34 @@
+# CURATED MPF_F anchor set. Read off the five MPF_F seeds by scanning all annotated
+# CDS against the whole of Pfam-A at GA (scripts/103_mpf_anchor_readout.py), never
+# transferred from MPF_T and never taken from a family NAME.
+#
+# INDEXED BY ACCESSION, NOT GENE NAME, and this is load-bearing: PF10412/PF12696
+# (TrwB/T4CP) hit F traD and R27 traG, while PF07916 (the VirB6 analogue) hits F
+# traG. So `traG` means VirB6 in F and a coupling protein in R27. Name-indexing
+# would merge a channel component with a T4CP.
+#
+# All 13 hit ALL FIVE seeds (F, R100, IncC/pVCR94, SXT, R27), so MPF_F does NOT
+# need to be split into F-like and HI-like anchor sets. R27 is the lowest score in
+# almost every row -- a divergent member of the same families, consistent with its
+# chimera label -- but it is detected by every one of them.
+#
+# Sharing families is NOT sharing gene order. R27 keeps Tra1 and Tra2 as separate
+# regions, so per-lineage ARCHITECTURE calls are still required, exactly as
+# canonical vs rearranged was for MPF_T.
+#
+# PF00589 (Phage_integrase) also hits 5/5 and is deliberately EXCLUDED: it is not a
+# skeleton component, it is there because these elements are ICEs.
+pfam_acc	pfam_name	role	F	R100	IncC	SXT	R27	note
+PF06834	TraU	core	369	370	333	360	278	highest minimum score across seeds
+PF06122	TraH	core	374	382	336	339	202	
+PF13728	TraF	core	234	234	222	234	171	
+PF11130	TraC_F_IV	ENTRY_CRITERION	307	304	354	354	161	SOLE entry filter, measured across all 72,558 cached accessions: admits 11,120 (15.4%), all 5 seeds at GA, 93% of admissions independently called MPF_F by MOB-suite. Chosen as the VirB4 HOMOLOG, i.e. the structural counterpart of the MPF_T criterion -- NOT because it is the most conservative. Ranking by fewest admissions was the first (wrong) criterion applied: it would have picked F_T4SS_TraN (10,866; a DOMAIN model at 39.8% median target coverage) or TrbC_Ftype (10,884; a pilin, and the measured two-tier structure puts pilus components in the high-failure tier at VirB2 20.9%). An entry filter decides what can never be seen, so the bias direction matters more than 237 plasmids. Trade-off recorded: TraC_F_IV admits ~400 plasmids TrbC_Ftype misses and misses ~164 it catches (Jaccard 0.950); and TraE recovers 94.3% of MOB-suite's MPF_F against TraC_F_IV's 88.7%, which would win if third-party recall were the criterion -- it is not, MOB-suite being coarser and not ground truth
+PF07916	TraG_N	channel_VirB6_analogue	386	374	375	358	103	the MPF_F counterpart of VirB6; slot anchor candidate
+PF03743	TrbI	core	94	94	135	141	84	same family as the MPF_T VirB10 anchor
+PF19044	P-loop_TraG	core	98	97	128	132	76	
+PF05309	TraE	core	184	174	95	112	69	
+PF09673	TrbC_Ftype	core	67	69	68	76	66	SXT/R27 call this traW/trhW
+PF06986	F_T4SS_TraN	slot_anchor_sect7	268	269	145	152	59	R100 best hit is traZ, not traN -- the traN/traZ annotation split
+PF10412	TrwB_AAD_bind	coupling_protein	391	391	47	61	50	R27 calls this traG
+PF09676	TraV	core	77	78	100	74	45	
+PF12696	TraG-D_C	coupling_protein	69	70	52	50	36	lowest minimum of the set

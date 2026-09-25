@@ -1,0 +1,8 @@
+element	accession	control	aa	why_at_risk	caller_recovered	identity_pct	in_cds_cache	catalogue_gene_index
+RP4	BN000925.1	trbK	69	69 aa short ORF	1	100.0	1	31
+R64	AP005147.1	excA	220	reference	1	100.0	1	89
+R64	AP005147.1	excB	147	147 aa, overlaps excA	1	100.0	1	89
+R64	AP005147.1	traS	62	62 aa, unmodelled	1	100.0	1	96
+F	AP001918.1	traS	173	173 aa, unmodelled	1	100.0	0	
+R100	AP000342.1	traS	159	159 aa, the ONE PF10624 hit	1	100.0	1	92
+ICEBs1	CP171645.1	PF14729(conJ)	126	YddJ; ICE, may be absent from a plasmid-built catalogue	1	99.2	0	

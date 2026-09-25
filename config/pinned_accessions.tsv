@@ -1,0 +1,36 @@
+# Pinned accessions -- stage 1 output. STATUS IS LOAD-BEARING.
+#
+# PINNED       accession resolved AND target genes confirmed present in the record
+# PROVISIONAL  accession resolved, gene content not yet confirmed
+# ASSEMBLE     no complete-element record exists; build from listed part records
+# CHROMOSOMAL  element is integrated; extract by coordinates from host genome
+# UNRESOLVED   not settled -- needs the primary paper's data-availability statement
+#
+# genbank_accession is the PRIMARY annotation source (see scripts/lib/ncbi.py:
+# PGAP re-annotation dropped R100 /gene="traS" that AP000342.1 carries).
+# refseq_accession is the cross-check.
+element_id	status	refseq_accession	genbank_accession	length_bp	aux_accessions	note
+F	PINNED	NA	AP001918.1	99159	X06915.1;U01159.2	E. coli K-12 plasmid F. traS 173aa BAA97970.1, traT 244aa BAA97971.1, traG 938aa BAA97969.1 all /gene-routed. X06915.1 = dedicated traS/traT submission
+R100	PINNED	NC_002134.1	AP000342.1	94281	NA	traS 159aa BAA78881.1 (product-route in RefSeq, gene-route in GenBank), traT 243aa, traG 940aa
+R64	PROVISIONAL	NC_005014.1	AP005147.1	120826	NA	
+R621a	PROVISIONAL	NC_015965.1	AP011954.1	93185	NA	
+R388	PROVISIONAL	NC_028464.1	BR000038.1	33913	NA	GenBank side is TPA_inf (third-party annotation), not an original submission -- flag
+R27	PROVISIONAL	NC_002305.1	AF250878.1	180461	NA	
+pVCR94	PROVISIONAL	NZ_CP033514.1	CP033514.1	171829	NA	NOT NC_023291.1 -- that is pVCR94deltaX, a deletion derivative
+R16a	PROVISIONAL	NZ_KX156773.1	KX156773.1	173094	NA	
+ColE1	PROVISIONAL	NC_001371.1	J01566.1	6646	NA	exc1/exc2 are deprecated, not exclusion
+pKPC_UVA01	PROVISIONAL	NZ_CP009465.1	CP009465.1	43621	CP017937.1;NZ_CP017937.1	BOTH RECORDS LIVE, neither suppressed (CP009465.1 2016-07-26, CP017937.1 2016-11-07; RefSeq counterparts refreshed 2025-01-06 and 2025-03-23). Extract from each, assert equal aa_sha256 on the trbK-like gene, pin whichever the primary paper cites. Tie recorded in changelog
+pLS20	PROVISIONAL	NC_015148.1	AB615352.1	65774	NA	B. subtilis subsp. natto -- correct organism, NOT Xylella pPLS206
+pCF10	PROVISIONAL	NC_006827.2	AY855841.2	67673	NA	E. faecalis -- absent from PLSDB, recovered by organism-constrained NCBI search
+pAD1	PROVISIONAL	NZ_CP046109.1	CP046109.1	74657	NA	confirm this is the canonical pAD1 and not a same-named isolate
+pAM373	PROVISIONAL	NC_002630.1	AE002565.1	36804	NA	NEGATIVE ARM -- extractor must find no sea1
+RSF1010	PROVISIONAL	NC_001740.1	M28829.1	8684	NA	NEGATIVE ARM -- extractor must find nothing
+RP4	PINNED	NA	BN000925.1	60096	CP152305.1;NZ_PP591959.1	PRIMARY = Birmingham IncP-alpha reference, isolate RK2 (TPA_exp). Carries /gene="trbK" AND /gene="trbL" -- adjacency testable. TrbK 47-aa mature form, C23G lipidation and trbK-trbL adjacency were all characterised on this sequence. CP152305.1 = 2024 J53/RP4 resequencing, CROSS-CHECK ONLY: assert equal aa_sha256 for TrbK and TrbL; any difference is itself a finding. RP4/RK2/RP1/R68 = same IncP-alpha plasmid
+R391	PROVISIONAL	NA	AY090559.1	88532	NA	Providencia rettgeri conjugative genomic island R391
+pED208	PROVISIONAL	NA	CP146035.1	92869	AF411480.1;M13465.1	BOTH: CP146035.1 for S4 neighbourhood context, AF411480.1 (32647bp transfer region) as annotation donor, assert equal aa_sha256. M13465.1 carries traS/traTp. Same old-annotates/new-contextualises pattern as R100
+SXT	PROVISIONAL	NA	KJ817376.1	104025	AY034138.1	ICDC-1307. AY034138.1 REJECTED: eex and traG sit in the conserved backbone, not the ARG island, so a 20kb resistance cluster cannot contain the pair. Phenotype and the 606-608 mapping derive from MO10 -- record in sequence_verified_against. GATE: confirm TraG 606-608 reads P-G-E (S group); T-D-D means an R-group element was pinned as the S reference
+pKM101	ASSEMBLE	NA	NA	NA	U09868.1;U72482.2	No complete-plasmid record. U09868.1 (12416bp) carries /gene="eex" AND /gene="traG" -- exclusion gene and candidate VirB6 partner in one record. U72482.2 (13833bp) = rep/resolvase region
+R6-5	ASSEMBLE	NA	NA	NA	X52553.1;M38048.1	X52553.1 = traT (CAA36788.1). NB record uses MATURE numbering (sig_peptide AA -20..-1, mat_peptide AA 1-223) whereas F/R100 GenBank use PRECURSOR numbering -- a 20-residue offset. Sfx IV group; the R6-5 half of the Harrison 1992 116-120 window test
+ColB2	UNRESOLVED	NA	NA	NA	U51860.1;K02667.1;X62481.1	ColB2-K98 traT NOT IN NCBI: "ColB2[All Fields] AND traT[All Fields]" returns nothing; U51860.1 stops at TraL/TraE/TraK/TraB/TraP. Sfx II group. Blocks the ColB2 half of the 116-120 window test
+ICEBs1	CHROMOSOMAL	NA	CP171645.1	4215502	NA	B. subtilis subsp. subtilis 168 chromosome. ICEBs1 must be extracted by coordinates -- locate via yddJ/conG
+Ti	PROVISIONAL	NZ_CP032920.1	CP032920.1	194263	NA	CANDIDATES TABLE ONLY. pTi15955, A. tumefaciens strain 15955 -- OCTOPINE type. The IncP-like trb region with the untested trbK homolog is the octopine system; pTiC58 (nopaline) would be a different element than the literature flagged

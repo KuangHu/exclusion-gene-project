@@ -1,0 +1,15 @@
+E	resolution	clusters	largest	singletons	seed_control	family_extension_candidates	novel_families	candidates_in_novel_families	candidate_singletons
+0.001	0.005	134	447	79	PASS	55	49	909	71
+0.001	0.01	138	435	81	PASS	52	50	910	73
+0.001	0.05	161	398	90	PASS	37	59	919	79
+0.001	0.1	169	389	94	PASS	31	61	921	83
+0.001	0.2	182	378	103	PASS	20	65	925	90
+0.001	0.5	206	183	113	FAIL: a known pair is split	23	72	918	94
+0.001	1.0	1800	1	1800	FAIL: a known pair is split	0	0	0	1035
+1e-05	0.005	168	394	101	PASS	22	57	922	91
+1e-05	0.01	169	394	102	PASS	22	57	922	91
+1e-05	0.05	187	375	108	PASS	22	63	917	96
+1e-05	0.1	197	370	113	PASS	21	66	915	99
+1e-05	0.2	208	186	118	FAIL: a known pair is split	21	69	911	103
+1e-05	0.5	229	159	129	FAIL: a known pair is split	21	75	907	107
+1e-05	1.0	1800	1	1800	FAIL: a known pair is split	0	0	0	1035

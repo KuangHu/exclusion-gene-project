@@ -1,0 +1,145 @@
+# F -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: F
+element_type: plasmid
+inc_group: IncFI
+mpf_class: MPF_F
+aa_len_status: DISPUTED
+aa_len_dispute: TraS length is NOT settled. UniProt P09129 carries 'Sequence conflict 144..173 in Ref.
+  1 and 2' -- the last 30 residues, 17% of the protein. The 1987 submission CAA30011.1 is 149 aa and diverges
+  from residue 144; AP001918.1 gives 173 aa. audette2007's abstract reports no TraS length, so the C-terminus
+  is unverified by literature, by UniProt, and between the two GenBank records. The frozen aa_sha256 therefore
+  locks a C-terminus of unknown provenance. RP4 TrbK loses all activity to an 8-aa C-terminal truncation,
+  so this conflict sits in the worst possible place.
+host: Escherichia coli K-12
+size_bp: 99159
+accessions:
+  primary: AP001918.1
+  crosscheck: null
+  parts: []
+  status: PINNED
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: traS
+  type: entry
+  evidence_tier: E1
+  specificity_determinant: not mapped
+  sequence:
+    protein_accession: BAA97970.1
+    length_aa: 173
+    aa_sha256: 0610d8b0fcad355957b60a052fa63c80582bbc5ddecb1d841dc05dd438f87431
+    coords: AP001918.1:88274..88795
+    strand: +
+    route: gene
+  hmm_hit: no_hit
+  hmm_model: ''
+  benchmark_role: DE NOVO TARGET -- no existing HMM family finds this gene
+partner:
+  gene: traG
+  family: VirB6
+  virb_equivalent: VirB6
+  status: verified
+  role: N-term assembles pilus; C-term periplasmic domain TraG* handles Mps and docks TraN
+  specificity_residues: TraG 610-673
+  specificity_window_provenance: 'PRE-SPECIFIED, NOT DERIVED. The window came from the reference protocol
+    S5.2 and was written into this record BEFORE any divergence scan was run, so the enrichment test below
+    is NOT circular. HOWEVER the protocol''s own source for 610-673 is unverified: audette2007''s abstract
+    gives no residue range. Confirm from Audette 2007 body text or the TraG* domain boundaries in bragagnolo2022
+    before publishing.'
+  specificity_enrichment: 6.88x. 31 substitutions vs 4.50 expected. Window identity 51.6% vs 93.0% overall.
+  specificity_enrichment_pvalue: 'EMPIRICAL p = 0.022 (scripts/46_window_null.py). SUPERSEDES the binomial
+    p=4.2e-19, which was wrong by ~17 orders of magnitude: the binomial assumes substitutions are iid
+    along the protein, but conserved cores and variable loops mean SOME 64-aa window looks enriched in
+    almost any ortholog pair.'
+  specificity_enrichment_null: 'Null = max 64-aa window enrichment across the other 45 F/R100 tra ortholog
+    pairs: median 1.60x, mean 2.02x, range 0.73-6.75x. 0/45 comparators reach TraG''s 6.88x, but traB
+    reaches 6.75x -- essentially tied. TraG''s window is the top by a hair, NOT an outlier.'
+  specificity_enrichment_caveat: TraG's pre-specified 610-673 IS also its empirical maximum window (max-enrichment
+    scan returns start=610). Reassuring for the window being real, but it removes the a-priori advantage
+    IF the protocol's number was itself scan-derived -- which cannot be ruled out, since the same protocol
+    sentence's other number (the 17%) was already shown to be imported from TraS.
+  specificity_contrast: TraS itself shows max window enrichment of only 1.06x despite 27.9% F/R100 identity
+    -- diffusely divergent, not locally. So TraG has a discrete variable segment and TraS does not, which
+    is the substantive result here rather than the p-value.
+  specificity_measured: 'MEASURED from pinned accessions (F BAA97969.1 vs R100 BAA78880.1): whole protein
+    92.8% identical; window 610-673 only 51.6% (33/64). The 601-640 and 641-680 windows are the two lowest
+    across all 938 aa; every other 40-aa window is >=85%. The window claim holds.'
+  specificity_correction: NOT ~17%. Per humbert2019, that figure is TraS(F) vs TraS(R100) identity --
+    measured here as 17.7% (36/203). The reference protocol S5.2 welded a TraS number onto a TraG window
+  sequence:
+    protein_accession: BAA97969.1
+    length_aa: 938
+    aa_sha256: 94d11378fb1911087d3406e95df4d977fc44afea4f3e6028c1375c22d4d902a8
+    coords: AP001918.1:85425..88241
+    strand: +
+    route: gene
+  domain_id: PF07916 (TraG_N)
+context:
+  operon:
+    name: tra operon (P_Y), single polycistron ~33 kb
+    genes:
+    - traY
+    - traA
+    - traL
+    - traE
+    - traK
+    - traB
+    - traP
+    - trbD
+    - trbG
+    - traV
+    - traR
+    - traC
+    - trbI
+    - traW
+    - traU
+    - trbC
+    - traN
+    - trbE
+    - traF
+    - trbA
+    - artA
+    - traQ
+    - trbB
+    - trbJ
+    - trbF
+    - traH
+    - traG
+    - traS
+    - traT
+    - traD
+    - trbH
+    - traI
+    - traX
+    orientation: +
+    promoter: P_Y; TraJ + ArcA co-activated, H-NS silenced
+    outside_operon:
+    - traM (own promoter)
+    - traJ (own promoter, FinP/FinO antisense)
+    - oriT
+    - finO (inactivated in F itself)
+    note: traS/traT/traD each have internal promoters. trbH lies between traD and traI, trbF between trbJ
+      and traH -- both routinely omitted from simplified gene maps but present in the scan window
+  system:
+    t4cp: TraD
+    relaxase: TraI
+    adhesin: TraN
+  adjacency:
+    proximity:
+      measured_bp: 32
+      measured_from: AP001918.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: null
+notes:
+- Longest known E. coli transcript by some reports (~40 kb)
+schema_version: 1.1.0
+scope: entry_exclusion_only

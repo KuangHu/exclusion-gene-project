@@ -1,0 +1,91 @@
+element	gene	nt	aa	method	hit3	hit5	n_calls	detail	seconds
+RP4	trbK	210	69	1_genbank	Y	Y	76	1 start(s) at this stop	0.0
+RP4	trbK	210	69	2_pyrodigal_anon_def	Y	Y	70	1 start(s) at this stop	0.3
+RP4	trbK	210	69	3_pyrodigal_anon_m60	Y	Y	70	1 start(s) at this stop	0.3
+RP4	trbK	210	69	4_pyrodigal_normal	Y	Y	72	1 start(s) at this stop	0.0
+RP4	trbK	210	69	5_orfipy	Y	N	360	1 start(s) at this stop	0.2
+RP4	trbK	210	69	6_sixframe_allstart	Y	Y	2045	2 start(s) at this stop	0.0
+RP4	trbK	210	69	6b_sixframe_1ststart	Y	N	363	1 start(s) at this stop	0.0
+RP4	trbK	210	69	7_storf_default	Y	Y	81	1 start(s) at this stop	0.2
+RP4	trbK	210	69	8_storf_con	Y	Y	81	1 start(s) at this stop	0.2
+pKM101	eex	228	75	1_genbank	Y	Y	18	1 start(s) at this stop	0.0
+pKM101	eex	228	75	2_pyrodigal_anon_def	Y	Y	17	1 start(s) at this stop	0.0
+pKM101	eex	228	75	3_pyrodigal_anon_m60	Y	Y	17	1 start(s) at this stop	0.0
+pKM101	eex	228	75	4_pyrodigal_normal	ERR	ERR	0	training failed: sequence must be at least 20000 characters (12416 fou	0.0
+pKM101	eex	228	75	5_orfipy	Y	N	54	1 start(s) at this stop	0.1
+pKM101	eex	228	75	6_sixframe_allstart	Y	Y	284	6 start(s) at this stop	0.0
+pKM101	eex	228	75	6b_sixframe_1ststart	Y	N	57	1 start(s) at this stop	0.0
+pKM101	eex	228	75	7_storf_default	Y	Y	18	1 start(s) at this stop	0.2
+pKM101	eex	228	75	8_storf_con	Y	Y	18	1 start(s) at this stop	0.2
+ICEBs1	yddJ	381	126	1_genbank	Y	Y	4315	1 start(s) at this stop	0.0
+ICEBs1	yddJ	381	126	2_pyrodigal_anon_def	Y	Y	4061	1 start(s) at this stop	12.1
+ICEBs1	yddJ	381	126	3_pyrodigal_anon_m60	Y	Y	4061	1 start(s) at this stop	17.6
+ICEBs1	yddJ	381	126	4_pyrodigal_normal	Y	Y	4044	1 start(s) at this stop	3.3
+ICEBs1	yddJ	381	126	5_orfipy	Y	N	581	1 start(s) at this stop	0.2
+ICEBs1	yddJ	381	126	6_sixframe_allstart	Y	Y	3700	7 start(s) at this stop	0.1
+ICEBs1	yddJ	381	126	6b_sixframe_1ststart	Y	N	602	1 start(s) at this stop	0.1
+ICEBs1	yddJ	381	126	7_storf_default	Y	Y	248	1 start(s) at this stop	0.3
+ICEBs1	yddJ	381	126	8_storf_con	Y	Y	250	1 start(s) at this stop	0.3
+SXT	eex	432	143	1_genbank	Y	Y	92	1 start(s) at this stop	0.0
+SXT	eex	432	143	2_pyrodigal_anon_def	Y	Y	88	1 start(s) at this stop	0.4
+SXT	eex	432	143	3_pyrodigal_anon_m60	Y	Y	88	1 start(s) at this stop	0.6
+SXT	eex	432	143	4_pyrodigal_normal	N	-	88		0.1
+SXT	eex	432	143	5_orfipy	Y	N	332	1 start(s) at this stop	0.2
+SXT	eex	432	143	6_sixframe_allstart	Y	Y	2528	6 start(s) at this stop	0.1
+SXT	eex	432	143	6b_sixframe_1ststart	Y	N	347	1 start(s) at this stop	0.0
+SXT	eex	432	143	7_storf_default	Y	N	103	1 start(s) at this stop	0.2
+SXT	eex	432	143	8_storf_con	Y	N	105	1 start(s) at this stop	0.2
+R100	traS	480	159	1_genbank	Y	Y	117	1 start(s) at this stop	0.0
+R100	traS	480	159	2_pyrodigal_anon_def	Y	Y	109	1 start(s) at this stop	0.4
+R100	traS	480	159	3_pyrodigal_anon_m60	Y	Y	109	1 start(s) at this stop	0.5
+R100	traS	480	159	4_pyrodigal_normal	Y	Y	117	1 start(s) at this stop	0.1
+R100	traS	480	159	5_orfipy	Y	N	417	1 start(s) at this stop	0.2
+R100	traS	480	159	6_sixframe_allstart	Y	Y	2342	8 start(s) at this stop	0.1
+R100	traS	480	159	6b_sixframe_1ststart	Y	N	426	1 start(s) at this stop	0.0
+R100	traS	480	159	7_storf_default	Y	Y	135	1 start(s) at this stop	0.2
+R100	traS	480	159	8_storf_con	Y	Y	135	1 start(s) at this stop	0.2
+F	traS	522	173	1_genbank	Y	Y	105	1 start(s) at this stop	0.0
+F	traS	522	173	2_pyrodigal_anon_def	Y	Y	96	1 start(s) at this stop	0.3
+F	traS	522	173	3_pyrodigal_anon_m60	Y	Y	96	1 start(s) at this stop	0.4
+F	traS	522	173	4_pyrodigal_normal	Y	Y	93	1 start(s) at this stop	0.1
+F	traS	522	173	5_orfipy	Y	Y	339	1 start(s) at this stop	0.2
+F	traS	522	173	6_sixframe_allstart	Y	Y	1911	13 start(s) at this stop	0.1
+F	traS	522	173	6b_sixframe_1ststart	Y	Y	345	1 start(s) at this stop	0.0
+F	traS	522	173	7_storf_default	Y	Y	122	1 start(s) at this stop	0.2
+F	traS	522	173	8_storf_con	Y	Y	128	1 start(s) at this stop	0.2
+R64	excB	444	147	1_genbank	Y	Y	134	2 start(s) at this stop	0.0
+R64	excB	444	147	2_pyrodigal_anon_def	Y	N	127	1 start(s) at this stop	0.5
+R64	excB	444	147	3_pyrodigal_anon_m60	Y	N	127	1 start(s) at this stop	0.7
+R64	excB	444	147	4_pyrodigal_normal	Y	N	126	1 start(s) at this stop	0.1
+R64	excB	444	147	5_orfipy	Y	N	475	1 start(s) at this stop	0.2
+R64	excB	444	147	6_sixframe_allstart	Y	Y	2375	6 start(s) at this stop	0.1
+R64	excB	444	147	6b_sixframe_1ststart	Y	N	491	1 start(s) at this stop	0.0
+R64	excB	444	147	7_storf_default	Y	N	150	1 start(s) at this stop	0.2
+R64	excB	444	147	8_storf_con	Y	N	153	1 start(s) at this stop	0.2
+R621a	excA	615	204	1_genbank	Y	Y	103	1 start(s) at this stop	0.0
+R621a	excA	615	204	2_pyrodigal_anon_def	Y	Y	100	1 start(s) at this stop	0.3
+R621a	excA	615	204	3_pyrodigal_anon_m60	Y	Y	100	1 start(s) at this stop	0.5
+R621a	excA	615	204	4_pyrodigal_normal	Y	Y	100	1 start(s) at this stop	0.1
+R621a	excA	615	204	5_orfipy	Y	Y	367	1 start(s) at this stop	0.1
+R621a	excA	615	204	6_sixframe_allstart	Y	Y	1768	3 start(s) at this stop	0.1
+R621a	excA	615	204	6b_sixframe_1ststart	Y	Y	376	1 start(s) at this stop	0.0
+R621a	excA	615	204	7_storf_default	Y	Y	124	1 start(s) at this stop	0.2
+R621a	excA	615	204	8_storf_con	Y	Y	127	1 start(s) at this stop	0.2
+R64	excA	663	220	1_genbank	Y	Y	134	2 start(s) at this stop	0.0
+R64	excA	663	220	2_pyrodigal_anon_def	Y	Y	127	1 start(s) at this stop	0.5
+R64	excA	663	220	3_pyrodigal_anon_m60	Y	Y	127	1 start(s) at this stop	0.7
+R64	excA	663	220	4_pyrodigal_normal	Y	Y	126	1 start(s) at this stop	0.1
+R64	excA	663	220	5_orfipy	Y	Y	475	1 start(s) at this stop	0.2
+R64	excA	663	220	6_sixframe_allstart	Y	Y	2375	6 start(s) at this stop	0.1
+R64	excA	663	220	6b_sixframe_1ststart	Y	Y	491	1 start(s) at this stop	0.1
+R64	excA	663	220	7_storf_default	Y	Y	150	1 start(s) at this stop	0.3
+R64	excA	663	220	8_storf_con	Y	Y	153	1 start(s) at this stop	0.2
+ColE1	mob4	186	61	1_genbank	Y	Y	23	1 start(s) at this stop	0.0
+ColE1	mob4	186	61	2_pyrodigal_anon_def	N	-	6		0.0
+ColE1	mob4	186	61	3_pyrodigal_anon_m60	N	-	6		0.0
+ColE1	mob4	186	61	4_pyrodigal_normal	ERR	ERR	0	training failed: sequence must be at least 20000 characters (6646 foun	0.0
+ColE1	mob4	186	61	5_orfipy	Y	N	25	1 start(s) at this stop	0.1
+ColE1	mob4	186	61	6_sixframe_allstart	Y	Y	81	3 start(s) at this stop	0.0
+ColE1	mob4	186	61	6b_sixframe_1ststart	Y	N	26	1 start(s) at this stop	0.0
+ColE1	mob4	186	61	7_storf_default	N	-	11		0.2
+ColE1	mob4	186	61	8_storf_con	N	-	10		0.2

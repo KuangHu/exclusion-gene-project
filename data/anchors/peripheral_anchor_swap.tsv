@@ -1,0 +1,6 @@
+anchor	pfam_plasmids	conjscan_plasmids	union_plasmids	ga_failure_pct	union_failure_pct	pfam_band	pfam_median_aa	new_median_aa	new_in_band_pct	new_crossclass_mpff_pct	disjunction_admissible	verdict	failure_pct_used
+VirB1	5984	5657	6458	19.53	13.15	76-304	186	208.5	95.4	8.5	1	still peripheral	13.15
+VirB2	5884	7044	7048	20.87	5.22	60-156	101.0	105	94.3	33.1	0	REJECTED (cross-class 33.1%) -- union NOT read; GA stands at 20.9%	20.87
+VirB3	6769	7066	7066	8.97	4.98	1-2139	106	93.0	100.0	57.4	0	REJECTED (cross-class 57.4%) -- union NOT read; GA stands at 9.0%	8.97
+VirB5	5545	3413	6881	25.43	7.46	198-290	238	259	91.3	6.6	1	now core-level	7.46
+VirB6	7069	7115	7115	4.94	4.32	274-426	351	216	15.6	5.2	0	REJECTED (band 15.6%) -- union NOT read; GA stands at 4.9%	4.94

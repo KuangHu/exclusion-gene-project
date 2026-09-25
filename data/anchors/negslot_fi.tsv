@@ -1,0 +1,8 @@
+class	slot	role	unique_nom	unique_kept	pct_removed	survival_pct	records_kept	len_q1	len_med	len_q3	lipobox_pct	named_family
+MPF_F	TraG_N+1	TARGET	1209	820	32.2	67.8	5343	165	177	196	4.1	PF10624 63
+MPF_F	TraU+1	negative	1026	196	80.9	19.1	603	120	132	161	1.5	NONE
+MPF_F	TrbC_Ftype+1	negative	1401	165	88.2	11.8	1566	123	126	165	6.1	NONE
+MPF_I	traY+1	TARGET	492	456	7.3	92.7	3566	164	204	217	4.4	NF033891 204
+MPF_I	traM+1	negative	459	21	95.4	4.6	25	88	107	168	0.0	NONE
+MPF_I	traP+1	negative	227	5	97.8	2.2	5	80	169	249	0.0	NONE
+MPF_I	trbA+1	negative	530	62	88.3	11.7	110	144	210	284	1.6	NONE

@@ -1,0 +1,29 @@
+class	dataset	min_seq_id	n_backbone	n_effective	n_partner_alleles	n_records	note	partner
+MPF_T	plsdb	0.5	3242	3034	317	7436		TrbL
+MPF_T	plsdb	0.7	3242	3037	506	7436		TrbL
+MPF_T	plsdb	0.8	3242	3053	653	7436		TrbL
+MPF_T	plsdb	0.9	3242	3065	882	7436		TrbL
+MPF_T	plsdb	0.95	3242	3076	1139	7436		TrbL
+MPF_F	plsdb	0.5	3783	3692	263	11120		TraG_N
+MPF_F	plsdb	0.7	3783	3689	378	11120		TraG_N
+MPF_F	plsdb	0.8	3783	3697	462	11120		TraG_N
+MPF_F	plsdb	0.9	3783	3732	628	11120		TraG_N
+MPF_F	plsdb	0.95	3783	3767	843	11120		TraG_N
+MPF_I	plsdb	0.5	1025	1009	73	3732		T4SS_I_traY
+MPF_I	plsdb	0.7	1025	1008	106	3732		T4SS_I_traY
+MPF_I	plsdb	0.8	1025	1009	131	3732		T4SS_I_traY
+MPF_I	plsdb	0.9	1025	1017	176	3732		T4SS_I_traY
+MPF_I	plsdb	0.95	1025	1033	223	3732		T4SS_I_traY
+MPF_FA	plsdb	0.5	284	232	33	495		FA_orf15
+MPF_FA	plsdb	0.7	284	232	47	495		FA_orf15
+MPF_FA	plsdb	0.8	284	232	46	495		FA_orf15
+MPF_FA	plsdb	0.9	284	232	72	495		FA_orf15
+MPF_FA	plsdb	0.95	284	233	113	495		FA_orf15
+MPF_FATA	plsdb		1225			1984	partner not established	
+MPF_G	plsdb		96			109	partner not established	
+MPF_B	plsdb	0.5	108	97	29	148		T4SS_B_traJ
+MPF_B	plsdb	0.7	108	97	41	148		T4SS_B_traJ
+MPF_B	plsdb	0.8	108	97	53	148		T4SS_B_traJ
+MPF_B	plsdb	0.9	108	97	62	148		T4SS_B_traJ
+MPF_B	plsdb	0.95	108	97	67	148		T4SS_B_traJ
+MPF_C	plsdb		105			117	partner not established	

@@ -1,0 +1,7 @@
+element_id	n_in_window	n_pass_length	n_decoys	true_distance_bp	true_rank_by_distance	decoy_genes
+F	15	11	10	33	1	traT;trbF;trbJ;trbB;traQ;artA;trbA;traF;trbH;trbE
+ICEBs1	16	8	7	1570	3	yddF;?;conD;conC;?;?;?
+R621a	11	5	4	76	2	traX;traV;pndA;pndC
+R64	12	6	5	71	2	traX;excB;traV;pndA;pndC
+RP4	20	16	15	7	1	trbM;trbJ;trbN;trbO;trbP;trbH;upf31.7;fiwA;upf32.8;trbF;parA;parA;parB;parC;parD
+SXT	12	7	6	33	1	setC;setD;?;?;?;setR

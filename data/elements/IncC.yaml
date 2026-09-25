@@ -1,0 +1,101 @@
+# IncC -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: IncC
+element_type: plasmid
+inc_group: IncC (also IncA)
+mpf_class: MPF_F
+host: Vibrio cholerae / Escherichia coli
+size_bp: 171829
+accessions:
+  primary: CP033514.1
+  crosscheck: NZ_CP033514.1
+  parts: []
+  status: PROVISIONAL
+  represents:
+  - pVCR94
+  - R16a
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: eexC
+  type: entry
+  evidence_tier: E1
+  specificity_determinant: C-terminus
+  expression: AcaCD-regulated, low
+  sequence:
+    status: NOT_RECOVERED
+    needs: manual coordinates from the primary paper
+  hmm_hit: no_seq
+  hmm_model: ''
+  benchmark_role: pending -- no sequence yet
+partner:
+  gene: traG_C
+  family: VirB6
+  virb_equivalent: VirB6
+  status: verified
+  specificity_residues: not resolved to residue level
+  sequence:
+    protein_accession: AYV08555.1
+    length_aa: 1204
+    aa_sha256: 3e4ca91f937fefa53dc08397f5a61ffc9a3f92bee12db682f1d97ff52e057523
+    coords: CP033514.1:88463..92077
+    strand: +
+    route: product
+  domain_id: PF07916 (TraG_N)
+context:
+  operon:
+    name: traF-traH-traG operon (AcaCD dependent)
+    genes:
+    - traF
+    - traH
+    - traG_C
+    orientation: +
+    note: eexC lies adjacent to traG_C
+  tra_operons:
+  - - traL
+    - traE
+    - traK
+    - traB
+  - - traV
+    - traA
+  - - dsbC
+    - traC
+    - trhF
+    - traW
+    - traU
+    - traN
+  - - traF
+    - traH
+    - traG_C
+  dna_processing:
+    t4cp: traD
+    relaxase: traI
+    other: mobI
+  regulation: acaC-acaD is the master activator (AcaCD binds and activates 18 promoters); acaB activates
+    the acaDC promoter (2020 TraDIS)
+  note: traN has its own additional AcaCD-dependent promoter
+  adjacency:
+    proximity:
+      measured_bp: null
+      measured_from: null
+      within_discovery_window: null
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 0
+    supports_discovery_heuristic: null
+    supports_synteny_claim: true
+    note: 'adjacency is asserted by the literature (eexC abuts traG_C) but is UNMEASURED here: eexC is
+      not annotated in either representative. An earlier automated measurement of 128,521 bp was a false
+      positive -- the generic phrase "entry exclusion" had matched R16a /gene="trbK" at 35.7 kb against
+      a TraG at 164 kb'
+notes:
+- SGI1 encodes traNS/traHS/traGS which replace IncC TraNC/TraHC/TraGC wholesale. TraN-TraH-TraG is therefore
+  an interchangeable mating-pore core, which is also why exclusion targets both TraN and TraG
+- TraDIS identified 27 conjugation genes (Hancock et al. 2020 Nat Microbiol)
+- sfx (surface exclusion, targets TraN_C, constitutive at ~150x eexC) is OUT OF SCOPE under the entry-only
+  cut
+schema_version: 1.1.0
+scope: entry_exclusion_only

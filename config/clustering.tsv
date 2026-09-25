@@ -1,0 +1,11 @@
+# Pipeline v2 §0.1 -- FIXED 2026-09-03. Changing this re-runs every statistic.
+# Evidence: docs/cluster_threshold_evidence.md · job 25502424
+parameter	value	note
+mash_k	21	sketch k-mer size
+mash_s	1000	sketch size
+dist_threshold_d	0.007	= 99.3% ANI. The TROUGH MINIMUM of the pairwise distribution (bin 0.006-0.007 holds 190,740 pairs, the lowest). Standard practice for a bimodal distribution is the valley minimum; no further justification needed.
+linkage	single	connected components. Permissive, therefore conservative for the control-separation test.
+n_clusters	34436	from 72,557 records
+n_singletons	27679	
+largest_cluster	860	1.2% of the database
+insensitivity	d=0.005 gives 36,767 clusters / largest 847; d=0.007 gives 34,436 / 860	THE CHOICE IS NOT LOAD-BEARING. Structure is nearly identical across 0.005-0.007, so the principled point (valley minimum) was taken. This insensitivity is more reassuring than the threshold value itself and should be reported alongside it.

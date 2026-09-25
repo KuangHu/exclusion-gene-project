@@ -1,0 +1,7 @@
+# Elements with a real exclusion phenotype in the literature but NO usable
+# accession, and NO distinct pair to contribute. Dropped from the seed set on
+# purpose: 16 clean rows beat 18 with two that fail QC. The 18-row target in S2
+# was coverage of DISTINCT PAIRS, not element count.
+element_id	inc_group	redundant_with	reason	pmid
+R1	IncFII	R100	same IncFII traS/traT vs TraG pair as R100; no complete record (all length-matched hits are Deinococcus radiodurans R1 or unrelated isolates named R1)	TBD
+R144	IncI1	R64	same IncI1 excAB vs TraY pair as R64; no complete record, largest genuine hit 812bp (EU370465.1). Top length hit was a C. elegans cosmid -- rejected	TBD

@@ -1,0 +1,6 @@
+cluster	in_slot_records	mash_clusters	unique_seqs	lipobox_pct	in_slot_over_total	hits_total	median_hit_aa	seeds
+39	27	16	10	100.0	0.964	28	66	
+13	106	69	58	91.8	0.698	159	114	
+46	108	46	13	98.8	0.554	260	108	
+25	173	135	92	96.2	0.095	1755	77	pKM101_eex_Eex_IncNfamily;R388_cand_Eex_IncNfamily
+34	65	57	31	94.4	0.014	4576	84	

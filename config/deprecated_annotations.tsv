@@ -1,0 +1,17 @@
+# Annotations that LOOK like exclusion but are not. S7 + S4 step 6.
+# The extractor records these as deprecated=Y so they can never be scored as hits.
+element_id	gene	reason
+ColE1	exc1	annotated as exclusion, experimentally shown inactive
+ColE1	exc2	annotated as exclusion, experimentally shown inactive
+ANY	finO	fertility inhibition -- reduces donation, not reception
+ANY	finP	fertility inhibition -- reduces donation, not reception
+# --- NAME COLLISIONS (not deprecated, but MUST NOT be cross-matched) ---
+# "sfx" is used for TWO unrelated things:
+#   1. pED208 M13465.1 (1986): "surface exclusion system (sfx)" = the F-like
+#      traS/traT system. /product="sfx protein" on the traT CDS.
+#   2. IncC (pVCR94/R16a): Sfx, a distinct surface-exclusion protein found by
+#      TraDIS after eexC failed to explain residual exclusion.
+# Matching (1) with the IncC sfx pattern files F-like TraT as IncC Sfx and
+# corrupts the S5 exclusion-group assignment. Gene target sfx is therefore
+# RESTRICTED to IncC/IncA elements by inc_group; see config/gene_targets.tsv.
+pED208	sfx	name collision: F-like traS/traT system, NOT IncC Sfx -- do not match with IncC sfx pattern

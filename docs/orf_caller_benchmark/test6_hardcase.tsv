@@ -1,0 +1,41 @@
+method	protein	aa	hit3	hit5	note
+1a_genbank_CP009465	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+1a_genbank_CP009465	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+1a_genbank_CP009465	AJE44601.1	85	Y	Y	missed by the CP017937 pipeline
+1a_genbank_CP009465	APB53843.1	78	N	N	missed by the CP009465 pipeline
+1b_genbank_CP017937	AJE44587.1	63	N	N	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+1b_genbank_CP017937	AJE44589.1	116	N	N	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+1b_genbank_CP017937	AJE44601.1	85	N	N	missed by the CP017937 pipeline
+1b_genbank_CP017937	APB53843.1	78	Y	Y	missed by the CP009465 pipeline
+2_pyrodigal_anon_def	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+2_pyrodigal_anon_def	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+2_pyrodigal_anon_def	AJE44601.1	85	N	N	missed by the CP017937 pipeline
+2_pyrodigal_anon_def	APB53843.1	78	N	N	missed by the CP009465 pipeline
+3_pyrodigal_anon_m60	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+3_pyrodigal_anon_m60	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+3_pyrodigal_anon_m60	AJE44601.1	85	N	N	missed by the CP017937 pipeline
+3_pyrodigal_anon_m60	APB53843.1	78	N	N	missed by the CP009465 pipeline
+4_pyrodigal_normal	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+4_pyrodigal_normal	AJE44589.1	116	N	N	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+4_pyrodigal_normal	AJE44601.1	85	Y	Y	missed by the CP017937 pipeline
+4_pyrodigal_normal	APB53843.1	78	Y	N	missed by the CP009465 pipeline
+5_orfipy	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+5_orfipy	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+5_orfipy	AJE44601.1	85	Y	N	missed by the CP017937 pipeline
+5_orfipy	APB53843.1	78	Y	N	missed by the CP009465 pipeline
+6_sixframe_allstart	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+6_sixframe_allstart	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+6_sixframe_allstart	AJE44601.1	85	Y	Y	missed by the CP017937 pipeline
+6_sixframe_allstart	APB53843.1	78	Y	Y	missed by the CP009465 pipeline
+6b_sixframe_1ststart	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+6b_sixframe_1ststart	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+6b_sixframe_1ststart	AJE44601.1	85	Y	N	missed by the CP017937 pipeline
+6b_sixframe_1ststart	APB53843.1	78	Y	N	missed by the CP009465 pipeline
+7_storf_default	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+7_storf_default	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+7_storf_default	AJE44601.1	85	Y	Y	missed by the CP017937 pipeline
+7_storf_default	APB53843.1	78	N	N	missed by the CP009465 pipeline
+8_storf_con	AJE44587.1	63	Y	Y	missed by the CP017937 pipeline; lipobox ISG|C, mature 47 aa
+8_storf_con	AJE44589.1	116	Y	Y	missed by the CP017937 pipeline; trbM family -- a real conjugation gene
+8_storf_con	AJE44601.1	85	Y	Y	missed by the CP017937 pipeline
+8_storf_con	APB53843.1	78	N	N	missed by the CP009465 pipeline

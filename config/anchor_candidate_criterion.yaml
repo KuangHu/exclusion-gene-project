@@ -1,0 +1,195 @@
+# FROZEN CRITERION -- slot occupant anchoring
+#
+# CURATED. Generated scripts must never write here (A9). Sealed under A9/A14.
+#
+# ONE criterion. A/B/C are values of the `anchor_mode` FIELD, not three gates.
+# The difference between them is EVIDENCE TIER, not admission logic, and that
+# difference is encoded explicitly here rather than carried in anyone's memory.
+
+version: 1.0
+frozen: 2026-09-18
+
+# ---------------------------------------------------------------------------
+# THE ONLY GATE
+# ---------------------------------------------------------------------------
+criterion:
+  in_slot: true
+  max_length_aa: 250          # admits every known positive; ExcA 220 is binding.
+                              # NOTE: this bound comes from known positives, NOT
+                              # from a target-vs-negative comparison. Recorded as
+                              # such -- it is the one threshold not measured.
+  membrane_anchor: "lipobox_strict == true OR tm_count >= 1"
+  not_hit_by: [category_2, category_4]
+
+  # category_1 hit -> ARCHIVE as known, not a discovery, not discarded
+  # category_3 hit -> KEEP IN POOL, flag named_uncharacterized
+
+# ---------------------------------------------------------------------------
+# anchor_mode -- a field, with tiers
+# ---------------------------------------------------------------------------
+anchor_mode:
+  lipid:
+    rule: "lipobox_strict AND tm_count == 0"
+    exemplars: [TrbK_RP4, YddJ_ICEBs1, Eex_IncN_pKM101]
+    evidence_tier: E1
+    mpf_t_slot_share_pct: 45.8
+  multi_pass:
+    rule: "NOT lipobox_strict AND tm_count >= 2"
+    exemplars: [TraS_F, EexS_SXT, EexR_R391, ExcA_R64]
+    evidence_tier: E1
+    mpf_t_slot_share_pct: 1.0
+    note: >
+      The exemplars are PHYLOGENETICALLY UNRELATED (Humbert/Burrus) yet all
+      inner-membrane. anchor_mode is a CONVERGENT architecture, not a homologous
+      family. This is why sequence homology carries no signal across MPF classes
+      and why the structural layer is required.
+      ExcA has DUAL LOCALISATION (inner-membrane and cytoplasmic soluble forms;
+      excAB are overlapping genes with translational reinitiation), so its 2 TM
+      is not a prediction failure -- it has no single topology. Same class of
+      problem as the CrcB calibration failure.
+  single_pass:
+    rule: "NOT lipobox_strict AND tm_count == 1"
+    exemplars: []
+    evidence_tier: E4          # NO experimental sentinel. Do not promote.
+    mpf_t_slot_share_pct: 23.8
+  ambiguous:
+    rule: "lipobox_strict AND tm_count >= 1"
+    action: manual_review
+    mpf_t_slot_share_pct: 0.9
+
+# 28.5% of the MPF_T slot has NO anchoring evidence and is not a candidate.
+# This is the criterion working: EEx must be membrane-anchored by mechanism.
+
+# ---------------------------------------------------------------------------
+# FALSE-POSITIVE RATE -- measured, job 26129299
+#
+# Criterion tested WITHOUT the positional term:
+#   length <= 250 AND (lipobox_strict OR tm_count >= 1)
+#
+# This number MUST be quoted alongside any slot figure. A slot pass rate is
+# meaningless on its own.
+# ---------------------------------------------------------------------------
+false_positive_rate:
+  background_pct: 21.8        # random <=250 aa proteins from the SAME plasmids,
+                              # excluding slot occupants and anchor families (n=600)
+  slot_pct: 92.2              # actual slot occupants, all four MPF classes (n=600)
+  enrichment: 4.22
+
+  controls:
+    cytoplasmic:
+      set: "VirB11 (T2SSE) + VirB4 ATPases, SIZE-MATCHED to <=250 aa"
+      n: 274
+      pass_pct: 0.4           # 1 of 274. Size-matched so they fail on membrane
+                              # evidence, not on the length cap -- otherwise the
+                              # control would pass trivially and prove nothing.
+      verdict: PASS
+    membrane:
+      set: "VirB6 / TrbL, polytopic inner membrane"
+      n: 131
+      pass_pct: 100.0
+      verdict: PASS           # the other-direction check: a criterion that
+                              # REJECTS known membrane proteins is broken too
+
+  breakdown_background:
+    lipobox_pct: 2.5
+    tm1_pct: 5.8
+    tm2plus_pct: 13.7
+
+  reading: >
+    The criterion discriminates (4.22x), but ~1 in 5 arbitrary small plasmid
+    proteins passes it. This is a SCREEN, not a classifier. Its output is a
+    recall-preserving candidate set that still contains substantial background,
+    and the discriminative burden sits downstream (structural layer, partner
+    pairing, complex prediction) where orthogonal information exists.
+
+  note_on_tm2plus: >
+    The slot set here spans ALL FOUR MPF classes (MPF_F 7803, MPF_T 6517,
+    MPF_I 3607, MPF_FA 11), so its 56.0% TM>=2 is NOT comparable to the 1.0%
+    multi_pass measured on the MPF_T VirB5+1 slot alone (681 unique, job
+    26123897). MPF_F occupants are TraS-like (4 TM) and MPF_I ExcA-like (2 TM).
+    Both figures are correct for their own population. Consistent with anchoring
+    mode partitioning by MPF class, though that remains untested directly.
+
+# ---------------------------------------------------------------------------
+# RECORDED FIELDS -- never used for admission
+# ---------------------------------------------------------------------------
+recorded_fields:
+  - tm_count            # integer. NOT a gate. A TM>=3 gate came from n=2 and
+                        # would have killed ExcA's 2 TM.
+  - tm_segments
+  - tm_start_first
+  - post_tm_len
+  - lipobox_strict      # the only lipobox used for admission
+  - lipobox_relaxed     # MUST be stored separately -- quoting relaxed (85.8%)
+                        # against a strict panel result (6.8%) caused a false
+                        # TraS-contamination alarm
+  - lipobox_structural
+  - orient_consistent   # TMbed orientation string alternates? non-alternating
+                        # means the tool contradicts itself on that sequence
+  - orient_string       # recorded, NOT read. Orientation calibration FAILED
+                        # (CrcB is dual-topology and cannot anchor an o-label).
+  - evidence_tier
+
+# ---------------------------------------------------------------------------
+# EXCLUSION LIST -- four categories
+#
+# ADMISSION RULE: a model enters category 1 or 2 ONLY with EXPERIMENTAL
+# evidence. A name, a model, or a description string is not evidence.
+# ---------------------------------------------------------------------------
+category_1_known_eex:        # hits ARCHIVED as known
+  - {model: TIGR04359, family: TrbK,     evidence: "entry exclusion lipoprotein; C-term 8-aa truncation abolishes activity"}
+  - {model: NF041429,  family: EexR/S,   evidence: "EexR/EexS entry exclusion; Marrero & Waldor"}
+  - {model: PF14729,   family: DUF4467,  evidence: "ICEBs1 genetic evidence, ConG E288K resistance. NOTE: the Pfam DESC is 'domain of unknown function' -- it qualifies on the LITERATURE, not the description"}
+  - {model: NF033894,  family: Eex_IncN, evidence: "Pohlman, Genetti & Winans 1994 -- pKM101 entry exclusion by a single lipid-attachment-motif protein"}
+  - {model: NF033891,  family: ExcA,     evidence: "Sakuma/Tazumi/Furuya/Komano 2013 -- donor TraY is the target of recipient ExcA. NCBI DESC says 'surface exclusion', inherited from the Furuya & Komano 1994 title; superseded. MPF_I's entry-exclusion classification and its 2,112 slot occupants STAND."}
+  - {model: PF10624,   family: TraS,     evidence: "F TraS entry exclusion; blocks DNA transfer after mating-pair formation"}
+
+category_2_known_not_eex:    # hits DISCARDED
+  - {model: PF05818, family: TraT, evidence: "outer-membrane lipoprotein, complement resistance; surface not entry exclusion"}
+  - {model: PrgA_Sea1, family: PrgA/Sea1, evidence: "Gram-positive surface exclusion"}
+  - {group: mpf_anchors, models: [anchor_SLT, anchor_TrbC, anchor_VirB3,
+      anchor_CagE_TrbE_VirB, anchor_VirB4_TrbE_N, anchor_T4SS, TrbL,
+      anchor_P_T4SS_TraN, anchor_VirB8, anchor_CagX, anchor_TrbI, anchor_T2SSE,
+      "anchor_T4SS-DNA_transf", anchor_F_T4SS_TraN],
+     evidence: "T4SS structural components. 562 leaked into the candidate pool when decontamination was skipped."}
+
+category_3_named_uncharacterized:   # KEEP IN POOL, flag named_uncharacterized
+  - {model: PF10907, family: DUF2749, note: "'Protein of unknown function'. CDD: appears to derive from the Trb operon, function unknown. 73 of the 162 architecture-C sequences. An INDEPENDENT annotation team recorded the same operon association without knowledge of this framework."}
+  - {model: PF20084, family: TrbK_Pfam, note: "DESC is 'conjugative transfer REGION protein' -- POSITIONAL, no functional claim. ZERO overlap with TIGR04359 (0/49, 0/35): TIGR04359 finds lipid-anchored TrbK (87.8% lipobox), PF20084 finds single-pass TrbK (11.4%). Two models, one name, two architectures. NEVER merge."}
+
+category_4_anticonjugation_immunity:   # DISCARD -- but NO MODELS HELD
+  models: []
+  note: >
+    Namtar/Attar/Ishtar/AbjA are post-entry immunity, not exclusion. We hold no
+    models, so they would currently fall through into the candidate pool
+    unrecognised. UNCOVERED CATEGORY.
+
+# ---------------------------------------------------------------------------
+# CORRECTED RULE 4a
+# ---------------------------------------------------------------------------
+rule_4a:
+  old: "if >30% of a novel set hits one Pfam family, it is not novel -- rerun"
+  corrected: "rerun ONLY if the hit family is EXPERIMENTALLY CHARACTERISED"
+  why: >
+    The old rule conflated MODELLED with CHARACTERISED. A DUF is by definition a
+    family with conserved sequence and NO known function. Under the old rule,
+    DUF2749 (45.1% of architecture C) would have been added to the exclusion list
+    and the project's strongest novel-family candidate discarded. It would also
+    have discarded PF14729, which is itself a DUF and is the MPF_FA control.
+
+# ---------------------------------------------------------------------------
+# METHODOLOGICAL PRINCIPLE
+# ---------------------------------------------------------------------------
+principle:
+  sentinels: "Sentinels verify RECALL. They NEVER set thresholds."
+  thresholds: "Thresholds come only from target-vs-negative distribution comparison, and the FULL distribution must be printed, not the tested cell."
+  failures_this_round:
+    - {name: "in-slot/total",  shape: "threshold rejected a known family"}
+    - {name: "Asp@+2",         shape: "held on a 3-protein panel, collapsed at n=563 (Asp is 6th most common at +2, 8.0%)"}
+    - {name: "TM >= 3",        shape: "gate set from n=2 independent positives"}
+    - {name: "has a Pfam name -> not novel", shape: "treated MODELLED as CHARACTERISED"}
+    - {name: "read only the pre-registered column", shape: "TM=1 was enriched 6-81x and was in the data the whole time, unprinted"}
+  common_shape: >
+    Every one was a plausible-looking TIGHTENING, and every one cost true
+    positives. None crashed; each produced a number that would have survived
+    review.

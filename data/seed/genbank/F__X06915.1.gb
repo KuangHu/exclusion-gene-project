@@ -1,0 +1,126 @@
+LOCUS       X06915                  1727 bp    DNA     linear   BCT 18-APR-2005
+DEFINITION  E. coli F plasmid traS and traT genes involved in surface
+            exclusion.
+ACCESSION   X06915
+VERSION     X06915.1
+KEYWORDS    lipoprotein; membrane protein; plasmid; surface exclusion gene;
+            traD gene; traS gene; traT gene.
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 1727)
+  AUTHORS   Jalajakumari,M.B., Guidolin,A., Buhk,H.J., Manning,P.A., Ham,L.M.,
+            Hodgson,A.L., Cheah,K.C. and Skurray,R.A.
+  TITLE     Surface exclusion genes traS and traT of the F sex factor of
+            Escherichia coli K-12. Determination of the nucleotide sequence and
+            promoter and terminator activities
+  JOURNAL   J. Mol. Biol. 198 (1), 1-11 (1987)
+   PUBMED   3323526
+FEATURES             Location/Qualifiers
+     source          1..1727
+                     /organism="Escherichia coli K-12"
+                     /mol_type="genomic DNA"
+                     /strain="K-12"
+                     /db_xref="taxon:83333"
+                     /clone="pRS31"
+                     /plasmid="F"
+     regulatory      51..56
+                     /regulatory_class="promoter"
+                     /note="pot. -35 region"
+     regulatory      71..75
+                     /regulatory_class="promoter"
+                     /note="pot. -10 region"
+     regulatory      90..96
+                     /regulatory_class="ribosome_binding_site"
+                     /note="pot. ribosome binding site"
+     CDS             102..551
+                     /note="unnamed protein product; TraSp protein (AA 1 -
+                     149)"
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA30011.1"
+                     /db_xref="GOA:P09129"
+                     /db_xref="UniProtKB/Swiss-Prot:P09129"
+                     /translation="MITQQIISSELEVLKKHIDSGDIRIPSLWQGLKPGLIIMGWMIF
+                     CPLLMSFLITQKTSETLTAVLAGGWLGLIILFIVARIRMLYFSLPEEFLKTSSVMRVI
+                     SSKLKVYFIVYMGVIFLWSFLGGGIIYGFGAILVTVIMAFLDSIRYR"
+     regulatory      559..601
+                     /regulatory_class="promoter"
+                     /note="pot. -35 region"
+     regulatory      617..622
+                     /regulatory_class="promoter"
+                     /note="pot. -10 region"
+     regulatory      636..638
+                     /regulatory_class="ribosome_binding_site"
+                     /note="pot. ribosome binding site"
+     CDS             646..1380
+                     /note="unnamed protein product; proTraTp protein (AA 1 -
+                     244)"
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA30012.1"
+                     /db_xref="GOA:P13979"
+                     /db_xref="InterPro:IPR008874"
+                     /db_xref="UniProtKB/Swiss-Prot:P13979"
+                     /translation="MMKTKKLMMVALVSSTLALSGCGAMSTAIKKRNLEVKTQMSETI
+                     WLEPASERTVFLQIKNTSDKDMSGLQGKIADAVKAKGYQVVTSPDKAYYWIQANVLKA
+                     DKMDLRESQGWLNRGYEGAAVGAALGAGITGYNSNSAGGTLGVGLAAGLVGMAADAMV
+                     EDVNYTMITDVQIAERTKATVTTDNVAALRQGTSGAKIQTSTETGNQHKYQTRVVSNA
+                     NKVNLKFEEAKPVLEDQLAKSIANIL"
+     mat_peptide     709..1377
+                     /product="mature TraTp protein (AA 22 - 244)"
+     misc_feature    646..708
+                     /note="propeptide (AA 1 - 21)"
+     regulatory      1598..1602
+                     /regulatory_class="promoter"
+                     /note="pot. -35 region"
+     regulatory      1618..1623
+                     /regulatory_class="promoter"
+                     /note="pot. -10 region"
+     CDS             1645..>1727
+                     /note="unnamed protein product; Protein sequence is in
+                     conflict with the conceptual translation; traD gene
+                     product (27 AA) (1727 is 1st base in codon)"
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA30013.1"
+                     /db_xref="GOA:P09130"
+                     /db_xref="InterPro:IPR014128"
+                     /db_xref="InterPro:IPR019476"
+                     /db_xref="InterPro:IPR022585"
+                     /db_xref="PDB:3D8A"
+                     /db_xref="UniProtKB/Swiss-Prot:P09130"
+                     /translation="YDPGRSDCVHALSACSARSPISCFTAC"
+ORIGIN      
+        1 aaagaatacc tgtgctgata gtccgaaaga cttttagaga aagcaaagag ttaccagcat
+       61 aaagaataat cataacatgt tgggtagggt atggagagac catgattaca caacaaatta
+      121 tcagtagtga gttggaagtt ttaaagaaac atattgactc aggagatatt agaattccgt
+      181 cactatggca gggattaaaa cccgggctta tcatcatggg gtggatgatt ttttgtccct
+      241 tgctaatgtc atttctaata acacaaaaga caagtgaaac actcactgct gtgttagccg
+      301 gaggatggct tggacttatt attctgttta ttgtggcaag gattagaatg ttatatttct
+      361 ctctgccgga agaattccta aagacatcat ccgtaatgag ggttatatca tcaaaactta
+      421 aagtgtattt cattgtgtat atgggagtta tatttttatg gtctttttta ggtggaggga
+      481 ttatatacgg ttttggcgca attttagtga cggttattat ggcgttcctt gattcaatta
+      541 gatatcggta gatatcaatt tgttggtgtt attgatgcaa tcaatagtta cgtcaaaaac
+      601 aagaagttat caagagtaaa ataaaagata ttagagagta aatatatgat gaaaacaaaa
+      661 aaactaatga tggttgcact ggtcagttcc actctggccc tttcagggtg tggtgcgatg
+      721 agcacagcaa tcaagaagcg taaccttgag gtgaagactc agatgagtga gaccatctgg
+      781 cttgaacccg ccagcgaacg cacggtattt ctgcagatca aaaacacgtc tgataaagac
+      841 atgagtgggc tgcagggcaa aattgctgat gctgtgaaag caaaagggta tcaggtggtg
+      901 acttctccgg ataaagccta ctactggatt caggcgaatg tgctgaaggc cgataagatg
+      961 gatctgcggg agtctcaggg atggctgaac cgtggttatg aaggcgcagc agttggtgca
+     1021 gcgttaggtg ccggtatcac cggatataat tccaattctg ccggtggcac actcggtgtg
+     1081 ggccttgctg ccggtctggt gggtatggct gcagatgcga tggtggaaga tgtgaactat
+     1141 accatgatca cggatgtgca gattgcagag cgtactaagg caacggtgac aacggataat
+     1201 gttgccgccc tgcgtcaggg cacatcaggt gcgaaaattc agaccagtac agaaacaggt
+     1261 aaccagcata aataccagac ccgtgtggtc tcaaatgcga acaaggttaa cctgaaattt
+     1321 gaagaggcga agcctgttct cgaagaccag ctggccaaat caatcgcaaa tattctctga
+     1381 ttatcttcga ggctggtctg acggcctcct gactgacgcc tcgctttgct cgttgtccaa
+     1441 ccccggaaag aaataaaata aattttattt ctccccggcg tttccgaaat aaatatgaaa
+     1501 acactgagcg gttgtgcaaa ttctttgtgc gaccgtgaat gttgcgaagc cggaatttaa
+     1561 cggttattaa tcttttcatc attaataatc agtccgactg actttttttc ttcggaatat
+     1621 catcatgagt tttaacgcaa aggatatgac ccagggcggt cagattgcgt ccatgcgcta
+     1681 tccgcatgtt cagccagatc gccaatatca tgctttactg cctgttt
+//
+

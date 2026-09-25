@@ -1,0 +1,750 @@
+LOCUS       U72482                 13833 bp    DNA     linear   BCT 26-JUL-2016
+DEFINITION  Plasmid pKM101 resolvase (uvp1), RepA protein (repA), ArdK protein
+            (ardK), Mpr protein (mpr), MucB protein (mucB), MucA protein
+            (mucA), ArdB protein (ardB), ArdR protein (ardR), (orf80), CcgD
+            protein (ccgD), CcgC protein (ccgC), ArdA protein (ardA), CcgAI
+            protein (ccgAI), CcgAII protein (ccgAII), (orfD), (orfC), (orfB),
+            and PsiB-like protein (orfA) genes, complete cds.
+ACCESSION   U72482 L09114 M81860 U00430 U00434
+VERSION     U72482.2
+KEYWORDS    .
+SOURCE      Plasmid pKM101
+  ORGANISM  Plasmid pKM101
+            other sequences; plasmids.
+REFERENCE   1  (bases 9293 to 9890)
+  AUTHORS   Belogurov,A.A., Delver,E.P. and Rodzevich,O.V.
+  TITLE     IncN plasmid pKM101 and IncI1 plasmid ColIb-P9 encode homologous
+            antirestriction proteins in their leading regions
+  JOURNAL   J. Bacteriol. 174 (15), 5079-5085 (1992)
+   PUBMED   1321121
+REFERENCE   2  (bases 5809 to 6612)
+  AUTHORS   Belogurov,A.A., Delver,E.P. and Rodzevich,O.V.
+  TITLE     Plasmid pKM101 encodes two nonhomologous antirestriction proteins
+            (ArdA and ArdB) whose expression is controlled by homologous
+            regulatory sequences
+  JOURNAL   J. Bacteriol. 175 (15), 4843-4850 (1993)
+   PUBMED   8393008
+REFERENCE   3  (bases 1 to 13833)
+  AUTHORS   Delver,E.P. and Belogurov,A.A.
+  TITLE     Organization of the leading region of IncN plasmid pKM101 (R46): a
+            regulation controlled by CUP sequence elements
+  JOURNAL   J. Mol. Biol. 271 (1), 13-30 (1997)
+   PUBMED   9300052
+REFERENCE   4  (bases 1 to 13833)
+  AUTHORS   Belogurov,A.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-1996) Genetic Engineering, Cardiology Research
+            Center, Genetic Engineering, Cherepkovskaya 15A, Moscow 121552,
+            Russia
+REFERENCE   5  (bases 1 to 13833)
+  AUTHORS   Belogurov,A.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-1999) Genetic Engineering, Cardiology Research
+            Center, 3rd Cherepkovskaya str. 15A, Moscow 121552, Russia
+  REMARK    Nucleotide and amino acid sequences updated by submitter
+COMMENT     On Mar 4, 1999 this sequence version replaced U72482.1.
+FEATURES             Location/Qualifiers
+     source          1..13833
+                     /organism="Plasmid pKM101"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:2588"
+                     /lab_host="E. coli"
+                     /plasmid="pKM101"
+                     /note="plasmid is a derivative of R46"
+     gene            163..759
+                     /gene="uvp1"
+     CDS             163..759
+                     /gene="uvp1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="resolvase"
+                     /protein_id="AAB36883.1"
+                     /translation="MIIGYARKSTHLQDVTHQVDELTKAGCEQIYHEQISRGGSKRAK
+                     NGAPELENCLKALREGDTLVVWALDRLGGSLSQVITLLDDLKKRGITFIAIKDRIDTS
+                     APVIGEIYTHLMAIFSNFERNRNIERTRSGLAAARARGRVGGRKPSLSEDDIKQMKIL
+                     LADPEMTVGAVAKRFNVSRMTIYRYTTKGNHSEKINDE"
+     repeat_region   complement(817..1140)
+                     /note="CUP6"
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=inverted
+     repeat_region   1158..1397
+                     /note="proposed RepA binding sites; involved in the
+                     control of plasmid replication"
+                     /rpt_family="iteron family"
+                     /rpt_type=direct
+                     /rpt_unit_range=1158..1175
+     gene            complement(1445..2217)
+                     /gene="repA"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     CDS             complement(1445..2164)
+                     /gene="repA"
+                     /function="initiation of plasmid replication"
+                     /note="positive acting replication protein; member of
+                     CUP-controlled regulon ccgG"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RepA protein"
+                     /protein_id="AAB36884.1"
+                     /translation="MDKLLNKKIKVKQSNELTEAAYYLSLKAKRVLWLCLMQTYFTAS
+                     VSEDDDEMAVLGDSTFKVKVADYQQIFQVSRNQAIKDVKEGVFELSRSAVIFYPKEGS
+                     FDCVARPWLTEAGSRSARGIWEIEFNHKLLRYIYGLTNQFTTYSLRDCGSLRNPRTIR
+                     LYESLAQFKSSGLWVTTHAWLNDRFLLPESQQKNLAELKRSFLDPALKQINEKTPLLA
+                     KYSIDDSGKFLFSIIDKQNPV"
+     regulatory      complement(2173..2175)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="repA"
+     regulatory      complement(2189..2194)
+                     /regulatory_class="minus_10_signal"
+                     /gene="repA"
+     repeat_region   complement(2209..2238)
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="CUPB; member of CUP-controlled regulatory network;
+                     involved in control of repA expression; ArdK binding site"
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+     regulatory      complement(2212..2217)
+                     /regulatory_class="minus_35_signal"
+                     /gene="repA"
+     repeat_region   2249..2356
+                     /note="imperfect"
+                     /rpt_type=direct
+                     /rpt_unit_range=2249..2268
+     repeat_region   2642..2669
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="CUPA; member of CUP-controlled regulatory network;
+                     involved in control of ardK expression; ArdK binding site"
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=direct
+     gene            2663..3064
+                     /gene="ardK"
+     regulatory      2663..2669
+                     /regulatory_class="minus_35_signal"
+                     /gene="ardK"
+     regulatory      2686..2691
+                     /regulatory_class="minus_10_signal"
+                     /gene="ardK"
+     regulatory      2710..2714
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ardK"
+     CDS             2723..3064
+                     /gene="ardK"
+                     /function="control of expression of genes fused to CUP
+                     sequences"
+                     /function="regulatory DNA binding protein"
+                     /function="repressor"
+                     /note="member of CUP-controlled regulon ccgF"
+                     /citation=[2]
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ArdK protein"
+                     /protein_id="AAB36885.1"
+                     /translation="MAQKNRISETEWKQLLPQMASFAHITTDIGYSVLVKGEKSSDVA
+                     TRVGRSKQNISSTVKRIWDLYQNTTLKAENGEPLKLVQVWIPASLAETVLKEAAKYSI
+                     NNITTSEMEKK"
+     gene            complement(3079..3880)
+                     /gene="mpr"
+     CDS             complement(3079..3870)
+                     /gene="mpr"
+                     /note="zinc metalloproteinase; contains zinc binding
+                     region signature"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Mpr protein"
+                     /protein_id="AAD17385.1"
+                     /translation="MNLPTPETYDELQRAYDFFNEKLFSNELPPCLITLQREKRTYGY
+                     CSFKRFVGRESGYTVDEIAMNPVYFSIRTIKATLSTLVHEMVHQWQFHFGEPGRRGYH
+                     NKQWAARMERVGLMPSDTGEPGGRKVGQSMTHYIIAGGPFDMACDELLTGHFRLSWMD
+                     RFPPYQPKPGAVLSPTGKGYIDDEEDDSEHEQEVEEGRDPVELDDEIIEAMRFVTPPP
+                     EAPVNKTNREKYSCPVCHINLWGKPGIVVYCGGEHCNKAALVVLK"
+     regulatory      complement(3877..3880)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="mpr"
+     gene            complement(4021..5286)
+                     /gene="mucB"
+     CDS             complement(4021..5286)
+                     /gene="mucB"
+                     /function="mutagenesis enhancement"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MucB protein"
+                     /protein_id="AAD17384.1"
+                     /translation="MFALIDVNGMYASCEQAFRPDLANRAVAVLSNNDGNIVARNYLA
+                     KKAGLKMGDPYFKVRPIIERHNIAIFSSNYTLYASMSARFAAVVESLASHVEQYSIDE
+                     LFVDCKGITAAMSLDAFGRQLREEVRRHTTLVCGVGIARTKTLAKLCNHAAKTWPATG
+                     GVVALDDGARLKKLMSILPVAEVWGVGHRTEKALATMGIKTVLDLARADTRLIRKTFG
+                     VVLERTVRELRGEACFSLEENPPAKQQIVVSRSFGQRVETLTDMQQAVTGFAARAAEK
+                     LRNERQYCRVISVFIRTSPYSVRDTQYANQATEKLTVATQDSRTIIQAAQAALARIWR
+                     EDIAYAKAGVMLADFSGKEAQLDLFDSATPSAGSEALMAVLDGINRRGKNQLFFAGQG
+                     IDNSFAMRRQMLSPDYTTDWRSIPIATIK"
+     gene            complement(5274..5773)
+                     /gene="mucA"
+     CDS             complement(5274..5714)
+                     /gene="mucA"
+                     /function="mutagenesis enhancement"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MucA protein"
+                     /protein_id="AAB36886.2"
+                     /translation="MKVDIFESSGASRVHSIPFYLQRISAGFPSPAQGYEKQELNLHE
+                     YCVRHPSATYFLRVSGSSMEDGRIHDGDVLVVDRSLTASHGSIVVACIHNEFTVKRLL
+                     LRPRPCLMPMNKDFPVYYIDPDNESVEIWGVVTHSLIEHPVCLR"
+     regulatory      complement(5720..5725)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="mucA"
+     protein_bind    complement(5732..5747)
+                     /gene="mucA"
+                     /note="SOS box; involved in control of mucAB expression"
+                     /bound_moiety="LexA protein"
+     regulatory      complement(5744..5749)
+                     /regulatory_class="minus_10_signal"
+                     /gene="mucA"
+     regulatory      complement(5768..5773)
+                     /regulatory_class="minus_35_signal"
+                     /gene="mucA"
+     repeat_region   5860..6123
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="CUP5; contains the strong promoter negatively
+                     regulated by the ArdK and ArdR proteins; member of the
+                     CUP-controlled regulatory network; involved in control of
+                     ardB expression"
+                     /citation=[2]
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=direct
+     protein_bind    6009..6041
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="involved in control of ardB gene expression"
+                     /bound_moiety="ArdK"
+     gene            6033..6552
+                     /gene="ardB"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     regulatory      6033..6038
+                     /regulatory_class="minus_35_signal"
+                     /gene="ardB"
+     regulatory      6056..6061
+                     /regulatory_class="minus_10_signal"
+                     /gene="ardB"
+     regulatory      6116..6122
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ardB"
+     CDS             6127..6552
+                     /gene="ardB"
+                     /function="prevention of plasmid DNA from type I
+                     restriction"
+                     /function="antirestriction protein"
+                     /note="member of CUP-controlled regulon ccgEI"
+                     /citation=[2]
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ArdB protein"
+                     /protein_id="AAB36887.1"
+                     /translation="METIEITARYISENARMNFMPAAFRGAFFSADHFIQSFLNRYAK
+                     DYQGGYWEYLQASNGAFFMEAPQPLWLSLPNYFEGECSAREVGIIVCLYAYSYFCGLA
+                     YEEGKAELNETMANRYHLLREYVNTLENESQNRIYRAID"
+     gene            6601..7014
+                     /gene="ardR"
+     regulatory      6601..6603
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ardR"
+     CDS             6610..7014
+                     /gene="ardR"
+                     /function="regulatory protein"
+                     /function="control of expression of genes fused to CUP
+                     sequences"
+                     /note="member of CUP-controlled regulon ccgEII"
+                     /citation=[2]
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ArdR protein"
+                     /protein_id="AAB36888.1"
+                     /translation="MLATLQHPTVWQLPDRLMLLELLMFDYRNSDQERYGQQIYHHYR
+                     KQGNHRWDTSVHQDSGGQYAIIFRHSFSKKQADGVKRTMIRDETVIRAGTAQELTEAT
+                     FPDFQDSDILKASDFFKSLIQRKAADVTQTDI"
+     gene            7013..7263
+                     /gene="orf80"
+     regulatory      7013..7016
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orf80"
+     CDS             7024..7263
+                     /gene="orf80"
+                     /note="Orf80"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown"
+                     /protein_id="AAD17386.1"
+                     /translation="MLNKTENNTNISSINPCSTESLIAVTGNDGETHIIQRELISHSV
+                     EGHEATIIHLVTGKSIRVSLSSEILAKKLGITVSE"
+     repeat_region   7520..7643
+                     /rpt_family="A1"
+                     /rpt_type=direct
+     repeat_region   7705..8140
+                     /note="CUP4; contains the strong promoter negatively
+                     regulated by the ArdK and ArdR proteins; member of CUP
+                     regulatory network; involved in control of ccgD
+                     expression"
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=direct
+     gene            8051..8441
+                     /gene="ccgD"
+     regulatory      8051..8056
+                     /regulatory_class="minus_35_signal"
+                     /gene="ccgD"
+     regulatory      8074..8079
+                     /regulatory_class="minus_10_signal"
+                     /gene="ccgD"
+     regulatory      8136..8139
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ccgD"
+     CDS             8145..8441
+                     /gene="ccgD"
+                     /function="unknown"
+                     /note="member of CUP-controlled regulon"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="CcgD protein"
+                     /protein_id="AAB36889.1"
+                     /translation="MHFTNFLQRYFDIEIEHTFDPTIQGSNETGKDVTKIWIYEKGED
+                     SEPLLTLTEAWWYTETKTAGNWLIGNVYSTLEHGREIHESEFRKLVTAGKVISA"
+     repeat_region   8503..8569
+                     /note="CUP3; lacks the 5'-portion of CUP core; member of
+                     CUP-controlled regulatory network; responsible for
+                     ArdR-mediated control of ccgC expression; involved in
+                     control of the ccgC expression"
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=direct
+     gene            8565..8858
+                     /gene="ccgC"
+     regulatory      8565..8568
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ccgC"
+     CDS             8574..8858
+                     /gene="ccgC"
+                     /function="growth arrest of plasmid free cells"
+                     /note="Hok-like protein; contains three transmembrane
+                     domains; member of CUP-controlled regulon; controlled by
+                     ArdR"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="CcgC protein"
+                     /protein_id="AAB36890.1"
+                     /translation="MYHYLVFVPLALIISAAALALPWFIVRAGYRDLVQITCACVSIL
+                     GLCAATGVFSYFDNKPLAFLYGCGALACFLYAVDCAIPLYMTRKKPRKQL"
+     repeat_region   8923..9350
+                     /note="CUP2; contains the strong promoter negatively
+                     regulated by the ArdK and ArdR proteins; member of
+                     CUP-controlled regulatory network; involved in control of
+                     ardA expression"
+                     /citation=[2]
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=direct
+     gene            9261..9865
+                     /gene="ardA"
+     regulatory      9261..9266
+                     /regulatory_class="minus_35_signal"
+                     /gene="ardA"
+     regulatory      9284..9289
+                     /regulatory_class="minus_10_signal"
+                     /gene="ardA"
+     regulatory      9346..9349
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ardA"
+     CDS             9356..9865
+                     /gene="ardA"
+                     /function="prevention of plasmid DNA from type I
+                     restriction"
+                     /function="antirestriction protein"
+                     /note="member of CUP-controlled regulon ccgB"
+                     /citation=[1]
+                     /citation=[2]
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ArdA protein"
+                     /protein_id="AAB36891.1"
+                     /translation="MTDITTPSVYVGTYHKYNCGSIAGAWLDLTDFDSSEEFYERCRE
+                     LHANEADPEFMFQDWEGIPSDMASECHINWDFINGFKQAREEGNEAAFVAFVDLFNST
+                     DFDLFRDAYMGEAKDEETFAEEYLNDSGLLNEIPESVARYFDIVAYARDLFIGDFSLH
+                     DGHVFNMTC"
+     repeat_region   10025..10148
+                     /rpt_family="A2"
+                     /rpt_type=direct
+     repeat_region   10263..10691
+                     /note="CUP1; contains the strong promoter negatively
+                     regulated by the ArdK and ArdR proteins; member of
+                     CUP-controlled regulatory network; involved in control of
+                     the ccgAI and ccgAII expression"
+                     /citation=[3]
+                     /rpt_family="CUP (Conserved UPstream)"
+                     /rpt_type=direct
+     gene            10602..10875
+                     /gene="ccgAI"
+     regulatory      10602..10607
+                     /regulatory_class="minus_35_signal"
+                     /gene="ccgAI"
+     regulatory      10625..10630
+                     /regulatory_class="minus_10_signal"
+                     /gene="ccgAI"
+     regulatory      10687..10690
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ccgAI"
+     CDS             10696..10875
+                     /gene="ccgAI"
+                     /function="control of the ccgAII expression"
+                     /note="member of CUP-controlled regulon"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="CcgAI protein"
+                     /protein_id="AAB36892.1"
+                     /translation="MTTVTTPSQLKKEVESQKELLLRACLEAFNQLPNQRLQGAFTST
+                     YALAAKLDQLLQQTK"
+     gene            10917..11250
+                     /gene="ccgAII"
+     regulatory      10917..10920
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="ccgAII"
+     CDS             10930..11250
+                     /gene="ccgAII"
+                     /function="prevention of disadvantage of RecA protein
+                     overproduction"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="RecX-like protein; member of CUP-controlled
+                     regulon"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="CcgAII protein"
+                     /protein_id="AAB36893.1"
+                     /translation="MTTQTLEQTLEDFRRQCESFARKQQPRCGLIYELYQRRLSADID
+                     GYLAGVPAEYREELIAVARREFDYLTQDEIAEEIRQDRENDYCSHGIERNCCPLGCGD
+                     LDDY"
+     gene            complement(11361..11716)
+                     /gene="orfD"
+     CDS             complement(11361..11705)
+                     /gene="orfD"
+                     /note="OrfD protein"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown"
+                     /protein_id="AAB36894.1"
+                     /translation="MNDRQREQARIRQARRRARLKEEGASVTVTLTKQEEAMLQELCR
+                     VRRPGRTAYSTNEFFQLLLIRNWQQWQEQKAQLGKCQACGKLKAEGGCGGERQSETFN
+                     CWLAVEANELNV"
+     regulatory      complement(11712..11716)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orfD"
+     gene            complement(11887..12265)
+                     /gene="orfC"
+     CDS             complement(11887..12255)
+                     /gene="orfC"
+                     /function="unknown"
+                     /note="OrfC protein; contain a leucine zipper pattern"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown"
+                     /protein_id="AAB36895.1"
+                     /translation="MEKQPDKFEVLMDWFLGDAKEITASQKEMTEILSALSEKLAKDT
+                     ESLGETADSLKRTLVENQRSISLAISDDAKAREEFLTKFRRAQASRAETLTRQILFIT
+                     AGCTIVGAAVGAAIAIILLR"
+     gene            complement(12257..12983)
+                     /gene="orfB"
+     CDS             complement(12257..12973)
+                     /gene="orfB"
+                     /function="unknown"
+                     /note="OrfB protein"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown"
+                     /protein_id="AAB36896.1"
+                     /translation="MKVAVINYSGSVGKTLISSYLLAPRLTGAKFYAVETINQSASDL
+                     GIENVSIFKGDDFSRLIEDIVFEDAGIIDIGASNVEAFLMAMSRFDSGANEFDKYVIP
+                     VTPDNKAIDESMKTAHTLSKAGVSSDKIIFVPNRISPDSEVEDVLAPVFEFVKRTKIG
+                     KISKKSVIYNSEVFEYLAYHRISFEALTAEDPEEFKARAKQTTDADERKKLARRYTYM
+                     KQAIPVKANLDKAYAALMGE"
+     regulatory      complement(12262..12265)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orfC"
+     regulatory      complement(12980..12983)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orfB"
+     gene            complement(12982..13518)
+                     /gene="orfA"
+     CDS             complement(12982..13401)
+                     /gene="orfA"
+                     /function="prevention of the induction of SOS-responses"
+                     /note="OrfA protein"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PsiB-like protein"
+                     /protein_id="AAB36897.1"
+                     /translation="MKPKSIRAALQLMLPEIEEMMSLGVSRAEIYKAVSERFGLEGVN
+                     VRSFDTSLYRARQIRKNGMHNTHGRMPNNEDSVLHNTQNGGSEKGAEESVLHNTQTPP
+                     EPEPQGSEKKESPGIIDKEFFNKISEDFDPKMFNKKF"
+     regulatory      complement(13407..13410)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="orfA"
+     regulatory      complement(13500..13505)
+                     /regulatory_class="minus_10_signal"
+     regulatory      complement(13513..13518)
+                     /regulatory_class="minus_35_signal"
+                     /note="proposed promoter for the orfABCD operon"
+     regulatory      13801..13833
+                     /regulatory_class="other"
+                     /note="proposed pKM101 (R46) oriT nick site"
+ORIGIN      
+        1 ggatccaacc cctccgctgc tatagtgcag tcggcttctg acgttcagtg cagccgtctt
+       61 ctgaaaacga cattgcctat acaataaaac gctctccggc tgtaacaaaa cccgttacag
+      121 tatcaataca acaaaaacga tgtaacaaaa tagggtggca aaatgataat cggctatgcg
+      181 cgtaaatcga cacatcttca ggatgtaacg catcaggttg atgaactgac aaaagcgggt
+      241 tgcgagcaaa tctatcatga acagatctca cgcggcggca gtaaacgcgc caaaaatggt
+      301 gccccggaac tggagaactg tctgaaggca ttgcgcgaag gtgataccct ggttgtttgg
+      361 gcgcttgatc ggctcggcgg ttcattgagc caggtgatta cgttgcttga cgacctgaaa
+      421 aagcgcggaa tcacctttat agccatcaaa gacagaatag atactagcgc tcctgttatc
+      481 ggggaaatct atactcatct gatggctata ttctctaact ttgaacgcaa ccgcaatatt
+      541 gaacgaacga gatctggact cgcagctgct cgcgcaaggg gccgtgtagg gggaagaaaa
+      601 ccgtcacttt cggaagatga tattaagcaa atgaaaattc tgcttgctga tcctgaaatg
+      661 acagtaggag ctgttgcgaa gcgcttcaat gtttctcgca tgactattta tcgctacacg
+      721 acaaaaggca accattcaga gaaaataaat gatgaataac attctagcct gatgactccg
+      781 gttaggttgg gtttcgtcga atgcgatgtg ccgccatatg cccgtcaggg catggaaggc
+      841 gaccgcgccg gactccaccg gacaccggcc gcaaatcgcc ggaaactgcg ggactgaccg
+      901 gagcaacagg ccaacccccc tccctgctaa gccataaccc agcccgccgc cacgcagctg
+      961 ccgcacgtcc tccacggggg tgcgcagtgg gcgccgcgcg cctgcgcgcg ggtacggcgg
+     1021 cccgcctgcg ggtcgcggcg ccgtactgcg agttagcggc cgccgcgcgg ccggttacgg
+     1081 gggacaccgc accgtcacgg ccagcgcccc actgagctgc acaatccaca aataacacaa
+     1141 aggtataatt aaagttatgg aaatccgccc accttgccgg gcgccggtgc cgtgtggaaa
+     1201 tccgcccacc ttgccgggcg ccggtgctgt gtggaaatcc gcccaccttg ccgggcgccg
+     1261 gtgctgtgtg gaaatccgcc caccttgccg ggcgccggtg ccgtgtggaa atccgcccac
+     1321 cttgccgggc gccggtgccg tgtggaaatc cacccacctt gccgggcgcc ggtgctgtgt
+     1381 ggaaattcgc ccatcttcat gacaaaaatt tgtcaaatga caggctcatg tgtgctgatt
+     1441 tatgtcagac gggattttgc ttatcaatta ttgagaacag aaattttcct gaatcatcaa
+     1501 tactatactt agcaagtaaa ggtgttttct catttatctg cttgagagca ggatcaagga
+     1561 aagatcgttt caactctgcc aagttcttct gttgggattc cggcaaaagg aaacggtcat
+     1621 ttaaccaagc atgagtagta acccataagc ctgaagattt gaattgagca agactttcat
+     1681 aaaggcggat cgtccgtgga tttcgaagac tgccacaatc gcggagcgag taggtggtga
+     1741 actggttcgt caggccgtaa atgtaccgca ggagtttatg gttaaattcg atttcccaga
+     1801 taccacgagc tgatcggctg ccagcctctg ttagccaggg gcgcgcgacg cagtcaaaac
+     1861 tcccttcttt cgggtaaaag attaccgcag aacggcttaa ctcaaacacg ccttctttaa
+     1921 catccttgat agcctggtta cggcttacct gaaaaatttg ctgatagtca gccaccttta
+     1981 ctttgaaagt agagtcaccg agtacagcca tctcatcatc atcttcgctt actgaagctg
+     2041 tgaaatacgt ctgcataaga cataaccaga gaacgcgctt tgcttttagc gagaggtagt
+     2101 aagcagcttc ggtaagctcg ttagactgct taacttttat ctttttgttc agcaacttat
+     2161 ccatgagcct tgcctttgtg ggttaaaaat tactctccac actaccacaa agttcaaaca
+     2221 agtaaataca ttttttacag tttcgtctaa ggtgggccaa ttcccataac aaggtgggct
+     2281 aattcccata gtaaggtggg gtgtttccca tagataggtg ggccaattcc cataacaagg
+     2341 tgggcggatt cccagagata acacttattt atgattttaa atcaatgagt tatatagctc
+     2401 taaaagactt taaaaagata aaaaatctat aaaatacctt ttaaaaatat gcctgtggat
+     2461 atgtgcatat catcgcttac cagcgccgct tcgcggctcg gtcaacccct cagaaccgcg
+     2521 aaaacaagtt tcgcagttct tcacggttca tgttttaatc caagcatggc gccagacctt
+     2581 cgcggcacca tcgaggcccg cgctgctgcc gcaccgggcc tcaccctcaa ataaaataaa
+     2641 gtttataaaa atcgtacttg tattgacccc tatttattct gagtatatcc tttctgtaac
+     2701 caaaactacg gaggcgccac agatggctca gaaaaacaga atttcagaaa cagaatggaa
+     2761 acagctgctg ccgcaaatgg cttcctttgc acacatcaca acagatattg gctattccgt
+     2821 gcttgtcaaa ggtgagaaat catcagacgt agccacgcga gtaggccgtt ccaagcaaaa
+     2881 catttccagc accgttaagc gaatctggga tttgtaccag aacaccactc ttaaagccga
+     2941 gaacggcgaa ccattaaaat tagttcaggt ctggatacca gcaagccttg ctgaaactgt
+     3001 tttaaaagaa gccgcgaagt acagcattaa taacatcacg acctccgaaa tggaaaaaaa
+     3061 ataaagtccg aaaggacttt attttaagac tactaacgcg gctttattac agtgctcgcc
+     3121 accacagtaa accactatcc ccggtttacc ccagagattg atatgacaca ccgggcagct
+     3181 gtacttttcc cggtttgttt tgttcaccgg cgcttcaggc ggcggggtta caaatcgcat
+     3241 ggcctctatg atctcgtcgt cgagttcaac cgggtcgcgc ccttcctcca cctcctgttc
+     3301 gtgttcgcta tcatcttcct cgtcgtcaat atagcctttt cctgtagggc ttagcacagc
+     3361 gccaggctta ggctggtaag gcggaaacct gtccatccag gaaagccgga aatggcctgt
+     3421 cagcagttca tcacaggcca tatcgaaagg gccaccggca ataatataat gggtcatgct
+     3481 ctggcccact ttcctgcctc ccggttcgcc ggtatcagaa ggcattagtc ctacccgttc
+     3541 catccgggcc gcccactgtt tgttgtgata gccacggcgg ccaggctcgc caaaatggaa
+     3601 ttgccactga tgaaccatct catgcaccag tgttgaaagc gtggccttta tggttctgat
+     3661 cgagaaatac accggattca tagcgatctc gtctaccgtg tacccactct cacggccgac
+     3721 gaaacgctta aaggaacaat agccatacgt tcgcttctca cgctgcaacg ttatcaggca
+     3781 tggcggcagc tcgttgctga atagcttctc attgaaaaaa tcgtaggctc tctgaagttc
+     3841 atcgtaggtt tcgggtgtag gcaaattcac tgctaacctc acatatatgt attgtgcaat
+     3901 acacataatt tagatgatct tttatacaga ggaaacggct tttaccgaaa accgcgaaac
+     3961 cgtgccgaaa cttgttacgg ccggttgagg ggttaaccgg cccgggtacg gcgccggtaa
+     4021 ttatttgatg gtggctattg gtattgagcg ccagtctgtc gtgtaatcag gtgacaacat
+     4081 ctgacgacgc atggcaaagg agttatcgat gccctggcct gcaaaaaaaa gctggttctt
+     4141 tccacgccgg tttataccat caagaacagc cattaaagcc tcgctgccag ctgaaggcgt
+     4201 agcagagtcg aataaatcaa gctgggcctc cttcccgcta aaatctgcca gcatgacccc
+     4261 tgcttttgca tacgcaatat cttcccgcca gatccgcgcc agcgcggctt gtgctgcctg
+     4321 aattatcgtg cggctgtcct gggttgccac cgtcagtttt tcggttgcct gattggcata
+     4381 ctgtgtatca cgcactgaat aaggactggt acggataaag acgcttatga cgcggcagta
+     4441 ttgcctctca ttacgcagtt tttcagctgc gcgcgctgca aatccggtga cagcctgctg
+     4501 catgtccgtc agggtttcta cgcgttggcc gaatgagcgc gacacaacaa tctgctgctt
+     4561 cgcaggaggg ttttcttcca ggctgaagca agcctcgccg cgcaactccc gtaccgttct
+     4621 ttcaagcaca acgccgaatg ttttacggat taggcgcgta tctgccctgg ctaaatccag
+     4681 caccgttttg atccccattg tggcgagtgc tttctctgta cgatggccga cgccccagac
+     4741 ttccgcaacc ggcaggatgc tcattaattt cttcagtctg gcgccatcgt ccagagcaac
+     4801 caccccgcca gtagcgggcc atgtttttgc agcgtggtta cacagcttcg ccagcgtctt
+     4861 agtacgggca ataccgaccc cgcataccag cgttgtgtgt cgcctgactt cctcgcgcag
+     4921 ttggcgcccg aaagcgtcaa ggctcatggc ggccgttatc cctttgcagt caacaaaaag
+     4981 ctcgtcgatt gaatactgtt cgacgtggct tgcaagggac tcaactacgg ccgcgaaccg
+     5041 ggccgacatg gaggcataaa gagtgtaatt agagctaaaa atagcgatgt tatgacgctc
+     5101 gattatgggt ctgactttga agtacggatc gcccattttc aggcccgctt tcttcgccag
+     5161 gtaattacgg gccacaatgt tgccgtcatt gttggataaa acggccactg ctcggtttgc
+     5221 cagatctggc ctaaatgcct gctcacagct ggcgtacatg ccattgacat caatcagcgc
+     5281 aaacataccg gatgctcgat aagggaatgc gtaaccactc cccagatttc aacgctctca
+     5341 ttatccgggt caatgtagta cacaggaaaa tctttgttca tcggcatcag gcagggtctg
+     5401 ggcctcagca gtagtcgctt cacggtaaat tcattatgga tgcaggcgac tacgattgag
+     5461 ccgtggctgg ccgtcagcga gcgatccaca accagtacgt caccatcatg gatgcggcca
+     5521 tcttccattg acgagccaga aacccgcagg aagtaagttg ctgaagggtg acgaacacaa
+     5581 tactcatgca ggtttaactc ctgcttttca tagccctggg ccgggctggg gaaccccgca
+     5641 gaaattcttt gcagataaaa agggatgctg tgtacccggc tggcgccgga gctttcaaaa
+     5701 atatcgacct tcatagcgat cttccaaata actgtttatt tatacagtat cgctgttatg
+     5761 gtcaggttgg caagttttac aggttctcta ctatatgtag tgctgcttca gctgccaacg
+     5821 aacgctatat atagtgtttg ttggctttct gctttctcag tgtcccctgt aaccggccgc
+     5881 gtggcggcgg gctagcagga aggggggtgg cctgtcgctc cgatcagtcc cgcagtttcc
+     5941 ggcgatttgc ccccggtgtc cggtggagtc cggcgaggtc gccttccatg ccctgactgg
+     6001 cataaaatag gtaaataaat tccgtacttg tattgacctt taaggcataa tcaccgataa
+     6061 ttaaatcatc gggaggcaat accgccgccc gaaaaattgc cggtatcggc ttaaagagga
+     6121 agtatcatgg aaactatcga aatcaccgcc cgctacattt ctgaaaacgc ccgcatgaac
+     6181 ttcatgcctg cggcatttcg tggcgctttc ttcagcgcag atcacttcat tcagtccttt
+     6241 ctgaatcgtt acgctaaaga ctaccaggga gggtattggg aataccttca ggccagcaat
+     6301 ggcgcgtttt ttatggaagc gccccaacct ctttggctct cgttacctaa ctattttgaa
+     6361 ggtgaatgca gcgcgcgcga agtagggatt attgtttgtc tgtatgccta cagttacttt
+     6421 tgcgggctgg catatgaaga aggcaaagcc gaactgaacg aaacgatggc taaccggtat
+     6481 cacctgttgc gggagtacgt taatacgctg gagaacgaaa gccagaatcg tatttatcgt
+     6541 gccattgatt aactgataac caggcgggca aagcccgcct tatcgtgact gtcacgctca
+     6601 ggggaaacta tgttagcgac acttcaacac cctaccgtct ggcaattgcc agatcggtta
+     6661 atgcttttgg aactgttaat gttcgattac cgaaattccg atcaggagcg ctacggccag
+     6721 caaatctatc accactatcg taaacagggt aatcatcgct gggatacttc tgttcatcag
+     6781 gatagcggcg gccaatacgc gattattttc cggcactcct tcagcaaaaa acaggctgat
+     6841 ggcgttaagc gaacgatgat ccgcgatgaa accgttatac gggcaggtac ggcgcaggag
+     6901 ctgacagaag cgacatttcc cgacttccag gatagcgata ttctgaaggc gtcggatttc
+     6961 tttaagtcgc ttatccagcg caaagcggca gacgtaacac aaaccgatat ttgaggatca
+     7021 gcgatgctga acaaaaccga aaacaacacc aacattagta gtatcaaccc ctgttctaca
+     7081 gagagcctaa tagccgtgac gggaaatgat ggagagacgc atatcattca gcgtgagtta
+     7141 atatcccact ctgttgaagg gcatgaagcc acaatcattc accttgtaac cgggaagtcg
+     7201 ataagggttt ctttgtcatc tgaaattctg gcaaaaaaac taggcattac cgtgtctgaa
+     7261 taacgggttt tgttgcttgt tataaggttt tatctgtgtg tggcagagtt ctaaaaaggg
+     7321 aaacgtgaga gattctgaat acgattagta taacggaaat cgtgttgagt gtgcttcttg
+     7381 cgggcgcttt ggggccggtt ttattacgtc gaaaaaaagg tctgctgtta ctgttgttga
+     7441 ttctggtctg cacgatactt ttgcttcatg gtgtcactac gatttactga tgtggtcgaa
+     7501 aatctttaaa agcgaacccc cggacgtcac ccctccgggg ccgttctgct gtgctgcgca
+     7561 tcgagccgct acgcgtctcg ccccgctcac gcgggcagct gccactgacg cctccggcct
+     7621 gctgctccgc gctccgcttg gcaacccctt cccctgctgc cgctcatttc cctttcagcc
+     7681 tcctatcatg attcgtctcc tgcattatcc gtggattgtg cagctcagtg gggcgctggc
+     7741 cgtgacggtg cggtgtcccc cgtaaccggc cgcgcggcgg ccgctaactc gcagtacggc
+     7801 gccgcgaccc gcaggcggcc gccgtacccg cgcgcaggcg cgcggcgccc actgcgcacc
+     7861 cccgtgggga cgtgcggcag ctgcgtggcg gcgggctggg ttatggctta gcagggaggg
+     7921 gggttggcct gttgctccgg tcagtcccgc agtttccggc gatttgcggc cggtgtccgg
+     7981 tggagtccgg cgcggtcgcc ttccatgccc tgacgggcat aaaaacaggt aaataaattc
+     8041 cgtacttgta ttgactttta aggcgtaatc accgataatt aaatcatcgg gaggcaatac
+     8101 cgccacccga aaaattgccg gtatcggcgc ttacaggagt cgtcatgcac tttactaact
+     8161 tccttcagcg ttacttcgat atagagattg aacatacctt tgaccctacc attcagggca
+     8221 gcaacgaaac gggtaaagac gtcactaaaa tctggatcta tgagaagggc gaggatagcg
+     8281 aaccgctgct tactctgaca gaagcatggt ggtataccga gacaaaaacg gctggtaact
+     8341 ggcttatcgg caacgtgtat tcaacgcttg agcatgggcg tgaaattcat gaaagcgaat
+     8401 ttcgtaaact ggtaacagct ggcaaggtga tatcagcatg agtaagggga aaagtttcac
+     8461 gttaccccgg ctcaggtcaa tctcctggac gcgcaaaacc tctaattaaa tcatcgggtg
+     8521 gcaataccgc cgcccgaaca atcgccggta tcggcaacca ttaaggagtt cacatgtatc
+     8581 actatctcgt ttttgtccct ctcgcattaa ttattagcgc cgctgcgctt gccctgccct
+     8641 ggtttatcgt tcgtgcggga tacagggatc tggtgcagat cacctgcgcc tgcgtctcta
+     8701 ttctgggcct gtgtgcggcg acaggggttt tcagctactt cgataataag ccgcttgcgt
+     8761 ttctgtacgg ttgcggcgcg ctggcgtgct ttttgtacgc ggtagactgc gcgataccgt
+     8821 tgtatatgac gcgtaaaaag ccacgtaagc agctgtaaga aaaaaggcgg gtaatccccg
+     8881 ccttttttta ttgaggctgt caggaagcga ttcaggcact cgattgtgca tctcagcggg
+     8941 gcgctggccg tgacggtgcg gtgtcccccg taaccggccg cgcggcggcc gctaactcgc
+     9001 agtacggcgc cgcgacccgc aggcgggccg ccgtacccgc gcgcaggcgc gcggcgccca
+     9061 ctgcgcaccc ccgtggggga cgtgcggcag ctgcgtggcg gcgggctggg ttatggctta
+     9121 gcagggaggg gggttggcct gttgctccgg tcagtcccgc agtttccggc gattttcggc
+     9181 cggtgtccgg tggagtccgg cgcggtcgcc ttccatgccc tgacgggcat aaaagcaggt
+     9241 aaataaattc cgtacttgta ttgactttta aggcgtaatc accgataatt aaatcatcgg
+     9301 gaggcaatac cgccacccga aaaattgccg gtatcggcgc tttaaggagt acaccatgac
+     9361 tgatattacg accccttctg tttatgttgg cacttaccat aaatacaact gcggaagcat
+     9421 tgcgggagcc tggctcgatc tgaccgattt tgatagctca gaggagtttt acgagcgctg
+     9481 ccgcgagtta cacgcaaatg aggctgatcc agaatttatg ttccaggatt gggagggtat
+     9541 tccgtctgat atggcgtcag agtgccatat caactgggat tttattaacg gctttaaaca
+     9601 agcccgcgag gaaggaaacg aagcggcgtt tgtggccttt gttgatctgt ttaatagcac
+     9661 tgatttcgac ctgtttagag atgcctatat gggcgaagct aaggacgaag aaacttttgc
+     9721 agaggaatac ctgaatgata gcggtctact gaatgaaatt cctgaatccg tagcccgata
+     9781 ttttgacatc gtagcctatg cgcgggatct gtttattggg gatttcagtt tacatgacgg
+     9841 acacgtattt aacatgactt gctgaaacct agtcccccgc cacgcggggg atattaaaca
+     9901 ccgctctaat taatcgccgg tatcggcaaa cagccatctg ggcggctgcg ccgccccttt
+     9961 gctgctgctt gccggtgatc tctacagctc atgttctgcc attgcgctaa atcctgatgc
+    10021 cacaccgggc gttacccctt cggggtcgct ctgctgtgct gtgcatcgag ccggttcccg
+    10081 tctcgccccg cttacgcggg cagcggccgc taacgcctcc ggccttcggc tccgcgctcc
+    10141 gcttggcagg ccacaccctg cgccggactc gcccggccgc aagcggccgc cccgcccctt
+    10201 cggggtgcca acgcccttca ggcgtcggca tcctttgcca gtgcgctatt gtgttatccg
+    10261 tggattgtgc agctcagtgg ggcgctggcc gtgacggtgc ggtgtccccc gtaaccggcc
+    10321 gcgcggcggc cgctaactcg cagtacggcg ccgcgacccg caggcgggcc gccgtacccg
+    10381 cgcgcaggcg cgcggcgccc actgcgcacc cccgtggggg acgtgcggca gctacgtgac
+    10441 ggcgggctgg gttatggctt agcagggagg gggattggcc tgttgctccg gtcagtcccg
+    10501 cagtttccgg cgatttgcgg ccggtgtccg gtggagtccg gcgcggtcgc cttccatgcc
+    10561 ctgacgggca taaaaacagg taaataaatt ccgtacttgt attgactttt aaggcataat
+    10621 caccgataat taaatcatcg ggaggcaata ccgccacccg aaaaattgcc ggtatcggat
+    10681 cactaaggag taagcatgac cactgttacc accccttccc agctgaaaaa agaagtcgaa
+    10741 tctcagaaag aattattgct gcgcgcctgc ctcgaagcgt tcaaccagct gcctaatcag
+    10801 cgcctgcaag gcgctttcac atcgacgtat gcactggcgg caaaattaga ccagctgctg
+    10861 caacaaacta aatagcactg acgacccggc caagccgggt ctttaacaga aagatcgagg
+    10921 acaaacgaca tgaccacaca aacccttgag cagactcttg aagattttcg tcgccagtgt
+    10981 gagagttttg cgcgcaaaca gcagccccgc tgcggcctaa tttatgaact gtatcagcgc
+    11041 cgcctgagcg cggatattga cggctatctt gctggcgttc cggccgagta tcgggaagaa
+    11101 ctgatcgcgg tagcgcggcg tgaatttgac tatctgaccc aagacgagat cgcggaagaa
+    11161 atccggcagg atcgggaaaa cgattattgc agccacggta ttgagcgtaa ttgttgcccg
+    11221 ctgggctgcg gagatctaga cgattactga gccgccgaaa gaaaaaaacc cggattgacc
+    11281 gggctttttt ctttccgctg cgcggccgtt tcagttatta ctccgcgctg cttttggcta
+    11341 tttctgtata gcacaataca ctacacatta agctcgtttg cttcgacggc tagccagcag
+    11401 ttaaaggttt cgctctgccg ttcgccgccg caacctccct ccgctttcag ctttccgcaa
+    11461 gcctggcatt tccccagctg cgccttttgc tcctgccact gttgccagtt tcggatcagc
+    11521 agcagttgga aaaactcatt cgttgaatag gctgttcgtc ctggacggcg aacccggcaa
+    11581 agctcctgta acattgcttc ttcctgtttt gttagcgtga ctgtcacgct agcgccttcc
+    11641 tctttgagtc gcgcgcggcg ccgggcctgg cgaatacggg cttgttcacg ctgtcggtca
+    11701 ttcatatttt tcctccacgt gactgtcacg ttgaattaaa ctgggcatta cccctgcggg
+    11761 gccgttctgc cgtgctgcgc atcgagccgc tacgcgtctc gccccttcgg gcggcggcca
+    11821 ctaatgcctc cggcctgcgg cctccgcgct tcgcttgaaa aaaaaccggg acatgcccgg
+    11881 tttacattat ctcagtagaa ttatggctat cgcggcaccc acggcggcgc ccacaatagt
+    11941 gcagccagct gtaataaaaa ggatctgacg ggttaacgtc tcagctctgg acgcctgcgc
+    12001 gcggcggaac ttcgtcagaa attcctcacg cgccttagca tcatcactaa ttgccaggct
+    12061 aattgaacgc tggttttcta ctaaagtccg tttaagagag tctgccgtct ctcctaaact
+    12121 ttcggtgtct tttgccagct tttccgaaag cgcagaaagt atctcagtca tttctttctg
+    12181 acttgcggtg atttccttcg cgtcacctaa aaaccaatcc atcagaactt caaatttatc
+    12241 tggctgcttt tccattttat tctcccatta aagccgcata tgctttatcg agattagctt
+    12301 taacaggaat tgcctgtttc atgtaggtat aacggcgggc cagttttttg cgctcgtcag
+    12361 catccgttgt ttgtttagcg cgggctttaa attcttctgg atcttcagcg gtcaatgctt
+    12421 cgaatgagat acggtgatac gcgagatatt cgaaaacttc actgttataa ataacagatt
+    12481 tcttgctgat tttgccaatt ttcgttcgtt tgacaaattc aaataccggc gccagtacat
+    12541 cctctacttc actatctgga ctaatgcggt ttggaacaaa gatgatttta tcgctgctta
+    12601 cacctgcctt acttaacgta tgtgctgttt tcatgctttc atcaatggcc ttattatcag
+    12661 gcgtaaccgg gattacatac ttatcaaatt cattcgcgcc actgtcaaag cgggacattg
+    12721 ccatcaggaa cgcttctacg tttgacgcac caatatcaat aatcccggca tcttcaaaaa
+    12781 caatatcttc aatcaaccgt gaaaagtcat cacctttaaa aatggaaaca ttctcaatcc
+    12841 ccagatcgga agcagactgg ttgatagttt caaccgcata gaattttgct ccagtcagac
+    12901 gcggggctaa caggtaggat gaaattaagg ttttaccaac gctgccactg taattaatta
+    12961 ccgctacttt cataaatcac ctcagaattt tttgttgaac atcttagggt cgaaatcttc
+    13021 actgatttta ttgaagaact ctttatcaat aatgccggga ctttcttttt tttcacttcc
+    13081 ttgcggttca ggctcaggcg gcgtttgtgt attgtgcaat acactttcct ctgcaccttt
+    13141 ctcgctacct ccattttgtg tattgtgcaa tacactatct tcattgttcg gcatccttcc
+    13201 atgtgtattg tgcattccat ttttccggat ttgccgcgct ctatataggg acgtatcaaa
+    13261 gctacgaacg ttcacacctt ccaggccgaa gcgttcagaa actgctttat aaatttccgc
+    13321 cctggaaact cccagtgaca tcatttcttc tatttccggc aacatcaact gaagtgccgc
+    13381 cctgatactt ttgggcttca tagtaccctc atttagaatg atgtaatttt gatgtatttc
+    13441 tgatgtattt atgatgtatt tttgatgtac ttttgttgta ctggctacct catgaccaga
+    13501 taatgatgta attctgttgt actgtcaacc ttcaagtgat gtacttttga tgtaattttg
+    13561 atgtactttt gttgtaatag tgttgtactg gtattcatgc aagcatgaat acggaatatt
+    13621 gaacgctttt tagtcagtta gtccttaacc tacgtagatc gctcctacca aaaaagatga
+    13681 ttttttatcc cttaacctgc tatacaccta acgcagcgcg ataaatcacg ctatcacact
+    13741 gatttaaaaa ataaaaaaat aaatagcgtc aatattcggt aataattagg tattaaaaac
+    13801 acctaataac tcattgtttt ataatgagtt tgc
+//
+

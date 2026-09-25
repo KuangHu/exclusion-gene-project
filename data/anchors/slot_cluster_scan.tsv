@@ -1,0 +1,5 @@
+E	edges	clusters	largest	singletons	seed_control	seed_cluster_members
+0.001	85637	160	398	89	PASS	442
+1e-05	62627	187	375	108	PASS	414
+1e-07	48063	200	220	114	FAIL: pair split	408
+1e-09	39729	226	216	129	FAIL: pair split	253

@@ -1,0 +1,7 @@
+cutoff	n_unnamed_caught	pct_of_unnamed
+GA	0	0.0
+E<=1e-5	142	5.65
+E<=1e-3	217	8.63
+E<=1e-2	272	10.82
+E<=0.1	278	11.06
+E<=1	279	11.1

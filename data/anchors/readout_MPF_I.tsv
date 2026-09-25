@@ -1,0 +1,543 @@
+seed	gene	product	aa	start	end	strand	n_families	families
+R64	repA	plasmid replication initiator RepA	343	455	1486	1	1	IncFII_repA(PF02387):156.6
+R64	PLSM15973718_RS00015	transcriptional regulator	117	2761	3114	1	2	HTH_5(PF01022):61.4;HTH_20(PF12840):27.2
+R64	arsD	arsenite efflux transporter metallochaperone ArsD	120	3162	3524	1	1	ArsD(PF06953):161.9
+R64	PLSM15973718_RS00030	Tn3 family transposase	961	4218	7103	-1	2	DDE_Tnp_Tn3(PF01526):479.0;DUF4158(PF13700):182.0
+R64	PLSM15973718_RS00035	recombinase family protein	207	7229	7852	1	1	Resolvase(PF00239):152.0
+R64	PLSM15973718_RS00040	IS3-like element IS1133 family transposase	376	7883	9012	1	5	rve(PF00665):95.3;HTH_Tnp_1(PF01527):47.7;HTH_21(PF13276):42.7;rve_2(PF13333):40.3
+R64	PLSM15973718_RS00045	IS4-like element ISVsa5 family transposase	402	9082	10290	1	1	DDE_Tnp_1(PF01609):87.3
+R64	tetC	tetracyline resistance-associated transcriptional repressor TetC	197	10804	11397	1	1	TetR_N(PF00440):53.9
+R64	tet(B)	tetracycline efflux MFS transporter Tet(B)	401	11510	12715	-1	2	MFS_1(PF07690):185.0;Sugar_tr(PF00083):29.1
+R64	tetR(B)	tetracycline resistance transcriptional repressor TetR(B)	207	12797	13420	1	2	TetR_C_1(PF02909):105.0;TetR_N(PF00440):49.9
+R64	PLSM15973718_RS00070	ArsR/SmtB family transcription factor	228	13398	14084	-1	2	HTH_5(PF01022):34.6;HTH_20(PF12840):31.1
+R64	PLSM15973718_RS00075	hypothetical protein	128	14092	14478	-1	0	
+R64	PLSM15973718_RS00080	antibiotic biosynthesis monooxygenase family protein	106	14471	14791	-1	1	ABM(PF03992):58.8
+R64	gltS	sodium/glutamate symporter	401	15236	16441	1	1	Glt_symporter(PF03616):546.7
+R64	PLSM15973718_RS00095	IS4-like element ISVsa5 family transposase	402	16807	18015	-1	1	DDE_Tnp_1(PF01609):87.3
+R64	aph(3'')-Ib	aminoglycoside O-phosphotransferase APH(3'')-Ib	267	18301	19104	1	1	APH(PF01636):120.2
+R64	PLSM15973718_RS00105	aminoglycoside O-phosphotransferase APH(6)-Id	278	19104	19940	1	2	APH_6_hur(PF04655):390.3;APH(PF01636):26.7
+R64	arsA	arsenite efflux transporter ATPase subunit ArsA	593	20752	22533	1	11	ArsA_ATPase(PF02374):314.5;CbiA(PF01656):63.3;AAA_31(PF13614):62.9;Fer4_NifH(PF00142):38.6
+R64	arsB	arsenite efflux transporter membrane subunit ArsB	429	22582	23871	1	2	ArsB(PF02040):538.2;CitMHS(PF03600):205.0
+R64	arsC	glutaredoxin-dependent arsenate reductase	141	23884	24309	1	2	ArsC(PF03960):85.7;PGM_PMM_IV(PF00408):23.2
+R64	PLSM15973718_RS00130	GNAT family N-acetyltransferase	178	24344	24880	-1	6	Acetyltransf_1(PF00583):68.7;Acetyltransf_4(PF13420):57.6;Acetyltransf_7(PF13508):47.3;Acetyltransf_3(PF13302):44.5
+R64	PLSM15973718_RS00135	sulfite exporter TauE/SafE family protein	270	25092	25904	1	1	TauE(PF01925):79.3
+R64	PLSM15973718_RS00140	winged helix-turn-helix domain-containing protein	122	25967	26335	1	0	
+R64	arsA	arsenical pump-driving ATPase	585	26409	28166	-1	14	ArsA_ATPase(PF02374):344.3;AAA_31(PF13614):84.5;CbiA(PF01656):77.3;Fer4_NifH(PF00142):42.9
+R64	PLSM15973718_RS00150	arsenic metallochaperone ArsD family protein	120	28187	28549	-1	1	ArsD(PF06953):103.6
+R64	PLSM15973718_RS00155	sigma-70 family RNA polymerase sigma factor	181	28625	29170	-1	2	Sigma70_r2(PF04542):44.3;Sigma70_r4_2(PF08281):39.5
+R64	arsH	arsenical resistance protein ArsH	216	29179	29829	-1	1	FMN_red(PF03358):109.5
+R64	PLSM15973718_RS00165	ArsR/SmtB family transcription factor	107	29990	30313	-1	3	HTH_20(PF12840):54.6;HTH_5(PF01022):31.8;HTH_IclR(PF09339):29.4
+R64	PLSM15973718_RS00170	permease	377	30418	31551	1	1	ArsP_1(PF03773):181.1
+R64	PLSM15973718_RS00175	ProQ/FINO family protein	205	31844	32461	-1	1	ProQ(PF04352):47.0
+R64	PLSM15973718_RS00180	AAA family ATPase	518	32653	34209	-1	7	AAA_21(PF13304):65.5;AAA_15(PF13175):51.7;SMC_N(PF02463):49.0;AAA_23(PF13476):37.9
+R64	PLSM15973718_RS00185	hypothetical protein	196	34472	35062	-1	0	
+R64	PLSM15973718_RS00190	hypothetical protein	85	35062	35319	-1	0	
+R64	PLSM15973718_RS00195	AAA family ATPase	712	35673	37811	1	1	AAA_13(PF13166):64.5
+R64	PLSM15973718_RS00200	type II toxin-antitoxin system VapC family toxin	138	37973	38389	-1	1	PIN(PF01850):57.4
+R64	vapB	type II toxin-antitoxin system VapB family antitoxin	76	38386	38616	-1	1	MazE_antitoxin(PF04014):37.2
+R64	PLSM15973718_RS00210	YuaX family protein	96	38912	39202	1	1	YuaX(PF27363):113.4
+R64	PLSM15973718_RS00215	TIR domain-containing protein	299	39192	40091	1	1	CAP12-PCTIR_TIR(PF10137):126.3
+R64	PLSM15973718_RS00220	KAP family P-loop NTPase fold protein	741	40141	42366	-1	1	KAP_NTPase(PF07693):148.7
+R64	PLSM15973718_RS00230	hypothetical protein	137	44010	44423	1	0	
+R64	PLSM15973718_RS00235	site-specific integrase	259	44425	45204	1	1	Phage_integrase(PF00589):67.1
+R64	PLSM15973718_RS00240	ParA family protein	214	45383	46027	1	2	AAA_31(PF13614):34.2;MipZ(PF09140):23.3
+R64	PLSM15973718_RS00245	hypothetical protein	102	46114	46422	1	0	
+R64	PLSM15973718_RS00250	plasmid segregation protein ParM	326	46836	47816	1	3	StbA_N(PF06406):274.0;ParM_N(PF21523):241.8;MreB-like_C(PF21522):28.0
+R64	PLSM15973718_RS00255	plasmid partitioning/stability family protein	138	47809	48225	1	1	Plasmid_stab_B(PF10784):96.6
+R64	PLSM15973718_RS00260	Y-family DNA polymerase	424	48227	49501	-1	3	IMS(PF00817):137.5;IMS_C(PF11799):88.7;DUF4113(PF13438):71.7
+R64	umuD	translesion error-prone DNA polymerase V autoproteolytic subunit	145	49501	49938	-1	1	Peptidase_S24(PF00717):85.2
+R64	PLSM15973718_RS00270	DinI-like family protein	82	49935	50183	-1	1	DinI(PF06183):65.0
+R64	PLSM15973718_RS00275	DUF1281 domain-containing protein	308	50577	51503	1	2	DUF1281(PF06924):156.6;DUF1281_C(PF18406):54.6
+R64	PLSM15973718_RS00280	hypothetical protein	103	51500	51811	1	0	
+R64	PLSM15973718_RS00285	DNA methylase	227	51888	52571	1	1	N6_N4_Mtase(PF01555):139.8
+R64	PLSM15973718_RS00290	YubE family protein	73	52572	52793	1	1	YubE(PF27407):113.3
+R64	PLSM15973718_RS00300	YubG family protein	256	53290	54060	1	2	YubG_N(PF30111):211.1;YubG_C(PF30110):197.4
+R64	PLSM15973718_RS00305	antirestriction protein	141	54478	54903	1	1	Antirestrict(PF03230):89.7
+R64	PLSM15973718_RS00310	DUF1380 family protein	140	54950	55372	1	0	
+R64	PLSM15973718_RS00315	hypothetical protein	63	55369	55560	1	0	
+R64	PLSM15973718_RS00320	single-stranded DNA-binding protein	175	56330	56857	1	1	SSB(PF00436):126.9
+R64	PLSM15973718_RS00325	DUF905 domain-containing protein	77	56915	57148	1	1	DUF905(PF06006):118.4
+R64	PLSM15973718_RS00330	ParB/RepB/Spo0J family partition protein	652	57207	59165	1	2	ParB_N(PF02195):69.5;HTH_ParB(PF17762):30.9
+R64	psiB	conjugation system SOS inhibitor PsiB	144	59220	59654	1	1	PsiB(PF06290):191.2
+R64	PLSM15973718_RS00340	plasmid SOS inhibition protein A	239	59651	60370	1	1	PsiA(PF06952):318.1
+R64	PLSM15973718_RS00345	hypothetical protein	198	60367	60963	1	0	
+R64	PLSM15973718_RS00350	antirestriction protein ArdA	166	61426	61926	1	1	ArdA(PF07275):95.9
+R64	PLSM15973718_RS00355	hypothetical protein	144	62655	63089	1	0	
+R64	PLSM15973718_RS00360	hypothetical protein	88	63181	63447	1	0	
+R64	PLSM15973718_RS00365	Rpn family recombination-promoting nuclease/putative transposase	313	63512	64453	1	2	Transposase_31(PF04754):262.0;HTH_Rpn_C(PF27070):32.5
+R64	PLSM15973718_RS00370	hypothetical protein	56	64515	64685	1	0	
+R64	PLSM15973718_RS00375	helix-turn-helix domain-containing protein	83	64716	64967	-1	0	
+R64	PLSM15973718_RS00380	hypothetical protein	65	65001	65198	-1	0	
+R64	PLSM15973718_RS00385	DUF4942 domain-containing protein	282	65547	66395	1	1	DUF4942(PF13708):173.8
+R64	PLSM15973718_RS00390	hypothetical protein	111	66480	66815	-1	0	
+R64	nikA	IncI1-type relaxosome accessory protein NikA	110	67048	67380	1	1	NikA-like(PF21983):79.1
+R64	nikB	IncI1-type relaxase NikB	899	67391	70090	1	2	Relaxase(PF03432):106.4;TraI_middle(PF22863):65.4
+R64	trbC	F-type conjugative transfer protein TrbC	763	70127	72418	-1	0	
+R64	trbB	IncI1-type conjugal transfer protein TrbB	356	72411	73481	-1	0	
+R64	trbA	IncI1-type conjugal transfer protein TrbA	402	73500	74708	-1	1	DotM_C(PF23127):146.9
+R64	PLSM15973718_RS00420	Hok/Gef family protein	50	75000	75152	1	1	HOK_GEF(PF01848):47.5
+R64	PLSM15973718_RS00425	hypothetical protein	83	75224	75475	-1	0	
+R64	dqlB	DinQ-like type I toxin DqlB	31	75974	76069	1	0	
+R64	PLSM15973718_RS00435	hypothetical protein	58	76134	76310	-1	0	
+R64	PLSM15973718_RS00440	HEAT repeat domain-containing protein	69	76702	76911	1	2	HEAT_2(PF13646):30.5;HEAT(PF02985):24.2
+R64	excA	plasmid IncI1-type surface exclusion protein ExcA	220	76983	77645	-1	1	Exclusion-determining_protein(PF27689):62.6
+R64	PLSM15973718_RS00450	DotA/TraY family protein	722	77716	79884	-1	0	
+R64	traX	IncI1-type conjugal transfer protein TraX	194	79981	80565	-1	1	TraX-like(PF28070):148.1
+R64	traW	IncI1-type conjugal transfer protein TraW	400	80594	81796	-1	1	TraW-like(PF28212):435.0
+R64	traV	IncI1-type conjugal transfer protein TraV	204	81763	82377	-1	0	
+R64	traU	IncI1-type conjugal transfer protein TraU	1014	82377	85421	-1	0	
+R64	traT	IncI1-type conjugal transfer protein TraT	266	85511	86311	-1	0	
+R64	traS	putative conjugal transfer protein TraS	62	86295	86483	-1	0	
+R64	traR	IncI1-type conjugal transfer protein TraR	134	86547	86951	-1	1	DUF6750(PF20535):47.8
+R64	traQ	conjugal transfer protein TraQ	175	87002	87529	-1	1	DUF6750(PF20535):32.4
+R64	traP	IncI1-type conjugal transfer protein TraP	234	87529	88233	-1	0	
+R64	traO	conjugal transfer protein TraO	429	88233	89522	-1	0	
+R64	traN	IncI1-type conjugal transfer protein TraN	327	89525	90508	-1	1	T4BSS_DotH_IcmK(PF12293):203.7
+R64	PLSM15973718_RS00510	DotI/IcmL family type IV secretion protein	230	90519	91211	-1	1	T4BSS_DotI_IcmL(PF11393):136.6
+R64	PLSM15973718_RS00515	conjugal transfer protein	115	91208	91555	-1	0	
+R64	PLSM15973718_RS00520	LPD7 domain-containing protein	1255	91573	95340	-1	2	LPD7(PF18821):52.4;DUF5710(PF18974):35.2
+R64	PLSM15973718_RS00525	phospholipase D family nuclease	183	95430	95981	-1	2	PLDc_2(PF13091):98.2;SACK1(PF07894):33.4
+R64	PLSM15973718_RS00530	hypothetical protein	96	95996	96286	-1	1	IcmT_2(PF28014):52.6
+R64	traJ	plasmid transfer ATPase TraJ	382	96283	97431	-1	1	T2SSE(PF00437):124.1
+R64	traI	IncI1-type conjugal transfer lipoprotein TraI	272	97428	98246	-1	1	T4SS_TraI(PF16932):230.1
+R64	traH	IncI1-type conjugal transfer lipoprotein TraH	152	98243	98701	-1	1	DotD(PF16816):64.6
+R64	PLSM15973718_RS00550	histidine phosphatase family protein	194	99096	99680	-1	1	His_Phos_1(PF00300):34.4
+R64	PLSM15973718_RS00555	conjugal transfer protein TraF	400	99740	100942	-1	2	TraF_2(PF13729):249.9;PorP_SprF(PF11751):25.5
+R64	traE	conjugal transfer protein TraE	274	101027	101851	-1	0	
+R64	PLSM15973718_RS00565	tyrosine-type recombinase/integrase	384	102002	103156	-1	2	Phage_integrase(PF00589):85.2;HicB-like_2(PF15970):28.9
+R64	PLSM15973718_RS00570	hypothetical protein	108	103140	103466	1	0	
+R64	PLSM15973718_RS00580	shufflon system plasmid conjugative transfer pilus tip adhesin PilV	474	104790	106214	-1	1	Shufflon_N(PF04917):621.1
+R64	PLSM15973718_RS00585	prepilin peptidase	218	106214	106870	-1	1	Peptidase_A24(PF01478):29.4
+R64	PLSM15973718_RS00590	lytic transglycosylase domain-containing protein	186	106855	107415	-1	1	SLT(PF01464):84.5
+R64	PLSM15973718_RS00595	type 4 pilus major pilin	204	107425	108039	-1	1	PilS(PF08805):134.0
+R64	PLSM15973718_RS00600	type II secretion system F family protein	365	108057	109154	-1	1	T2SSF(PF00482):79.9
+R64	PLSM15973718_RS00605	GspE/PulE family protein	517	109167	110720	-1	1	T2SSE(PF00437):214.4
+R64	pilP	type IV pilus biogenesis protein PilP	150	110731	111183	-1	0	
+R64	pilO2	type 4b pilus protein PilO2	431	111170	112465	-1	1	PAP_PilO(PF06864):232.3
+R64	PLSM15973718_RS00620	PilN family type IVB pilus formation outer membrane protein	560	112458	114140	-1	2	Secretin_N_2(PF07655):69.4;Secretin(PF00263):48.6
+R64	pilM	type IV pilus biogenesis protein PilM	145	114154	114591	-1	1	PilM(PF07419):123.4
+R64	pilL	type IV pilus biogenesis lipoprotein PilL	355	114591	115658	-1	1	TcpQ(PF10671):57.7
+R64	PLSM15973718_RS00635	hypothetical protein	196	115692	116282	-1	0	
+R64	PLSM15973718_RS00640	hypothetical protein	150	116332	116784	-1	0	
+R64	PLSM15973718_RS00645	PilI type IV pilus biogenesis protein	84	116827	117081	-1	1	PilI(PF10623):120.6
+R64	traD	protein TraD	188	117349	117915	-1	0	
+R64	PLSM15973718_RS00655	conjugal transfer protein TraC	227	117929	118612	-1	0	
+R64	PLSM15973718_RS00660	transcription termination/antitermination NusG family protein	177	118866	119399	-1	0	
+R621a	repA	plasmid replication initiator RepA	343	454	1485	1	1	IncFII_repA(PF02387):157.0
+R621a	HXF67_RS00570	replication-associated protein RepA4	88	1963	2229	1	1	Rep_assoc_RepA4(PF27691):174.5
+R621a	HXF67_RS00010	hypothetical protein	169	2554	3063	-1	0	
+R621a	HXF67_RS00015	ProQ/FINO family protein	200	3119	3721	-1	1	ProQ(PF04352):45.3
+R621a	yagA	protein YagA	448	4074	5420	1	3	Endonuc-like_C(PF27227):84.5;DUF8534(PF29381):72.2;DUF8535(PF29382):68.1
+R621a	HXF67_RS00025	hypothetical protein	100	5918	6220	-1	0	
+R621a	HXF67_RS00030	ParA family plasmid-partitioning AAA ATPase	208	6217	6843	-1	7	MipZ(PF09140):70.9;AAA_31(PF13614):62.6;CbiA(PF01656):45.4;ParA(PF10609):33.7
+R621a	HXF67_RS00035	Y-family DNA polymerase	423	7031	8302	-1	4	IMS(PF00817):136.2;IMS_C(PF11799):88.7;DUF4113(PF13438):78.0;IMS_HHH(PF11798):24.8
+R621a	umuD	translesion error-prone DNA polymerase V autoproteolytic subunit	145	8302	8739	-1	1	Peptidase_S24(PF00717):85.2
+R621a	HXF67_RS00045	DinI-like family protein	93	8736	9017	-1	1	DinI(PF06183):64.8
+R621a	HXF67_RS00050	DUF1281 domain-containing protein	308	9378	10304	1	2	DUF1281(PF06924):159.8;DUF1281_C(PF18406):57.9
+R621a	HXF67_RS00535	hypothetical protein	108	10399	10725	-1	0	
+R621a	HXF67_RS00055	plasmid segregation protein ParM	326	11073	12053	1	2	StbA_N(PF06406):263.3;ParM_N(PF21523):229.7
+R621a	HXF67_RS00060	plasmid partitioning/stability family protein	140	12056	12478	1	1	Plasmid_stab_B(PF10784):110.8
+R621a	HXF67_RS00065	hypothetical protein	103	12482	12793	1	0	
+R621a	HXF67_RS00070	DNA methylase	227	12870	13553	1	1	N6_N4_Mtase(PF01555):139.2
+R621a	HXF67_RS00075	YubE family protein	73	13554	13775	1	1	YubE(PF27407):109.3
+R621a	HXF67_RS00080	DUF1380 family protein	172	13705	14223	1	1	DUF1380(PF07128):180.5
+R621a	HXF67_RS00085	YubG family protein	256	14268	15038	1	2	YubG_N(PF30111):209.1;YubG_C(PF30110):196.2
+R621a	HXF67_RS00090	antirestriction protein	141	15451	15876	1	1	Antirestrict(PF03230):92.0
+R621a	HXF67_RS00095	DUF1380 family protein	140	15923	16345	1	0	
+R621a	HXF67_RS00100	hypothetical protein	63	16342	16533	1	0	
+R621a	HXF67_RS00105	single-stranded DNA-binding protein	175	17303	17830	1	1	SSB(PF00436):129.4
+R621a	HXF67_RS00110	DUF905 domain-containing protein	77	17888	18121	1	1	DUF905(PF06006):121.3
+R621a	HXF67_RS00115	ParB/RepB/Spo0J family partition protein	652	18180	20138	1	2	ParB_N(PF02195):71.6;HTH_ParB(PF17762):32.9
+R621a	psiB	conjugation system SOS inhibitor PsiB	144	20193	20627	1	1	PsiB(PF06290):191.5
+R621a	HXF67_RS00125	plasmid SOS inhibition protein A	239	20624	21343	1	1	PsiA(PF06952):317.6
+R621a	HXF67_RS00135	IS4-like element ISVsa5 family transposase	402	21673	22881	1	1	DDE_Tnp_1(PF01609):87.3
+R621a	tetC	tetracyline resistance-associated transcriptional repressor TetC	197	23395	23988	1	1	TetR_N(PF00440):53.9
+R621a	tet(B)	tetracycline efflux MFS transporter Tet(B)	401	24101	25306	-1	2	MFS_1(PF07690):185.0;Sugar_tr(PF00083):29.1
+R621a	tetR(B)	tetracycline resistance transcriptional repressor TetR(B)	207	25388	26011	1	2	TetR_C_1(PF02909):105.0;TetR_N(PF00440):49.9
+R621a	HXF67_RS00160	ArsR/SmtB family transcription factor	228	25989	26675	-1	2	HTH_5(PF01022):34.6;HTH_20(PF12840):31.1
+R621a	HXF67_RS00165	hypothetical protein	128	26683	27069	-1	0	
+R621a	HXF67_RS00170	antibiotic biosynthesis monooxygenase family protein	106	27062	27382	-1	1	ABM(PF03992):58.8
+R621a	gltS	sodium/glutamate symporter	401	27826	29031	1	1	Glt_symporter(PF03616):546.7
+R621a	HXF67_RS00185	IS4-like element ISVsa5 family transposase	402	29397	30605	-1	1	DDE_Tnp_1(PF01609):87.3
+R621a	HXF67_RS00195	antirestriction protein ArdA	166	31554	32054	1	1	ArdA(PF07275):96.2
+R621a	HXF67_RS00200	hypothetical protein	144	32787	33221	1	0	
+R621a	HXF67_RS00205	hypothetical protein	88	33313	33579	1	0	
+R621a	HXF67_RS00210	hypothetical protein	117	33792	34145	1	0	
+R621a	HXF67_RS00215	Rpn family recombination-promoting nuclease/putative transposase	307	34142	35065	1	1	Transposase_31(PF04754):257.9
+R621a	HXF67_RS00220	helix-turn-helix domain-containing protein	83	35096	35347	-1	0	
+R621a	HXF67_RS00225	hypothetical protein	65	35381	35578	-1	0	
+R621a	HXF67_RS00230	DUF4942 domain-containing protein	282	35927	36775	1	1	DUF4942(PF13708):172.1
+R621a	HXF67_RS00235	molybdopterin-guanine dinucleotide biosynthesis protein MobC	111	36860	37195	-1	0	
+R621a	nikA	IncI1-type relaxosome accessory protein NikA	110	37429	37761	1	1	NikA-like(PF21983):79.1
+R621a	nikB	IncI1-type relaxase NikB	899	37772	40471	1	2	Relaxase(PF03432):106.4;TraI_middle(PF22863):64.3
+R621a	trbC	F-type conjugative transfer protein TrbC	763	40508	42799	-1	0	
+R621a	trbB	IncI1-type conjugal transfer protein TrbB	356	42792	43862	-1	0	
+R621a	trbA	IncI1-type conjugal transfer protein TrbA	402	43881	45089	-1	1	DotM_C(PF23127):146.9
+R621a	finQ	protein FinQ	259	45396	46175	-1	1	AcrVA2-like(PF26125):144.5
+R621a	HXF67_RS00270	Hok/Gef family protein	50	46802	46954	1	1	HOK_GEF(PF01848):47.5
+R621a	HXF67_RS00275	hypothetical protein	83	47026	47277	-1	0	
+R621a	dqlB	DinQ-like type I toxin DqlB	31	47778	47873	1	0	
+R621a	HXF67_RS00285	hypothetical protein	58	47938	48114	-1	0	
+R621a	HXF67_RS00290	HEAT repeat domain-containing protein	69	48481	48690	1	2	HEAT_2(PF13646):30.5;HEAT(PF02985):24.2
+R621a	excA	plasmid IncI1-type surface exclusion protein ExcA	204	48762	49376	-1	1	Exclusion-determining_protein(PF27689):43.1
+R621a	traY	IncI1-type conjugal transfer membrane protein TraY	722	49452	51620	-1	0	
+R621a	traX	IncI1-type conjugal transfer protein TraX	194	51717	52301	-1	1	TraX-like(PF28070):143.1
+R621a	traW	IncI1-type conjugal transfer protein TraW	400	52330	53532	-1	1	TraW-like(PF28212):435.0
+R621a	traV	IncI1-type conjugal transfer protein TraV	204	53499	54113	-1	0	
+R621a	traU	IncI1-type conjugal transfer protein TraU	1014	54113	57157	-1	0	
+R621a	HXF67_RS00325	IS3-like element IS2 family transposase	409	57170	58398	-1	5	Tnp_IS2_N(PF30445):73.4;rve_3(PF13683):67.4;HTH_Tnp_1(PF01527):61.9;rve(PF00665):60.0
+R621a	traT	IncI1-type conjugal transfer protein TraT	266	58583	59383	-1	0	
+R621a	traS	putative conjugal transfer protein TraS	62	59367	59555	-1	0	
+R621a	traR	IncI1-type conjugal transfer protein TraR	134	59619	60023	-1	1	DUF6750(PF20535):49.9
+R621a	traQ	conjugal transfer protein TraQ	175	60074	60601	-1	1	DUF6750(PF20535):32.3
+R621a	traP	IncI1-type conjugal transfer protein TraP	234	60601	61305	-1	0	
+R621a	traO	conjugal transfer protein TraO	429	61305	62594	-1	0	
+R621a	traN	IncI1-type conjugal transfer protein TraN	327	62597	63580	-1	1	T4BSS_DotH_IcmK(PF12293):204.3
+R621a	HXF67_RS00365	DotI/IcmL family type IV secretion protein	230	63591	64283	-1	1	T4BSS_DotI_IcmL(PF11393):136.8
+R621a	HXF67_RS00370	hypothetical protein	115	64280	64627	-1	0	
+R621a	HXF67_RS00375	LPD7 domain-containing protein	1255	64645	68412	-1	2	LPD7(PF18821):52.3;DUF5710(PF18974):34.2
+R621a	HXF67_RS00380	phospholipase D family nuclease	183	68502	69053	-1	2	PLDc_2(PF13091):96.2;SACK1(PF07894):32.9
+R621a	HXF67_RS00385	hypothetical protein	96	69068	69358	-1	1	IcmT_2(PF28014):52.7
+R621a	traJ	plasmid transfer ATPase TraJ	382	69355	70503	-1	1	T2SSE(PF00437):124.1
+R621a	traI	IncI1-type conjugal transfer lipoprotein TraI	272	70500	71318	-1	1	T4SS_TraI(PF16932):229.9
+R621a	traH	IncI1-type conjugal transfer lipoprotein TraH	152	71315	71773	-1	1	DotD(PF16816):64.6
+R621a	HXF67_RS00405	histidine phosphatase family protein	194	72167	72751	-1	1	His_Phos_1(PF00300):34.4
+R621a	HXF67_RS00410	conjugal transfer protein TraF	400	72811	74013	-1	2	TraF_2(PF13729):246.6;PorP_SprF(PF11751):24.9
+R621a	traE	conjugal transfer protein TraE	274	74099	74923	-1	0	
+R621a	HXF67_RS00420	tyrosine-type recombinase/integrase	384	75074	76228	-1	2	Phage_integrase(PF00589):85.2;HicB-like_2(PF15970):28.9
+R621a	HXF67_RS00425	hypothetical protein	108	76212	76538	1	0	
+R621a	HXF67_RS00430	hypothetical protein	85	76833	77090	-1	0	
+R621a	HXF67_RS00435	hypothetical protein	51	77403	77558	-1	0	
+R621a	HXF67_RS00445	shufflon system plasmid conjugative transfer pilus tip adhesin PilV	474	77862	79286	-1	1	Shufflon_N(PF04917):621.1
+R621a	HXF67_RS00450	prepilin peptidase	218	79286	79942	-1	1	Peptidase_A24(PF01478):29.4
+R621a	HXF67_RS00455	lytic transglycosylase domain-containing protein	186	79927	80487	-1	1	SLT(PF01464):84.5
+R621a	HXF67_RS00460	type 4 pilus major pilin	204	80497	81111	-1	1	PilS(PF08805):132.0
+R621a	HXF67_RS00465	type II secretion system F family protein	365	81130	82227	-1	1	T2SSF(PF00482):80.1
+R621a	HXF67_RS00470	GspE/PulE family protein	517	82240	83793	-1	1	T2SSE(PF00437):215.4
+R621a	pilP	type IV pilus biogenesis protein PilP	150	83804	84256	-1	0	
+R621a	pilO2	type 4b pilus protein PilO2	431	84243	85538	-1	1	PAP_PilO(PF06864):228.0
+R621a	pilN	PilN family type IVB pilus formation outer membrane protein	560	85531	87213	-1	2	Secretin_N_2(PF07655):69.4;Secretin(PF00263):48.6
+R621a	pilM	type IV pilus biogenesis protein PilM	145	87227	87664	-1	1	PilM(PF07419):123.4
+R621a	pilL	type IV pilus biogenesis lipoprotein PilL	355	87664	88731	-1	1	TcpQ(PF10671):55.3
+R621a	HXF67_RS00555	hypothetical protein	197	88765	89358	-1	0	
+R621a	HXF67_RS00500	hypothetical protein	136	89408	89818	-1	0	
+R621a	HXF67_RS00505	PilI type IV pilus biogenesis protein	84	89861	90115	-1	1	PilI(PF10623):109.0
+R621a	HXF67_RS00510	transcription termination factor NusG	227	90287	90970	-1	0	
+R621a	HXF67_RS00515	transcription termination/antitermination NusG family protein	177	91224	91757	-1	0	
+R621a	HXF67_RS00520	helix-turn-helix transcriptional regulator	95	92199	92486	-1	1	Sigma70_r4_2(PF08281):26.2
+R621a	HXF67_RS00565	ash family protein	72	92404	92622	-1	1	Phage_ASH(PF10554):35.2
+pEK204	repA	plasmid replication initiator RepA	343	455	1486	1	1	IncFII_repA(PF02387):155.5
+pEK204	HS645_RS00010	hypothetical protein	169	2556	3065	-1	0	
+pEK204	HS645_RS00015	ProQ/FINO family protein	200	3121	3723	-1	1	ProQ(PF04352):45.3
+pEK204	yagA	protein YagA	448	4077	5423	1	3	Endonuc-like_C(PF27227):84.4;DUF8534(PF29381):72.2;DUF8535(PF29382):67.3
+pEK204	HS645_RS00025	IS1380-like element ISEcp1 family transposase	420	5997	7259	1	2	DDE_Tnp_1_4(PF13701):180.9;DDE_Tnp_1(PF01609):97.1
+pEK204	HS645_RS00030	extended-spectrum class A beta-lactamase CTX-M-3	291	7594	8469	1	2	Beta-lactamase2(PF13354):155.1;Beta-lactamase(PF00144):123.0
+pEK204	HS645_RS00040	Tn3-like element Tn3 family transposase	999	8772	11771	-1	2	DDE_Tnp_Tn3(PF01526):485.2;DUF4158(PF13700):178.7
+pEK204	HS645_RS00045	recombinase family protein	185	11935	12492	1	2	Resolvase(PF00239):139.7;HTH_7(PF02796):46.0
+pEK204	HS645_RS00050	broad-spectrum class A beta-lactamase TEM-1	286	12675	13535	1	2	Beta-lactamase2(PF13354):149.9;Beta-lactamase(PF00144):118.2
+pEK204	HS645_RS00055	hypothetical protein	100	13924	14226	-1	0	
+pEK204	HS645_RS00060	ParA family plasmid-partitioning AAA ATPase	208	14223	14849	-1	7	MipZ(PF09140):70.9;AAA_31(PF13614):62.6;CbiA(PF01656):45.4;ParA(PF10609):33.7
+pEK204	HS645_RS00065	Y-family DNA polymerase	423	15037	16308	-1	4	IMS(PF00817):136.3;IMS_C(PF11799):88.7;DUF4113(PF13438):78.0;IMS_HHH(PF11798):24.8
+pEK204	umuD	translesion error-prone DNA polymerase V autoproteolytic subunit	145	16308	16745	-1	1	Peptidase_S24(PF00717):85.2
+pEK204	HS645_RS00075	DinI-like family protein	93	16742	17023	-1	1	DinI(PF06183):64.8
+pEK204	HS645_RS00080	DUF1281 domain-containing protein	300	17408	18310	1	2	DUF1281(PF06924):159.9;DUF1281_C(PF18406):58.0
+pEK204	HS645_RS00085	hypothetical protein	111	18405	18740	-1	0	
+pEK204	HS645_RS00090	plasmid segregation protein ParM	326	19078	20058	1	2	StbA_N(PF06406):263.4;ParM_N(PF21523):226.6
+pEK204	HS645_RS00095	plasmid partitioning/stability family protein	140	20061	20483	1	1	Plasmid_stab_B(PF10784):110.8
+pEK204	HS645_RS00100	hypothetical protein	103	20487	20798	1	0	
+pEK204	HS645_RS00105	DNA methylase	227	20874	21557	1	1	N6_N4_Mtase(PF01555):139.7
+pEK204	HS645_RS00110	YubE family protein	73	21558	21779	1	1	YubE(PF27407):109.3
+pEK204	HS645_RS00115	DUF1380 family protein	172	21709	22227	1	1	DUF1380(PF07128):177.3
+pEK204	HS645_RS00120	YubG family protein	256	22272	23042	1	2	YubG_N(PF30111):209.0;YubG_C(PF30110):192.9
+pEK204	HS645_RS00125	antirestriction protein	141	23455	23880	1	1	Antirestrict(PF03230):92.3
+pEK204	HS645_RS00130	DUF1380 family protein	140	23927	24349	1	0	
+pEK204	HS645_RS00135	hypothetical protein	63	24346	24537	1	0	
+pEK204	HS645_RS00140	single-stranded DNA-binding protein	175	25322	25849	1	1	SSB(PF00436):128.4
+pEK204	HS645_RS00145	DUF905 domain-containing protein	77	25907	26140	1	1	DUF905(PF06006):119.5
+pEK204	HS645_RS00150	ParB/RepB/Spo0J family partition protein	652	26199	28157	1	2	ParB_N(PF02195):71.6;HTH_ParB(PF17762):29.3
+pEK204	psiB	conjugation system SOS inhibitor PsiB	144	28210	28644	1	1	PsiB(PF06290):191.5
+pEK204	HS645_RS00160	plasmid SOS inhibition protein A	239	28641	29360	1	1	PsiA(PF06952):317.5
+pEK204	HS645_RS00165	hypothetical protein	198	29357	29953	1	0	
+pEK204	HS645_RS00170	antirestriction protein ArdA	166	30415	30915	1	1	ArdA(PF07275):95.9
+pEK204	HS645_RS00175	hypothetical protein	144	31644	32078	1	0	
+pEK204	HS645_RS00180	hypothetical protein	88	32172	32438	1	0	
+pEK204	HS645_RS00185	hypothetical protein	117	32651	33004	1	0	
+pEK204	HS645_RS00190	Rpn family recombination-promoting nuclease/putative transposase	300	33001	33903	1	2	Transposase_31(PF04754):264.8;HTH_Rpn_C(PF27070):33.9
+pEK204	HS645_RS00195	RpnC/YadD family protein	68	33965	34171	1	0	
+pEK204	HS645_RS00200	helix-turn-helix domain-containing protein	83	34202	34453	-1	0	
+pEK204	HS645_RS00210	DUF4942 domain-containing protein	282	35032	35880	1	1	DUF4942(PF13708):173.7
+pEK204	HS645_RS00215	molybdopterin-guanine dinucleotide biosynthesis protein MobC	111	35966	36301	-1	0	
+pEK204	nikA	IncI1-type relaxosome accessory protein NikA	110	36535	36867	1	1	NikA-like(PF21983):79.1
+pEK204	nikB	IncI1-type relaxase NikB	899	36878	39577	1	2	Relaxase(PF03432):106.4;TraI_middle(PF22863):64.7
+pEK204	trbC	F-type conjugative transfer protein TrbC	763	39614	41905	-1	0	
+pEK204	trbB	IncI1-type conjugal transfer protein TrbB	356	41898	42968	-1	0	
+pEK204	trbA	IncI1-type conjugal transfer protein TrbA	402	42987	44195	-1	1	DotM_C(PF23127):146.9
+pEK204	finQ	protein FinQ	259	44502	45281	-1	1	AcrVA2-like(PF26125):145.4
+pEK204	HS645_RS00250	Hok/Gef family protein	50	45908	46060	1	1	HOK_GEF(PF01848):46.5
+pEK204	HS645_RS00255	hypothetical protein	83	46132	46383	-1	0	
+pEK204	dqlB	DinQ-like type I toxin DqlB	31	46884	46979	1	0	
+pEK204	HS645_RS00265	hypothetical protein	94	47044	47328	-1	0	
+pEK204	HS645_RS00270	HEAT repeat domain-containing protein	69	47612	47821	1	2	HEAT_2(PF13646):30.5;HEAT(PF02985):24.2
+pEK204	excA	plasmid IncI1-type surface exclusion protein ExcA	220	47893	48555	-1	1	Exclusion-determining_protein(PF27689):62.9
+pEK204	HS645_RS00280	DotA/TraY family protein	722	48626	50794	-1	0	
+pEK204	traX	conjugal transfer protein TraX	194	50891	51475	-1	1	TraX-like(PF28070):147.3
+pEK204	traW	IncI1-type conjugal transfer protein TraW	400	51504	52706	-1	1	TraW-like(PF28212):435.0
+pEK204	traV	IncI1-type conjugal transfer protein TraV	204	52673	53287	-1	0	
+pEK204	traU	IncI1-type conjugal transfer protein TraU	1014	53287	56331	-1	0	
+pEK204	traT	IncI1-type conjugal transfer protein TraT	266	56421	57221	-1	0	
+pEK204	traS	putative conjugal transfer protein TraS	62	57205	57393	-1	0	
+pEK204	traR	IncI1-type conjugal transfer protein TraR	134	57457	57861	-1	1	DUF6750(PF20535):50.2
+pEK204	traQ	conjugal transfer protein TraQ	175	57912	58439	-1	1	DUF6750(PF20535):32.4
+pEK204	traP	IncI1-type conjugal transfer protein TraP	234	58439	59143	-1	0	
+pEK204	traO	conjugal transfer protein TraO	429	59143	60432	-1	0	
+pEK204	traN	IncI1-type conjugal transfer protein TraN	327	60435	61418	-1	1	T4BSS_DotH_IcmK(PF12293):204.3
+pEK204	HS645_RS00340	DotI/IcmL family type IV secretion protein	230	61429	62121	-1	1	T4BSS_DotI_IcmL(PF11393):135.5
+pEK204	HS645_RS00345	conjugal transfer protein	115	62118	62465	-1	0	
+pEK204	HS645_RS00350	LPD7 domain-containing protein	1255	62483	66250	-1	2	LPD7(PF18821):52.2;DUF5710(PF18974):34.2
+pEK204	HS645_RS00355	phospholipase D family nuclease	183	66340	66891	-1	2	PLDc_2(PF13091):96.2;SACK1(PF07894):32.9
+pEK204	HS645_RS00360	hypothetical protein	96	66906	67196	-1	1	IcmT_2(PF28014):52.1
+pEK204	traJ	plasmid transfer ATPase TraJ	382	67193	68341	-1	1	T2SSE(PF00437):123.4
+pEK204	traI	IncI1-type conjugal transfer lipoprotein TraI	272	68338	69156	-1	1	T4SS_TraI(PF16932):230.1
+pEK204	traH	IncI1-type conjugal transfer lipoprotein TraH	152	69153	69611	-1	1	DotD(PF16816):64.6
+pEK204	HS645_RS00380	histidine phosphatase family protein	194	70005	70589	-1	1	His_Phos_1(PF00300):34.4
+pEK204	HS645_RS00385	conjugal transfer protein TraF	400	70649	71851	-1	2	TraF_2(PF13729):250.1;PorP_SprF(PF11751):25.3
+pEK204	traE	conjugal transfer protein TraE	274	71937	72761	-1	0	
+pEK204	HS645_RS00395	tyrosine-type recombinase/integrase	384	72912	74066	-1	2	Phage_integrase(PF00589):85.2;HicB-like_2(PF15970):28.9
+pEK204	tnpA	IS66-like element accessory protein TnpA	141	74644	75069	1	2	HTH_Tnp_1(PF01527):45.1;HTH_23(PF13384):29.9
+pEK204	tnpB	IS66 family insertion sequence element accessory protein TnpB	116	75066	75416	1	1	TnpB_IS66(PF05717):125.4
+pEK204	HS645_RS00410	IS66-like element ISEc23 family transposase	537	75447	77060	1	4	DDE_Tnp_IS66(PF03050):326.5;DDE_Tnp_IS66_C(PF13817):60.7;zf-IS66(PF13005):46.2;LZ_Tnp_IS66(PF13007):45.3
+pEK204	HS645_RS00415	hypothetical protein	85	77211	77468	-1	0	
+pEK204	HS645_RS00425	shufflon system plasmid conjugative transfer pilus tip adhesin PilV	474	77739	79163	-1	1	Shufflon_N(PF04917):621.1
+pEK204	HS645_RS00430	prepilin peptidase	218	79163	79819	-1	1	Peptidase_A24(PF01478):29.4
+pEK204	HS645_RS00435	lytic transglycosylase domain-containing protein	186	79804	80364	-1	1	SLT(PF01464):84.5
+pEK204	HS645_RS00440	type 4 pilus major pilin	204	80374	80988	-1	1	PilS(PF08805):131.0
+pEK204	HS645_RS00445	type II secretion system F family protein	365	81006	82103	-1	1	T2SSF(PF00482):80.3
+pEK204	HS645_RS00450	GspE/PulE family protein	517	82116	83669	-1	1	T2SSE(PF00437):215.6
+pEK204	pilP	type IV pilus biogenesis protein PilP	150	83680	84132	-1	0	
+pEK204	pilO2	type 4b pilus protein PilO2	431	84119	85414	-1	1	PAP_PilO(PF06864):229.5
+pEK204	HS645_RS00465	PilN family type IVB pilus formation outer membrane protein	560	85407	87089	-1	2	Secretin_N_2(PF07655):69.4;Secretin(PF00263):48.6
+pEK204	pilM	type IV pilus biogenesis protein PilM	145	87103	87540	-1	1	PilM(PF07419):123.4
+pEK204	pilL	type IV pilus biogenesis lipoprotein PilL	355	87540	88607	-1	1	TcpQ(PF10671):57.7
+pEK204	HS645_RS00535	hypothetical protein	197	88641	89234	-1	0	
+pEK204	HS645_RS00480	hypothetical protein	98	89231	89527	-1	0	
+pEK204	HS645_RS00485	PilI type IV pilus biogenesis protein	84	89694	89948	-1	1	PilI(PF10623):111.8
+pEK204	HS645_RS00490	hypothetical protein	183	90110	90661	-1	0	
+pEK204	HS645_RS00495	conjugal transfer protein TraC	227	90834	91517	-1	0	
+pEK204	HS645_RS00500	transcription termination/antitermination NusG family protein	177	91771	92304	-1	0	
+pEK204	HS645_RS00505	helix-turn-helix transcriptional regulator	95	92746	93033	-1	1	Sigma70_r4_2(PF08281):26.2
+pEK204	HS645_RS00540	ash family protein	72	92951	93169	-1	1	Phage_ASH(PF10554):35.0
+pCVM29188	repA	plasmid replication initiator RepA	343	455	1486	1	1	IncFII_repA(PF02387):155.3
+pCVM29188	yacA	type II toxin-antitoxin system antitoxin YacA	89	2395	2664	1	0	
+pCVM29188	yacB	type II toxin-antitoxin system toxin YacB	92	2664	2942	1	1	ParE_toxin(PF05016):63.6
+pCVM29188	SEKA_RS29020	3'-5' exonuclease	282	2982	3830	1	1	RNase_T(PF00929):56.9
+pCVM29188	SEKA_RS29025	hypothetical protein	157	3947	4420	1	0	
+pCVM29188	SEKA_RS29030	hypothetical protein	88	4897	5163	-1	0	
+pCVM29188	SEKA_RS29035	hypothetical protein	164	5163	5657	-1	0	
+pCVM29188	SEKA_RS29040	ProQ/FINO family protein	200	5713	6315	-1	1	ProQ(PF04352):48.0
+pCVM29188	SEKA_RS29050	IS1380-like element ISEcp1 family transposase	420	7736	8998	1	2	DDE_Tnp_1_4(PF13701):180.9;DDE_Tnp_1(PF01609):97.1
+pCVM29188	SEKA_RS29055	extended-spectrum class C beta-lactamase CMY-2	381	9322	10467	1	1	Beta-lactamase(PF00144):318.2
+pCVM29188	SEKA_RS29060	lipocalin family protein	177	10561	11094	1	2	Lipocalin_2(PF08212):157.9;Lipocalin(PF00061):30.7
+pCVM29188	sugE	quaternary ammonium compound efflux SMR transporter SugE	105	11091	11408	-1	1	Multi_Drug_Res(PF00893):111.4
+pCVM29188	SEKA_RS29070	colicin Ia central receptor-binding domain-containing protein	626	12209	14089	1	2	Colicin_Ia(PF11504):170.8;Colicin(PF01024):164.0
+pCVM29188	SEKA_RS29075	colicin 1B immunity protein	115	14107	14454	-1	1	Microcin(PF03526):41.9
+pCVM29188	SEKA_RS29080	DUF6404 family protein	115	14573	14920	1	1	DUF6404(PF19942):125.3
+pCVM29188	SEKA_RS29085	hypothetical protein	196	14938	15528	-1	0	
+pCVM29188	SEKA_RS29090	hypothetical protein	84	15528	15782	-1	0	
+pCVM29188	SEKA_RS29095	DUF4238 domain-containing protein	333	16134	17135	1	1	DUF4238(PF14022):144.7
+pCVM29188	SEKA_RS07170	hypothetical protein	114	17311	17655	-1	0	
+pCVM29188	SEKA_RS29100	hypothetical protein	84	18154	18408	-1	0	
+pCVM29188	SEKA_RS29105	hypothetical protein	308	18453	19379	-1	0	
+pCVM29188	ccdA	type II toxin-antitoxin system antitoxin CcdA	72	19937	20155	1	1	CcdA(PF07362):94.7
+pCVM29188	ccdB	type II toxin-antitoxin system toxin CcdB	101	20157	20462	1	1	CcdB(PF01845):111.6
+pCVM29188	SEKA_RS29120	site-specific integrase	268	20463	21269	1	1	Phage_integrase(PF00589):67.7
+pCVM29188	SEKA_RS29125	ParA family protein	214	21449	22093	1	2	AAA_31(PF13614):34.2;MipZ(PF09140):23.3
+pCVM29188	SEKA_RS29130	hypothetical protein	102	22180	22488	1	0	
+pCVM29188	SEKA_RS29135	plasmid segregation protein ParM	326	22902	23882	1	3	StbA_N(PF06406):274.0;ParM_N(PF21523):242.6;MreB-like_C(PF21522):28.0
+pCVM29188	SEKA_RS29140	plasmid partitioning/stability family protein	138	23875	24291	1	1	Plasmid_stab_B(PF10784):96.6
+pCVM29188	SEKA_RS29145	Y-family DNA polymerase	424	24293	25567	-1	3	IMS(PF00817):137.5;IMS_C(PF11799):88.9;DUF4113(PF13438):71.7
+pCVM29188	umuD	translesion error-prone DNA polymerase V autoproteolytic subunit	145	25567	26004	-1	1	Peptidase_S24(PF00717):85.2
+pCVM29188	SEKA_RS29155	DinI-like family protein	82	26001	26249	-1	1	DinI(PF06183):65.0
+pCVM29188	SEKA_RS29160	DUF1281 domain-containing protein	300	26667	27569	1	2	DUF1281(PF06924):156.7;DUF1281_C(PF18406):54.7
+pCVM29188	SEKA_RS33115	hypothetical protein	103	27566	27877	1	0	
+pCVM29188	SEKA_RS29165	DNA methylase	227	27954	28637	1	1	N6_N4_Mtase(PF01555):139.8
+pCVM29188	SEKA_RS29170	YubE family protein	73	28638	28859	1	1	YubE(PF27407):113.3
+pCVM29188	SEKA_RS33395	YubG family protein	256	29356	30126	1	2	YubG_N(PF30111):208.5;YubG_C(PF30110):195.9
+pCVM29188	SEKA_RS29190	antirestriction protein	141	30544	30969	1	1	Antirestrict(PF03230):92.8
+pCVM29188	SEKA_RS29195	DUF1380 family protein	140	31016	31438	1	0	
+pCVM29188	SEKA_RS29200	hypothetical protein	63	31435	31626	1	0	
+pCVM29188	SEKA_RS33885	hypothetical protein	115	31697	32044	1	0	
+pCVM29188	SEKA_RS29205	single-stranded DNA-binding protein	175	32396	32923	1	1	SSB(PF00436):128.5
+pCVM29188	SEKA_RS29210	DUF905 family protein	77	32981	33214	1	1	DUF905(PF06006):115.1
+pCVM29188	SEKA_RS29215	ParB/RepB/Spo0J family partition protein	652	33273	35231	1	2	ParB_N(PF02195):71.4;HTH_ParB(PF17762):30.5
+pCVM29188	psiB	conjugation system SOS inhibitor PsiB	144	35286	35720	1	1	PsiB(PF06290):191.2
+pCVM29188	SEKA_RS29225	plasmid SOS inhibition protein A	239	35717	36436	1	1	PsiA(PF06952):316.8
+pCVM29188	SEKA_RS29230	RNA-guided endonuclease InsQ/TnpB family protein	391	36566	37741	1	3	Cas12f1-like_TNB(PF07282):88.6;OrfB_IS605(PF01385):86.9;HTH_OrfB_IS605(PF12323):68.3
+pCVM29188	SEKA_RS33485	antirestriction protein ArdA	166	38188	38688	1	1	ArdA(PF07275):95.3
+pCVM29188	SEKA_RS29240	hypothetical protein	144	39417	39851	1	0	
+pCVM29188	SEKA_RS29245	hypothetical protein	88	39945	40211	1	0	
+pCVM29188	SEKA_RS29250	Rpn family recombination-promoting nuclease/putative transposase	300	40276	41178	1	2	Transposase_31(PF04754):263.9;HTH_Rpn_C(PF27070):35.0
+pCVM29188	SEKA_RS07185	RpnC/YadD family protein	93	41178	41459	1	0	
+pCVM29188	SEKA_RS29255	helix-turn-helix domain-containing protein	83	41490	41741	-1	0	
+pCVM29188	SEKA_RS29260	DUF4942 domain-containing protein	282	42322	43170	1	1	DUF4942(PF13708):169.4
+pCVM29188	SEKA_RS29265	molybdopterin-guanine dinucleotide biosynthesis protein MobC	111	43256	43591	-1	0	
+pCVM29188	nikA	IncI1-type relaxosome accessory protein NikA	110	43825	44157	1	1	NikA-like(PF21983):79.1
+pCVM29188	nikB	IncI1-type relaxase NikB	899	44168	46867	1	2	Relaxase(PF03432):104.8;TraI_middle(PF22863):64.8
+pCVM29188	trbC	F-type conjugative transfer protein TrbC	763	46904	49195	-1	0	
+pCVM29188	trbB	IncI1-type conjugal transfer protein TrbB	356	49188	50258	-1	0	
+pCVM29188	trbA	IncI1-type conjugal transfer protein TrbA	402	50277	51485	-1	1	DotM_C(PF23127):146.9
+pCVM29188	SEKA_RS29295	Hok/Gef family protein	50	51777	51929	1	1	HOK_GEF(PF01848):45.1
+pCVM29188	SEKA_RS29300	hypothetical protein	83	52001	52252	-1	0	
+pCVM29188	istB	IS21-like element IS100kyp family helper ATPase IstB	260	52613	53395	-1	3	IstB_IS21(PF01695):386.2;Bac_DnaA(PF00308):31.5;AAA(PF00004):24.6
+pCVM29188	istA	IS21-like element IS100 family transposase	340	53392	54414	-1	4	rve(PF00665):62.4;HTH_7(PF02796):38.0;HTH_38(PF13936):35.0;HTH_23(PF13384):28.2
+pCVM29188	SEKA_RS33590	hypothetical protein	58	55135	55311	-1	0	
+pCVM29188	SEKA_RS29315	HEAT repeat domain-containing protein	69	55703	55912	1	2	HEAT_2(PF13646):30.5;HEAT(PF02985):24.2
+pCVM29188	excA	plasmid IncI1-type surface exclusion protein ExcA	220	55984	56646	-1	1	Exclusion-determining_protein(PF27689):61.6
+pCVM29188	SEKA_RS29325	DotA/TraY family protein	722	56717	58885	-1	0	
+pCVM29188	traX	conjugal transfer protein TraX	194	58982	59566	-1	1	TraX-like(PF28070):146.8
+pCVM29188	traW	IncI1-type conjugal transfer protein TraW	400	59595	60797	-1	1	TraW-like(PF28212):437.8
+pCVM29188	traV	IncI1-type conjugal transfer protein TraV	204	60764	61378	-1	0	
+pCVM29188	traU	IncI1-type conjugal transfer protein TraU	1014	61378	64422	-1	0	
+pCVM29188	traT	IncI1-type conjugal transfer protein TraT	266	64512	65312	-1	0	
+pCVM29188	traS	putative conjugal transfer protein TraS	62	65296	65484	-1	0	
+pCVM29188	traR	IncI1-type conjugal transfer protein TraR	134	65548	65952	-1	1	DUF6750(PF20535):51.0
+pCVM29188	traQ	conjugal transfer protein TraQ	175	66003	66530	-1	1	DUF6750(PF20535):32.4
+pCVM29188	traP	IncI1-type conjugal transfer protein TraP	234	66530	67234	-1	0	
+pCVM29188	traO	conjugal transfer protein TraO	429	67234	68523	-1	0	
+pCVM29188	traN	IncI1-type conjugal transfer protein TraN	327	68526	69509	-1	1	T4BSS_DotH_IcmK(PF12293):203.4
+pCVM29188	SEKA_RS29380	DotI/IcmL family type IV secretion protein	230	69520	70212	-1	1	T4BSS_DotI_IcmL(PF11393):135.5
+pCVM29188	SEKA_RS29385	conjugal transfer protein	115	70209	70556	-1	0	
+pCVM29188	SEKA_RS29390	LPD7 domain-containing protein	1255	70574	74341	-1	2	LPD7(PF18821):52.1;DUF5710(PF18974):35.2
+pCVM29188	SEKA_RS29395	phospholipase D family nuclease	183	74431	74982	-1	2	PLDc_2(PF13091):98.2;SACK1(PF07894):33.4
+pCVM29188	SEKA_RS31830	hypothetical protein	96	74997	75287	-1	1	IcmT_2(PF28014):51.9
+pCVM29188	traJ	plasmid transfer ATPase TraJ	382	75284	76432	-1	1	T2SSE(PF00437):124.1
+pCVM29188	traI	IncI1-type conjugal transfer lipoprotein TraI	272	76429	77247	-1	1	T4SS_TraI(PF16932):230.1
+pCVM29188	traH	IncI1-type conjugal transfer lipoprotein TraH	152	77244	77702	-1	1	DotD(PF16816):64.6
+pCVM29188	SEKA_RS29415	histidine phosphatase family protein	194	78097	78681	-1	1	His_Phos_1(PF00300):34.4
+pCVM29188	SEKA_RS29420	conjugal transfer protein TraF	400	78741	79943	-1	2	TraF_2(PF13729):250.1;PorP_SprF(PF11751):25.3
+pCVM29188	traE	conjugal transfer protein TraE	274	80029	80853	-1	0	
+pCVM29188	SEKA_RS29430	tyrosine-type recombinase/integrase	384	81004	82158	-1	2	Phage_integrase(PF00589):85.2;HicB-like_2(PF15970):27.9
+pCVM29188	SEKA_RS29435	shufflon system plasmid conjugative transfer pilus tip adhesin PilV	474	82962	84386	-1	1	Shufflon_N(PF04917):621.0
+pCVM29188	SEKA_RS31840	prepilin peptidase	218	84386	85042	-1	1	Peptidase_A24(PF01478):29.4
+pCVM29188	SEKA_RS29440	lytic transglycosylase domain-containing protein	186	85027	85587	-1	1	SLT(PF01464):84.5
+pCVM29188	SEKA_RS29445	type 4 pilus major pilin	204	85597	86211	-1	1	PilS(PF08805):133.8
+pCVM29188	SEKA_RS29450	type II secretion system F family protein	365	86229	87326	-1	1	T2SSF(PF00482):79.9
+pCVM29188	SEKA_RS29455	GspE/PulE family protein	517	87339	88892	-1	1	T2SSE(PF00437):214.4
+pCVM29188	pilP	type IV pilus biogenesis protein PilP	150	88903	89355	-1	0	
+pCVM29188	pilO2	type 4b pilus protein PilO2	431	89342	90637	-1	1	PAP_PilO(PF06864):235.6
+pCVM29188	SEKA_RS29470	PilN family type IVB pilus formation outer membrane protein	560	90630	92312	-1	2	Secretin_N_2(PF07655):69.4;Secretin(PF00263):48.6
+pCVM29188	pilM	type IV pilus biogenesis protein PilM	145	92326	92763	-1	1	PilM(PF07419):123.4
+pCVM29188	SEKA_RS31845	TcpQ domain-containing protein	81	92763	93008	-1	1	TcpQ(PF10671):45.8
+pCVM29188	SEKA_RS29480	IS66-like element ISEc22 family transposase	512	93001	94539	-1	4	DDE_Tnp_IS66(PF03050):357.1;DDE_Tnp_IS66_C(PF13817):61.9;LZ_Tnp_IS66(PF13007):54.7;zf-IS66(PF13005):51.7
+pCVM29188	tnpB	IS66 family insertion sequence element accessory protein TnpB	115	94588	94935	-1	1	TnpB_IS66(PF05717):131.7
+pCVM29188	tnpA	IS66-like element accessory protein TnpA	134	94932	95336	-1	1	HTH_Tnp_1(PF01527):44.4
+pCVM29188	SEKA_RS34075	hypothetical protein	196	96326	96916	-1	0	
+pCVM29188	SEKA_RS29490	hypothetical protein	150	96966	97418	-1	0	
+pCVM29188	SEKA_RS29495	PilI type IV pilus biogenesis protein	84	97461	97715	-1	1	PilI(PF10623):120.6
+pCVM29188	traD	protein TraD	188	97983	98549	-1	0	
+pCVM29188	SEKA_RS29500	conjugal transfer protein TraC	227	98563	99246	-1	0	
+pCVM29188	SEKA_RS07225	transcription termination/antitermination NusG family protein	177	99500	100033	-1	0	
+pCVM29188	SEKA_RS29505	helix-turn-helix transcriptional regulator	95	100475	100762	-1	1	Sigma70_r4_2(PF08281):26.0
+pCVM29188	SEKA_RS34240	ash family protein	87	100680	100943	-1	1	Phage_ASH(PF10554):39.6
+ColIb-P9	repA	plasmid replication initiator RepA	343	455	1486	1	1	IncFII_repA(PF02387):156.6
+ColIb-P9	yacA	type II toxin-antitoxin system antitoxin YacA	89	2395	2664	1	0	
+ColIb-P9	yacB	type II toxin-antitoxin system toxin YacB	92	2664	2942	1	1	ParE_toxin(PF05016):63.6
+ColIb-P9	HXB61_RS00020	3'-5' exonuclease	282	2982	3830	1	1	RNase_T(PF00929):56.4
+ColIb-P9	HXB61_RS00025	hypothetical protein	149	3971	4420	1	0	
+ColIb-P9	HXB61_RS00030	hypothetical protein	88	4897	5163	-1	0	
+ColIb-P9	HXB61_RS00035	hypothetical protein	164	5163	5657	-1	0	
+ColIb-P9	HXB61_RS00040	ProQ/FINO family protein	200	5713	6315	-1	1	ProQ(PF04352):48.0
+ColIb-P9	yagA	protein YagA	448	6669	8015	1	3	Endonuc-like_C(PF27227):84.5;DUF8534(PF29381):72.2;DUF8535(PF29382):67.4
+ColIb-P9	HXB61_RS00050	colicin Ia central receptor-binding domain-containing protein	626	8294	10174	1	2	Colicin_Ia(PF11504):170.8;Colicin(PF01024):162.6
+ColIb-P9	HXB61_RS00055	colicin 1B immunity protein	115	10192	10539	-1	1	Microcin(PF03526):41.9
+ColIb-P9	HXB61_RS00065	hypothetical protein	196	11026	11616	-1	0	
+ColIb-P9	HXB61_RS00070	hypothetical protein	85	11616	11873	-1	0	
+ColIb-P9	HXB61_RS00075	DUF4238 domain-containing protein	333	12224	13225	1	1	DUF4238(PF14022):144.7
+ColIb-P9	HXB61_RS00080	hypothetical protein	308	14543	15469	-1	0	
+ColIb-P9	HXB61_RS00085	hypothetical protein	137	16000	16413	1	0	
+ColIb-P9	HXB61_RS00090	site-specific integrase	259	16415	17194	1	1	Phage_integrase(PF00589):67.1
+ColIb-P9	HXB61_RS00095	ParA family protein	214	17374	18018	1	2	AAA_31(PF13614):34.2;MipZ(PF09140):23.3
+ColIb-P9	HXB61_RS00100	hypothetical protein	102	18105	18413	1	0	
+ColIb-P9	HXB61_RS00105	plasmid segregation protein ParM	326	18827	19807	1	3	StbA_N(PF06406):274.0;ParM_N(PF21523):242.6;MreB-like_C(PF21522):28.0
+ColIb-P9	HXB61_RS00110	plasmid partitioning/stability family protein	138	19800	20216	1	1	Plasmid_stab_B(PF10784):96.6
+ColIb-P9	HXB61_RS00115	Y-family DNA polymerase	424	20218	21492	-1	3	IMS(PF00817):137.5;IMS_C(PF11799):88.7;DUF4113(PF13438):71.7
+ColIb-P9	umuD	translesion error-prone DNA polymerase V autoproteolytic subunit	145	21492	21929	-1	1	Peptidase_S24(PF00717):85.2
+ColIb-P9	HXB61_RS00125	DinI-like family protein	82	21926	22174	-1	1	DinI(PF06183):65.0
+ColIb-P9	HXB61_RS00130	DUF1281 domain-containing protein	300	22592	23494	1	2	DUF1281(PF06924):156.7;DUF1281_C(PF18406):54.7
+ColIb-P9	HXB61_RS00135	hypothetical protein	103	23491	23802	1	0	
+ColIb-P9	HXB61_RS00140	DNA methylase	227	23879	24562	1	1	N6_N4_Mtase(PF01555):139.8
+ColIb-P9	HXB61_RS00145	YubE family protein	73	24563	24784	1	1	YubE(PF27407):113.3
+ColIb-P9	HXB61_RS00155	YubG family protein	256	25281	26051	1	2	YubG_N(PF30111):208.5;YubG_C(PF30110):197.4
+ColIb-P9	HXB61_RS00160	antirestriction protein	141	26469	26894	1	1	Antirestrict(PF03230):89.7
+ColIb-P9	HXB61_RS00165	DUF1380 family protein	140	26941	27363	1	0	
+ColIb-P9	HXB61_RS00170	hypothetical protein	63	27360	27551	1	0	
+ColIb-P9	HXB61_RS00180	single-stranded DNA-binding protein	175	28321	28848	1	1	SSB(PF00436):126.9
+ColIb-P9	HXB61_RS00185	DUF905 domain-containing protein	77	28906	29139	1	1	DUF905(PF06006):118.4
+ColIb-P9	HXB61_RS00190	ParB/RepB/Spo0J family partition protein	649	29198	31147	1	2	ParB_N(PF02195):66.8;HTH_ParB(PF17762):30.6
+ColIb-P9	psiB	conjugation system SOS inhibitor PsiB	144	31202	31636	1	1	PsiB(PF06290):191.2
+ColIb-P9	HXB61_RS00200	plasmid SOS inhibition protein A	239	31633	32352	1	1	PsiA(PF06952):316.8
+ColIb-P9	HXB61_RS00205	RNA-guided endonuclease InsQ/TnpB family protein	391	32482	33657	1	3	Cas12f1-like_TNB(PF07282):88.6;OrfB_IS605(PF01385):86.9;HTH_OrfB_IS605(PF12323):68.3
+ColIb-P9	HXB61_RS00210	antirestriction protein ArdA	166	34105	34605	1	1	ArdA(PF07275):95.7
+ColIb-P9	HXB61_RS00215	hypothetical protein	144	35334	35768	1	0	
+ColIb-P9	HXB61_RS00220	hypothetical protein	88	35860	36126	1	0	
+ColIb-P9	HXB61_RS00225	Rpn family recombination-promoting nuclease/putative transposase	313	36191	37132	1	2	Transposase_31(PF04754):262.0;HTH_Rpn_C(PF27070):32.5
+ColIb-P9	HXB61_RS00230	hypothetical protein	56	37194	37364	1	0	
+ColIb-P9	HXB61_RS00235	helix-turn-helix domain-containing protein	83	37395	37646	-1	0	
+ColIb-P9	HXB61_RS00240	hypothetical protein	65	37680	37877	-1	0	
+ColIb-P9	HXB61_RS00245	DUF4942 domain-containing protein	282	38226	39074	1	1	DUF4942(PF13708):173.8
+ColIb-P9	HXB61_RS00250	hypothetical protein	111	39159	39494	-1	0	
+ColIb-P9	nikA	IncI1-type relaxosome accessory protein NikA	110	39728	40060	1	1	NikA-like(PF21983):79.1
+ColIb-P9	nikB	IncI1-type relaxase NikB	899	40071	42770	1	2	Relaxase(PF03432):106.4;TraI_middle(PF22863):64.8
+ColIb-P9	trbC	F-type conjugative transfer protein TrbC	763	42807	45098	-1	0	
+ColIb-P9	trbB	IncI1-type conjugal transfer protein TrbB	356	45091	46161	-1	0	
+ColIb-P9	trbA	IncI1-type conjugal transfer protein TrbA	402	46180	47388	-1	1	DotM_C(PF23127):146.9
+ColIb-P9	HXB61_RS00280	Hok/Gef family protein	50	47680	47832	1	1	HOK_GEF(PF01848):45.1
+ColIb-P9	HXB61_RS00285	hypothetical protein	83	47904	48155	-1	0	
+ColIb-P9	HXB61_RS00290	hypothetical protein	54	48198	48362	1	0	
+ColIb-P9	HXB61_RS00295	hypothetical protein	94	49079	49363	-1	0	
+ColIb-P9	HXB61_RS00300	HEAT repeat domain-containing protein	69	49647	49856	1	2	HEAT_2(PF13646):30.5;HEAT(PF02985):24.2
+ColIb-P9	excA	plasmid IncI1-type surface exclusion protein ExcA	220	49928	50590	-1	1	Exclusion-determining_protein(PF27689):61.6
+ColIb-P9	HXB61_RS00310	DotA/TraY family protein	722	50661	52829	-1	0	
+ColIb-P9	traX	conjugal transfer protein TraX	194	52926	53510	-1	1	TraX-like(PF28070):146.8
+ColIb-P9	traW	IncI1-type conjugal transfer protein TraW	400	53539	54741	-1	1	TraW-like(PF28212):437.1
+ColIb-P9	traV	IncI1-type conjugal transfer protein TraV	204	54708	55322	-1	0	
+ColIb-P9	traU	IncI1-type conjugal transfer protein TraU	1014	55322	58366	-1	0	
+ColIb-P9	traT	IncI1-type conjugal transfer protein TraT	266	58456	59256	-1	0	
+ColIb-P9	traS	putative conjugal transfer protein TraS	62	59240	59428	-1	0	
+ColIb-P9	traR	IncI1-type conjugal transfer protein TraR	134	59492	59896	-1	1	DUF6750(PF20535):51.0
+ColIb-P9	traQ	conjugal transfer protein TraQ	175	59947	60474	-1	1	DUF6750(PF20535):32.4
+ColIb-P9	traP	IncI1-type conjugal transfer protein TraP	234	60474	61178	-1	0	
+ColIb-P9	traO	conjugal transfer protein TraO	429	61178	62467	-1	0	
+ColIb-P9	traN	IncI1-type conjugal transfer protein TraN	327	62470	63453	-1	1	T4BSS_DotH_IcmK(PF12293):204.1
+ColIb-P9	HXB61_RS00370	DotI/IcmL family type IV secretion protein	230	63464	64156	-1	1	T4BSS_DotI_IcmL(PF11393):135.5
+ColIb-P9	HXB61_RS00375	conjugal transfer protein	115	64153	64500	-1	0	
+ColIb-P9	HXB61_RS00380	LPD7 domain-containing protein	1255	64518	68285	-1	2	LPD7(PF18821):52.1;DUF5710(PF18974):35.2
+ColIb-P9	HXB61_RS00385	phospholipase D family nuclease	183	68375	68926	-1	2	PLDc_2(PF13091):98.2;SACK1(PF07894):33.4
+ColIb-P9	HXB61_RS00390	hypothetical protein	96	68941	69231	-1	1	IcmT_2(PF28014):51.9
+ColIb-P9	traJ	plasmid transfer ATPase TraJ	382	69228	70376	-1	1	T2SSE(PF00437):124.1
+ColIb-P9	traI	IncI1-type conjugal transfer lipoprotein TraI	272	70373	71191	-1	1	T4SS_TraI(PF16932):230.1
+ColIb-P9	traH	IncI1-type conjugal transfer lipoprotein TraH	152	71188	71646	-1	1	DotD(PF16816):64.6
+ColIb-P9	HXB61_RS00410	histidine phosphatase family protein	194	72041	72625	-1	1	His_Phos_1(PF00300):34.4
+ColIb-P9	HXB61_RS00415	conjugal transfer protein TraF	400	72685	73887	-1	2	TraF_2(PF13729):250.1;PorP_SprF(PF11751):25.3
+ColIb-P9	traE	conjugal transfer protein TraE	274	73973	74797	-1	0	
+ColIb-P9	HXB61_RS00425	tyrosine-type recombinase/integrase	384	74948	76102	-1	2	Phage_integrase(PF00589):85.2;HicB-like_2(PF15970):27.9
+ColIb-P9	HXB61_RS00430	hypothetical protein	108	76086	76412	1	0	
+ColIb-P9	HXB61_RS00435	hypothetical protein	51	76763	76918	1	0	
+ColIb-P9	HXB61_RS00445	shufflon system plasmid conjugative transfer pilus tip adhesin PilV	474	77407	78831	-1	1	Shufflon_N(PF04917):621.1
+ColIb-P9	HXB61_RS00450	prepilin peptidase	218	78831	79487	-1	1	Peptidase_A24(PF01478):29.5
+ColIb-P9	HXB61_RS00455	lytic transglycosylase domain-containing protein	186	79472	80032	-1	1	SLT(PF01464):84.5
+ColIb-P9	HXB61_RS00460	type 4 pilus major pilin	204	80042	80656	-1	1	PilS(PF08805):133.8
+ColIb-P9	HXB61_RS00465	type II secretion system F family protein	365	80674	81771	-1	1	T2SSF(PF00482):79.9
+ColIb-P9	HXB61_RS00470	GspE/PulE family protein	517	81784	83337	-1	1	T2SSE(PF00437):214.4
+ColIb-P9	pilP	type IV pilus biogenesis protein PilP	150	83348	83800	-1	0	
+ColIb-P9	pilO2	type 4b pilus protein PilO2	431	83787	85082	-1	1	PAP_PilO(PF06864):236.4
+ColIb-P9	HXB61_RS00485	PilN family type IVB pilus formation outer membrane protein	560	85075	86757	-1	2	Secretin_N_2(PF07655):69.4;Secretin(PF00263):48.6
+ColIb-P9	pilM	type IV pilus biogenesis protein PilM	145	86771	87208	-1	1	PilM(PF07419):123.4
+ColIb-P9	pilL	type IV pilus biogenesis lipoprotein PilL	355	87208	88275	-1	1	TcpQ(PF10671):57.7
+ColIb-P9	HXB61_RS00545	hypothetical protein	197	88309	88902	-1	0	
+ColIb-P9	HXB61_RS00500	hypothetical protein	98	88899	89195	-1	0	
+ColIb-P9	HXB61_RS00505	PilI type IV pilus biogenesis protein	84	89362	89616	-1	1	PilI(PF10623):111.8
+ColIb-P9	HXB61_RS00510	hypothetical protein	183	89778	90329	-1	0	
+ColIb-P9	HXB61_RS00515	hypothetical protein	227	90502	91185	-1	0	
+ColIb-P9	HXB61_RS00520	transcription termination/antitermination NusG family protein	177	91438	91971	-1	1	NusG(PF02357):23.9
+ColIb-P9	HXB61_RS00525	helix-turn-helix transcriptional regulator	95	92413	92700	-1	1	Sigma70_r4_2(PF08281):26.0
+ColIb-P9	HXB61_RS00555	ash family protein	72	92618	92836	-1	1	Phage_ASH(PF10554):35.6

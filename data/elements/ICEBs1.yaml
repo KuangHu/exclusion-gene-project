@@ -1,0 +1,118 @@
+# ICEBs1 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: ICEBs1
+element_type: ICE
+inc_group: not_applicable
+mpf_class: MPF_FA
+host: Bacillus subtilis subsp. subtilis 168
+size_bp: 20000
+accessions:
+  primary: CP171645.1
+  crosscheck: null
+  parts: []
+  status: CHROMOSOMAL
+  note: integrated in the 4.2 Mb host chromosome; element extracted by coordinates
+  record_scope: chromosome
+  min_expected_bp: 1000000
+exclusion:
+  gene: yddJ
+  type: entry
+  evidence_tier: E1
+  fold: cystatin-like, DUF4467
+  specificity_determinant: not mapped
+  sequence:
+    protein_accession: YGG23124.1
+    length_aa: 126
+    aa_sha256: 268dccf2ab1e20c5fb4bd4b0bc2e2146aed9ed4ed839ee9e554c4f9d264cabb8
+    coords: CP171645.1:545194..545574
+    strand: +
+    route: product
+  hmm_hit: HIT
+  hmm_model: DUF4467 PF14729.13 score=98.9
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: conG
+  family: VirB6
+  virb_equivalent: VirB6-like, 7 TM
+  status: verified
+  synonym: yddG
+  specificity_residues: extracellular loop aa 276-295 is sufficient to confer specificity; resistance
+    mutation E288K falls inside it
+  sequence:
+    protein_accession: YGG21655.1
+    length_aa: 815
+    aa_sha256: ba5d713f59e3ad1170ef9324ff5dfd9b8ad6b51e100c32f4441d2126bac9ca0b
+    coords: CP171645.1:541177..543624
+    strand: +
+    route: gene
+  domain_id: CDD:cd06261 (TM_PBP2) / IPR000515 (MetI-like)
+context:
+  operon:
+    name: P_xis large operon
+    genes:
+    - conB (yddB)
+    - conC (yddC)
+    - conD (yddD)
+    - conE (yddE)
+    - yddF
+    - conG (yddG)
+    - cwlT (yddH)
+    - yddI
+    - yddJ
+    - yddK
+    - rapI
+    - phrI
+    - yddM
+    orientation: +
+  upstream_module:
+    genes:
+    - int
+    - xis
+    - immR
+    - immA
+    - ydzL
+    - ydcO
+    - helP
+    - nicK
+    - ydcS
+    - ydcT
+    - conQ (ydcQ)
+    - yddA
+    note: internal order to be taken from the ICEBs1 annotation, not from this list
+  virb_mapping:
+    conB: VirB8-like
+    conD: VirB3-like
+    conE: VirB4 ATPase
+    conG: VirB6-like (7 TM)
+    cwlT: VirB1-like (bifunctional cell-wall hydrolase)
+    conQ: VirD4 T4CP
+  essentiality:
+    required:
+    - conB
+    - conC
+    - conD
+    - conE
+    - conG
+    not_required:
+    - yddF
+  interactions: 'BACTH: ConE interacts with itself, ConB and ConQ only -- NOT with ConG'
+  regulation: P_xis operon; RapI-PhrI quorum sensing + ImmR/ImmA + RecA/SOS
+  adjacency:
+    proximity:
+      measured_bp: 1569
+      measured_from: CP171645.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 2
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: conG and yddJ separated by cwlT and yddI inside the same P_xis operon
+notes:
+- Gram-positive. Only element in the set with no periplasm, so the compartment logic differs from every
+  Gram-negative row
+schema_version: 1.1.0
+scope: entry_exclusion_only

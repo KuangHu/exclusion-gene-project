@@ -1,0 +1,120 @@
+# R64 -- entry exclusion pair record
+# Curated context + sequence facts verified from the pinned accession.
+# THIS FILE IS THE SOURCE OF TRUTH. data/exports/*.tsv|json are generated.
+element_id: R64
+element_type: plasmid
+inc_group: IncI1
+mpf_class: MPF_I
+host: Salmonella enterica ser. Typhimurium
+size_bp: 120826
+accessions:
+  primary: AP005147.1
+  crosscheck: NC_005014.1
+  parts: []
+  status: PROVISIONAL
+  record_scope: plasmid
+  min_expected_bp: 30000
+exclusion:
+  gene: excA
+  type: entry
+  evidence_tier: E1
+  second_gene: excB
+  specificity_determinant: null
+  specificity_determinant_note: sakuma2013 maps the discriminating segment on the DONOR TraY, not on ExcA.
+    ExcA is the recogniser; the recognised element differs. Do not mirror the TraY segment onto this field
+  note: excA and excB are overlapping ORFs translated by in-frame reinitiation. furuya1994 is titled "surface
+    exclusion" but the gene is entry exclusion -- another instance of title/product phenotype words not
+    being reliable classifiers
+  sequence:
+    protein_accession: BAB91650.1
+    length_aa: 220
+    aa_sha256: 43ab07ed1f6be41652b5d2beee1bd5a91fedabf5d7b248f1fa1deee76ea5f3ca
+    coords: AP005147.1:76983..77645
+    strand: '-'
+    route: gene
+  hmm_hit: HIT
+  hmm_model: surf_exc_IncI1 NF033891.1 score=289.7
+  benchmark_role: positive_control -- already recoverable by an existing public HMM
+partner:
+  gene: traY
+  family: unassigned
+  virb_equivalent: null
+  status: verified
+  specificity_residues: TraY internal variable segment (R64); contrast R621a C-terminal
+  specificity_source: sakuma2013 -- reciprocal TraY swap
+  note: NOT VirB6. The R64/R621a Tra/Trb system is homologous to Legionella Dot/Icm and Ti VirB/D4, not
+    to IncF. No TraF or TraG homolog exists in Dot/Icm or Ti -- there is no 'TraG' concept in this system
+    at all
+  sequence:
+    protein_accession: BAB91652.1
+    length_aa: 745
+    aa_sha256: 4108d588a23d56fecd364ff3bd59642bdc46837c4a9eac0234694006e835e715
+    coords: AP005147.1:77716..79953
+    strand: '-'
+    route: gene
+  family_note: MPF_I inner-membrane Mpf protein
+  domain_id: IPR027628 (DotA_TraY) -- no Pfam
+context:
+  operon:
+    name: excA-traY cluster (one of four transfer-region clusters)
+    genes:
+    - excA
+    - excB
+    - traY
+    orientation: +
+    promoter: not characterised in the literature
+  transfer_region:
+    size_kb: 54
+    n_genes: '>=49'
+    n_proteins: 58
+    clusters:
+      regulation:
+      - traA
+      - traB
+      - traC
+      - traD
+      relaxosome:
+      - oriT
+      - nikA
+      - nikB
+      type_IVb_thin_pilus:
+      - pilI
+      - pilJ
+      - pilK
+      - pilL
+      - pilM
+      - pilN
+      - pilO
+      - pilP
+      - pilQ
+      - pilR
+      - pilS
+      - pilT
+      - pilU
+      - pilV
+      conjugation_apparatus:
+      - traE..traY (22 genes, Komano 2000)
+      - trbA
+      - trbB
+      - trbC
+      - nuc
+    note: 58 proteins from >=49 genes via shufflon rearrangement plus overlapping genes. Thin pilus is
+      required for liquid mating
+  adjacency:
+    proximity:
+      measured_bp: 70
+      measured_from: AP005147.1
+      within_discovery_window: true
+      window_bp: 6000
+    synteny:
+      same_strand: true
+      same_operon: true
+      genes_between: 1
+    supports_discovery_heuristic: true
+    supports_synteny_claim: true
+    note: excA-excB-traY consecutive; excB is the overlapping reinitiation ORF
+notes:
+- trbABC is adjacent to but antiparallel with the oriT operon
+- trbA and trbC essential for transfer; trbB deletion retains residual activity
+schema_version: 1.1.0
+scope: entry_exclusion_only

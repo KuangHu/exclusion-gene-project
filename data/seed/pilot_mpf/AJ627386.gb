@@ -1,0 +1,2543 @@
+LOCUS       AJ627386               59393 bp    DNA     circular BCT 26-JUL-2016
+DEFINITION  Haemophilus influenzae plasmid ICEhin1056.
+ACCESSION   AJ627386
+VERSION     AJ627386.1
+DBLINK      BioSample: SAMN14229300
+KEYWORDS    antibiotic resistance element ICEhin1056; complete genome.
+SOURCE      Haemophilus influenzae
+  ORGANISM  Haemophilus influenzae
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Pasteurellales; Pasteurellaceae; Haemophilus.
+REFERENCE   1
+  AUTHORS   Mohd-Zain,Z., Turner,S.L., Cerdeno-Tarraga,A.M., Lilley,A.K.,
+            Inzana,T.J., Duncan,A.J., Harding,R.M., Hood,D.W., Peto,T.E. and
+            Crook,D.W.
+  TITLE     Transferable antibiotic resistance elements in Haemophilus
+            influenzae share a common evolutionary origin with a diverse family
+            of syntenic genomic islands
+  JOURNAL   J. Bacteriol. 186 (23), 8114-8122 (2004)
+   PUBMED   15547285
+REFERENCE   2  (bases 1 to 59393)
+  AUTHORS   Crook,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-FEB-2004) Crook D.W., Ndcls, Oxford University, John
+            Radcliffe Hospital, Oxford, OX3 9DU, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..59393
+                     /organism="Haemophilus influenzae"
+                     /mol_type="genomic DNA"
+                     /serotype="type b"
+                     /isolate="1056"
+                     /isolation_source="blood"
+                     /host="Homo sapiens (human)"
+                     /db_xref="taxon:727"
+                     /plasmid="ICEhin1056"
+                     /geo_loc_name="United Kingdom:Surrey"
+                     /note="integrative and conjugative element ICEhin1056"
+     misc_feature    <1..67
+                     /note="attP, attachment site P"
+     gene            141..977
+                     /locus_tag="p1056.01"
+     CDS             141..977
+                     /locus_tag="p1056.01"
+                     /note="Similar to Haemophilus ducreyi 35000HP possible
+                     chromosome partitioning related protein SWALL:AAP95855
+                     fasta scores: E(): 1.1e-93, and to Pseudomonas aeruginosa
+                     chromosome partitioning related protein Soj or RL115
+                     SWALL:AAP84239 fasta scores: E(): 1.1e-37;
+                     Similar to core gene 1 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative chromosome partitioning related
+                     protein"
+                     /protein_id="CAF29009.1"
+                     /db_xref="GOA:Q6A2A7"
+                     /db_xref="InterPro:IPR002586"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A7"
+                     /translation="MDFSSVSKKPYIITVACTKGGSAKSTNAANIGAFCADHGLRTLL
+                     IDTDTQPTLSSYYALTEEAPGGIYEFLTRRDIEPSHIISKTSIPNLDLIQSNDPSNNV
+                     SQTLRNAPDGAIRFSHLIKNIDNYDVIVVDTRGTRDITVDMSVLAADILFCPILPHIL
+                     SAKEFIRGTIGMYQDLETFESFGFKLPPLKAIANCVDNTNDVKFVLNQLHVLFETNFD
+                     ESKTFLDFSIPAHVAYREAATYSLPVYRHSQAEYPVIKELCCLLLPQFKTLFDKPMKK
+                     EG"
+     gene            979..2334
+                     /locus_tag="p1056.02"
+     CDS             979..2334
+                     /locus_tag="p1056.02"
+                     /EC_number="3.6.1.-"
+                     /note="Similar to Haemophilus ducreyi 35000HP replicative
+                     DNA helicase DNAB1 or HD0973 SWALL:AAP95854 fasta scores:
+                     E(): 5.2e-119, and to Salmonella typhi DNA helicase
+                     STY4522 or T4227 SWALL:Q8Z1M2 fasta scores: E(): 4.1e-68;
+                     Similar to core gene 2 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replicative DNA helicase"
+                     /protein_id="CAF29010.1"
+                     /db_xref="GOA:Q6A2A6"
+                     /db_xref="InterPro:IPR007692"
+                     /db_xref="InterPro:IPR007693"
+                     /db_xref="InterPro:IPR007694"
+                     /db_xref="InterPro:IPR016136"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A6"
+                     /translation="MTDKLIASIEAESAVIGALIIDNDKFDEIATLLRSDDFYVSAHK
+                     VLFEGVSHLLTQGKPADILTLEQYFKDKKLIEQIGGLAYLAEVIHNTPSASNITAYAE
+                     IISRYSKQRRFLTLGQFIVTEMQSSKDEIELTSFEESVDKQYTNIVIEQETDGVADLN
+                     ASFERILSRMETSSINADPVSGTPTGIIELDRATTGGQPGELIIIAARPAMGKTTFAQ
+                     TIAASTLDKFPDSPIQFYSQEMPADQLLERFMAMRSRVSLQSIRQATELEEEEWTRLA
+                     NAMGTIKKDWKGRLLIDDEASLTPHRLRAKVRKNTRLYGKPKAIFIDYIQLMRTGNKT
+                     ENRNLELAEISNDLKKLAKETGCPIYALSQLNRGLENRANKRPINADLRDSGSLEQDA
+                     DVIIHLYRDEIYNPDTEDKGIAEIIIGKQRNGPLATVKTLFQGQYSIFENLTTQDRYY
+                     E"
+     repeat_region   1933..1942
+                     /locus_tag="p1056.02"
+                     /rpt_type=INVERTED
+     repeat_region   complement(1980..1989)
+                     /rpt_type=INVERTED
+     gene            2327..4015
+                     /locus_tag="p1056.03"
+     CDS             2327..4015
+                     /locus_tag="p1056.03"
+                     /note="Similar to central region of Haemophilus ducreyi
+                     35000HP hypothetical protein HD0971 SWALL:AAP95852 fasta
+                     scores: E(): 2.5e-53, and to Pseudomonas aeruginosa
+                     conserved hypothetical protein SWALL:Q8GQ04 fasta scores:
+                     E(): 8.4e-39;
+                     Similar to core gene 3 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29011.1"
+                     /db_xref="GOA:Q6A2A5"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A5"
+                     /translation="MNNPFIAKNKKQQSQLDAIAKGLNVQPINNQSAAYQTTTATHYP
+                     AQSKYITVTLDKLRPYEHNPRKTRNPNFEMIKESIRRRGLDHKPNITQRPGEPFYIIA
+                     DGGNTRIQALKELFTETQDQRFWSIECLYKPWKGESADSVEAELDLLIGHLIENDTRA
+                     DLTFIEKALGIQQAKEYYEKKLGKALSSRELSTELEKDGYIISHTLIAKMEKCINFLY
+                     PYIPDVLFNGLGHAPIDKLLAIRNNALAIWQNYQFELDVTFDEIWGHSLARCNDDQPF
+                     HIKVFQDHLIDEMSSMLGDRVSYEVLYLEIDLDEQKFKKMAQKQHEIQQSVQESIQDV
+                     QAFNTPQPQETVLDTLSQPSVVTTPKMTTTEKKSIPAPVLKQASVEISPSFENETEDE
+                     EFDETNANSEGLSFDFAKNLTQQFGITPGMSIQEQRQQRAEENGLGFACVGRQPVDDI
+                     WKIYPGRQHKVEAYSLALDIAESVGLTDYIEHVVKEPVDYTYRVKPLDKDVSGVAQMC
+                     YDFLNLLQTDVHPQTSFTLLPEYLLNTQEIDDTTLVKLFRLIRLVRYIRSEGDA"
+     gene            4015..4566
+                     /locus_tag="p1056.04"
+     CDS             4015..4566
+                     /locus_tag="p1056.04"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0969 SWALL:AAP95850 fasta scores: E(): 2.6e-56,
+                     and to Salmonella typhi hypothetical protein STY4526 or
+                     T4231 SWALL:Q8Z1L8 fasta scores: E(): 5.5e-19;
+                     Similar to core gene 4 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29012.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A4"
+                     /translation="MSMFSNLNQVVLNEILVNLQEGNINVCRNYGFSKQELQEIEKLS
+                     TEEVYELANTKAPFAKVEINHDAFWRLVARVRMSSQERRLIDRALMLGASIQMLNSYF
+                     GLTTSKVSARRSLLGKQEPMGRKPAATEEEEKLIWDLWQEHKGDVQTIESTEGLELLI
+                     LIAEETGINLTEIWKLVSRWNAA"
+     repeat_region   4572..4583
+                     /rpt_type=INVERTED
+     repeat_region   complement(4601..4612)
+                     /rpt_type=INVERTED
+     gene            4716..5939
+                     /locus_tag="p1056.05"
+     CDS             4716..5939
+                     /locus_tag="p1056.05"
+                     /note="Similar to N-terminal region of Haemophilus ducreyi
+                     35000HP hypothetical protein HD0968 SWALL:AAP95849 fasta
+                     scores: E(): 1.5e-58, and to Haemophilus ducreyi 35000HP
+                     hypothetical protein HD0967 SWALL:AAP95848 fasta scores:
+                     E(): 6.8e-21;
+                     Similar to core gene 5 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29013.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A3"
+                     /translation="METKLQEHGLLFFGNQHETVPTRLLFDPYLTSRAKLAWQLIKYK
+                     AREFQSGMFPSYEVLAKLLSDKPYDEAELSRKLVSQTLLLLRLTRWLTLCETVRNEQG
+                     QVLGNFYILHDEPMPIIDTIQLNHDYIALLEKSIQHRDNFVRGVANHIVENLLSDNTQ
+                     WHYISHIDWMRARLQDYQKRPKMDISEQEESTFIQENLLSSNKELNEKTGELSKNNLS
+                     SKMELSKIKQSSKRELSAQNDDKSLISGLVPKGNSGFSQYSTSTSIYINTYCTGNVDE
+                     IDWPTNIQFSSLEKTAIMQAMRGLDLGICKAILFELEQRVAKGEVKKPQGYVVTLIQR
+                     AHRGEFKPYLYEQFLATQAQSLSSKNRLSQHDETSLVNNVKADSAIKPMRVQSEEERK
+                     ARADRIRQFKASICN"
+     repeat_region   5344..5420
+                     /locus_tag="p1056.05"
+                     /rpt_unit_range=5344..5377
+     repeat_region   5484..5494
+                     /locus_tag="p1056.05"
+                     /rpt_type=INVERTED
+     repeat_region   complement(5519..5529)
+                     /rpt_type=INVERTED
+     repeat_region   5977..6133
+                     /rpt_unit_range=5977..6012
+     gene            6164..6919
+                     /locus_tag="p1056.06"
+     CDS             6164..6919
+                     /locus_tag="p1056.06"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0966 (SWALL:AAP95847) (EMBL:AE017153) fasta
+                     scores: E(): 1e-71, and to Pseudomonas aeruginosa
+                     hypothetical protein RL097 SWALL:AAP84222 fasta scores:
+                     E(): 7.8e-28;
+                     Similar to core gene 6 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29014.1"
+                     /db_xref="InterPro:IPR014996"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A2"
+                     /translation="MTTTYNQQLGPLRSEITFTLHTQYATRLWNGRDLVKNEAGEVVT
+                     SSILSIPNALSLLSQIQQAAEQDDPYADDYLLRFEQKVLGFRKEMQDMTWRMVNLYSE
+                     KIPENFQIERCANIAPIQYPIFVNTQLGYQLLYLLADFDSLARTVMTASHIALLTKDD
+                     AYDWLESGAKLIRRAFGVLENYRNSGITRQDALENNARYQAAVKRMKYTLTPDVLSGT
+                     TRATFAPTIKKSSLAESDDNGSVEVQITANKTE"
+     gene            6919..7407
+                     /gene="inrR"
+                     /locus_tag="p1056.07"
+     CDS             6919..7407
+                     /gene="inrR"
+                     /locus_tag="p1056.07"
+                     /note="Similar to, but longer than Haemophilus ducreyi
+                     hypothetical protein SWALL:AAP958445 fasta scores: E():
+                     5.3e-06, and to the C-terminal of Pseudomonas sp.
+                     integrase regulator R InrR SWALL:Q83W41 fasta scores: E():
+                     2.6e-05;
+                     Similar to core gene 7 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29015.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A1"
+                     /translation="MEIGIMDNVLIPSDMYKQLGRTTPLNDSLKQLFSELDSVQQYEL
+                     LAESLATVREALMLQQNEMLQNVRKSELSVLPIHMIRDKASSSGGTFLRWRSFQASKT
+                     GDAVLNPVFNNPQLSSDLRQKLVSAEKERILINLQVSVLNFMMRQVSSAVDKIKEIED
+                     HL"
+     repeat_region   7493..7503
+                     /rpt_type=INVERTED
+     repeat_region   complement(7509..7519)
+                     /rpt_type=INVERTED
+     gene            7654..8076
+                     /locus_tag="p1056.08"
+     CDS             7654..8076
+                     /locus_tag="p1056.08"
+                     /note="Similar to Haemophilus influenzae single-strand
+                     binding protein Ssb or HI0250 SWALL:SSB_HAEIN
+                     (SWALL:P44409) (EMBL:HI04997) fasta scores: E(): 5.1e-40,
+                     and to Haemophilus ducreyi 35000HP single stranded DNA
+                     binding protein Ssb or HD1285 SWALL:AAP96107 fasta scores:
+                     E(): 8.3e-39;
+                     Similar to core gene 8 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="single-strand binding protein"
+                     /protein_id="CAF29016.1"
+                     /db_xref="GOA:Q6A2A0"
+                     /db_xref="InterPro:IPR000424"
+                     /db_xref="InterPro:IPR011344"
+                     /db_xref="InterPro:IPR012340"
+                     /db_xref="UniProtKB/TrEMBL:Q6A2A0"
+                     /translation="MAGINKVIIVGHLGNDPEMRSMPNGEAVANISVATSEAWTDKNT
+                     GERREVTEWHRIVFYRKLDEICGQYLKKGAQVYIEGRLRTRKWQDQNGQDRYTTEIQG
+                     DVMQMLGTRPQSADGANNSQPMPQQDASANTFDDSIPF"
+     gene            8100..8621
+                     /locus_tag="p1056.09"
+     CDS             8100..8621
+                     /locus_tag="p1056.09"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0961 SWALL:AAP95842 fasta score: E(): 6.9e-23"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative lipoprotein"
+                     /protein_id="CAF29017.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A299"
+                     /translation="MMKKIIFVLSAVAALSGCAELNSLNDAVGNVAGQLSSVLGGGNS
+                     SSSSSGVAYTQSSRSHRYNVEDSITSSKNIDSLYVKIKRNLKFKTRDEALSGLSGYER
+                     QRYESLLDEEGHAHEATPGVYYHMANSYVGGRKIDITLAKEDGKVRISWIASSNESDF
+                     AQFVKSEVIKAIK"
+     sig_peptide     8100..8156
+                     /locus_tag="p1056.09"
+                     /note="Signal peptide predicted for p1056.47 by SignalP
+                     2.0 HMM (Signal peptide probabilty 0.997) with cleavage
+                     site probability 0.430 between residues 19 and 20"
+     mat_peptide     8157..8618
+                     /locus_tag="p1056.09"
+                     /product="unnamed"
+     gene            complement(8837..9394)
+                     /locus_tag="p1056.10c"
+     CDS             complement(8837..9394)
+                     /locus_tag="p1056.10c"
+                     /note="Low similarity to the C-terminal region of Shigella
+                     flexneri protein Osa SWALL:OSA_SHIFL
+                     (SWALL:P29772)(EMBL:PP30471) fasta scores: E(): 8.6e-08"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAF29018.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A298"
+                     /translation="MIKLTPSSIGVMVDTLRYSGRDKYIIFRMKTREQKVVYMRYPQH
+                     IENMANQENMIVIVDAQKFLPLWQRSPYEVDKNTCAGDESTWRKDYKFHHAENGFANS
+                     IDSPVPLADVNVHIKDGEISCSLNDGMTRTLWLLANGVKEFPILIRNHKEKAKILSKY
+                     ASPLSSLHFEPLNLYFAITGEKYPL"
+     gene            9485..11530
+                     /locus_tag="p1056.11"
+     CDS             9485..11530
+                     /locus_tag="p1056.11"
+                     /EC_number="5.6.2.1"
+                     /note="Similar to Haemophilus ducreyi 35000HP DNA
+                     topoisomerase III TopB1 or HD0954 SWALL:AAP95835 fasta
+                     scores: E(): 1.3e-139, and to Pseudomonas aeruginosa
+                     putative DNA topoisomerase III TopB SWALL:Q8GPQ7 fasta
+                     scores: E(): 1.2e-122;
+                     Similar to core gene 9 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA topoisomerase III"
+                     /protein_id="CAF29019.1"
+                     /db_xref="GOA:Q6A297"
+                     /db_xref="InterPro:IPR000380"
+                     /db_xref="InterPro:IPR003601"
+                     /db_xref="InterPro:IPR003602"
+                     /db_xref="InterPro:IPR005738"
+                     /db_xref="InterPro:IPR006154"
+                     /db_xref="InterPro:IPR006171"
+                     /db_xref="InterPro:IPR013497"
+                     /db_xref="InterPro:IPR013498"
+                     /db_xref="InterPro:IPR013824"
+                     /db_xref="InterPro:IPR013826"
+                     /db_xref="UniProtKB/TrEMBL:Q6A297"
+                     /translation="MKLFLCEKPSQGNDIAKVLGATKRGEGCLSTPDGQLTVTWGIGH
+                     LVEQFNPEEYDPAFKKWAFETLPIIPGKWGLSPKKETKKQFNVVMKLIKQAKLVVIAT
+                     DIDREGETIARELLDLAGFRGQIKRLWLSALDDASIRKALGALKDNEETLPLYYAGLA
+                     RSRADWLIGMNFSRLYTLLAQQQGYQGKPLSVGRVQTPTLSLVVNRDREIKNFIPKQH
+                     FALQVMLSDGNQHFATQYVIPEQYCDPDGLCLSAQVIQAANQQIRQLGQAKVESVETK
+                     RERQNAPLCFALSDLQSEANRLYGLGAQRVLDIAQSLYETHKATTYPRTDCGYLPESQ
+                     FAEAPQIIQCLLQSDNRLQPLAGMLNLNQKSRVWNDKKITAHHGIIPTMIKADISKMS
+                     DEELKLYDLIRRRYLAQFLPVSETDKTQIILKCGQHILSARGNVLIAPGWKILFGKSL
+                     DEDDDAPQALPTLKQGQVCQISDSEIKTLQTSPPNHFTEGTLLTAMKNAARFVTDERL
+                     KQRLRETEGLGTEATRAGTIQGLIDKGFLKKKGKSLLATDEAMTLIDNLPQMLKDPGL
+                     TALWEQALNQIAERTLSLEVFMQKQEVFVRHLMADCLKKGMSLGNIEIRKCPKCGAPM
+                     IKRNGKNGAFFGCSAYPNCQHIENFDSKKNTKGAKSSKKTSSKSVSEQISSLRSLLN"
+     repeat_region   12378..12387
+                     /rpt_type=INVERTED
+     repeat_region   complement(12404..12413)
+                     /rpt_type=INVERTED
+     gene            12415..12843
+                     /locus_tag="p1056.12"
+     CDS             12415..12843
+                     /locus_tag="p1056.12"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0951 SWALL:AAP95832fasta scores: E(): 5.4e-33,
+                     and to Pseudomonas seruginosa hypothetical protein RL074
+                     SWALL:AAP84199 fasta scores: E(): 6.9e-23;
+                     Similar to core gene 10 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29020.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A296"
+                     /translation="MSTQNAQPKYFNLHTSGIGYLSDIREIKPKKGDAFWACRIAALT
+                     GSSDSPEYRFFDMNVSGEETVNLIKRCQEAVEAKKKVLVSFVMSDLWYDTFTYSKDSE
+                     YHKKGDTGVSIKGRLYRINFIKVDGELKYQAKRQDEQGND"
+     repeat_region   12858..12868
+                     /rpt_type=INVERTED
+     repeat_region   complement(12875..12885)
+                     /rpt_type=INVERTED
+     gene            12919..13599
+                     /locus_tag="p1056.13"
+     CDS             12919..13599
+                     /locus_tag="p1056.13"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAF29021.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A295"
+                     /translation="MVSPFLFLFEEKPMNTYAKFCPNVFVAKCPDAHQKGDIIILTSK
+                     YGKETEVEIHNLVKTSEDAYFYSFTRCDGVNSQVRAEKKAERYQNAASNALKRSEQYC
+                     EAANEGREFLRLGEPIKIGHHSEKRHRALIERNARRMDKSVEEMRKAESYDGKIAYWE
+                     QMAGKIDLSMPESLEFFKFELEKAKEKHQELKDKPELRTHAFSLTYAKKAVNELEKKV
+                     KLAELLWA"
+     repeat_region   12921..12930
+                     /locus_tag="p1056.13"
+                     /rpt_type=INVERTED
+     repeat_region   complement(12947..12956)
+                     /rpt_type=INVERTED
+     repeat_region   13331..13340
+                     /locus_tag="p1056.13"
+                     /rpt_type=INVERTED
+     repeat_region   complement(13420..13429)
+                     /rpt_type=INVERTED
+     gene            13738..14208
+                     /locus_tag="p1056.14"
+     CDS             13738..14208
+                     /locus_tag="p1056.14"
+                     /note="Similar to Haemophilus ducreyi 35000HP conserved
+                     possible DNA repair protein HD0945 SWALL:AAP95827 fasta
+                     scores: E(): 3e-20, and to the C-terminal region of
+                     Haemophilus ducreyi 35000HP DNA repair protein RadC or
+                     HD0732 SWALL:AAP95644 fasta scores: E(): 8.7e-20"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative DNA repair-like protein"
+                     /protein_id="CAF29022.1"
+                     /db_xref="GOA:Q6A294"
+                     /db_xref="InterPro:IPR001405"
+                     /db_xref="UniProtKB/TrEMBL:Q6A294"
+                     /translation="MFKLNEQQQAILEQAQVILTKVMEEKPFYQGAQEFTEPSIAKLY
+                     FQTIIGNEERENFVVLFLDRMHRLIKSEVMFQGSVSEISVSIREIIRQALKLNASAII
+                     IGHNHPTGNVEPSDADKYITKRLKEACELMEIKLLDHFIVSGSASFCFTDNHLM"
+     repeat_region   14230..14240
+                     /rpt_type=INVERTED
+     repeat_region   complement(14252..14262)
+                     /rpt_type=INVERTED
+     gene            14301..14780
+                     /locus_tag="p1056.15"
+     CDS             14301..14780
+                     /locus_tag="p1056.15"
+                     /note="Low similarity to Haemophilus ducreyi 35000HP
+                     hypothetical protein HD0944 SWALL:AAP95826 fasta scores:
+                     E(): 0.87"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAF29023.1"
+                     /db_xref="InterPro:IPR003016"
+                     /db_xref="UniProtKB/TrEMBL:Q6A293"
+                     /translation="MCKENRILELGKIFVSRRILAELTTEKINEVISWHQNGCIIMLG
+                     NKDWIEKPPHPLAEIVMNFYQADNGKDTIQLSTSVDDDGNRTTKISFSDESEDEQRGH
+                     FDLMNPLMIFIKIIKLRWIHILSYDQMVSPKINNQTTKCANSIFYTTLFTNSAPNYT"
+     repeat_region   14626..14635
+                     /locus_tag="p1056.15"
+                     /rpt_type=INVERTED
+     repeat_region   complement(14640..14649)
+                     /rpt_type=INVERTED
+     gene            14720..15838
+                     /locus_tag="p1056.16"
+     CDS             14720..15838
+                     /locus_tag="p1056.16"
+                     /note="Identical to Escherichia coli and Salmonella typhi
+                     transposase (IS10 transposase) R0085 SWALL:Q53371 fasta
+                     scores: E(): 1e-154, and to Escherichia coli, Methylomonas
+                     aminofaciens, Shigella flexneri and Salmonella typhimurium
+                     transposase of Tn10 (TnpR protein) SWALL:Q56368 fasta
+                     scores: E(): 1.2e-154"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase for Tn10"
+                     /protein_id="CAF29024.1"
+                     /db_xref="GOA:Q6A292"
+                     /db_xref="InterPro:IPR002559"
+                     /db_xref="UniProtKB/TrEMBL:Q6A292"
+                     /translation="MCELDILHDSLYQFCPELHLKRLNSLTLACHALLDCKTLTLTEL
+                     GRNLPTKARTKHNIKRIDRLLGNRHLHKERLAVYRWHASFICSGNTMPIVLVDWSDIR
+                     EQKRLMVLRASVALHGRSVTLYEKAFPLSEQCSKKAHDQFLADLASILPSNTTPLIVS
+                     DAGFKVPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSHSKTLGYKR
+                     LTKSNPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWILATNLPVEIR
+                     TPKQLVNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIMLLIALMLQLTCWL
+                     AGVHAQKQGWDKHFQANTVRNRNVLSTVRLGKVRFNQS"
+     gene            complement(15964..16896)
+                     /locus_tag="p1056.17c"
+     CDS             complement(15964..16896)
+                     /locus_tag="p1056.17c"
+                     /note="Similar Escherichia coli transposase InsH for
+                     insertion sequence element IS5 SWALL:INSH_ECOLI
+                     (SWALL:P03837) (EMBL:U00039) fasta scores: E(): 1.8e-68,
+                     and to Vibrio cholerae IS5 transposase VCA0472 and VCA0282
+                     SWALL:Q9K2I8 fasta scores: E(): 2e-68"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase for insertion sequence element IS5"
+                     /protein_id="CAF29025.1"
+                     /db_xref="GOA:Q6A291"
+                     /db_xref="InterPro:IPR002559"
+                     /db_xref="UniProtKB/TrEMBL:Q6A291"
+                     /translation="MPAISSYSSRKSRFLDRMNVLVPWQDIADKLLHVYPSSRRGRRP
+                     FPLVLMLRIHCLQLWFDLSDGAAEDALHDVLPFRQFAGICDTVPDRTTIMNFRHFLEK
+                     HHAGEQILALINQKLKQAGLMLRQGIIIDATIISAPCSVKNKAGQRDPEMHQTRKGNQ
+                     WYFGMKAHIAVDAATGLTEKVVTTAANVHDLNAADSLITEPVAIVFADAGYRGAEKRD
+                     SLTHRVKEWFIAKGPHAVKKLRQHPRLNKQALHDEYVKAGIRAKVEHPFRILKCQFGF
+                     SKTRLRGLMKNHNRLSMLFAMCNLVRAGQLAGMS"
+     repeat_region   16580..16591
+                     /rpt_type=INVERTED
+     repeat_region   complement(16676..16687)
+                     /locus_tag="p1056.17c"
+                     /rpt_type=INVERTED
+     repeat_region   17284..17332
+                     /note="(ttgtaaatactatta)3.3 direct repeats"
+     gene            complement(17570..18211)
+                     /gene="cat"
+                     /locus_tag="p1056.18c"
+     CDS             complement(17570..18211)
+                     /gene="cat"
+                     /locus_tag="p1056.18c"
+                     /EC_number="2.3.1.28"
+                     /note="Identical to Pasteurella piscicida chloramphenicol
+                     acetyltransferase Cat SWALL:Q8RQP2 fasta scores: E():
+                     3e-91, and highly similar to Haemophilus influenzae
+                     chloramphenicol acetyltransferase II SWALL:CAT2_HAEIN
+                     (SWALL:P22616)(EMBL:X53797) fasta scores: E(): 9.9e-92"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chloramphenicol acetyltransferase II"
+                     /protein_id="CAF29026.1"
+                     /db_xref="GOA:Q6A290"
+                     /db_xref="InterPro:IPR001707"
+                     /db_xref="UniProtKB/TrEMBL:Q6A290"
+                     /translation="MNFTRIDLNTWNRREHFALYRQQIKCGFSLTTKLDITALRTALA
+                     ETDYKFYPVMIYLISRVVNQFPEFRMAMKDNALIYWDQTDPVFTVFHKETETFSALFC
+                     RYCPDISEFMAGYNAVMAEYQHNTALFPQGALPENHLNISSLPWVSFDGFNLNITGND
+                     DYFAPVFTMAKFQQEDNRVLLPVSVQVHHAVCDGFHAARFINTLQMMCDNILK"
+     repeat_region   17729..17740
+                     /rpt_type=INVERTED
+     repeat_region   complement(17778..17789)
+                     /gene="cat"
+                     /locus_tag="p1056.18c"
+                     /rpt_type=INVERTED
+     repeat_region   18219..18229
+                     /rpt_type=INVERTED
+     repeat_region   complement(18247..18257)
+                     /rpt_type=INVERTED
+     gene            complement(18374..19321)
+                     /locus_tag="p1056.19c"
+     CDS             complement(18374..19321)
+                     /locus_tag="p1056.19c"
+                     /note="Similar to Neisseria meningitidis (serotype B)
+                     transposase, IS30 family NMB2148 and NMB0225 and NMB1050
+                     SWALL:Q9JS28 fasta scores: E(): 2.3e-44, and to Neisseria
+                     meningitidis NMB0834 (serotype B) transposase IS30
+                     SWALL:Q9JZZ8 fasta scores: E(): 2.7e-44"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase, IS30 family"
+                     /protein_id="CAF29027.1"
+                     /db_xref="GOA:Q6A289"
+                     /db_xref="InterPro:IPR001584"
+                     /db_xref="InterPro:IPR001598"
+                     /db_xref="UniProtKB/TrEMBL:Q6A289"
+                     /translation="MKYQQLTEGLRYQIACLRDHGLSQARIAKQLGVHPSTISRELRR
+                     NCAGQAYQPQQAHQLATARRLTSQKRTVPSDTIDFVCMALVADWSPEQISGVGDMINC
+                     PVSHEWIYRYVARDKANGGTLYRHLRQGHKRYRKGKNSKRSVIPNPVSIDERPAIVNE
+                     RSRVGDWEVDTVLGKQGSGAIVSLLERKSRLYLVQYVPSKTASAVADTIISMLKPYQA
+                     HVHTITADNGSEFVEHERVAAELEAQVYFAHPYSAWERGQNENSNGLLRQYVPKGSDL
+                     SVVTAEALSAVEKRLNFRPRKCLGFKQPQVVFDELLKAA"
+     gene            19653..20438
+                     /locus_tag="p1056.20"
+     CDS             19653..20438
+                     /locus_tag="p1056.20"
+                     /note="Similar to Vibrio cholerae IS5 transposase VCA0472
+                     and VCA0282 SWALL:Q9K218 fasta scores: E(): 2.4e-60, and
+                     to Escherichia coli transposase InsH for insertion
+                     sequence element IS5 SWALL:INSH_ECOLI
+                     (SWALL:P03837)(EMBL:EC15STDC) fasta scores: E(): 1.6e-59"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase for insertion sequence
+                     element IS5"
+                     /protein_id="CAF29028.1"
+                     /db_xref="GOA:Q6A288"
+                     /db_xref="InterPro:IPR002559"
+                     /db_xref="UniProtKB/TrEMBL:Q6A288"
+                     /translation="MLRIHCLQLWFDLSDGAAEDALHDVLPFRQFAGICDTVPDRTTI
+                     MNFRHFLEKHHAGEQILALINQKLKQAGLMLRQGIIIDATIISAPCSVKNKAGQRDPE
+                     MHQTRKGNQWYFGMKAHIAVDAATGLTEKVVTTAANVHDLNAADSLITEPVAIVFADA
+                     GYRGAEKRDSLTHRVKEWFIAKGPHAVKKLRQHPRLNKQALHDEYVKAGIRAKVEHPF
+                     RILKCQFGFSKTRLRGLMKNHNRLSMLFAMCNLVRAGQLAGMS"
+     repeat_region   19715..19726
+                     /locus_tag="p1056.20"
+                     /rpt_type=INVERTED
+     repeat_region   complement(19811..19822)
+                     /rpt_type=INVERTED
+     gene            20822..21142
+                     /locus_tag="p1056.21"
+     CDS             20822..21142
+                     /locus_tag="p1056.21"
+                     /note="Similar to Salmonella typhimurium, Shigella
+                     flexneri, Escherichia coli, and Salmonella typhi YbeB
+                     protein or JemB or YdjA or R0078 or HCM1.246c SWALL:Q9S457
+                     fasta scores: E(): 7.7e-42, and to Brucella suis conserved
+                     hypothetical protein BR1911 SWALL:Q8FYG6 fasta scores:
+                     E(): 1.5e-17"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative monooxygenase"
+                     /protein_id="CAF29029.1"
+                     /db_xref="GOA:Q6A287"
+                     /db_xref="InterPro:IPR007138"
+                     /db_xref="UniProtKB/TrEMBL:Q6A287"
+                     /translation="MIAVIFEVQIQPDQQTRYLTLAEELRPLLSHVAGFISIERFQSL
+                     ATEGKMLSLSWWENEYAVLQWKNHVLHAKAQQEGRESIFDFYKISIAHITREYSFKKD
+                     KDNV"
+     gene            21024..21521
+                     /locus_tag="p1056.22"
+     CDS             21024..21521
+                     /locus_tag="p1056.22"
+                     /note="Similar to Salmonella typhi, and Shigella flexneri
+                     2A hypothetical protein R0079 SWALL:Q9K2K3 fasta scores:
+                     E(): 6e-63, and to Escherichia coli, and Salmonella
+                     typhimurium YdjB protein or YbeA SWALL:Q9WTF2 fasta
+                     scores: E(): 2.1e-61"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29030.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A286"
+                     /translation="MFYMRKLNKKGESQYLIFTKLVLLILLANIHLKRTRIMFDVHVV
+                     LDNQIGQLALLGKTLGNKGIGLEGGGIFTVGDECHAHFLVEQGKEAKIALEQAGLLVL
+                     AIRTPLIRKLKQEKPGELGEIARVLAENNINILVQYSDHANQLILITDNDSMAASVTL
+                     PWAIK"
+     gene            21529..22215
+                     /locus_tag="p1056.23"
+     CDS             21529..22215
+                     /locus_tag="p1056.23"
+                     /note="Similar to Salmonella typhimurium, Shigella
+                     flexneri, Escherichia coli, and Salmonella typhi YbdA
+                     protein or JemC or YeaA or R0080 SWALL:Q9S456 fasta
+                     scores: E(): 1.1e-90, and to Salmonella typhi putative
+                     transcriptional regulator HCM1.244C SWALL:Q93510 fasta
+                     scores: E(): 1.8e-90"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative transcriptional regulator"
+                     /protein_id="CAF29031.1"
+                     /db_xref="GOA:Q6A285"
+                     /db_xref="InterPro:IPR001845"
+                     /db_xref="InterPro:IPR011991"
+                     /db_xref="UniProtKB/TrEMBL:Q6A285"
+                     /translation="MANLIRKEVTFESSKAAIRADMSDISRVKILSAFMDGRAWTATE
+                     LSSVANISASTASSHLSKLLDCQLITIVAQGKHRYFRLAGKDIAELMESMMGISLNHG
+                     VHAKVSTPVHLRKARTCYDHLAGEVAVKIYDSLCQQQWITENGSMITLSGIQYFHEMG
+                     IDVPSKHSRKICCACLDWSERRFHLGGYVGAALFSLYESKGWLTRHLGYREVTITEKG
+                     YAAFKTHFHI"
+     gene            complement(22193..22815)
+                     /locus_tag="p1056.24c"
+                     /pseudo
+     CDS             complement(join(22193..22459,22459..22815))
+                     /locus_tag="p1056.24c"
+                     /note="Pseudogene. Identical to Escherichia coli
+                     tetracycline repressor protein class B from transposon
+                     Tn10 TetR SWALL:TER2_ECOLI (SWALL:P04483) fasta scores:
+                     E(): 3.1e-85, and to Salmonella typhimurium TetR protein
+                     SWALL:BAB91577 fasta scores: E(): 3.5e-91 100% id in 207
+                     aa"
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Tetracycline repressor protein class B from
+                     transposon Tn10 (pseudogene)"
+                     /db_xref="PSEUDO:CAF29032.2"
+     gene            22897..24102
+                     /gene="tetA"
+                     /locus_tag="p1056.25"
+     CDS             22897..24102
+                     /gene="tetA"
+                     /locus_tag="p1056.25"
+                     /note="Identical to Salmonella typhimurium, Salmonella
+                     typhi and Shigella flexneri 2a TetA protein SWALL:Q9K2Y4
+                     fasta scores: E(): 1.8e-148, and highly similar to
+                     Escherichia coli tetracycline resistance protein, class B
+                     TetA SWALL:TCR2_ECOLI (SWALL:P02980) (EMBL:V00611) fasta
+                     scores: E(): 3.5e-148"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative tetracycline resistance protein"
+                     /protein_id="CAF29033.1"
+                     /db_xref="GOA:Q6A284"
+                     /db_xref="InterPro:IPR001958"
+                     /db_xref="InterPro:IPR005829"
+                     /db_xref="InterPro:IPR007114"
+                     /db_xref="InterPro:IPR011701"
+                     /db_xref="UniProtKB/TrEMBL:Q6A284"
+                     /translation="MNSSTKIALVITLLDAMGIGLIMPVLPTLLREFIASEDIANHFG
+                     VLLALYALMQVIFAPWLGKMSDRFGRRPVLLLSLIGASLDYLLLAFSSALWMLYLGRL
+                     LSGITGATGAVAASVIADTTSASQRVKWFGWLGASFGLGLIAGPIIGGFAGEISPHSP
+                     FFIAALLNIVAFLVVMFWFRETKNTRDNTDTEVGVETQSNSVYITLFKTMPILLIIYF
+                     SAQLIGQIPATVWVLFTENRFGWNSMMVGFSLAGLGLLHSVFQAFVAGRIATKWGEKT
+                     AVLLGFIADSSAFAFLAFISEGWLVFPVLILLAGGGIALPALQGVMSIQTKSHQQGAL
+                     QGLLVSLTNATGVIGPLLFAVIYNHSLPIWDGWIWIIGLAFYCIIILLSMTFMLTPQA
+                     QGSKQETSA"
+     gene            complement(24215..24808)
+                     /gene="tetC"
+                     /locus_tag="p1056.26c"
+     CDS             complement(24215..24808)
+                     /gene="tetC"
+                     /locus_tag="p1056.26c"
+                     /note="Identical to Salmonella typhimurium, and Shigella
+                     flexneri 2a putative transcriptional regulator TetC
+                     SWALL:Q93F25 fasta scores: E(): 9.5e-73, and to Shigella
+                     flexneri, Escherichia coli and Salmonella typhi
+                     tetracycline transcriptional regulator TetC SWALL:Q9S454
+                     fasta scores: E(): 1.1e-72"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transcriptional regulator"
+                     /protein_id="CAF29034.1"
+                     /db_xref="GOA:Q6A283"
+                     /db_xref="InterPro:IPR001647"
+                     /db_xref="InterPro:IPR012287"
+                     /db_xref="UniProtKB/TrEMBL:Q6A283"
+                     /translation="MENKNHQQENFKSTYQSLVNSARILFVEKGYQAVSIDEISGKAL
+                     VTKGAFYHHFKNKKQLLSACYKQQLIMIDAYITTKTDLTNGWSALESIFEHYLDYIID
+                     NNKNLIPIQEVMPIIGWNELEKISLEYITGKVNAIVSKLIQENQLKAYDDDVLKNLLN
+                     GWFMHIAIHAKNLKELADKKGQFIAIYRGFLLSLKDK"
+     repeat_region   24349..24360
+                     /rpt_unit_range=24349..24351
+     gene            24896..25312
+                     /gene="tetD"
+                     /locus_tag="p1056.27"
+     CDS             24896..25312
+                     /gene="tetD"
+                     /locus_tag="p1056.27"
+                     /note="Highly similar to Escherichia coli transposon Tn10
+                     TetD protein SWALL:TETD_ECOLI (SWALL:P28816) fasta scores:
+                     E() fasta scores: E(): 3.4e-54"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative regulatory protein"
+                     /protein_id="CAF29035.1"
+                     /db_xref="GOA:Q6A282"
+                     /db_xref="InterPro:IPR000005"
+                     /db_xref="InterPro:IPR012287"
+                     /db_xref="UniProtKB/TrEMBL:Q6A282"
+                     /translation="MYIEQHSRYQNKANNIQLRYDDKQFHTTVIKDVLLWIEHNLDQS
+                     LLLDDVANKAGYTKWYFQRLFKKVTGVTLASYIRARRLTKAAVELRLTKKTILEIALK
+                     YQFDSQQSFTRRFKYIFKVTPSYYRRNKLWELEAMH"
+     gene            complement(25322..26530)
+                     /gene="tnp"
+                     /locus_tag="p1056.28c"
+     CDS             complement(25322..26530)
+                     /gene="tnp"
+                     /locus_tag="p1056.28c"
+                     /note="Identical to Citrobacter freundii transposase Tnp
+                     SWALL:Q8GC95 fasta scores: E(): 1.9e-170, and to
+                     Escherichia coli, Methylomonas aminofaciens, Shigella
+                     flexneri, and Salmonella typhimurium hypothetical protein
+                     RmpI or YedA or TnpR SWALL:Q56368 fasta scores: E():
+                     7.8e-171"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase"
+                     /protein_id="CAF29036.1"
+                     /db_xref="GOA:Q6A281"
+                     /db_xref="InterPro:IPR002559"
+                     /db_xref="UniProtKB/TrEMBL:Q6A281"
+                     /translation="MCELDILHDSLYQFCPELHLKRLNSLTLACHALLDCKTLTLTEL
+                     GRNLPTKARTKHNIKRIDRLLGNRHLHKERLAVYRWHASFICSGNTMPIVLVDWSDIR
+                     EQKRLMVLRASVALHGRSVTLYEKAFPLSEQCSKKAHDQFLADLASILPSNTTPLIVS
+                     DAGFKVPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSHSKTLGYKR
+                     LTKSNPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWVLATNLPVEIR
+                     TPKQLVNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIMLLIALMLQLTCWL
+                     AGVHAQKQGWDKHFQANTVRNRNVLSTVRLGMEVLRHSGYTITREDLLVAATLLAQNL
+                     FTHGYALGKL"
+     repeat_region   26526..26535
+                     /rpt_type=INVERTED
+     repeat_region   complement(26577..26586)
+                     /rpt_type=INVERTED
+     gene            join(26582..26635,26638..26931)
+                     /locus_tag="p1056.29"
+                     /pseudo
+     CDS             join(26582..26635,26638..26931)
+                     /locus_tag="p1056.29"
+                     /note="Pseudogene. Low similarity to central region of
+                     Haemophilus ducreyi 35000HP hypothetical protein HD0944
+                     SWALL:AAP95826 fasta scores: E(): 2.4e-08"
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein (pseudogene)"
+                     /db_xref="PSEUDO:CAF29037.1"
+     repeat_region   26601..26610
+                     /locus_tag="p1056.29"
+                     /pseudo
+                     /rpt_type=INVERTED
+     repeat_region   complement(26615..26624)
+                     /rpt_type=INVERTED
+     repeat_region   complement(26963..26975)
+                     /rpt_type=INVERTED
+     gene            26989..27753
+                     /locus_tag="p1056.30"
+     CDS             26989..27753
+                     /locus_tag="p1056.30"
+                     /note="Low similarity to Pseudomonas syringae membrane
+                     protein, putative PSPTO0411 SWALL:Q88AH9 fasta scores:
+                     E(): 1.3e-08, and to Salmonella typhi TraX SWALL:Q8KNJ7
+                     fasta scores: E(): 6.4e-05"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29038.1"
+                     /db_xref="InterPro:IPR002355"
+                     /db_xref="InterPro:IPR008875"
+                     /db_xref="UniProtKB/TrEMBL:Q6A280"
+                     /translation="MINKTLFNSITMPYLTSSQTECLKWLALITMIIDHIGVAFSNAY
+                     PALSWCRVIGRFSYVAFGFIIALNLSRDKVNFKSYFTWMIATAFLSEISFTLFEPNYD
+                     RLNVLFQFLSVIGVIWVYKNRQDLNSWVMFFGLGFFIILSALSDYGLPGLLYCIGCYL
+                     FLQTKDTQYRLITMPTCVLLALFVNHSFIDNFGETIVETISVVTVVVGTMIFILHPKG
+                     LRQCNLSISRMPKLFFYLFYPVHLTIIVGVKYIFLS"
+     gene            27852..28481
+                     /gene="pilL"
+                     /locus_tag="p1056.31"
+     CDS             27852..28481
+                     /gene="pilL"
+                     /locus_tag="p1056.31"
+                     /note="Similar to the N-terminal of Pseudomonas aeruginosa
+                     PilL2 or RL086 SWALL:AAP84211 fasta scores: E(): 9.9e-15,
+                     and to Salmonella dublin, and Salmonella typhi PilL
+                     SWALL:Q9K334 fasta scores: E(): 1.1e-13;
+                     Similar to core gene 11 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative lipoprotein precursor"
+                     /protein_id="CAF29039.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A279"
+                     /translation="MKKILLTTFALVVLSGCAHKQQTADEQQALENPNIQQGQHQVLQ
+                     PEDRIVRPDIYTDYQPERTEVLREGRYTLINFSPEEGQKYLLDQSVTVNMLGKKKRAL
+                     TATVEQGLRTTLKDTGLSLCHGFGQNEPTLSTLYSRPLPKVHYQFGPMALRDALQMLA
+                     GPAYEITINDVSRTVCFKLRPAVPERATGEKPKVETTTTTTTTTEIIEE"
+     sig_peptide     27852..27911
+                     /gene="pilL"
+                     /locus_tag="p1056.31"
+     mat_peptide     27912..28478
+                     /gene="pilL"
+                     /locus_tag="p1056.31"
+                     /product="putative lipoprotein"
+     gene            28485..29225
+                     /locus_tag="p1056.32"
+     CDS             28485..29225
+                     /locus_tag="p1056.32"
+                     /note="Similar to Salmonella typhi putative exported
+                     protein STY4558 SWALL:Q8Z1K6 fasta scores: E(): 1.8e-24,
+                     and to Pseudomonas aeruginosa hypothetical protein
+                     SWALL:Q8GQ42 fasta scores: E(): 1.3e-20;
+                     Similar to core gene 14 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein precursor"
+                     /protein_id="CAF29040.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A278"
+                     /translation="MNHVKKISYVAMILGMFSTAVFADVTAANTLATQSLNQQNLVTN
+                     KLNQQELLAKSQEWGLTEQEWQRYQELNQGARGIWSPGLDPLTSLGVESRNEQERERY
+                     ARLLAKKMHDRMERELQFQRTYDRVFAEMYPNEQPFKVEPHISERFGRVIYFTRLENC
+                     DKCEANADRVLQYVNDKTPIDIYFVGVKNNEQIYNWAKKHNIDPNKVNRKLITLNHDN
+                     GAWLQYADGKMPAAFQIQQDGQWQQIVY"
+     sig_peptide     28485..28553
+                     /locus_tag="p1056.32"
+     mat_peptide     28554..29222
+                     /locus_tag="p1056.32"
+                     /product="putative exported protein"
+     gene            29204..29962
+                     /locus_tag="p1056.33"
+     CDS             29204..29962
+                     /locus_tag="p1056.33"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein precursor"
+                     /protein_id="CAF29041.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A277"
+                     /translation="MATNRLLKIVFSLIGLGVATHSVAFNGFGTDIDGYIKDASNRYQ
+                     VDEAMLRGLVKIEDGWYGNVSPTGATGVGQFTRGTWNWLATTDEGRALGMTQITRYNR
+                     DTPFDPRKNNQLNTLATALLARWHINQFFERGIKPSHENLYLAHNIGIDGLHRALQGR
+                     ATREDILNMKRNGMKKGMSVQGFLVYQSERFNVSKQIANFQRPSVSPRYQIENKPLPA
+                     NLHWVSPTETAMRWVEPASNQTNQQAIRWQNPTN"
+     sig_peptide     29204..29275
+                     /locus_tag="p1056.33"
+     mat_peptide     29276..29959
+                     /locus_tag="p1056.33"
+                     /product="putative exported protein"
+     gene            29978..30484
+                     /locus_tag="p1056.34"
+     CDS             29978..30484
+                     /locus_tag="p1056.34"
+                     /note="Similar to Pseudomonas aeruginosa hypothetical
+                     protein SWALL:Q8GPT3 fasta scores: E(): 4.1e-19, and to
+                     Pseudomonas aeruginosa hypothetical protein
+                     RL049SWALL:AAO71716 fasta scores: E(): 5.7e-18;
+                     Similar to core gene 15 or related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein precursor"
+                     /protein_id="CAF29042.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A276"
+                     /translation="MQYKSFFLSLVCLGAVVQAQAELKVIGDFGGESAVRFYEALQPD
+                     ESMVQAYPNSVPSTLTEADILPVISHRMTPGQIQPVRMNLPGMLPIFLIGTDNLSKNW
+                     LHANYNYLKKIGAMGLVVSVKTTNELSELRQLAPDLTLMPTPGDDLASRLNLAHYPAL
+                     LTSEGLSQ"
+     sig_peptide     29978..30034
+                     /locus_tag="p1056.34"
+     mat_peptide     30035..30481
+                     /locus_tag="p1056.34"
+                     /product="putative exported protein"
+     gene            30481..32730
+                     /locus_tag="p1056.35"
+     CDS             30481..32730
+                     /locus_tag="p1056.35"
+                     /note="Similar to Pseudomonas putida hypothetical 80.3 kDa
+                     protein SWALL:Q8VMJ3 fasta scores: E(): 1.4e-158, and to
+                     Pseudomonas aeruginosa conserved hypothetical protein
+                     SWALL:Q8GPT4 fasta scores: E(): 9.7e-157;
+                     Similar to core gene 17 of related gene island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29043.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A275"
+                     /translation="MSQKHVLEGLLRPPVEFFPAAVHGTCAFVCCGAPWSLALNPLIG
+                     YGLGAAFAGMGVMRFRQGMEIVRYHRNLRRLPHYALTSRQIPVSKKALFLGRGFEWEP
+                     KHTQRLYDCFSANGQIYWKNGKWFKAARDYEKVHDNWLSRLTSMDSPLNPVRPLPPVG
+                     GIPVMHGVEPNERDIMLPLGDRGGHTLVFGTTGVGKTRFAEVLVTQDIHRGKTPEERE
+                     VVVFFDPKGDPDMLKRMYAEAKRAGRENEFYVFHLGHPEISARYNPVGRFGRISEVAG
+                     RISGQLSGAGNSAAFKEFAWRFVNIVSRALVEMGKRPDYVQISRFVQNIDALFLDYAK
+                     LHFDAVDKKIWPTLASVAANLDVKNLPFSMKDRPLIAVINQYILENKIFDPVLEGLSS
+                     AVRYDKTYFDKIVASLLPLLEKLTTGKTAELLSPDYTDIHDERPIFDWESIIRKRGIV
+                     YVGLDALSDATVAAAVGNSMFADLVSMAGHIYKFGVDEGLPDAFKTKSKPPKINLHCD
+                     EFNELMGDEFIPLINKGRGAGMQVTAYTQTLSDIEARIGSKAKTGQTTGNFKYTFMFR
+                     VKEPATAEFLTRQLNDVTIYQSMVTSSTTDNSNPDDGKAFTSNTGERISEKMVPMLSP
+                     AHITNLPKGQAFALLEGSTLYKLRMPLPAVDKDDVMPESLQELTAYMRKNYHISPNWW
+                     QSAFSDYAPSQDIATAFQSMSLNRAPSHAGEEMLFGDVEAPVAEDMEDEDIDQNDDTD
+                     EDDFDDTDN"
+     gene            32741..33049
+                     /locus_tag="p1056.36"
+     CDS             32741..33049
+                     /locus_tag="p1056.36"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0942 SWALL:AAP95824 fasta scores: E(): 7.2e-17"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29044.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A274"
+                     /translation="MNLLDIPDMSVDFNSVTSCSCGLENADELLNYFLPYLEDWNNQR
+                     YTTHEFAKKYANKGISLWTANDVKKSENGIQAIQIFLDGEVKGYLFFHCKLSPAGTLQ
+                     "
+     gene            33049..33735
+                     /locus_tag="p1056.37"
+     CDS             33049..33735
+                     /locus_tag="p1056.37"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0941 SWALL:AAP95823 fasta scores: E() fasta
+                     scores: E(): 4.3e-23;
+                     Similar to core gene 18 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative membrane protein"
+                     /protein_id="CAF29045.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A273"
+                     /translation="MAEQQVKKKKKGLFYYINAVLAALFGSLILSIILEWLGIAFLWP
+                     EEGHLHSQKMMLTELGWLSDSLTRGLFYHSPKELAEGLILSLHEWLFVKTGVKDWLAN
+                     PREHSGVGLWVYHYGRAYIESVIYVFITFVIRLVVIVFTSPLFLLAAFAGFTEGLMMR
+                     DRRKFGAGRESSFLYHHARRLIGPIMLSAWVLYLSIPISIYPNIILVPAAFLFGLSIC
+                     VTAASFKKYL"
+     gene            33866..34216
+                     /locus_tag="p1056.38"
+     CDS             33866..34216
+                     /locus_tag="p1056.38"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HDO940 SWALL:AAP95822 fasta scores: E(): 1.4e-20,
+                     and to Pseudomonas aeruginosa hypothetical protein SWALL
+                     Q8GPT7 (EMBL:AF440524) fasta scores: E(): 2.8e-05;
+                     Similar to core gene 19 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative exported protein precursor"
+                     /protein_id="CAF29046.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A272"
+                     /translation="MESVSSKEFSVTKNIFSLSLAIGLLFGAISAQATEQEHLAQAIK
+                     QLDAAKLSLQRAAASAKVSAKSREYFDYASAHQDITTVQAGIKQYINPSRAIPRNPKA
+                     IRNLKEDYLNLRSQ"
+     sig_peptide     33866..33964
+                     /locus_tag="p1056.38"
+     mat_peptide     33965..34213
+                     /locus_tag="p1056.38"
+                     /product="putative exported protein"
+     gene            34485..34886
+                     /locus_tag="p1056.39"
+     CDS             34485..34886
+                     /locus_tag="p1056.39"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0939 SWALL:AAP95821 fasta scores: E(): 6.6e-30"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative membrane protein"
+                     /protein_id="CAF29047.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A271"
+                     /translation="MKLIKSFFQNVSSRFLAVVTLLWLSVENAFATGGGNGINASKIP
+                     DFKIPGVDSNTKDPMEIIYLVAKSLATLFAILFAAWSIMTVVKALIKTYNAATDENDK
+                     KGWGPFIIALILGFILIFFSLWLVKLAIGLF"
+     gene            34906..35277
+                     /locus_tag="p1056.40"
+     CDS             34906..35277
+                     /locus_tag="p1056.40"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0941 SWALL AAP95820 (EMBL:AE017153) fasta
+                     scores: E(): 1.9e-29, to Pseudomonas aeruginosa
+                     hypothetical protein RL027 SWALL:AAP84154 fasta scores:
+                     E(): 5.5e-09;
+                     Similar to core gene 20 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative membrane protein"
+                     /protein_id="CAF29048.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A270"
+                     /translation="MSSDKEQTIPFLPTRLNRESSVYGGLSVSEFMLAAAMGFILGAV
+                     LGLLCCFALGFDFWLLIPSLAMLFCILSVVIGKVIIARLKRGKPKAYLNRMIEVKLDG
+                     ILGGNRFISRQGTWSIRRVKK"
+     gene            35289..35918
+                     /locus_tag="p1056.41"
+     CDS             35289..35918
+                     /locus_tag="p1056.41"
+                     /note="Similar to Haemophilus ducryei 35000HP hypothetical
+                     protein HD0937 SWALL:AAP95819 fasta scores: E(): 8.9e-49,
+                     and to Salmonella typhi possible exported protein STY2568
+                     or T4265 SWALL:Q8Z1J7 fasta scores: E(): 9.4e-37;
+                     Similar to core gene 23 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein precursor"
+                     /protein_id="CAF29049.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A269"
+                     /translation="MKDLKGIVHQKNREIMTGRIAIGALLVICLVLCAIIFTAPSRLM
+                     IYNPPDLRAGSQRPWWEVPKSTVYAFAYQTFQQLNRWMENGEEEYKLNIERNKAFITP
+                     SCQEFLKKDYYDRLSNGELRERARGVYEIVGRGFKDNSVIVHSPDSWTVNLDLSGRWS
+                     ISKDEPVKRVLTRFPVNIVRMETDLQNNPWGLGFNCYSSIPLRLEAKEF"
+     sig_peptide     35289..35402
+                     /locus_tag="p1056.41"
+     mat_peptide     35403..35915
+                     /locus_tag="p1056.41"
+                     /product="putative membrane protein"
+     gene            35937..36806
+                     /locus_tag="p1056.42"
+     CDS             35937..36806
+                     /locus_tag="p1056.42"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0936 SWALL:AAP95818 fasta scores: E(): 3.7e-73,
+                     and to Pseudomonas aeruginosa hypothetical protein
+                     SWALL:Q8GPU2 fasta scores: fasta scores: E(): 3e-38;
+                     Similar to core gene 24 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29050.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A268"
+                     /translation="MKKLTLLLSAAFIFSPMTASADVLMKWARKPLPIDLQIEKERIL
+                     FVDKNVKVGYPPELDSKLRIQSTGGAVYLKATADFPKTRLQLMDVATGEIILLDVQAK
+                     HSVANASEPIRFVYENKVEKQTTAYGQDANAYNEPMPNARPALPAPAALTRYAAQMFY
+                     APLRSVEPLEGVRQVSPHLPTPLKTLLPALPVRATPLLSWQLDGYVVTAVRLQNQGQS
+                     RIDLDPRELQGRFYAATFQHNWLGGHGTPEDTTTLYLVTEGSPNHSVIPQSNSYKPKK
+                     LKKVTTTVTTQTK"
+     gene            36817..38217
+                     /locus_tag="p1056.43"
+     CDS             36817..38217
+                     /locus_tag="p1056.43"
+                     /note="Similar to core gene 25 of related genomic island;
+                     Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0935 SWALL:AAP95817 fasta scores: E():
+                     5.7e-68,61.23% id 485 aa, and to Pseudomonas aeruginosa
+                     hypothetical protein SWALL:Q8GQ61 fasta scores: E():
+                     2.3e-33"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein precursor"
+                     /protein_id="CAF29051.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A267"
+                     /translation="MQMKANKAFYVIGGITALVVTLMAGFLFSGSSSTTTAETKKEDA
+                     LDLSLKDLSPEELRSMGLEGDTSKDTVRTLIGKVKENNKRFDEVILQNDRLVKENEQL
+                     KNQANNTDYQIQQAVQAETGALINEINALKDQVVQAGNQVVGNGNAQANPNAPLPING
+                     ATTGPQVETRGGINWVNPSDMPTTDSQGNALQGIGVNGAGIGFPKTFDNNVNDIRKSN
+                     DGLQSSTGNNAIFNTATPFFTIAANSTLTNSVAMTALVGRVPIDNNVTEPYPFKLLIG
+                     RDNLIANGIELPDIEGAIVSGTASGDWTLSCVRGDVKSLTFVFSDGRIVSTDDSNNKI
+                     GWLSDPHGVPCIPGERRTNAPEYLTTNFFLTGASAAAQGLSSSQSTTVVDGGAVIGAV
+                     TGNNGKYILGQALGGGLRETADWFRQRYGQMFDAVYVPPGKEVAVHIEKQIDIDYDRM
+                     SRKVKYGQASRQPNLD"
+     sig_peptide     36817..36927
+                     /locus_tag="p1056.43"
+     mat_peptide     36928..38214
+                     /locus_tag="p1056.43"
+                     /product="putative exported protein"
+     gene            38227..38634
+                     /locus_tag="p1056.44"
+     CDS             38227..38634
+                     /locus_tag="p1056.44"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0934 SWALL:AAP95816 fasta scores: E(): 2.1e-30,
+                     and to Pseudomonas aeruginosa hypothetical protein RL023
+                     SWALL:AAP84150 fasta scores: E(): 2.1e-19;
+                     Similar to core gene 26 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative lipoprotein precursor"
+                     /protein_id="CAF29052.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A266"
+                     /translation="MKVLMMMGVILAASSVLTGCSTSQGDLLPTGDATMKDIWNKGGN
+                     DSNITSYRTPNGRLIDAPNYVSSREQQTYTRTAENEVKNLFPRLPNPDLVMYVYPHLT
+                     DSSEQMPVPGYSSVIPFYGRVQYAQPGERTRMY"
+     sig_peptide     38227..38301
+                     /locus_tag="p1056.44"
+     mat_peptide     38302..38631
+                     /locus_tag="p1056.44"
+                     /product="putative lipoprotein"
+     gene            38650..41520
+                     /locus_tag="p1056.45"
+     CDS             38650..41520
+                     /locus_tag="p1056.45"
+                     /note="Similar to Haemophilus somnus 2336 Type IV
+                     secretory pathway, VirB4 components (EMBL:ZP_00132732)
+                     fasta score: E (): 0, 69% id in 866, and to Haemophilus
+                     ducreyi 35000HP hypothetical protein HD0933 SWALL:AAP95815
+                     fasta scores: E():0;
+                     Similar to core gene 27 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29053.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A265"
+                     /translation="MALFQDVLEAFFPAKKGDKPQPKKEPILTSIAPEEAQQDDTNNV
+                     EETIEITPVMRNRKMTREQHVKMLYGRDPSFISNLPYAEYLEEEGVMLFDDAKSAGAV
+                     FDIKPIGTEGRSSDYLNRVRTLVKDALQDSFDELDTNPYVVQFYCQDDKDLSGYVENL
+                     RQYIKTTSPEASGSEFTEQWLGEMERHLKAVGKPGGLFVDDRVTNTAWAGKVRKTRMV
+                     IYRYAGNNETDTIEKLNTACDRVQSAFITAGLTMERQNETQIHRWLLEWFNPNPSRYF
+                     NGLDDKACYDLLSLSKDDSALPLQDQDFSENLFFTPPESKNGYWYFNEQPHEVIVVDN
+                     IRKQPDGGHMTGEVTRGRNINALFDLLPESTIMAITVVIHPQDKLQAHLDKLSSRAVG
+                     NNYESIYLKQDALTVTEYLKDGHKLYQAGMVFYVRGKDDQELRIRSRELRTVLLSNNL
+                     VPVKEGNEVAPLNSYLRWLPMNFNPQLDAKSRFYTKYYWVQHIANMLPVFGRETGTGH
+                     PGITYFNRGGSPLDFDPLNPKDRTKNAHKLILGPTGSGKSATLTAQMAQLMAVHRPRL
+                     FIVEAGNSFGLFSDYAERYGLTVNRVSLEPSSNIALPLFSEAHRLLEMDIDLEVQDDD
+                     DNEDEGEEQRDLLAEMELTARLMITGGEAKEDEKMSRADRSAIRQAILLAAEKTSQET
+                     PPRQVLTGDVKAALEELSRRQDIRPERASRLADMAEAMDIFCTGVNGRFFNREGEIWP
+                     EADITLVDLAMFARDGYEAELAISYISLINHINSLGEKYQHSFRPIVNITDESHIITV
+                     NPLLAKFLVKGSKMWRKLGIWLWLATQNMADFPDESDKLLSMVEWWELLNLSNDEVEQ
+                     VNRFRRLSEAQKMMLLSAKKADKKYTEGVVLATNMEALFRVVPPSLYLALGMTEKHEK
+                     AQRKQLMMEHNCTELDAALMVAKDLDKKRGIAVNDELNSIAA"
+     gene            41528..41935
+                     /locus_tag="p1056.46"
+     CDS             41528..41935
+                     /locus_tag="p1056.46"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0931 SWALL:AAP95813 fasta scores: E(): 1.8e-26"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29054.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A264"
+                     /translation="MTFHRIFDIGPRIQSLAFTSDEVKAYVLHFIAKIKTKIGSNCQL
+                     SAFPQRVFTQSSWKVHAKGDKGEVHLLFNISGRFQLPVFSSENWPARLNVELTDHVDA
+                     YWLIQYLLWKLAAIWGSPADLSPVFGDKTVGNE"
+     repeat_region   41576..41586
+                     /locus_tag="p1056.46"
+                     /rpt_type=INVERTED
+     repeat_region   complement(41591..41601)
+                     /rpt_type=INVERTED
+     repeat_region   complement(41908..41917)
+                     /rpt_type=INVERTED
+     gene            41945..42268
+                     /locus_tag="p1056.47"
+     CDS             41945..42268
+                     /locus_tag="p1056.47"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0930 SWALL:AAP95812 fasta scores: E(): 5.7e-12"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical membrane protein"
+                     /protein_id="CAF29055.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A263"
+                     /translation="MSQGKKPQSRGWLKNVLRFIAILLFLFLALTAIGIFATQYLQNV
+                     DIRAWFIKTQWIWFAVRLLLYGAIMLMVYSISRRQPSSMPAKAKWLIAMILIFAEAIT
+                     QITLA"
+     gene            42277..43770
+                     /locus_tag="p1056.48"
+     CDS             42277..43770
+                     /locus_tag="p1056.48"
+                     /note="Similar to Salmonella typhi putative membrane
+                     protein STY4579 SWALL:Q8Z1I6 fasta scores: E(): 6.4e-89,
+                     and to Haemophius ducreyi 35000HP hypothetical protein
+                     HD0928 SWALL:AAP95811 fasta scores: E(): 1.5e-76;
+                     Similar to core gene 28 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative membrane protein"
+                     /protein_id="CAF29056.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A262"
+                     /translation="MTFSVDSYLEYFLTLLGWLLNNGVFALFVGTGLWLLPLIGMIFK
+                     IWRDVAKQGDDEGEKGDLLIRWLTIELLPAMLIVVLTLAPLIPVSLNNLEYNERSSIQ
+                     CGYKVPASPDKSGYAPFTTTFGDRQARIPIWWMLMHKVDKGLTYGMTAVLPCQRDLRQ
+                     VRFEVQHQKITNPALLTEVQQFVQQCYIPARQKLQTSQLALSPAQIRETSWLGGKLLI
+                     NNSELYPRFRAQQPISTFPYDANRDAALPNSGKGGFPSCDQWWDESGAGLKSRLLTDM
+                     RQNLSAQVSDFFNSIDNQDEALLRTLLRSENIDVSKGKMYQGYGGSVDAGFWNAVTRL
+                     TSTVGTAVGSLAIFPGLDAMRQALPMVQAFMIMAVIILIPIITILSGFAIKTVMTLSF
+                     VYFALITTTFWWELARWLDSYLIEIMYSSPSHNMLNIHFLENAEDDIISNFVMGSLFI
+                     ILPGLWFGAMTWAGIRVGGELSAAIAKGTESSQKSGGQFGDKISKKI"
+     repeat_region   43777..43792
+                     /rpt_type=INVERTED
+     repeat_region   complement(43796..43811)
+                     /rpt_type=INVERTED
+     gene            complement(43826..44155)
+                     /locus_tag="p1056.49c"
+     CDS             complement(43826..44155)
+                     /locus_tag="p1056.49c"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical membrane protein"
+                     /protein_id="CAF29057.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A261"
+                     /translation="MDAQKFGHTVGQFFKKIDRTLSFLPGKPRKAVVTAAALAASPIL
+                     AGVIISKTKPSKNIEYLDEEPVSDTSLLSELLANDDSSEEGKWDYGFQGFGYYINGVK
+                     VYGDDDD"
+     repeat_region   44532..44544
+                     /rpt_type=INVERTED
+     repeat_region   complement(44548..44560)
+                     /rpt_type=INVERTED
+     gene            complement(44575..44982)
+                     /locus_tag="p1056.50c"
+     CDS             complement(44575..44982)
+                     /locus_tag="p1056.50c"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical exported protein"
+                     /protein_id="CAF29058.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A260"
+                     /translation="MKKLLTIGAVAMFATPAFAANNIFSCTAENGSPVSVTKNGSDYE
+                     FTYGQVSFKNPVKQVFANQDSYVATGSGFITSSLEMRNNGTSYTIQFVQPHNSNSIEE
+                     PMLYITNGSKMDTVSCKAGSATQNFERRSMKAS"
+     gene            complement(44998..46998)
+                     /locus_tag="p1056.51c"
+     CDS             complement(44998..46998)
+                     /locus_tag="p1056.51c"
+                     /note="Similar to N-terminal of Haemophilus ducreyi
+                     35000HP hypothetical protein HD0922 SWALL:AAP95805 fasta
+                     scores: E(): 4.9e-125, and to, although longer than
+                     Pseudomonas aeruginosa hypothetical protein SWALL:Q8GPV2
+                     fasta scores: E(): 3.9e-60;
+                     Similar to core gene 29 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein precursor"
+                     /protein_id="CAF29059.1"
+                     /db_xref="InterPro:IPR000873"
+                     /db_xref="UniProtKB/TrEMBL:Q6A259"
+                     /translation="MKLNHALKASYIAISCAILSSTMPVSASNSNPFGFNKADSILSD
+                     MVFYQIGGGVGYMAPPSRGTIPAAEFGIGWKANLMCGNFDIKTSIKNQLNGLTEGFKD
+                     LYSNVIESATGAVASLPAMVIQRANPQLYDILTNGLYQGKIDFNSLKTSCEEMSKKLA
+                     DATLNGRWSQSSDMESFKDITSTEPDATRAKKRLEESQGKEGKEWVGGKKRGGQGQEP
+                     IKIVEDVAKAGYNMQNKRNVLESGRISGSSCSGLLCQTWDNPKDMTDWLTNVIGEKQL
+                     TTCKTDCGTASSSRAGVGLTPEIEKENIKTVTQLQKALNMSTPSVEVLAELSSTTVPV
+                     TRGLIESLREDPDAQVLGQRLASEIAVAKTMEKMLLARRAVLTGMREPNVANNKDAQE
+                     ELEKILTLIDREIGQIRMEIDLQKSLTGNSAVAILQNKELREYNTGTGNVTRDSVDKR
+                     ISDLANGTNSNAAELADADNINIPRNNVTLEVPQMSNSLSYTGTGGTSGNSRGNTSYS
+                     SVPAIKGTALDQATGLLKKFEGFSDKAYWDVNAYRTGYGSDTITKADGTIVKVTKDTV
+                     VSRADAERDLARRTQEFANRARNNVSSSTWDKLPPNAQAALTSYAYNYGSLTKDVIAA
+                     AQASAQSGDMNALANAVRNRQNNNNGVNAKRRNQEADYILGK"
+     sig_peptide     complement(46918..46998)
+                     /locus_tag="p1056.51c"
+                     /note="submitted with location complement(46917..46998)"
+     mat_peptide     complement(45001..46917)
+                     /locus_tag="p1056.51c"
+                     /product="putative exported protein"
+                     /note="submitted with location complement(45001..46916)"
+     gene            complement(47013..47939)
+                     /locus_tag="p1056.52c"
+     CDS             complement(47013..47939)
+                     /locus_tag="p1056.52c"
+                     /note="Similar to C-terminal of Haemophilus ducreyi
+                     35000HP hypothetical protein HD0921 SWALL:AAP95804 fasta
+                     scores: E(): 1.4e-70, and to Pseudomonas syringae
+                     conserved hypothetical protein PSPTO0849 SWALL:Q889B2
+                     fasta scores: E(): 4.9e-61;
+                     Similar to core gene 30 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exported protein"
+                     /protein_id="CAF29060.1"
+                     /db_xref="InterPro:IPR011092"
+                     /db_xref="UniProtKB/TrEMBL:Q6A258"
+                     /translation="MTLSGLCIAIALTSISGQASESGQSSLNTASIMASSASTSCLDY
+                     KVVGTCFWLFCTKFGCKIRTSTKIKHYIPEVVVSSYNHQAQNPWVEMNFLSNGVKGGD
+                     YQSPHKDYTQATFKNVDVIGHPQGAISQMLNSTGYYCKSQTTPFVPYYLSGLDFLAWR
+                     FGVPEMVYPEALIPGMREIRANGDTWGNIYPRAGTVTQVHDYKASAVTAHRVADVVTN
+                     TFQPHVYIPIAKKDNQSNGEWFPPPVKEGDAKTHKWQQLHPVTSQSCAIFPDNPPSML
+                     SENGSYAWALWRPYKCCKKRGQTFLYSIDWSN"
+     gene            complement(47951..48388)
+                     /locus_tag="p1056.53c"
+     CDS             complement(47951..48388)
+                     /locus_tag="p1056.53c"
+                     /note="Low similarity to C-terminal of Haemophilus ducreyi
+                     35000HP hypothetical protein HD0920 SWALL:AAP95803 fasta
+                     scores: E(): 3.9e-08, and to Salmonella typhi hypothetical
+                     protein STY4575 or T4272 SWALL:Q8Z1J0 fasta scores: E():
+                     6.1e-08;
+                     Similar to core gene 31 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29061.1"
+                     /db_xref="InterPro:IPR011090"
+                     /db_xref="UniProtKB/TrEMBL:Q6A257"
+                     /translation="MSIKKSLFLFGLLPLSVFAQGPNPIITVYSTQDYPILHAELASQ
+                     VYLLDQVEQWENLISQRLSANPSVAAQQASQIFQSAEWKQSEEQLKRSYQGLISGWQN
+                     GIKKVPAVLFQYPGKEDSVIYGETNIAQALSLWQREITKEGTR"
+     gene            48763..49125
+                     /locus_tag="p1056.54"
+     CDS             48763..49125
+                     /locus_tag="p1056.54"
+                     /note="Similar to Haemophilus ducreyi 35000HP hypothetical
+                     protein HD0919 SWALL:AAP95802 fasta scores: E(): 2.7e-16"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical membrane protein"
+                     /protein_id="CAF29062.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A256"
+                     /translation="MTMSSSTQLEHYDVPSSNPLETPTFSFRVGKHLGRFFVAAKNKA
+                     TDKYKQVTSGINQSIEDEEARRLCELQMMLDSQAEEYEAIIDDVQRTWLKRTTLFSIL
+                     FLIVGIVGTVGTLYYLMH"
+     gene            49210..49443
+                     /locus_tag="p1056.55"
+     CDS             49210..49443
+                     /locus_tag="p1056.55"
+                     /note="Low similarity to Haemophilus ducreyi 35000HP
+                     hypothetical protein HD0918 SWALL:AAP95801 fasta scores:
+                     E(): 0.00054"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29063.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A255"
+                     /translation="MKVTLHNSCLAYLAKHNDSESLIEEVRTQALNAWENRGKDVSST
+                     RIMVNIPSQYGQKYHFFTVSPYANRKDLLSVRG"
+     gene            49985..50890
+                     /locus_tag="p1056.56"
+     CDS             49985..50890
+                     /locus_tag="p1056.56"
+                     /note="Similar to the Haemophilus ducreyi 35000HP probable
+                     DNA primase TraC or HD0917 SWALL:AAP95800 fasta scores:
+                     E(): 9.8e-90, and to Escherichia coli DNA primase TraC
+                     SWALL:TRC4_ECOLI (SWALL:P27189)(EMBL:X59793) fasta scores:
+                     E(): 5.1e-30"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative antirestriction protein"
+                     /protein_id="CAF29064.1"
+                     /db_xref="InterPro:IPR013610"
+                     /db_xref="InterPro:IPR017113"
+                     /db_xref="UniProtKB/TrEMBL:Q6A254"
+                     /translation="MKKRTQPAKDLYQQITDQILEALEQGVMPWQKPWDSGWPQMAIP
+                     CNGESGRQYSGINVLLLWMSAIRKNFTQRQWVTFQGANHLGGQVRTGEKSTVIIFYKQ
+                     NMFEEKDDSGNIVLDENGDPKMKSSVFIRGHHVFNIEQCEGLEKYYEEYSEPEKSSEM
+                     QTRPDLDVLPNKMGMQLYNKTQDRACYMPRKDCIVMPDFKKFNTADDYYATLLHECGH
+                     ATGHKDRLNRDGVAKFDKFGSEQYAFEELIAELTSAFTCAHVNVCNNISQNAAYIEHW
+                     INALKADKRGLTLSGTKTHVKGFWS"
+     repeat_region   50899..50908
+                     /rpt_type=INVERTED
+     repeat_region   complement(50915..50924)
+                     /rpt_type=INVERTED
+     gene            complement(50985..51845)
+                     /gene="blaTEM1D"
+                     /locus_tag="p1056.57c"
+     CDS             complement(50985..51845)
+                     /gene="blaTEM1D"
+                     /locus_tag="p1056.57c"
+                     /EC_number="3.5.2.6"
+                     /note="Identical to Acinetobacter baumannii beta-lactamase
+                     TEM-1 BlaTEM-1 SWALL:AAP20891 fasta scores:E(): 1.7e-111,
+                     and to Escherichia coli beta-lactamase TEM1D BlaTEM1D
+                     SWALL:AAl29437 fasta scores: E(): 1.7e-111"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-lactamase TEM precursor"
+                     /protein_id="CAF29065.1"
+                     /db_xref="GOA:Q6A253"
+                     /db_xref="InterPro:IPR000871"
+                     /db_xref="InterPro:IPR001466"
+                     /db_xref="UniProtKB/TrEMBL:Q6A253"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+     sig_peptide     complement(51777..51845)
+                     /gene="blaTEM1D"
+                     /locus_tag="p1056.57c"
+                     /note="submitted with location complement(51776..51845)"
+     mat_peptide     complement(50988..51776)
+                     /gene="blaTEM1D"
+                     /locus_tag="p1056.57c"
+                     /product="beta-lactamase"
+                     /note="submitted with location complement(50988..51775)"
+     gene            complement(52028..52585)
+                     /locus_tag="p1056.58c"
+     CDS             complement(52028..52585)
+                     /locus_tag="p1056.58c"
+                     /note="Identical to Salmonella enteritidis resolvase
+                     SWALL:BAC77164 fasta scores: E(): 7.6e-60, and highly
+                     similar to Escherichia coli, and Klebsiella pneumoniae
+                     transposon Tn3 resolvase TnpR SWALL:TNR3_ECOLI
+                     (SWALL:P03011) (EMBL:V00613) fasta scores: E(): 2e-59"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposon Tn3 resolvase"
+                     /protein_id="CAF29066.1"
+                     /db_xref="GOA:Q6A252"
+                     /db_xref="InterPro:IPR006118"
+                     /db_xref="InterPro:IPR006119"
+                     /db_xref="InterPro:IPR006120"
+                     /db_xref="InterPro:IPR012287"
+                     /db_xref="UniProtKB/TrEMBL:Q6A252"
+                     /translation="MRLFGYARVSTSQQSLDLQVRALKDAGVKANRIFTDKASGSSTD
+                     REGLDLLRMKVEEGDVILVKKLDRLGRDTADMIQLIKEFDAQGVAVRFIDDGISTDGD
+                     MGQMVVTILSAVAQAERRRILERTNEGRQEAKLKGIKFGRRRTVDRNVVLTLHQKGTG
+                     ATEIAHQLSIARSTVYKILEDERAS"
+     repeat_region   52191..52200
+                     /rpt_type=INVERTED
+     repeat_region   complement(52248..52257)
+                     /locus_tag="p1056.58c"
+                     /rpt_type=INVERTED
+     misc_feature    complement(52543..52569)
+                     /locus_tag="p1056.58c"
+                     /note="PS00397 Site-specific recombinases active site"
+     repeat_region   52620..52629
+                     /rpt_type=INVERTED
+     repeat_region   complement(52646..52655)
+                     /rpt_type=INVERTED
+     gene            52884..53201
+                     /locus_tag="p1056.59"
+     CDS             52884..53201
+                     /locus_tag="p1056.59"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAF29067.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A251"
+                     /translation="MVKFSNTAPNMKRYLLYITCIIATRSLESIANIRDPHEGGICHV
+                     EAEYFYPGVWEKYGEKELICNYWKFLGDEDQRTLESELNEDTTESENESSDYDSLDEM
+                     YSG"
+     gene            53491..54189
+                     /locus_tag="p1056.60"
+     CDS             53491..54189
+                     /locus_tag="p1056.60"
+                     /note="Similar to Pseudomonas putida hypothetical protein
+                     SWALL:AAP57242 fasta scores: E(): 8.8e-13, and to Bacillus
+                     mycoides putative Rep protein SWALL:Q9L3K9 fasta scores:
+                     E(): 0.44"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative DNA-binding protein"
+                     /protein_id="CAF29068.1"
+                     /db_xref="GOA:Q6A250"
+                     /db_xref="UniProtKB/TrEMBL:Q6A250"
+                     /translation="MYESIFMGVQKKMKYWSKMPSRWVIDGGLKKFRYSSNNQNQMNA
+                     ANIAALMTFLIIVSKAQKDEFNDELITNLTYKEFSESLGISRQSISMGLKVLESNNII
+                     SIKRIGRTNQYIVNQNEDKTWCKIPIHELEGIFCRSFSLRSQIELYALKLFIYFSAIR
+                     DKKFKYSMASYLKITEKTGIPKGFIKKTLSFMLVNELLSRVDRGYDNVNGEKVNLPNQ
+                     YYLKNYNELIYSNR"
+     repeat_region   53617..53626
+                     /locus_tag="p1056.60"
+                     /rpt_type=INVERTED
+     repeat_region   complement(53630..53639)
+                     /rpt_type=INVERTED
+     repeat_region   53944..53955
+                     /locus_tag="p1056.60"
+                     /rpt_unit_range=53944..53947
+     repeat_region   54194..54203
+                     /rpt_type=INVERTED
+     repeat_region   complement(54205..54214)
+                     /rpt_type=INVERTED
+     repeat_region   54396..54512
+                     /rpt_unit_range=54396..54408
+     gene            complement(54706..55260)
+                     /locus_tag="p1056.61c"
+     CDS             complement(54706..55260)
+                     /locus_tag="p1056.61c"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAF29069.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A249"
+                     /translation="MKFEIKDNRVVIASYPSKETMLKHNGEITIYSIIRRYKERRGKC
+                     RPIGDNCPMLYAMKGAEGLTTDIETINAVYEYAKKLIDEYPFEEHIEQPFDVIILMPS
+                     KHSIGRDLACLLQKKFNINIIDNFLRKKTPKTLIEDVISDNTIPPDKKQSLITALKRS
+                     EGGLSIKDIAPKNRCYLHIFCGIM"
+     repeat_region   55436..55447
+                     /rpt_unit_range=55436..55439
+     gene            55497..57404
+                     /locus_tag="p1056.62"
+     CDS             55497..57404
+                     /locus_tag="p1056.62"
+                     /note="Similar to the N-terminal region of Haemophilus
+                     ducreyi 35000HP hypothetical protein HD0900 SWALL:AAP95784
+                     fasta scores: E(): 1.2e-62, to the C-terminal region of
+                     Pseudomonas aeruginosa conserved hypothetical protein
+                     SWALL:Q8GPV8 fasta scores: E(): 4.4e-62, and low
+                     similarity to Providencia rettgeri TraI SWALL:Q8RL15 fasta
+                     scores: E(): 2.4e-12;
+                     Similar to core gene 32 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAF29070.1"
+                     /db_xref="GOA:Q6A248"
+                     /db_xref="InterPro:IPR003607"
+                     /db_xref="InterPro:IPR011093"
+                     /db_xref="InterPro:IPR011119"
+                     /db_xref="UniProtKB/TrEMBL:Q6A248"
+                     /translation="MLSSIFHKIRGKKQDSLNITSSLKNLNSSTFKVDDEGWITPFTA
+                     SELLNSELRQKYLNLLWQQVSMTQDMFNELYKKPIERYAEMVQLLPASEAHHHSHLGG
+                     MLDHGLEVLSFATKLRQSYVLPQNAAPEEQSRQRDAWTAAVIYAALVHDIGKVIVDIE
+                     IQLKDGSRWFPWLGIPTLPYKFKYIKGRDYELHPVMGSYLASYLIPKEAFEWLAGYPE
+                     AFASLMYAMANHKDKSGLLSEIVQKADQNSVTLALGGDVSKLVQKPGTSFAKQIVMAL
+                     RYLLEHKFKINTPKGPSDGWLTEDALWLMSKPTADQIRAYLLEQGISAPADNPKLFSE
+                     MQSLGIIESTNDGTAIWHCRIKADSGWCPPKAFSLLRIKPEVAWENLADRPSVFLGRV
+                     DIEAEEISNTKIEESVSNTNAGIDNIDSENTSISISFDNISELKPIETEQVQKNEDMM
+                     DLMMDLFSPTEKTLIPADEKENKEDVIQNNQVAKGLQNSDVPPDTSTSRDSKTISGES
+                     FVEWLKAGILGNTLTINNSSAKLHIVQGKLFLVTPGIFQMYFNSKGIANFTKKDIESL
+                     QYSFQDLKLHKKYHQSNKDSVNFWRCKVVGPRKTSQLIGYLVDKTDYFFGSKIPIDNL
+                     HLSLIEENYNE"
+     repeat_region   56114..56123
+                     /locus_tag="p1056.62"
+                     /rpt_type=INVERTED
+     repeat_region   complement(56156..56165)
+                     /rpt_type=INVERTED
+     gene            57495..58307
+                     /locus_tag="p1056.63"
+     CDS             57495..58307
+                     /locus_tag="p1056.63"
+                     /note="Similar to Haemophilus ducreyi 35000HP
+                     integrase/recombinase HD0897 SWALL:AAP95781 fasta scores:
+                     E(): 2.7e-70, and to central region of Pseudomonas
+                     aeruginosa XerC SWALL:Q9F771 fasta scores: E(): 6.2e-27;
+                     Similar to core gene 33 of related genomic island"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative site-specific recombinase"
+                     /protein_id="CAF29071.1"
+                     /db_xref="GOA:Q6A247"
+                     /db_xref="InterPro:IPR002104"
+                     /db_xref="InterPro:IPR013762"
+                     /db_xref="UniProtKB/TrEMBL:Q6A247"
+                     /translation="MQHNCNLKYPDEVSKLLILQWRKAVVGKSIIEVTWNSYVRQLKT
+                     IFKFGIENQFLPFTKNPFDGLFIREGKRKRKVYSPSDLDRLSFGIKESKYLPAILRPL
+                     WFTRALIMTFRYTAIRRSQLNKLRIRDIDLLNQVIHISPEINKNHEYHILPISHTLYP
+                     YLDNLLNELKKMKQSADAQLFNINLFSKAVKRRGKEMTADQISYLFKVISKHTGVNSS
+                     PHRFRHTAATNLMKNPENLYVVKQLLGHKDIKVTLSYIESDISSLRKHIDCL"
+     repeat_region   57527..57537
+                     /locus_tag="p1056.63"
+                     /rpt_type=INVERTED
+     repeat_region   complement(57543..57553)
+                     /rpt_type=INVERTED
+     gene            complement(58302..59078)
+                     /locus_tag="p1056.64c"
+     CDS             complement(58302..59078)
+                     /locus_tag="p1056.64c"
+                     /note="Similar to, although shorter than, Bacteriophage
+                     phi CTX ORF28 SWALL:Q9ZXJ7 fasta scores: E(): 6.9e-08"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved phage-related hypothetical protein"
+                     /protein_id="CAF29072.1"
+                     /db_xref="UniProtKB/TrEMBL:Q6A246"
+                     /translation="MNHKTCALCGKYTTLRDSHFIPKFVYKVLNNTKKADTNITIKNE
+                     SGKLIPLSKQITSHRLCGECEARFSENGERFFSQNAFPQREVLDKINMGTELLYDDAP
+                     PLLKDIASKYQGKNSFYSLNQEGEKKLLYFVISILWRGALTWPMYQSIKFPKHILNEM
+                     KDFLLNDIPLKHLKVFVDLTPHGVFSILKPHIHPDFPSCYRFNLLYYMFHIVIVNDNK
+                     GTPLSYGKAGMLVKKCINDMRSMYNYSEKSPKVPHKLSWL"
+     repeat_region   58701..58711
+                     /rpt_type=INVERTED
+     repeat_region   complement(58767..58777)
+                     /locus_tag="p1056.64c"
+                     /rpt_type=INVERTED
+     repeat_region   59033..59309
+                     /rpt_type=TANDEM
+                     /rpt_unit_range=59033..59171
+ORIGIN      
+        1 acacaaggga tttaaaatcc ctcgcctttc gaggcgtgcc agttcaagtc tggcttcggg
+       61 caccatctaa ttccaaacca ataatcagta cctagtccaa tacttaactt taatttttaa
+      121 ttatcgttag gtgaggaatt atggacttct cttctgtttc taaaaaacct tatattatta
+      181 ctgtcgcttg tactaaaggc ggttctgcaa aaagtacaaa tgctgccaat attggggcgt
+      241 tctgcgctga ccacggttta agaactcttc ttattgatac tgatactcaa ccaaccttaa
+      301 gctcttatta tgctttaact gaagaagctc ccggtggtat ttatgagttt ttaacccgtc
+      361 gtgatattga accttcccat atcatttcaa aaacatccat tcctaatttg gatttaattc
+      421 aatcaaatga cccatcaaac aatgtaagtc aaactctacg taatgcccct gatggtgcaa
+      481 ttcgatttag tcacttaatt aaaaacattg ataattatga tgttattgtg gttgatactc
+      541 gaggtactag agacattact gtcgatatgt ctgtcttagc agctgacatc ctattctgcc
+      601 ctattcttcc acacattctt tctgcgaaag aatttatccg tggaactatc ggaatgtatc
+      661 aagatttaga aacctttgaa tcatttggct tcaaattacc gcctctcaaa gctatcgcaa
+      721 attgcgttga taatactaat gacgtgaaat ttgtactcaa tcaattacac gtactctttg
+      781 aaaccaattt tgatgaaagc aaaaccttcc ttgatttttc aatccctgcg catgtggcat
+      841 atagagaagc tgcaacttat tcattgccag tttatcgcca tagccaagct gaatatcctg
+      901 ttatcaaaga actgtgttgc ttgttactcc ctcaatttaa aacacttttt gataaaccaa
+      961 tgaaaaagga aggctaatat gactgataaa cttattgctt ctattgaagc ggaaagtgcg
+     1021 gtcattggtg ctctcattat tgataatgac aaatttgatg agatcgcaac tttactgcgc
+     1081 tctgatgatt tttatgtctc agctcataaa gtattgtttg aaggtgttag ccatctatta
+     1141 acacaaggaa aacccgctga tattttaact ttggagcagt atttcaaaga taaaaaactg
+     1201 attgagcaga tagggggatt agcatatcta gcagaagtta ttcacaatac tccttctgca
+     1261 tcaaatatca ctgcctatgc tgagattatt tctcgttata gcaaacaacg tcgttttttg
+     1321 accctgggcc agtttattgt aactgaaatg caatcttcaa aagatgaaat tgaattaact
+     1381 tcttttgagg aaagtgttga taagcaatat accaatattg tcatcgaaca agagacggat
+     1441 ggtgttgctg atcttaatgc aagtttcgag cgaatccttt ctcgcatgga aacgtcctct
+     1501 attaatgccg atccagttag tggaacacca acaggcatta ttgaattaga tagagcaaca
+     1561 acaggcggtc aaccaggaga acttatcatt attgcagctc gtccagcaat gggtaaaaca
+     1621 acctttgcac aaacaattgc cgcaagtacg ttagataaat ttcctgacag ccctatccaa
+     1681 ttttacagtc aagaaatgcc agctgatcaa ctattagaac gttttatggc aatgcgctct
+     1741 cgcgtcagct tgcaatctat tcgtcaagcg actgagcttg aagaggaaga atggactcgc
+     1801 cttgctaatg caatgggaac aattaaaaaa gactggaaag gtcgtttgtt aattgatgat
+     1861 gaagcttctt taacacctca tcgtttacgc gccaaagtac gtaaaaacac tcgtctatac
+     1921 ggcaaaccta aagcgatttt cattgattat atccaactaa tgagaactgg aaataaaact
+     1981 gaaaatcgca atttagaact tgccgaaata tccaatgatt taaagaaatt agccaaagaa
+     2041 actggatgcc caatttatgc attatctcaa ctaaaccgag gtttagaaaa tcgagctaat
+     2101 aagcgtccaa tcaatgccga cttacgtgac tccggctctc ttgaacaaga tgctgatgtc
+     2161 atcattcatc tttatagaga tgaaatctat aaccctgaca cagaagataa aggcattgcg
+     2221 gaaatcatca ttggtaaaca gcgtaatggc ccgttagcca cagtaaaaac actgtttcaa
+     2281 ggtcaataca gcatttttga gaatttaacg acacaggata gatattatga ataatccatt
+     2341 tattgctaaa aataaaaaac aacaaagtca attagacgcg attgcgaaag gattaaatgt
+     2401 tcaacctatt aataatcagt ctgctgctta tcaaacaaca acagcaacac attatcctgc
+     2461 gcaatctaaa tacattaccg ttacgttaga taaattacgc ccttatgaac acaaccctcg
+     2521 taagacacgt aatcctaact ttgaaatgat taaagagtca attcgtcgtc gtggtcttga
+     2581 tcataaacca aatatcactc aacgacctgg cgaacctttt tatatcatcg ctgacggtgg
+     2641 gaatactcgt attcaagcat taaaagaact gtttacagag actcaagatc aacgtttttg
+     2701 gtctattgaa tgcttatata aaccctggaa aggtgaaagt gctgatagtg tagaagcgga
+     2761 attagatttg cttattggtc atttaattga aaatgataca cgtgcagatt taacctttat
+     2821 tgagaaagcg ttgggaattc agcaagcgaa agaatactac gagaaaaagt taggaaaagc
+     2881 actttcttct cgtgaactat ctactgagtt agaaaaagac ggatatatca tatctcatac
+     2941 tttaattgcc aagatggaaa agtgcataaa cttcctatat ccatatattc ctgatgtgtt
+     3001 atttaatggt ctaggtcatg cgccaattga taaattgctt gcgattcgta ataacgcctt
+     3061 agccatttgg caaaattatc aatttgaatt agatgtgacc tttgatgaaa tttggggaca
+     3121 cagcctagct cgttgtaatg atgaccaacc gtttcatatc aaagtcttcc aagaccatct
+     3181 cattgatgaa atgtcatcta tgttaggtga tcgtgtaagt tatgaagtcc tttaccttga
+     3241 aattgatctc gatgagcaaa aattcaagaa aatggcgcaa aaacaacacg aaatacagca
+     3301 aagcgtacaa gaaagtatcc aagatgttca agcgtttaat acacctcagc cacaagaaac
+     3361 cgtattagat acattatctc aacctagtgt agtcactact ccaaaaatga ctactactga
+     3421 aaaaaaatca atacctgcgc cagtattaaa gcaagcaagt gttgaaattt ctccttcatt
+     3481 tgagaatgaa acagaggatg aagagtttga tgaaactaat gctaattcag aagggctttc
+     3541 ttttgatttt gctaaaaatt taactcaaca atttggcatt actcctggca tgagcattca
+     3601 ggagcaacgc caacaacgtg cagaagaaaa tggattaggc tttgcttgcg taggccgtca
+     3661 accagttgat gatatttgga aaatttatcc tggtcgtcag cataaagtag aagcttattc
+     3721 actagcactc gacattgcgg aaagtgttgg attaactgac tacattgaac atgtagtaaa
+     3781 agagcctgtt gattacactt accgcgtaaa accattagat aaagatgtga gcggtgtagc
+     3841 acagatgtgt tatgacttct taaatttatt acaaacagat gtgcacccac agacatcttt
+     3901 caccttatta ccggaatatt tactcaatac tcaagaaatt gatgatacca cgctagttaa
+     3961 attattccgt ttaattcgcc tcgttcgcta tattcgttca gaaggagatg cataatgagc
+     4021 atgttcagca atttaaacca agtggtattg aatgagattt tggttaattt acaagaaggc
+     4081 aatatcaatg tttgccggaa ctatggtttc tcaaaacaag aattgcaaga aattgaaaaa
+     4141 ctcagcacag aggaagttta tgaactggct aacaccaaag ctccctttgc caaagttgaa
+     4201 attaatcacg atgcattttg gcgattagtg gctcgagtac gcatgtcgtc acaagaacgt
+     4261 cgccttattg atcgcgcatt aatgttaggt gcatccatcc aaatgctcaa ttcctacttc
+     4321 ggcttaacca cttcaaaagt atctgctcgt cgtagcctac ttggaaaaca agaaccaatg
+     4381 ggacgtaagc cagctgcaac cgaagaggaa gaaaaattaa tttgggactt atggcaagag
+     4441 cataaaggtg atgttcaaac aattgaatca acagaaggac tagagctgtt aattttaatt
+     4501 gcggaagaaa ccggtattaa tttaactgaa atttggaaac ttgttagccg ctggaatgca
+     4561 gcttaaaaaa cataacgccc aacctagtgc gttacgttaa gttgggcgtt attcatatcg
+     4621 ttagtaagga acttgggaaa gttcattggc tattgtaaag atgtttaagc acattgcaac
+     4681 aataaaaatg aaatattctc agagagaatt aaattatgga aacaaaatta caagagcatg
+     4741 ggttgctctt ttttggcaac cagcatgaaa cagttccaac ccgtttgcta tttgatcctt
+     4801 atttaacatc aagagcaaaa ttggcatggc aacttataaa atacaaagca agagaatttc
+     4861 aatcaggcat gttcccatca tacgaagtgc ttgcaaaatt actttcagat aaaccttatg
+     4921 atgaagcaga actctcgcgt aagctagtta gccaaacgtt gttattactt agattaactc
+     4981 gttggctaac actttgtgaa actgtacgta atgagcaagg tcaagtattg ggtaattttt
+     5041 acatccttca tgatgaacct atgccaatca ttgatacgat tcaattaaac catgattaca
+     5101 tcgcactcct tgaaaaatcc attcagcatc gagataactt tgtgcgaggt gtagcaaacc
+     5161 atattgtaga aaacctgctc tcggataata ctcagtggca ttatatttct cacattgatt
+     5221 ggatgcgagc tcgccttcaa gactatcaaa aacgtccaaa aatggatatt tcagagcaag
+     5281 aagaatcaac atttattcaa gaaaacttac taagttccaa taaggaactc aatgaaaaaa
+     5341 caggggaact cagtaaaaat aaccttagtt ccaaaatgga actcagtaaa atcaagcaga
+     5401 gttccaaaag ggaactcagt gcccaaaatg atgataagtc attgatttca ggcttagttc
+     5461 caaaagggaa ctcaggtttt tcacagtaca gtacaagtac tagtatttat ataaatacgt
+     5521 actgtactgg taatgtggat gaaattgact ggccgactaa tattcagttt tcatcattgg
+     5581 aaaaaacagc aattatgcaa gcaatgcgtg gacttgattt aggaatctgt aaagcgattt
+     5641 tatttgagct tgaacagcgt gtggcaaaag gtgaagtgaa aaaaccacaa ggctatgtag
+     5701 tgacattaat ccaacgtgca caccgtggtg aatttaaacc atatttgtat gaacaatttt
+     5761 tggctacaca agcgcaatca ttatcatcaa aaaatcggtt atcacaacat gatgaaacta
+     5821 gcttagttaa taatgtgaaa gccgatagcg caataaaacc aatgcgagtg caatctgaag
+     5881 aagagcgaaa agcgagagct gatcgcattc gacaatttaa ggcttcaatt tgcaattgaa
+     5941 taagctgtat aaaaagtgaa tagtatagaa ggattctaca aagtacaaaa attaaccact
+     6001 gtaaaggggc tttacaaagt acaaaaatta accactgtaa aggggcttta caaagtacaa
+     6061 attttaacca gtgtgctagg gttgcacggt gaacaaaaat taaccactgt aaaggggctt
+     6121 tacaaagtac aaattttaac caaatgataa aaggtgacat aacatgacaa caacatacaa
+     6181 ccaacaactt gggccgttac gcagtgagat tacatttacg cttcataccc agtatgcaac
+     6241 tcgtctttgg aatggtcgtg acttagttaa aaatgaagca ggtgaagtcg ttacatcatc
+     6301 aattctcagt attcctaatg ctctatctct attgagccaa attcagcaag ctgctgaaca
+     6361 agatgatcct tatgctgatg attatctact tcgttttgaa caaaaagtct taggatttcg
+     6421 taaagaaatg caagatatga cctggagaat ggttaatctc tacagtgaga aaatccctga
+     6481 aaactttcaa attgagcgtt gcgccaatat tgctccgatt caatacccta tttttgtgaa
+     6541 tactcagctg ggttatcaat tattgtatct tttggctgac tttgattcgt tagctcgtac
+     6601 agtgatgacc gcttcacata ttgcattact tacaaaagat gatgcgtatg attggttaga
+     6661 atccggtgct aaattaattc gtcgtgcatt tggtgtgctt gagaattacc gaaattccgg
+     6721 tattacacgc caagatgcgc ttgaaaataa cgctcgctat caagctgctg taaaacgtat
+     6781 gaaatatacc ttaacgcctg acgtgctttc cggtacaaca cgtgcaacat ttgctccaac
+     6841 aattaaaaaa tcatcacttg ctgaatcaga tgataatggc tctgttgaag tccaaattac
+     6901 agcaaataaa actgaataat ggagattggg attatggata acgtgctcat tccttctgat
+     6961 atgtataaac aattaggacg cacaacccca cttaatgact cgctgaaaca gttattcagt
+     7021 gagttagact cagtgcaaca gtatgaatta ctagctgaat cccttgctac agtccgtgaa
+     7081 gctttaatgt tgcagcagaa tgaaatgttg cagaacgttc gtaaaagtga acttagtgta
+     7141 ttacctattc acatgatccg agataaagca tcatcatccg gtgggacgtt tttacgctgg
+     7201 cgcagttttc aagcctctaa gactggtgat gctgtgttaa atccggtatt taataatcct
+     7261 cagttatctt cagacttacg acaaaaactt gtctcagctg agaaagaacg cattttgatt
+     7321 aatctgcagg tctccgtact aaattttatg atgagacagg tatcaagtgc ggtagataaa
+     7381 attaaagaga tagaagatca tttataacat tcacatttgt gaacgttgga tcttctagtt
+     7441 tgtaatcggc taatttatat agtttgtgat cggctcacta aaaggccttt taaaggtaag
+     7501 gggacaagcc ccttacctta acgaaaaaaa agcctttgcc tttcgtggtt gtgttaaaaa
+     7561 atctctgtgt tttttactga atttaccctt aaggattaga tgtaaaaaat gcacaatctt
+     7621 gacagttaat tttgtgattt aggagaaatc aatatggctg gaattaataa agtaattatc
+     7681 gtgggacatt taggtaatga tcctgaaatg cgaagcatgc cgaatggtga ggcagttgca
+     7741 aatatcagtg tagcaactag cgaagcttgg acggataaaa acaccggtga acgtcgtgaa
+     7801 gtgactgaat ggcatcgaat cgttttttat cgcaaattag atgaaatttg cggtcaatac
+     7861 ctcaagaagg gagctcaagt ctatattgaa ggtcgcttac gtactcgtaa atggcaagat
+     7921 caaaacgggc aagatcgtta taccacggaa atccaaggtg atgtaatgca aatgttaggt
+     7981 actcgccctc aaagtgcaga tggtgcaaat aattctcagc caatgccaca acaagatgca
+     8041 tcggcaaata cttttgatga ttcaatacca ttctgaactc aatctaatta aggttaattg
+     8101 tgatgaaaaa aataattttt gttttatctg ccgtcgctgc tttaagtggt tgtgctgaat
+     8161 taaactcatt gaatgatgcg gttggtaatg ttgcaggtca gctcagcagt gttcttggtg
+     8221 gggggaatag ttcctctagt tcttctggtg tggcttacac tcaaagttct cgttctcatc
+     8281 gctataacgt agaggattca attacatcat ctaaaaatat tgattctctt tacgtaaaaa
+     8341 ttaagcgtaa tttaaaattc aaaactaggg atgaagcatt aagtggatta tccgggtatg
+     8401 agcgtcaacg ttacgaatcg cttttagatg aagaaggaca tgctcatgaa gcgactcctg
+     8461 gggtctatta tcacatggca aatagctatg ttggcggtcg aaaaattgac ataacgcttg
+     8521 caaaagagga tggcaaggtt agaatttcct ggattgcttc ctcaaacgag tctgattttg
+     8581 ctcagtttgt taaatcagaa gtgataaaag caataaaata atacgacaat ataaacatag
+     8641 tgtaggtaat caatacctca ttctcctttg ccccaacctt agtggggctt tttttattta
+     8701 agttattttt aaatttcaat accgataata acgattattt tgtatgatag ataacgaaac
+     8761 aaatttgttt tttgagatcc atccaaactt ttccttttcc tcatattgtt taatatctca
+     8821 agcgtttacc ccttggttac aaggggtatt tttctcctgt aatagcaaaa tataaattaa
+     8881 gtggctcaaa atgaagtgaa gataatgggc ttgcatactt tgacagaatt ttagctttct
+     8941 ctttatggtt tctaatcaaa ataggaaact cctttacacc atttgcaagc aaccaaagcg
+     9001 ttcttgtcat accatcatta agactacagc ttatttctcc atctttaata tgaacattca
+     9061 catctgcaag tggaaccgga gaatctatac tgttagcaaa tccgttttca gcatgatgaa
+     9121 acttataatc ttttctccat gttgactcat cgcccgcaca tgtattttta tctacctcat
+     9181 acggtgatcg ctgccataaa ggaagaaact tttgagcatc tacgatgaca atcatgttct
+     9241 cttgattagc catattttca atatgctgtg gataacgcat atacacgact ttttgctctc
+     9301 tcgttttcat tctaaaaata atatatttat ctcgacctga atatctaagc gtatcaacca
+     9361 tcacaccaat tgatgaaggg gtcagtttta tcatgattta ctcctcaatt taaaaagaat
+     9421 tcctaattgt ggtttatctt attacatcga aaatatctct caaatatcaa tgagagaaaa
+     9481 catcatgaaa ttatttttat gcgaaaaacc atcacaaggt aatgatattg caaaagtatt
+     9541 aggcgcgaca aagcgtggtg agggttgttt atcaacacct gacggtcagc ttacagttac
+     9601 ctggggaatt ggtcatctag tagagcaatt taatcctgaa gaatatgatc ctgcctttaa
+     9661 aaagtgggca tttgagacct tgccaattat cccgggtaaa tgggggcttt cacctaaaaa
+     9721 agaaacaaaa aaacagttca atgtcgtcat gaaacttatc aaacaagcta aacttgttgt
+     9781 cattgcaacc gatattgata gagagggcga aactatagca agagaattgc tggatttggc
+     9841 aggatttcga gggcaaataa aacgcctttg gttgtccgca ctagatgatg ccagtattcg
+     9901 taaagccttg ggtgcgctta aagataatga ggaaacacta cctctttact atgcggggct
+     9961 tgcacgtagt cgagctgatt ggcttattgg tatgaatttc tctcgtctct ataccttatt
+    10021 agcgcaacaa caagggtatc aagggaaacc tttaagtgtt ggtcgggtac aaactccaac
+    10081 attaagcctg gttgttaatc gtgaccgtga gataaaaaac ttcattccta agcaacattt
+    10141 tgctttgcaa gtaatgcttt ctgatggaaa tcagcatttt gctacgcaat acgttattcc
+    10201 ggagcaatat tgtgatcctg atggactttg tttatctgcc caagttatac aagcagcaaa
+    10261 tcagcaaatt cgccaattgg gccaagcgaa agtggaatca gttgaaacta aacgtgaaag
+    10321 acaaaatgcc ccactttgct ttgcattaag tgacttacaa tcagaagcca accgccttta
+    10381 tgggctgggt gcgcaaagag tattggatat agctcaatca ctttatgaga ctcacaaagc
+    10441 gacaacctat cctagaacag attgtggtta tttaccggag tctcagtttg cagaagctcc
+    10501 tcaaattatc caatgtttgt tgcaatccga taatcgatta caaccccttg caggtatgtt
+    10561 aaaccttaat caaaaatcac gagtttggaa tgataaaaaa attactgctc accatggcat
+    10621 tattccgact atgattaaag ctgatattag caaaatgtct gatgaagaat taaagctcta
+    10681 tgatctcata cgtcgtcgtt atttagctca attcttacct gtttctgaaa cagataagac
+    10741 acaaattatt ttgaagtgcg gtcaacatat attaagtgca cgtgggaatg tgcttattgc
+    10801 tccaggttgg aaaattctat ttggcaaatc acttgatgaa gatgatgacg cacctcaagc
+    10861 cttgccgacg ttaaagcaag gacaagtctg tcagatttct gattcagaaa taaaaacctt
+    10921 acaaacatca ccacctaatc acttcacgga aggcacattg ctcaccgcaa tgaaaaatgc
+    10981 agctcgcttt gtaactgatg agcgtttaaa acaacgctta cgagaaactg aagggcttgg
+    11041 tacagaagcc acccgggcgg gaacgattca aggtttgatt gataaaggtt tcttgaaaaa
+    11101 gaaaggtaaa tcactattag cgacagatga agcaatgacg ctaattgata atttacctca
+    11161 gatgttaaaa gatcctggtt taaccgcact ttgggagcaa gcgctcaatc aaattgctga
+    11221 aagaacgctt tcgctagagg tgtttatgca aaaacaagaa gtctttgtgc ggcatttgat
+    11281 ggctgattgc cttaaaaagg gaatgagttt ggggaatatt gaaattcgta aatgtcctaa
+    11341 gtgcggtgca ccaatgatta aaagaaatgg taaaaatggg gctttttttg ggtgttctgc
+    11401 ttatcccaat tgccaacata ttgaaaattt tgatagcaaa aagaatacta agggcgcgaa
+    11461 aagttctaag aaaacatcga gtaaaagtgt tagtgagcaa atttcatctt tacgaagctt
+    11521 attgaactag gatttaagcg cctgtgaatg gcgagtcctc aaaaatagtg ctatactaaa
+    11581 gccttcgtaa gaccgttcgt gaattgtcgg ttatcaattc acactagcca aaaatgattc
+    11641 cagcacgctg aaaggaattt ctcacattga ttaacgctcc ttgtgaggtg tgccacctag
+    11701 ttaatcagag taatgatgga gtaacgcccc aatttactct cgacttttca aatcgctggc
+    11761 cattgcggat ttttaaagtg tattgcaaag tgcattttga aaattcgcaa tggcttgcta
+    11821 ctttctcctt accggagccc accggtgaaa caatgggtgc cctttgtgtc aatttgatgc
+    11881 cacagatata accgattaat ggccacaagg taatcggata aggcgagtcg taaaaatccg
+    11941 tatatggtaa cgaacgtatc agtattttta tgaatcaaat tagtttggcc tacttaattt
+    12001 ttatttaatc aatctatagt caaaactata aggtcattca ggaaactggg tgaccttttc
+    12061 ttttggctaa aatatctcca aatagaattt ttaatttttt atacatttaa cgtttgcttt
+    12121 agattttaat aacaacagtt tttaaggtgc tgtgaaaaca gcctttaaga agttgcacga
+    12181 ttcttgagaa gcaacgcctt gccttagcgc aagtagaatc atagccaaaa ttttttccag
+    12241 cacactgaaa ggagaatcta cgaataattc gtaggtgtgc caccttaaac tacccttaac
+    12301 ctaaaataag attacttatt ctagtttaat cacaatttaa cccttggcgg gaaacatttt
+    12361 tcccgtgttg ggtaaggatg tttctccgct tttttactac ttaggagaaa cattatgtct
+    12421 actcaaaacg cacaaccaaa atatttcaat cttcatactt ctggcattgg ttatttaagc
+    12481 gatattcgcg aaatcaagcc gaaaaaagga gatgcatttt gggcttgtcg aattgctgct
+    12541 cttacaggtt cttccgattc tccggaatat cgtttttttg atatgaacgt atccggtgaa
+    12601 gaaactgtaa atttaatcaa acgctgtcaa gaagctgttg aagctaagaa aaaagtctta
+    12661 gtttcctttg taatgagtga tttgtggtat gacacattca cttattcaaa agacagtgaa
+    12721 tatcacaaaa aaggtgatac tggcgtgtcg attaaaggac gactctaccg tattaacttt
+    12781 attaaagttg atggtgagtt gaaatatcaa gcaaaacgcc aagatgagca aggaaatgac
+    12841 taacctataa accgatgaaa gccaacaaca aaatttgttg gctttttctt taccctgaag
+    12901 gggaaactcc ccttatgggt ggtttctcct tttttatttc tatttgagga gaaacctatg
+    12961 aatacttacg ctaaattttg ccctaatgtt tttgttgcta aatgtccgga tgctcaccaa
+    13021 aaaggtgaca ttatcatctt aaccagtaaa tatggtaaag agactgaggt agagattcat
+    13081 aatctcgtaa aaacatctga ggatgcgtat ttttattcct tcactcgttg tgatggtgta
+    13141 aacagtcaag ttcgtgcaga aaaaaaagct gagcgttatc aaaacgcggc gagtaatgca
+    13201 ttaaaacgca gtgagcaata ttgtgaagct gctaatgaag gtcgtgaatt tcttcgcttg
+    13261 ggtgaaccga ttaaaatcgg tcatcatagc gaaaaacgtc atagagcctt gattgaacgt
+    13321 aatgcaagac gcatggataa gtctgttgaa gaaatgcgta aagcagaaag ttatgacggt
+    13381 aaaatcgctt attgggaaca gatggcaggg aaaattgatt tatccatgcc ggaaagtctt
+    13441 gagttcttta agtttgaatt ggaaaaagcc aaagaaaaac accaagagct taaagataaa
+    13501 cctgaattgc gaacacatgc tttttctctc acttatgcta aaaaagcagt caatgagctt
+    13561 gagaaaaaag taaaattagc cgaattactt tgggcgtaat gcaagtcaga ctttttaaat
+    13621 aaagtggact ctattaaaac tatgtaccat taaagtgtgt gttaatttga ccgcactttc
+    13681 acccataggg gatatatccc ttatgggcga tattccctat tttagaagga atatcgaatg
+    13741 tttaaattaa acgagcaaca acaagctatt ttagaacagg cacaggttat tttaactaaa
+    13801 gtgatggaag aaaagccctt ttaccaaggt gcacaggaat ttactgagcc atcaatagct
+    13861 aaactctatt ttcaaaccat tatagggaat gaagaaagag aaaatttcgt ggtacttttc
+    13921 ttggatagaa tgcacagatt gattaaatct gaggtgatgt ttcaaggatc tgtttcagaa
+    13981 atttctgtgt cgattcggga gattattcga caggcattaa agctaaatgc atcagcaatt
+    14041 atcattgggc acaatcatcc aactggaaat gttgagccta gtgatgctga caaatatata
+    14101 accaagagat taaaggaagc ttgtgaatta atggaaatta aattacttga tcactttatc
+    14161 gtttctggtt ctgcgtcttt ttgctttact gataatcatc ttatgtagct aacaaccttt
+    14221 cacccattgg gggataacac cctcaatggc agtgttatcc cctttacttt ttacatttta
+    14281 aaaatttagg agaaacactt atgtgtaagg aaaatcgtat tttagaactt ggaaaaatct
+    14341 tcgtctctcg tcgtatctta gcggaattaa ctaccgaaaa gatcaatgag gtcatctcgt
+    14401 ggcatcaaaa tggctgcatt atcatgctgg ggaataaaga ttggattgaa aaaccgccac
+    14461 atccgcttgc agaaattgtc atgaatttct atcaagcaga taatggtaaa gacaccattc
+    14521 aactctctac ttcagtagat gatgacggga atcgaacaac taagatttct ttttctgatg
+    14581 aaagtgaaga tgagcaaaga ggacactttg atctgatgaa tcccctaatg atttttatca
+    14641 aaatcattaa gttaaggtgg atacacatct tgtcatatga tcaaatggtt tcgccaaaaa
+    14701 tcaataatca gacaacaaaa tgtgcgaact cgatatttta cacgactctc tttaccaatt
+    14761 ctgccccgaa ttacacttaa aacgactcaa cagcttaacg ttggcttgcc acgccttact
+    14821 tgactgtaaa actctcactc ttaccgaact tggccgtaac ctgccaacca aagcgagaac
+    14881 aaaacataac atcaaacgaa tcgaccgatt gttaggtaat cgtcacctcc acaaagagcg
+    14941 actcgctgta taccgttggc atgctagctt tatctgttcg ggcaatacga tgcccattgt
+    15001 acttgttgac tggtctgata tccgtgagca aaaacggctt atggtattgc gagcttcagt
+    15061 cgcactacac ggtcgttctg ttactcttta tgagaaagcg ttcccgcttt cagagcaatg
+    15121 ttcaaagaaa gctcatgacc aatttctagc cgaccttgcg agcattctac cgagtaacac
+    15181 cacaccgctc attgtcagtg atgctggctt taaagtgcca tggtataaat ccgttgagaa
+    15241 gctgggttgg tactggttaa gtcgagtaag aggaaaagta caatatgcag acctaggagc
+    15301 ggaaaactgg aaacctatca gcaacttaca tgatatgtca tctagtcact caaagacttt
+    15361 aggctataag aggctgacta aaagcaatcc aatctcatgc caaattctat tgtataaatc
+    15421 tcgctctaaa ggccgaaaaa atcagcgctc gacacggact cattgtcacc acccgtcacc
+    15481 taaaatctac tcagcgtcgg caaaggagcc atggattcta gcaactaact tacctgttga
+    15541 aattcgaaca cccaaacaac ttgttaatat ctattcgaag cgaatgcaga ttgaagaaac
+    15601 cttccgagac ttgaaaagtc ctgcctacgg actaggccta cgccatagcc gaacgagcag
+    15661 ctcagagcgt tttgatatca tgctgctaat cgccctgatg cttcaactaa catgttggct
+    15721 tgcgggcgtt catgctcaga aacaaggttg ggacaagcac ttccaggcta acacagtcag
+    15781 aaatcgaaac gtactctcaa cagttcgctt agggaaggtg cgatttaatc agtcatgacg
+    15841 atccagagcc tggatatcct ccttacgcgg caaagtaagc accccagttt ggacaatatt
+    15901 taatctcccc catcaactca gggtaagcaa aatgtcactg ctccactgat attacaatga
+    15961 ttttcacgac atccccgcca gttgtcccgc ccgcaccaaa ttgcacattg caaacagcat
+    16021 tgaaagccgg ttgtggttct tcatcagtcc ccgtaatcgt gttttgctga aaccaaactg
+    16081 gcacttcagt atccggaaag gatgctcaac ctttgcccta atacctgctt tcacatattc
+    16141 atcatgcagc gcctgcttat tcagccgggg atgctgtctg agctttttta cggcatgagg
+    16201 acctttggca ataaaccact ctttaacccg atgtgtcaga gagtcccgtt tttctgcccc
+    16261 gcgatatccg gcatcggcga agacaattgc taccggctcc gtaatcaggc tatccgccgc
+    16321 attcaggtca tgcacatttg ccgccgtggt cactactttt tccgtcaagc ctgtggccgc
+    16381 atcaacagca atatgagctt tcataccaaa gtaccactga tttcccttgc gggtctgatg
+    16441 catttcagga tcccgttgac cggctttatt ttttacggaa cagggagcgg aaataatggt
+    16501 cgcatcgata atgatgccct gacgtaacat cagtccggcc tgcttcagtt tctggttaat
+    16561 cagtgccagt atctgttctc ctgcatgatg tttctccaga aaatggcgga aattcatgat
+    16621 ggttgtgcga tctggcaccg tgtcacagat ccccgcaaat tgacggaacg gcaggacatc
+    16681 atgcagggcg tcttcagccg ctccgtcact gaggtcaaac cagagttgca ggcagtggat
+    16741 acggagcata agcaccaggg ggaaaggccg tcggccgcga cgggatgacg gatagacgtg
+    16801 aagcagctta tcagcaatat cctgccacgg caccagaaca ttcatacggt caagaaaacg
+    16861 ggatttacgg gaggaatagc tggaaatggc aggcattgta aacagctcat gataaagaaa
+    16921 gctttatgtt ctcacatatg acgattaaat cgcaccttcc ttagcagatc gtcttacttt
+    16981 atttataaca tcaaaaaata aaactaaaat atatacctgt tcagcttaac ttattatata
+    17041 ccttcctgat gaagccggac gatatgttta tactgaacag aaagaatgcc aaccagaata
+    17101 ttatcttctg ttatacatgg cggtttattt attgtttaat taaacatatt caggcatatt
+    17161 tctataccat catgatgttt tcactggtgt tactactggt attaatacta atgttaatac
+    17221 tacaggtgct tttacagcat tctggtattg tttaaaacga ctgtcgcagc agtctttctg
+    17281 gtgttgtaaa tactattatt gtaagtgcta ttactataaa tactattatt gttataactg
+    17341 catctggtgt tgttactaac ttattactgt tattgttact gctttcttta ttactattgc
+    17401 tgttcgtctt tgcttgtttt ttcttattaa ggatattacc aaactacggg agcattatcg
+    17461 tacagtgatc ctgaaccatt ctgaaacgag attacacatc acgacgaaaa gataaaaaaa
+    17521 agccaccatt ccttccggat acagtggctt aaataaagta ttaattaact tatttcagta
+    17581 tgttatcaca catcatctga agtgtattaa taaacctggc tgcatgaaag ccatcacaaa
+    17641 cggcatgatg tacctgtaca gaaacaggta ataatacgcg gttatcttcc tgctgaaact
+    17701 tcgccatagt aaacaccgga gcaaaataat catcattacc ggtgatattc aggttaaatc
+    17761 cgtcaaaact cacccagggt aatgatgata tattcaggtg gttctctggt aacgctccct
+    17821 gcgggaacaa tgcagtatta tgctgatatt ctgccatcac cgcattatag cccgccataa
+    17881 attcactgat atccggacaa taacggcaga agagcgcaga aaatgtttca gtctctttat
+    17941 gaaaaacagt aaatacagga tcggtctgat cccagtaaat cagtgcatta tctttcattg
+    18001 ccatccggaa ctccggaaac tgattaacaa cccgggagat cagataaatc atcaccggat
+    18061 aaaatttata atccgtttcc gccagtgcgg tacgcaaagc tgtaatatcg agttttgtgg
+    18121 tcaggctgaa tccgcatttt atctgctgac gataaagagc aaaatgttct ctgcggttcc
+    18181 aggtgttcag atcaattctg gtaaaattca tgtttattcc ttctgattaa tagcgaaaaa
+    18241 tattaataat cagaaggcag tctggttgtc tcaatgggca gcatcccgtc ctccgtaagc
+    18301 cgtttggtac agaataatga tatcagattc gggctcgcga attcaacttc gaagtgcaat
+    18361 tcccgattaa aaatcaggct gctttcagaa gttcgtcaaa aaccacctgt ggctgtttaa
+    18421 atcccaagca tttgcgcggc ctgaagttca gccgcttttc gacggctgac agtgcctctg
+    18481 ctgtcaccac actcaaatca ctgcctttgg gcacatattg ccgcagcaga ccattgctat
+    18541 tctcattctg tccccgttcc catgcactgt atggatgcgc aaagtacacc tgcgcttcca
+    18601 gctctgctgc aacacgttca tgttcgacaa actcgctacc attgtcagct gtgatggtat
+    18661 ggacatgtgc ctggtagggt ttcagcatgc tgataatggt gtccgccacc gcgctggctg
+    18721 ttttgctggg aacgtattga accaggtaga gccggctctt acgctccaac agactcacta
+    18781 ttgcaccgct gccttgctta cccaacacgg tatcgacttc ccaatctccc acacggctcc
+    18841 gctcattgac tatcgcaggg cgttcatcaa tcgataccgg attgggaatg acactgcgtt
+    18901 tgctgttctt acccttgcga tagcgtttgt gaccctgacg cagatgccgg tatagcgtgc
+    18961 caccgttggc cttgtcgcgt gccacatagc ggtatatcca ctcgtggcta accgggcagt
+    19021 taatcatgtc tccaacgcca ctgatttgct cgggactcca gtccgcgacc agcgccatgc
+    19081 aaacaaagtc gatggtatca gacgggacag tacgcttctg actcgtcagc cgtcgtgccg
+    19141 tggcaagttg gtgagcctgc tgcggctgat aggcctgccc agcacaatta cgacgaagct
+    19201 cacgactgat agtcgatgga tgaaccccga gctgtttggc aatgcgggcc tgtgacaggc
+    19261 catggtcacg gaggcaggca atctggtatc gtagcccctc ggtcaactgc tggtatttca
+    19321 tggtgtatcg ctttgtttct ttggcgagaa gaagcgtacc ctaactggta gttgaccgcc
+    19381 tctctcctat gcaccagggg cattgcactt attatctgaa ttcacgctta agatgtatta
+    19441 aggaaggtgc gatttaatcg tcatatgtga gaacataaag ctttctttat catgagctgt
+    19501 ttacaatgcc tgccatttcc agctattcct cccgtaaatc cccgttttct tgaccgtatg
+    19561 aatgttctgg tgccgtggca ggatattgct gataagctgc ttcacgtcta tccgtcatcc
+    19621 gtcgcggccg acggcctttc cccctggtgc ttatgctccg tatccactgc ctgcaactct
+    19681 ggtttgacct cagtgacgga gcggctgaag acgccctgca tgatgtcctg ccgttccgtc
+    19741 aatttgcggg gatctgtgac acggtgccag atcgcacaac catcatgaat ttccgccatt
+    19801 ttctggagaa acatcatgca ggagaacaga tactggcact gattaaccag aaactgaagc
+    19861 aggccggact gatgttacgt cagggcatca ttatcgatgc gaccattatt tccgctccct
+    19921 gttccgtaaa aaataaagcc ggtcaacggg atcctgaaat gcatcagacc cgcaagggaa
+    19981 atcagtggta ctttggtatg aaagctcata ttgctgttga tgcggccaca ggcttgacgg
+    20041 aaaaagtagt gaccacggcg gcaaatgtgc atgacctgaa tgcggcggat agcctgatta
+    20101 cggagccggt agcaattgtc ttcgccgatg ccggatatcg cggggcagaa aaacgggact
+    20161 ctctgacaca tcgggttaaa gagtggttta ttgccaaagg tcctcatgcc gtaaaaaagc
+    20221 tcagacagca tccccggctg aataagcagg cgctgcatga tgaatatgtg aaagcaggta
+    20281 ttagggcaaa ggttgagcat cctttccgga tactgaagtg ccagtttggt ttcagcaaaa
+    20341 cacgattacg gggactgatg aagaaccaca accggctttc aatgctgttt gcaatgtgca
+    20401 atttggtgcg ggcgggacaa ctggcgggga tgtcgtgaaa atcattgtaa tatcagtgga
+    20461 gcagtgacat tttgcttacc ctgagttgat gggggagatt aaatattgtc caaactgggg
+    20521 tgcttacttt gccgcgtaag gaggatatcc aggctctgga tcgtcatgac tgattaaatc
+    20581 gcaccttccc taaataccat gcgggatccg cactattttc ggtgatagca aaaaataaaa
+    20641 aagtataaat aataaacaaa attataagag aaggagaaca tgataagcgc aggccgagca
+    20701 atttaaagaa gtgtgatata caacataaaa cagcagcatg acctttctat atttcgttgc
+    20761 ttatcgaagt gttaattttc gggtggatta ctctgtttgt tgattaataa cggagaaaaa
+    20821 tatgattgct gtaatatttg aggtgcaaat acaacccgac caacaaactc gctatttgac
+    20881 tttagctgag gagttaagac cactattaag tcatgtagct ggttttattt caattgaacg
+    20941 ttttcaaagt ctagctacag aaggaaaaat gttatcgcta tcttggtggg aaaacgaata
+    21001 cgcagttctg caatggaaaa atcatgtttt acatgcgaaa gctcaacaag aagggcgaga
+    21061 gtcaatattt gatttttaca aaattagtat tgctcatatt actcgcgaat attcatttaa
+    21121 aaaggacaag gataatgttt gatgttcacg ttgttttaga taatcaaata ggacaattag
+    21181 cattactagg aaaaacatta ggtaataaag gtattggatt ggaaggggga gggatattta
+    21241 cggttggtga tgaatgccat gctcattttc ttgttgaaca aggaaaggaa gctaaaatag
+    21301 cgctagagca agctggactg ttagtacttg cgatccggac accattaatt cgtaagttaa
+    21361 aacaggaaaa accgggggaa cttggcgaaa tagcacgagt attggcggag aataacatta
+    21421 atattttagt gcaatacagt gaccatgcta accaactgat attaataacg gacaatgata
+    21481 gtatggctgc atctgttacg ctcccttggg caataaagtg aacttgcgat ggctaattta
+    21541 atacgaaaag aggttacctt tgagtcctca aaagccgcga taagggcgga tatgtctgac
+    21601 atttcacgag ttaaaatact cagtgctttt atggatgggc gagcttggac ggccactgaa
+    21661 ctaagttctg tggcgaatat atcagcttca acggcgagca gtcatttatc taaattatta
+    21721 gattgccagc taatcacaat agtagctcaa ggcaagcatc gttattttcg gctagcagga
+    21781 aaagatattg ctgaattgat ggaaagtatg atggggatct ccttaaacca tggcgtgcat
+    21841 gccaaagttt ccacgccagt gcatttacga aaagcacgta cttgctatga tcatttagct
+    21901 ggcgaagttg ccgttaagat ctatgattcc ctttgtcaac agcaatggat cactgaaaat
+    21961 ggttcaatga tcacattaag tggtattcaa tattttcatg aaatgggaat tgacgttcct
+    22021 tccaaacatt cacgtaaaat ctgttgtgcg tgtttagatt ggagtgaacg ccgtttccat
+    22081 ttaggtgggt acgttggagc cgcattattt tcgctttatg aatctaaagg gtggttaact
+    22141 cgacatcttg gttaccgtga agttaccatc acggaaaaag gttatgctgc ttttaagacc
+    22201 cactttcaca tttaagttgt ttttctaatc cgcatatgat caattcaagg ccgaataaga
+    22261 aggctggctc tgcaccttgg tgatcaaata attcgatagc ttgtcgtaat aatggcggca
+    22321 tactatcagt agtaggtgtt tccctttctt ctttagcgac ttgatgctct tgatcttcca
+    22381 atacgcaacc taaagtaaaa tgccccacag cgctgagtgc atataatgca ttctctagtg
+    22441 aaaaaccttg ttggcataaa aggctaattg attttcgaga gtttcatact gtttttctgt
+    22501 aggccgtgta cctaaatgta cttttgctcc atcgcgatga cttagtaaag cacatctaaa
+    22561 acttttagcg ttattacgta aaaaatcttg ccagctttcc ccttctaaag ggcaaaagtg
+    22621 agtatggtgc ctatctaaca tctcaatggc taaggcgtcg agcaaagccc gcttattttt
+    22681 tacatgccaa tacaatgtag gctgctctac acctagcttc tgggcgagtt tacgggttgt
+    22741 taaaccttcg attccgacct cattaagcag ctctaatgcg ctgttaatca ctttactttt
+    22801 atctaatcta gacatcatta attcctaatt tttgttgaca ctctatcatt gatagagtta
+    22861 ttttaccact ccctatcagt gatagagaaa agtgaaatga atagttcgac aaagatcgca
+    22921 ttggtaatta cgttactcga tgccatgggg attggcctta tcatgccagt cttgccaacg
+    22981 ttattacgtg aatttattgc ttcggaagat atcgctaacc actttggcgt attgcttgca
+    23041 ctttatgcgt taatgcaggt tatctttgct ccttggcttg gaaaaatgtc tgaccgattt
+    23101 ggtcggcgcc cagtgctgtt gttgtcatta ataggcgcat cgctggatta cttattgctg
+    23161 gctttttcaa gtgcgctttg gatgctgtat ttaggccgtt tgctttcagg gatcacagga
+    23221 gctactgggg ctgtcgcggc atcggtcatt gccgatacca cctcagcttc tcaacgcgtg
+    23281 aagtggttcg gttggttagg ggcaagtttt gggcttggtt taatagcggg gcctattatt
+    23341 ggtggttttg caggagagat ttcaccgcat agtccctttt ttatcgctgc gttgctaaat
+    23401 attgtcgctt tccttgtggt tatgttttgg ttccgtgaaa ccaaaaatac acgtgataat
+    23461 acagataccg aagtaggggt tgagacgcaa tcgaattcgg tatacatcac tttatttaaa
+    23521 acgatgccca ttttgttgat tatttatttt tcagcgcaat tgataggcca aattcccgca
+    23581 acggtgtggg tgctatttac cgaaaatcgt tttggatgga atagcatgat ggttggcttt
+    23641 tcattagcgg gtcttggtct tttacactca gtattccaag cctttgtggc aggaagaata
+    23701 gccactaaat ggggcgaaaa aacggcagta ctgctcggat ttattgcaga tagtagtgca
+    23761 tttgcctttt tagcgtttat atctgaaggt tggttagttt tccctgtttt aattttattg
+    23821 gctggtggtg ggatcgcttt acctgcatta cagggagtga tgtctatcca aacaaagagt
+    23881 catcagcaag gtgctttaca gggattattg gtgagcctta ccaatgcaac cggtgttatt
+    23941 ggcccattac tgtttgctgt tatttataat cattcactac caatttggga tggctggatt
+    24001 tggattattg gtttagcgtt ttactgtatt attatcctgc tatcgatgac cttcatgtta
+    24061 acccctcaag ctcaggggag taaacaggag acaagtgctt agttatttcg tcaccaaatg
+    24121 atgttattcc gcgaaatata atgaccctct tgataaccca agagggcatt ttttacgata
+    24181 aagaagattt agcttcaaat aaaacctatc tattttattt atctttcaag ctcaataaaa
+    24241 agccgcggta aatagcaata aattggcctt ttttatcggc aagctctttt aggtttttcg
+    24301 catgtattgc gatatgcata aaccagccat tgagtaagtt tttaagcaca tcatcatcat
+    24361 aagctttaag ttggttctct tggatcaatt tgctgacaat ggcgtttacc ttaccagtaa
+    24421 tgtattcaag gctaattttt tcaagttcat tccaaccaat gataggcatc acttcttgga
+    24481 tagggataag gtttttatta ttatcaataa tataatcaag ataatgttca aatatacttt
+    24541 ctaaggcaga ccaaccattt gttaaatcag tttttgttgt gatgtaggca tcaatcataa
+    24601 ttaattgctg cttataacag gcactgagta attgtttttt atttttaaag tgatgataaa
+    24661 aggcaccttt ggtcaccaac gcttttcccg agatctcatc tattgaaaca gcttgatagc
+    24721 ctttttcaac aaacaatatt cgtgctgagt taaccagtga ttgataggta ctcttaaaat
+    24781 tttcttgttg atgattttta ttttccatga tagatttaaa ataacatacc gtcagtatgt
+    24841 ttatggtatc atgatgatgt ggtcgtgaca atcttaagaa catttaggtt attttatgta
+    24901 tattgaacag cattctcgct atcaaaataa agctaataac atccaattaa gatatgatga
+    24961 taagcagttt catacaacgg ttatcaaaga tgttctatta tggattgaac ataatttaga
+    25021 tcagtcttta ctgcttgatg atgtggcgaa taaagcgggt tataccaagt ggtattttca
+    25081 gcggctgttc aaaaaagtaa caggggtcac actggctagc tatattcgtg ctcgtcgttt
+    25141 gacgaaagcg gctgttgagt tgaggttgac gaaaaaaact atccttgaga tcgcattaaa
+    25201 atatcaattt gattcccaac aatcttttac acgtcgattt aagtacattt ttaaggttac
+    25261 accaagttat tatcggcgta ataaattatg ggaattggag gcaatgcact gagagatccc
+    25321 ctcataattt ccccaaagcg taaccatgtg tgaataaatt ttgagctagt agggttgcag
+    25381 ccacgagtaa gtcttccctt gttattgtgt agccagaatg ccgcaaaact tccatgccta
+    25441 agcgaactgt tgagagtacg tttcgatttc tgactgtgtt agcctggaag tgcttgtccc
+    25501 aaccttgttt ctgagcatga acgcccgcaa gccaacatgt tagttgaagc atcagggcga
+    25561 ttagcagcat gatatcaaaa cgctctgagc tgctcgttcg gctatggcgt aggcctagtc
+    25621 cgtaggcagg acttttcaag tctcggaagg tttcttcaat ctgcattcgc ttcgaataga
+    25681 tattaacaag ttgtttgggt gttcgaattt caacaggtaa gttagttgct agaacccatg
+    25741 gctcctttgc cgacgctgag tagattttag gtgacgggtg gtgacaatga gtccgtgtcg
+    25801 agcgctgatt ttttcggcct ttagagcgag atttatacaa tagaatttgg catgagattg
+    25861 gattgctttt agtcagcctc ttatagccta aagtctttga gtgactagat gacatatcat
+    25921 gtaagttgct gataggtttc cagttttccg ctcctaggtc tgcatattgt acttttcctc
+    25981 ttactcgact taaccagtac caacccagct tctcaacgga tttataccat ggcactttaa
+    26041 agccagcatc actgacaatg agcggtgtgg tgttactcgg tagaatgctc gcaaggtcgg
+    26101 ctagaaattg gtcatgagct ttctttgaac attgctctga aagcgggaac gctttctcat
+    26161 aaagagtaac agaacgaccg tgtagtgcga ctgaagctcg caataccata agtcgttttt
+    26221 gctcacgaat atcagaccag tcaacaagta caatgggcat cgtattgccc gaacagataa
+    26281 agctagcatg ccaacggtat acagcgagtc gctctttgtg gaggtgacga ttacctaaca
+    26341 atcggtcgat tcgtttgatg ttatgttttg ttctcgcttt ggttggcagg ttacggccaa
+    26401 gttcggtaag agtgagagtt ttacagtcaa gtaatgcgtg gcaagccaac gttaagctgt
+    26461 tgagtcgttt taagtgtaat tcggggcaga attggtaaag agagtcgtgt aaaatatcga
+    26521 gttcgcacat cttgttgtct gattattgat ttttcgcgaa accatttgat catatgacaa
+    26581 gatgtgtatc caccttaact taatgatttt taccaaaatc attaggggat tcatcagcac
+    26641 tttgattggg atatatatca atcaaaaaga acaccactta agttagggga tgtttcgtgt
+    26701 actatctgcg ctaaacagtt attgggaatg ccaaccattc atcgcttaat tgaaaaacaa
+    26761 ttaagttatg attggggtgc taccagcgtt gaagattgga ttgaaaacga tcatgccgta
+    26821 gagaaggata aacgcattgt gagccagcat tttattgatg gggaaagtgt ttttatcatc
+    26881 actgaagcag atcgtagctc tacaacgatt atgctcggat atgaatatta atctatttac
+    26941 cttgaaagcc tatctacata aagtagatag gcttttcctt tttagggtat gataaataaa
+    27001 actcttttta atagtataac gatgccttat ttaacctctt ctcaaactga atgcttaaaa
+    27061 tggttagctc ttatcacgat gattatcgat cacattggtg tggctttttc aaatgcttac
+    27121 cctgctctat cctggtgtcg ggtgataggg cgattttcct acgtggcgtt tggatttatc
+    27181 atcgcactta atttatctcg agataaagtg aactttaaaa gttatttcac ttggatgata
+    27241 gcaaccgcat ttttatctga aatcagtttt acgcttttcg agcctaatta tgaccgttta
+    27301 aatgtcctat ttcagttttt atctgtaatc ggggtaatat gggtatataa aaaccgtcaa
+    27361 gacttaaata gctgggtcat gttttttgga ttgggctttt ttattattct ttccgcactc
+    27421 tctgattatg gtttacctgg gcttttatat tgcattggtt gttatctctt tttgcaaaca
+    27481 aaagatactc aatatcgtct tattacgatg ccaacctgtg tattgctcgc acttttcgtc
+    27541 aatcatagtt ttattgataa tttcggggaa actattgttg aaacaatcag tgttgtaact
+    27601 gttgtggtcg gtacaatgat atttattctt caccctaaag gccttcgcca atgtaatctc
+    27661 tcaatctctc gaatgcctaa gcttttcttt tatctttttt acccggtgca cttaacaatt
+    27721 attgttggcg ttaaatatat ttttctcagc taatttttct atctttactt caagaagaat
+    27781 aaattattca aattcaggtg agagttatcc atattaaggc attatttaaa taccttaatt
+    27841 ggagcctcat catgaaaaaa attctattaa ccacttttgc attggttgtg ctttcaggtt
+    27901 gtgcacataa acaacaaaca gccgatgagc aacaagcact agaaaatcca aatattcaac
+    27961 aaggtcagca tcaagtttta caaccggaag atagaattgt tcgtccggat atttacacag
+    28021 actatcagcc tgaacgtaca gaagtgttac gtgaaggtcg atacacttta attaatttct
+    28081 ctccggaaga aggtcaaaaa taccttctag accaaagtgt cactgtcaac atgttaggta
+    28141 aaaagaaacg agccttaacg gcaaccgttg agcagggatt acgcacgacg ttaaaagata
+    28201 caggcctttc actttgccat ggctttggtc agaatgaacc aacactttct acgctttatt
+    28261 cccgtccatt accaaaagta cattatcaat ttggcccgat ggctttacgt gatgcccttc
+    28321 aaatgttagc agggccggct tatgaaatta ctatcaatga cgtttctcgt accgtttgtt
+    28381 ttaaattacg cccagctgta ccggaacgtg ctacagggga aaagccgaaa gtagaaacca
+    28441 caacaacgac aacaaccaca acagaaatca tcgaggaata agcaatgaat catgttaaaa
+    28501 aaatatccta tgtggcgatg atattaggga tgttttctac tgctgtattt gctgatgtca
+    28561 cagcagcgaa tacgctggct actcaatcct taaaccagca aaacttggtg acaaataaat
+    28621 taaatcaaca agagttatta gctaagtctc aggagtgggg tttaactgag caagaatggc
+    28681 aacgctacca agagcttaat caaggtgctc gtggtatatg gtcgccaggt cttgaccctt
+    28741 taacctcgct tggtgtggag tctcgaaatg agcaggaaag agagcgttat gctcgactac
+    28801 tggcaaaaaa aatgcacgac cgcatggagc gagagctgca gttccaacgc acttatgatc
+    28861 gcgtatttgc tgaaatgtat ccaaatgagc aaccatttaa ggttgaacct catatttcag
+    28921 agcggtttgg acgggtgatt tattttactc gcctagaaaa ttgtgacaaa tgtgaagcga
+    28981 atgctgatcg tgtactgcaa tatgtgaatg ataaaacgcc tatagatatt tattttgttg
+    29041 gcgtgaagaa taatgagcaa atctataatt gggcgaaaaa acataatatc gacccaaata
+    29101 aagtgaatag aaaattaatt acccttaatc atgataatgg agcctggtta cagtatgcag
+    29161 atggcaaaat gcctgctgca ttccaaattc aacaggatgg gcaatggcaa caaatcgtct
+    29221 attaaaaatc gtatttagct taatcggtct tggagttgcg actcactccg ttgcatttaa
+    29281 tggctttgga actgatattg atggctatat taaagatgca tctaatcgct accaggtcga
+    29341 tgaagcgatg ctacgtgggt tagtaaaaat tgaagatggg tggtatggaa atgtttcccc
+    29401 aaccggggca accggtgtgg ggcaatttac ccggggtacc tggaattggc ttgccacaac
+    29461 agatgagggg cgagccttag gtatgactca aatcactcgt tacaatcgtg atacaccttt
+    29521 cgaccctaga aaaaacaatc aacttaacac tctagcaacc gcacttttag ctagatggca
+    29581 tattaatcag ttttttgagc gaggcataaa accatcccat gaaaatttat atcttgctca
+    29641 taatatcggt atagatgggt tacatcgagc gctacaaggt agagcaacac gtgaagatat
+    29701 tctaaatatg aaacgtaacg ggatgaaaaa aggaatgtcg gtacaaggct ttcttgttta
+    29761 tcaaagtgag cgttttaatg tcagtaaaca aatagctaac ttccagcgcc cttcagtatc
+    29821 accacgttat caaattgaga acaaaccatt accagccaat ttacattggg tttctccaac
+    29881 agaaaccgct atgcgttggg ttgagccagc gtcaaatcaa acaaatcaac aagctattcg
+    29941 ttggcaaaat ccaaccaatt aatacgagaa cagaattatg cagtataaat cctttttcct
+    30001 ctctttggtc tgcttaggag cagtagttca ggcgcaagct gaattaaaag ttattggtga
+    30061 ttttggcgga gaaagtgcag tccgttttta tgaagcatta caaccggatg aatcaatggt
+    30121 tcaagcctac cctaatagcg ttccttcaac attgaccgaa gcggatattt tacctgttat
+    30181 ctcacataga atgacaccgg gccaaataca accagtcaga atgaatcttc ctggaatgtt
+    30241 gcctattttt cttattggaa cagataactt atctaaaaat tggctacacg ctaattataa
+    30301 ttaccttaaa aaaattggtg caatgggact tgtagtaagc gttaaaacaa caaacgaatt
+    30361 aagcgagtta cgccaattag cacctgattt aaccttaatg ccaacgccag gggatgactt
+    30421 agcttcaaga ttgaatcttg ctcactaccc tgctttattg acttcagaag gattgtcgca
+    30481 atgagtcaaa aacatgtatt agaaggttta cttagaccgc ctgttgaatt ttttccagct
+    30541 gccgtccatg gtacttgtgc ttttgtttgt tgcggtgcgc cttggtcgct cgcattaaat
+    30601 cctcttattg gatatggatt aggggctgct ttcgcaggta tgggggttat gcgttttcgt
+    30661 caaggcatgg aaattgtacg ctatcaccga aatttacgca gactccctca ctatgctttg
+    30721 accagtcgtc aaattccagt aagtaaaaaa gccttgttct taggacgagg ctttgaatgg
+    30781 gagccaaagc atacgcaacg tctttatgac tgtttctctg caaatgggca aatttattgg
+    30841 aaaaatggga agtggtttaa agccgctcgt gattatgaaa aagtgcatga taattggtta
+    30901 tctagactca cttcaatgga ctctccatta aatccagtca gaccgctacc gccagttggc
+    30961 ggcattccgg tgatgcatgg tgtggagccg aatgaacgcg atattatgct tccgttaggc
+    31021 gaccgtggcg gtcatacctt agtatttggt acaactggcg tagggaaaac tcgttttgct
+    31081 gaagtgcttg ttacacaaga tatacatcga ggtaaaacac ctgaagagcg tgaagtggtt
+    31141 gtcttttttg atccgaaagg cgacccggat atgttaaaac gaatgtatgc agaagcaaaa
+    31201 cgtgctgggc gtgaaaatga attttatgta ttccatttag ggcatccgga aatttctgct
+    31261 cgatataacc cagttggtcg cttcggtcga atttctgaag tggcaggacg tatttctggg
+    31321 caattaagtg gagctggaaa tagtgcagca tttaaagagt ttgcgtggcg ttttgtgaat
+    31381 attgtctccc gtgcattggt tgaaatggga aaacgcccag actatgtgca aatctcgcgt
+    31441 tttgtacaaa atattgatgc acttttctta gactacgcaa aacttcattt cgatgccgtc
+    31501 gataagaaaa tatggccaac gttggcttca gttgcggcta acttagatgt aaaaaattta
+    31561 ccgttctcga tgaaagatag accgcttatt gctgttatta accaatatat tttagagaat
+    31621 aaaatttttg acccagtact tgaaggatta tcaagtgcgg tacgttacga caaaacctat
+    31681 tttgataaaa ttgtggcatc gcttttaccg ttacttgaaa aactcactac aggtaaaact
+    31741 gcagagcttc tctcgcctga ttacactgat attcatgatg agcgccctat ctttgattgg
+    31801 gaatctatta ttcgtaaaag agggattgtt tacgttggtt tagacgcgct atctgatgcg
+    31861 actgtcgctg cagctgtggg taatagtatg tttgctgatt tggtatcaat ggctggtcat
+    31921 atttataaat ttggcgtaga tgaggggttg ccagatgcat ttaaaactaa aagcaaaccg
+    31981 cctaaaatca accttcattg cgatgagttt aatgaattaa tgggggatga attcattcca
+    32041 ctgatcaata aaggtcgtgg tgcgggaatg caggtaacag cctatactca aacactttca
+    32101 gatattgaag ctcgtattgg aagtaaagcg aaaacgggac aaacaacagg taacttcaaa
+    32161 tacactttta tgttccgggt aaaagagccg gccactgcag agtttttaac gcgtcagctc
+    32221 aacgatgtca caatttatca aagcatggtg acatcaagta cgacagataa cagcaatccg
+    32281 gatgatggca aggcgtttac gtctaatact ggtgaacgta tttctgaaaa aatggtgcca
+    32341 atgctatcgc cagcacatat tacaaattta ccaaaaggac aggcatttgc tcttcttgaa
+    32401 gggagtacgc tttataaatt aagaatgcct ttacctgcgg ttgataaaga tgatgtgatg
+    32461 ccggaatcac ttcaagaatt gacggcttat atgcgcaaaa actaccatat ttctccaaat
+    32521 tggtggcaat ctgcattttc tgattatgcg ccaagtcaag atatagcaac cgcttttcag
+    32581 tcaatgtcat taaatcgtgc accttcacac gcaggagaag aaatgctttt cggggatgtt
+    32641 gaagctccag ttgctgaaga tatggaagat gaagatattg atcagaatga tgatacagat
+    32701 gaggatgatt ttgatgacac agataattaa tcagccggat atgaacttgc ttgatattcc
+    32761 ggatatgagc gtagatttca attcagtcac tagctgttct tgtgggttgg aaaacgctga
+    32821 tgaattactt aattactttt taccttattt ggaagattgg aataatcagc gttataccac
+    32881 acatgaattt gcgaaaaagt atgcaaataa aggcatctca ctttggacgg ctaatgatgt
+    32941 aaaaaaatct gaaaatggca tccaggcaat tcaaattttt ttagacggtg aagtaaaagg
+    33001 gtatcttttc tttcactgta aattatctcc agcgggaaca ttacagtaat ggcagaacaa
+    33061 caagtcaaaa aaaagaaaaa gggtcttttt tactacatta atgcggtatt agccgcctta
+    33121 tttggttccc tgattttgag cattattctt gaatggttag gtattgcatt tttatggcct
+    33181 gaagaaggtc atttacacag tcaaaaaatg atgctaactg agcttggatg gctttctgat
+    33241 agtctaacga gaggtctttt ctatcattct ccaaaagagc tggctgaagg tcttattttg
+    33301 tcattacatg aatggctttt tgtgaaaaca ggtgtaaaag attggttagc caaccctcgt
+    33361 gagcatagtg gcgtaggttt gtgggtgtat cattatgggc gagcttatat tgagtcagtg
+    33421 atttatgttt ttatcacctt tgttattcga cttgtagtga ttgtttttac gtccccactc
+    33481 tttttgttag ccgcatttgc gggctttact gaaggattaa tgatgcgtga ccgtcgtaaa
+    33541 tttggtgcgg gcagagagtc tagttttctt tatcatcatg cacgtcgatt aattggcccg
+    33601 attatgttgt cggcatgggt attgtatctt tctatcccaa tttctattta cccgaatata
+    33661 attttggtgc cagctgcatt tctatttgga ctatccatct gtgtaacggc agcgagcttt
+    33721 aaaaaatacc tttaatattc ctctatgttg tcattatggg tgcttatttt tccaagaata
+    33781 agcgcccttt tttatcacta aaaactgttt tgaatttaaa aagagtttct cattaaattt
+    33841 ccctctcttc tttggcactc tttgcttgga atctgtttca agtaaggagt tctccgtgac
+    33901 taaaaatatt ttcagtttat ctctagcaat agggttattg tttggcgcta taagtgctca
+    33961 agcaacagag caagagcatt tagcgcaagc aattaaacag ttggatgcag caaaactctc
+    34021 attacagcga gcagctgcaa gtgcaaaggt ttctgcgaaa agtcgagaat attttgatta
+    34081 cgcttcagcg catcaagata ttactactgt gcaggcaggg attaaacaat atattaaccc
+    34141 ttcccgggct attcctagaa atcctaaagc tattcgtaac ttaaaagaag attatcttaa
+    34201 tcttcggagt caataggaca tgagtaacgc taatttccct tctgtttcac cgttagacag
+    34261 cttttatgct gtaagtggtt tagatccgct aaaactgaaa atcatgttgg ccattatttt
+    34321 gattgccgta ttactacttg cgtatatgtg gtcaactaat catggctaca aaggcatggt
+    34381 gaatgatggt gacatttggt cattctttaa actgattcta tggggcgcag cattaattat
+    34441 atgtgttgtc agctttttta tttaataaac cataaggaca tctcatgaag ttgattaaat
+    34501 ccttctttca gaatgtttca agtcgttttc ttgcggtagt aactttactt tggttatccg
+    34561 ttgaaaatgc atttgctaca ggcggtggta atggtatcaa tgcctctaaa atccctgatt
+    34621 ttaaaatccc aggcgtagat agcaatacca aagacccgat ggaaattatc tatcttgttg
+    34681 ctaaatcatt ggcaaccctg tttgcaattt tatttgcagc atggtcaatc atgacagtgg
+    34741 ttaaagcatt aattaaaacc tataacgcag cgactgacga aaatgacaaa aaaggatggg
+    34801 gcccatttat tatcgctctt attcttggtt tcattttaat tttcttcagc ctctggttgg
+    34861 tgaaattggc tatcggtctg ttttaattat ctctgtgagg tcaagatgtc aagtgataaa
+    34921 gagcaaacga tcccctttct tcctactcga ttaaatcgtg aatcgagtgt gtatggcggg
+    34981 ttatctgtaa gtgaatttat gttggctgca gcaatgggat ttatcttagg tgcagtgctt
+    35041 ggcctccttt gttgttttgc cttaggcttt gatttttggt tgttaattcc gtctctcgcc
+    35101 atgttgtttt gcattctttc tgtggtgatt ggcaaagtga ttattgcgcg ccttaaacga
+    35161 ggtaagccga aagcctactt gaatcgaatg attgaggtta aattagatgg aatattaggg
+    35221 gggaatcgct ttatctcccg tcaaggcact tggtctattc gccgagttaa aaaataagag
+    35281 agtttattat gaaagactta aaagggattg ttcatcaaaa aaatcgcgaa atcatgaccg
+    35341 ggcgaattgc tatcggtgca ttgcttgtga tttgtttggt gctatgtgcc attattttta
+    35401 ccgcgccaag tcggttaatg atttataacc caccggattt acgtgcggga agtcaacgcc
+    35461 cttggtggga agtgccaaaa tcaaccgttt atgcctttgc ttatcaaacc ttccagcagt
+    35521 taaaccgctg gatggagaat ggcgaggaag aatacaaatt aaatattgaa agaaataaag
+    35581 cctttattac gccaagttgc caagaatttt tgaagaaaga ctactatgac cgtttatcta
+    35641 acggtgaatt acgggaacgt gcacgtggtg tttatgaaat tgtgggacgt ggatttaaag
+    35701 ataatagtgt gattgttcat agccccgata gctggacggt taatcttgat ttaagtggta
+    35761 gatggagtat ttcaaaagat gaaccagtaa aacgtgtttt aacccgcttc ccggtcaata
+    35821 tcgtgcgcat ggaaacagat ttacagaaca atccttgggg attgggattt aactgctaca
+    35881 gctcaattcc attacgttta gaagcaaaag aattttagag aaggggataa ccaataatga
+    35941 aaaaactcac tttgttactg agcgcggctt ttatcttttc accaatgacg gcatctgccg
+    36001 atgtgttaat gaaatgggcg cgcaaaccgt tacctattga cttacaaatc gaaaaagaac
+    36061 gtattctatt cgtagataaa aatgtaaaag taggttatcc acctgaatta gatagcaagc
+    36121 ttcgcattca atcaactggc ggtgcggttt atttaaaagc aactgcagat ttcccaaaaa
+    36181 cacgcttaca gcttatggat gttgcaaccg gagaaataat cttacttgat gtgcaagcga
+    36241 agcattctgt tgccaatgca agtgagccaa ttcgttttgt ttatgaaaat aaagttgaaa
+    36301 aacaaacaac ggcttatggc caagatgcaa atgcatataa cgaaccaatg ccaaatgcgc
+    36361 gtccggcact ccccgctcca gctgcattaa cacgttatgc cgcacaaatg ttttatgcgc
+    36421 ctttacgttc agttgagcct ttggaaggtg tgcgccaagt ttcacctcac cttcctacac
+    36481 cgcttaaaac gctcttacct gcattgcctg tgcgagctac tccattactc agctggcaac
+    36541 ttgatgggta tgttgtcact gcggttcgct tgcaaaacca ggggcaatct cgcattgatt
+    36601 tagatcctcg agagcttcaa ggtcgattct atgcagcaac atttcagcat aattggcttg
+    36661 gggggcatgg tacacctgaa gataccacaa cgttatatct tgtgacagaa ggttcaccta
+    36721 atcattctgt tatccctcag tcaaattcat acaaaccgaa aaaattgaaa aaagtcacca
+    36781 caacagtgac aactcaaacg aaataaggag agaacaatgc aaatgaaagc aaataaagcg
+    36841 ttctatgtta ttggtgggat taccgcgctt gtcgtgacgc tgatggctgg atttcttttc
+    36901 tccggtagta gctcaacaac tacagcagaa accaaaaaag aagatgcttt agatctctct
+    36961 ctcaaagatt tatcaccgga agagctacgc tcaatggggc ttgagggtga tacatctaaa
+    37021 gatacggtga gaacacttat tggtaaagtg aaggaaaata acaaacgctt tgatgaagtg
+    37081 attttacaaa atgaccgctt ggtaaaagag aatgagcagt taaaaaatca agcaaataat
+    37141 acggattatc aaattcaaca ggcggtacaa gcagaaacag gggcgttaat taatgagatt
+    37201 aatgcgttaa aagatcaggt tgtacaagct ggtaatcaag ttgtagggaa tggaaatgcc
+    37261 caggcaaatc ccaatgctcc tctgccaata aacggagcaa caactggccc tcaggttgaa
+    37321 actcgagggg gaattaattg ggtgaaccct agtgatatgc caactacaga cagccaaggg
+    37381 aatgctctac aaggtattgg tgtaaatggt gcaggaatcg gttttcccaa aaccttcgat
+    37441 aacaatgtga atgacatccg aaaatctaat gatggattgc aatctagtac aggtaataat
+    37501 gcaatattta ataccgctac accatttttc acaattgcag ctaactctac tttaactaat
+    37561 tctgttgcta tgactgcgct tgttgggcgt gtgccgattg ataataatgt gaccgagcct
+    37621 tatccgttta aattgcttat tggtcgagat aacttaattg caaatggtat tgaactgccg
+    37681 gatattgaag gcgcaattgt ctctggaaca gcaagcggtg actggacgct atcttgtgtt
+    37741 cgtggtgatg tgaaaagctt aacttttgtg tttagcgatg ggcgcattgt ttcaacggat
+    37801 gattctaaca ataaaattgg ctggttatct gatccacatg gtgtgccttg cattcctgga
+    37861 gaacgcagaa cgaatgctcc ggaatatcta acgaccaact tcttcttaac gggggcttca
+    37921 gcagctgcac aaggcttatc atcttctcaa tcaacaacag tggttgatgg cggtgcagta
+    37981 attggtgcgg taacgggtaa taacggtaag tatattcttg gtcaagcgtt aggtggcggt
+    38041 ttgagagaaa cagcagactg gttccgtcag cgttatggcc aaatgtttga tgcggtatat
+    38101 gttccaccgg gtaaagaagt ggctgtacac atcgaaaaac aaattgatat tgattatgac
+    38161 cgcatgtctc gaaaagtgaa atacggacaa gcctcaagac aacctaactt ggattaagga
+    38221 gcaataatga aagttttaat gatgatgggc gtgattttag ccgcaagcag tgttttgact
+    38281 ggctgctcaa cttctcaagg tgatttattg ccaactggtg atgcaacaat gaaagatatt
+    38341 tggaataaag gtggtaatga tagcaatatt acatcttatc ggacaccgaa tggccgtctt
+    38401 attgatgcac caaattacgt ttcatctcgt gaacaacaaa cttatacccg tacagcagaa
+    38461 aacgaggtga aaaacctttt ccctcgttta ccaaaccctg atttagtgat gtatgtttat
+    38521 ccgcacttaa ctgattcctc agagcaaatg cctgtaccag gttattcttc agtaattcca
+    38581 ttttatggac gtgtgcaata tgcccaaccg ggtgagcgta caagaatgta ctagatgagg
+    38641 taagaaacga tggcattatt ccaagacgtg ttagaggctt tcttccctgc taaaaagggt
+    38701 gataagcctc aacctaaaaa ggaacctatc ctaacatcca ttgcaccgga agaagcacag
+    38761 caggatgata ccaataacgt agaagagacg attgaaatca ctcctgttat gcgtaataga
+    38821 aaaatgacca gagagcaaca tgttaaaatg ctttatgggc gcgatccctc ttttatctcc
+    38881 aatcttcctt atgcggaata tttggaagaa gaaggcgtaa tgctttttga tgatgctaaa
+    38941 agtgcaggtg cggtatttga tattaagcct ataggaactg agggaagaag cagcgactat
+    39001 cttaatcgcg ttcgcacatt ggttaaagat gccttacagg atagtttcga tgaacttgat
+    39061 accaatcctt acgttgtaca attctattgc caggatgaca aggatttaag cggttatgtt
+    39121 gagaatctga gacagtacat taaaaccact tcacctgaag cgagcggtag tgagtttaca
+    39181 gaacagtggc ttggtgaaat ggagcgtcac ttaaaagcag taggtaaacc aggtgggctt
+    39241 tttgttgatg accgggtaac aaatacggca tgggctggaa aagtgcgtaa aacacgcatg
+    39301 gttatttatc gttatgctgg aaataatgag acagatacaa tcgagaaatt aaatacagct
+    39361 tgtgatcgtg ttcaaagtgc ttttatcaca gcaggattaa ccatggaacg ccaaaatgaa
+    39421 actcaaattc atcgttggtt attagaatgg tttaatccaa atccatcacg ctattttaac
+    39481 ggactcgatg ataaagcttg ctatgatctt ttatcactct ctaaggatga ctctgctcta
+    39541 ccattacaag accaagattt tagtgaaaat ctctttttta cgccaccgga aagtaaaaat
+    39601 ggctattggt attttaatga gcaacctcac gaagtcattg tagttgataa tattcgtaag
+    39661 cagccagatg gtggccacat gacaggcgaa gtcactcgag gtcgtaatat taatgcacta
+    39721 tttgatttat tgccggaatc aaccattatg gctatcactg tagtcattca tcctcaagat
+    39781 aaattacagg cgcatttaga caaattaagt agtcgagctg tcggtaataa ctatgagtct
+    39841 atctatttaa aacaagatgc cctcacagta actgaatatt taaaagacgg acacaagctt
+    39901 tatcaagctg gcatggtttt ctatgtaaga gggaaagacg atcaagagct acgcattcgc
+    39961 tcaagagaat taagaacggt tttactcagt aataatttag tgccggtaaa agaaggcaac
+    40021 gaagttgcgc ctcttaatag ctatttacgc tggctaccga tgaattttaa tcctcaatta
+    40081 gatgcaaaat ctcgttttta taccaaatat tattgggtgc aacacattgc gaatatgtta
+    40141 cctgtatttg gccgtgagac aggaacggga cacccaggaa tcacctattt taaccgcggt
+    40201 ggaagcccat tagattttga cccactaaac cctaaagacc ggactaaaaa tgcgcataag
+    40261 ctcattttag gccctacagg ttcaggtaaa tcggcaacat taaccgcaca aatggcgcaa
+    40321 ctgatggctg tgcaccgtcc tcgcttgttt attgtagaag caggtaactc ttttggattg
+    40381 ttttcagatt atgcggagcg ttacggttta acggttaacc gggtatctct tgagccaagt
+    40441 agtaacatcg ctttaccgct cttctctgaa gcgcatcgtt tattggaaat ggatatcgat
+    40501 cttgaagttc aagatgatga cgataatgaa gatgaaggcg aggaacaacg agacttactt
+    40561 gcggaaatgg aattaaccgc tcgcttaatg atcaccgggg gagaagcgaa ggaagatgag
+    40621 aaaatgagcc gtgctgaccg ctcggctatt cgccaggcta ttttattagc tgcagagaaa
+    40681 acttcacaag agaccccacc tcgtcaagtt ttaaccgggg atgtaaaagc cgcacttgag
+    40741 gagttaagtc gtcgccaaga tattcgcccg gaacgtgcat ctcgtcttgc agatatggcc
+    40801 gaagcaatgg atattttctg cactggggta aatggtcgat tctttaaccg tgaaggggaa
+    40861 atttggcctg aagctgatat tacacttgtc gatttggcga tgtttgcacg tgatggttat
+    40921 gaagctgaat tagcgatttc gtatatttcc ctaattaacc atatcaactc cttaggtgaa
+    40981 aaatatcaac acagtttccg ccctatcgtg aacattacgg atgagtcgca tatcattacc
+    41041 gtaaatccac ttctagcgaa gttcctggtt aaaggttcta aaatgtggcg taaattgggt
+    41101 atttggttat ggttggctac acagaatatg gctgacttcc ctgatgaatc tgataaatta
+    41161 ctcagcatgg ttgaatggtg ggaattactt aacctttcta atgatgaagt cgaacaggta
+    41221 aaccgtttcc gtcgtttatc cgaagctcag aaaatgatgt tgttatctgc gaaaaaagca
+    41281 gataagaaat atactgaagg tgtggtgctt gcaaccaata tggaagcctt attccgtgtt
+    41341 gttccaccta gtctttactt agcactaggg atgaccgaaa aacacgagaa agcacaacgt
+    41401 aaacaattaa tgatggaaca taactgtact gagttagatg cggcattgat ggttgctaaa
+    41461 gacttagaca aaaaacgggg gattgcagtc aatgacgaac ttaactcaat cgcagcctaa
+    41521 tcctaatatg acttttcatc gtatttttga cattgggcct cgcatccaat cacttgcttt
+    41581 tacctctgat gaggtaaaag cctacgtgct gcatttcatt gctaaaatta agacaaaaat
+    41641 tggttcaaac tgccaattaa gcgcatttcc tcagcgtgta tttactcaat caagttggaa
+    41701 agtacacgct aaaggagata aaggtgaagt gcatttatta tttaatatct ccgggcgttt
+    41761 ccaattacct gtgttttctt ccgaaaactg gccagctaga cttaatgtgg aattaaccga
+    41821 tcacgttgat gcatattggt taattcaata tttgctttgg aaattagctg caatttgggg
+    41881 atcccctgct gacttatccc cagtttttgg ggataagact gtgggtaatg aataaggagt
+    41941 cctgatgtct caaggtaaaa agccacaatc aagaggatgg cttaaaaatg tactccgttt
+    42001 tattgctatc cttttatttt tatttttagc ccttactgca attggcatct ttgcaactca
+    42061 atatcttcag aatgttgata ttcgtgcttg gtttattaaa acgcagtgga tatggtttgc
+    42121 agtacgatta ttactatatg gtgcgattat gttgatggtc tattccattt ctcgtcgcca
+    42181 accatcttct atgccggcaa aagcaaaatg gttaattgcg atgattttaa tttttgctga
+    42241 agcgattaca cagattactt tagcttaggg ggaaatatga cattctcagt tgacagttat
+    42301 cttgaatatt tcctgactct acttggttgg ttgcttaata acggagtttt tgcgttattt
+    42361 gttggaacag ggttatggct tcttccgctt atcggaatga tctttaaaat ttggcgtgac
+    42421 gtagctaaac aaggggatga tgaaggtgag aaaggggatt tattaatccg ctggctcaca
+    42481 atcgaactcc ttccagcaat gcttatcgtt gttttgacat tagcccctct tatcccggta
+    42541 tcattgaata accttgaata caatgaacgt tcatctattc aatgtggcta taaagttcct
+    42601 gcttccccgg ataaatcagg ctatgcgcca tttacgacaa catttggaga cagacaagcc
+    42661 cgaattccta tttggtggat gttgatgcac aaagtggata aaggtctaac ttatggtatg
+    42721 actgcagtat tgccttgcca gcgtgattta cgtcaggtta gatttgaagt gcaacatcaa
+    42781 aaaatcacta acccagcatt attaactgaa gtgcagcaat ttgtgcaaca atgctatatc
+    42841 ccggctcgtc aaaaattaca aacaagccaa cttgccttga gtccggcaca aatccgcgaa
+    42901 acatcctggt taggtggtaa attgcttatt aataacagcg agctctaccc tcgttttagg
+    42961 gctcagcaac ctattagcac gttcccttat gatgcaaatc gagatgcggc attacctaat
+    43021 tcgggaaaag gtggtttccc aagttgtgat caatggtggg atgaaagtgg agctggatta
+    43081 aaatctcgct tacttacaga tatgcgtcaa aacttatctg cccaggtgag tgatttcttt
+    43141 aactctatcg acaaccaaga tgaagcttta ttgagaacac ttttacgctc tgaaaacata
+    43201 gatgtttcaa aagggaaaat gtatcaaggt tacggtggta gcgtggatgc tggattttgg
+    43261 aatgcggtta ctcgactcac ctcaactgta ggaacggctg ttggaagttt ggctatattc
+    43321 ccaggcctag atgcaatgcg acaagcccta ccaatggttc aagcctttat gattatggct
+    43381 gtaattattt taattccaat tattacgatt ttaagtggct ttgctattaa aactgtaatg
+    43441 acattaagct tcgtatattt tgcactcatt acaaccacat tttggtggga gttagcaaga
+    43501 tggcttgatt catacctaat agaaattatg tatagttctc catctcataa tatgctaaac
+    43561 atccactttt tagaaaatgc agaagatgac attatttcta actttgtgat ggggagttta
+    43621 tttataattt tacctggttt atggtttgga gcaatgacct gggctggaat tcgagtgggt
+    43681 ggcgagctta gcgctgccat tgcgaaagga actgaatcat cccaaaaatc aggggggcaa
+    43741 tttggagata aaattagtaa aaaaatataa cgtataaaaa aagtccatct gttagacaga
+    43801 tggacttttt tatttacgaa aataattaat cgtcatcatc tccgtaaact tttactccgt
+    43861 taatataata gccaaacccc tgaaaaccat aatcccactt tccttcttct gatgaatcat
+    43921 catttgcaag taattctgac aacaaagatg tatcacttac tggctcttca tctaaatatt
+    43981 caatgttttt agaaggcttg gttttggaaa ttataactcc ggccaaaatt ggactcgcag
+    44041 caagagcagc agctgtcaca acagctttac gaggctttcc tgggagaaat gacaaagtgc
+    44101 ggtcaatttt cttaaaaaat tgtccgacag tatggccaaa cttttgagcg tccatattct
+    44161 ctctcctatt aaaatactct gacttactct cattgtactc ttattattct tttattaaaa
+    44221 cctcgtttta agcaggaaaa atgtgatttt tgcgatccac gtcgcaaatt ttactcattt
+    44281 tactgattta tctatcccct caatgtacct taacactgca atataaaaat aaaccgtacc
+    44341 aggaggagat atgaaagctc gttttaaaga atggcttatt agtttaaatg aaatagcaat
+    44401 gaatgaatta ggaattgatg aaatgcttac tcatcttgat gatgaactga acatcattaa
+    44461 cggaaatgaa tgtgaacagg agattttaaa taatttaata caaatcttta aaaatagtga
+    44521 ataccactaa aaaaataagc gggaaaatcc cgcttatttt atctctattt acgcttatga
+    44581 agctttcata ctgcgacgtt caaagttttg agttgcacta cccgctttac agctcaccgt
+    44641 atccatttta ctgccattgg tgatataaag cattggctct tcaatactgt tactattgtg
+    44701 tggttgcaca aattgaatcg tgtaacttgt gccattattt ctcatttcta atgagctagt
+    44761 aataaatcct gaaccagtag ctacataaga atcctgatta gcaaaaactt gttttaccgg
+    44821 atttttaaaa gaaacctggc cataagtgaa ttcataatct gaaccatttt ttgttacaga
+    44881 caccgggctt ccgttctctg ctgtacaaga aaaaatatta ttagctgcaa aagctggcgt
+    44941 tgcaaacata gctaccgctc caatagtgag taattttttc ataaaaatat cctttattta
+    45001 ttttcctaaa atgtaatctg cttcttggtt acgacgttta gcatttacac cattattatt
+    45061 gttttgacga tttcttactg catttgctag tgcgttcata tcgcctgatt gcgcagatgc
+    45121 ctgggctgca gcaatcacat cttttgttaa tgagccatag ttataggcat aagatgttaa
+    45181 tgcggcttgg gcatttggcg gtaacttatc ccatgttgaa gatgatacgt tatttctcgc
+    45241 tctatttgca aattcttgtg ttcgacgtgc taaatcacgc tctgcgtcag cgcgactaac
+    45301 tacagtatct ttcgttactt tgacaattgt accatccgct tttgtgatag tatctgaacc
+    45361 atatccagtg cgataagcat tgacatccca atatgcttta tcactaaacc cttcaaattt
+    45421 tttcaacaac cctgtagctt gatcaagtgc agtcccttta attgctggaa ctgatgaata
+    45481 agaagtgtta cctctactat ttccggatgt accgccagtc ccggtgtaag acagggagtt
+    45541 tgacatctga ggcacttcta aagtgacatt gttacgagga atattgatat tgtcagcatc
+    45601 tgccaattca gcagcattgc tattcgtacc attagctaaa tcgctaatcc gtttatctac
+    45661 actgtcacgt gtaacatttc cggttccagt gttatattca cgtagctctt tattttgtag
+    45721 gattgcaact gcggaattcc cagtaagtga tttttgtaga tcaatctcca ttctaatttg
+    45781 acctatttct cggtcaatta aagtgaggat cttttctaac tcttcttgag catctttatt
+    45841 gttggccaca tttggctcac gcatacccgt taaaacagct cgacgtgcaa gaagcatttt
+    45901 ctccattgtt ttagctacag caatttcact ggctaaacgc tgccctaaca cttgagcatc
+    45961 gggatcttct cgtaaagact caattaagcc acgagttaca ggaactgttg tagaacttaa
+    46021 ttctgcaagt acttcaacgg aaggagtgct catgttaagc gctttttgta attgagttac
+    46081 cgtcttaata ttttcttttt caatttcagg tgttaaacca acaccagctc gagagctact
+    46141 agcagtacca caatctgttt tacaagtagt taattgcttc tcaccgatca cattcgttaa
+    46201 ccaatctgtc atatctttag gattatccca agtttgacaa agtaatccgc tacaactact
+    46261 accggagatt cgacctgatt ctaatacatt acgcttgttt tgcatgttgt agccagcttt
+    46321 tgcaacatcc tcaacaattt tgattggttc ttgtccttgg ccaccgcgtt ttttaccccc
+    46381 gacccactct ttaccttcct taccttgaga ttcctcaagt ctctttttag ctcgagtagc
+    46441 atctggttca gttgaagtaa tgtctttaaa ggattccata tccgaacttt gagaccaacg
+    46501 accatttaaa gttgcgtctg caagcttctt agacatttct tcacagctgg tttttaagct
+    46561 attaaaatca attttacctt gatataaacc attcgtaaga atatcgtata actgaggatt
+    46621 tgctcgttga ataaccattg caggtaaact cgccacagct cctgtggctg attcgataac
+    46681 gttactataa agatctttaa atccttcagt taaaccattt aactgatttt taatactcgt
+    46741 cttaatgtca aaattaccgc acatcaagtt agctttccaa ccaatcccaa attcagctgc
+    46801 aggaatcgta cctcgactcg ggggagccat ataacctaca ccgcccccaa tttgataaaa
+    46861 caccatatca gacaaaatag aatcggcttt attaaatcca aacggattac tattagaagc
+    46921 tgatactggc atggttgagg ataagattgc gcacgatata gcaatataag atgctttcag
+    46981 tgcatgattt aatttcatac tcaattcctt tattaattag accaatcaat actatacaaa
+    47041 aatgtttgtc cgcgtttttt acagcacttg taaggacgcc ataatgccca ggcataacta
+    47101 ccattttcag atagcatgct tggcgggtta tcagggaaaa tagcacaaga ctgtgaagta
+    47161 accgggtgaa gctgttgcca tttatgtgtc ttagcatccc cttccttcac cggtggagga
+    47221 aaccactcac catttgattg attatctttt ttcgcaatcg gtatatatac atgtggttga
+    47281 aaggtatttg tcacaacatc tgctactcga tgcgctgtta cagctgaggc tttataatca
+    47341 tgcacctgcg ttaccgtacc cgctcttgga taaatattcc cccaagtatc gccattcgct
+    47401 ctaatttctc tcatacctgg aataagcgct tcaggataaa ccatttccgg aacaccaaat
+    47461 cgccacgcta aaaagtccaa accactcaag taataaggca caaaaggcgt tgtctgactt
+    47521 ttgcagtaat accctgtact attaagcatt tgactaatcg ccccctgcgg atgaccgatt
+    47581 acatcaacat ttttaaatgt tgcttgcgtg tagtctttgt gtggtgattg ataatctcca
+    47641 ccttttaccc cattgctaag gaaattcatt tccacccaag gattttgagc ctgatggtta
+    47701 taacttgaaa ccactacctc gggaatatag tgttttattt tcgtagatgt ccggatttta
+    47761 cagccgaatt ttgtacaaaa taaccaaaaa caagtgccaa caaccttata atctaaacaa
+    47821 cttgtggaag cgcttgatgc cataatcgac gcagtgttta aagaagattg accggactcc
+    47881 gaagcttgcc ctgaaatact ggtcaacgca attgcaatac aaagcccgga taatgtcatt
+    47941 tttttcaatt tcatcttgtc ccctcttttg taatctctcg ttgccataaa cttaatgcct
+    48001 gagcaatatt ggtttcacca tatatgacac tatcctcttt tcccggatat tgaaataaaa
+    48061 ctgcaggcac cttcttgatt ccattttgcc aaccacttat aaggccctga taagaacgct
+    48121 ttaattgctc ttcagactgt ttccattcag cagactgaaa aatctgagat gcttgctgag
+    48181 ctgctacact aggattcgca ctcaatcgct gactaatcaa attttcccat tgctcaactt
+    48241 gatcaagtaa atacacctgg cttgcaagct ctgcatgaag aattggataa tcttgtgttg
+    48301 aataaacagt aattatggga ttaggcccct gggcgaacac tgatagtggt aacaaaccga
+    48361 aaagaaacag tgattttttt atagacataa ccatccctta cgatgaaatt ggatagttga
+    48421 aacattaacg aaatgacagg ggggaatata taaaaaattc tttttgattt tgagataaat
+    48481 tctccatttc caaaaaacaa tttttgatag agattcgaca gccttattaa gtatgattgg
+    48541 acttgataag tcgctgtgca aacagctctt ataagttgca cgattcttga gaagcaacgc
+    48601 cttgccttag tgcaagtaga atcatagcca aaatgttatc cagcattctg aaaggatact
+    48661 ctacgcaatc gtaggaatgc caccttaaag accttccgag ggaaaatgat tcccttcggg
+    48721 catgtcattt ttccaaggaa ttttttattt cacattagga gaatgactat gtcctcatcc
+    48781 actcaattgg aacactatga tgttccatca agtaaccctc ttgaaactcc aacattttca
+    48841 tttcgtgtgg gaaaacactt gggccgtttt ttcgttgcag ctaaaaacaa agcaaccgat
+    48901 aaatacaaac aagtgacatc tggtatcaat caaagcattg aagacgaaga agctcgtcgg
+    48961 ctttgcgaat tacaaatgat gctagatagc caagcggaag aatatgaggc aattattgat
+    49021 gatgtgcaaa gaacgtggtt aaaacgaaca acgttattta gcattttatt tttgattgtc
+    49081 ggtattgttg gtacagtggg tactctttac taccttatgc attaacattg cataagctat
+    49141 tcattttcaa ccctaagggg aatttttacc cttagaggta aaggtttccc ttgctgtagg
+    49201 agaaaactta tgaaagtgac attacataac agttgtttag cttatttagc caaacataat
+    49261 gactcagaat ctctaataga ggaagttcgc actcaagcat taaatgcctg ggaaaatcga
+    49321 ggaaaagatg tatcttctac tcgtattatg gtgaatatcc ctagtcaata cggacagaaa
+    49381 tatcacttct ttacagtttc gccatacgca aaccgtaaag atttgttaag tgtaaggggg
+    49441 taaacatgat taagcgttta ctcaagcttg ttagttccaa ttgggacaaa aaaacaatgc
+    49501 tgctggtttc tgaagatttt cgtaaaatcg gcacttacat cttaggtatt gcgtttgtcg
+    49561 caatgtttgt tcagaatgac aatattccgc tacttcttgc cattatcatt atgatatttg
+    49621 gcggaatagc ttggttctgt ggtgtgttgt tagctaaata ttgcaacaac ttaatggaga
+    49681 cagacggagc gtaacgtatg aatattacgt taaactggaa tgggttcctc tttgcaattg
+    49741 tctttgtact gttttttatg ggaacagttg cttttattgg tgtgcgatca ttaaaacgtc
+    49801 aacaagagca aaaagcacaa agcaaaaaaa cacattccat tggtgttaat tcataactga
+    49861 attaatacct gcaaccttta caacaaacct tgatcatgcc attggcgtgt tcaaggtttt
+    49921 cttttacccg actgggagca atttcccatt cgggggttgt tccctttttt attggagaac
+    49981 aaccatgaaa aaaagaactc aacctgctaa agatttatac caacaaatta cagaccaaat
+    50041 tctcgaagca ttagaacaag gtgtgatgcc atggcagaaa ccttgggaca gtggatggcc
+    50101 acaaatggct attccatgca acggtgaaag tggtcgtcaa tactccggga tcaacgtact
+    50161 tctgctttgg atgagcgcca ttagaaaaaa ctttactcaa cgccagtggg taacttttca
+    50221 aggggcaaat catctaggtg gtcaagttcg caccggtgaa aaaagtacgg ttattatttt
+    50281 ctataaacaa aatatgtttg aagaaaaaga cgatagcgga aacattgtac ttgatgaaaa
+    50341 cggtgatccg aaaatgaagt catctgtatt tattcgtggt catcacgtgt ttaatattga
+    50401 acagtgtgaa ggcttagaaa aatactatga agaatattct gaaccggaaa aatcttcaga
+    50461 aatgcaaact cgtccggatt tagatgtatt acctaataaa atgggtatgc agctgtataa
+    50521 caagacccaa gatcgtgctt gttatatgcc gagaaaagat tgcattgtga tgccggattt
+    50581 caaaaaattc aatacagctg acgactacta tgcaactcta ctgcatgaat gcggtcacgc
+    50641 caccgggcat aaagaccggt taaatcgtga cggtgtagct aaatttgata aatttggttc
+    50701 tgaacaatat gcatttgaag aattaatagc tgaactcaca agcgccttta cctgtgcgca
+    50761 cgtgaatgtt tgcaataata tttcacaaaa tgcagcgtat attgaacatt ggattaacgc
+    50821 attaaaagcc gataaaaggg gtctgacgct cagtggaacg aaaactcacg ttaagggatt
+    50881 ttggtcatga gattatcaaa aaggatcttc acctagatcc ttttaaatta aaaatgaagt
+    50941 tttaaatcaa tctaaagtat atatgagtaa acttggtctg acagttacca atgcttaatc
+    51001 agtgaggcac ctatctcagc gatctgtcta tttcgttcat ccatagttgc ctgactcccc
+    51061 gtcgtgtaga taactacgat acgggagggc ttaccatctg gccccagtgc tgcaatgata
+    51121 ccgcgagacc cacgctcacc ggctccagat ttatcagcaa taaaccagcc agccggaagg
+    51181 gccgagcgca gaagtggtcc tgcaacttta tccgcctcca tccagtctat taattgttgc
+    51241 cgggaagcta gagtaagtag ttcgccagtt aatagtttgc gcaacgttgt tgccattgct
+    51301 gcaggcatcg tggtgtcacg ctcgtcgttt ggtatggctt cattcagctc cggttcccaa
+    51361 cgatcaaggc gagttacatg atcccccatg ttgtgcaaaa aagcggttag ctccttcggt
+    51421 cctccgatcg ttgtcagaag taagttggca gcagtgttat cactcatggt tatggcagca
+    51481 ctgcataatt ctcttactgt catgccatcc gtaagatgct tttctgtgac tggtgagtac
+    51541 tcaaccaagt cattctgaga atagtgtatg cggcgaccga gttgctcttg cccggcgtca
+    51601 acacgggata ataccgcacc acatagcaga actttaaaag tgctcatcat tggaaaacgt
+    51661 tcttcggggc gaaaactctc aaggatctta ccgctgttga gatccagttc gatgtaaccc
+    51721 actcgtgcac ccaactgatc ttcagcatct tttactttca ccagcgtttc tgggtgagca
+    51781 aaaacaggaa ggcaaaatgc cgcaaaaaag ggaataaggg cgacacgaaa atgttgaata
+    51841 ctcatactct tcctttttca atattattga agcatttacc agggttattg tctcatgagc
+    51901 ggatacatat ttgaatgtat ttagaaaaat aaacaaatag gggttccgcg cacatttccc
+    51961 cgaaaagtgc cacctgacgt ctaagaaacc attattatca tgacattaac ctataaaaat
+    52021 aagcgtatca cgaggccctt tcgtcttcaa gaattttata aaccgtggag cgggcaatac
+    52081 tgagctgatg agcaatttcc gttgcaccag tgcccttctg atgaagcgtc agcacgacgt
+    52141 tcctgtccac ggtacgcctg cggccaaatt tgattccttt cagctttgct tcctgtcggc
+    52201 cctcattcgt gcgttctagg atcctccggc gttcagcctg tgccacagcc gacaggatgg
+    52261 tgaccaccat ttgccccata tcaccgtcgg tactgatccc gtcatcaatg aaccggactg
+    52321 ccacgccctg agcgtcaaat tcctttatca gttggatcat atcggcagtg tcgcggccaa
+    52381 gacggtcgag cttcttaacc agaatgacat caccttcctc caccttcatc ctcagcaaat
+    52441 ccagcccttc ccggtctgtt gaactgccgg atgccttatc ggtaaatata cggtttgctt
+    52501 tcacacctgc gtctttgagt gctctgacct gaagatcaag agactgctga ctggttgaga
+    52561 cccgagcgta accaaaaagt cgcataaaaa tgtaccttaa atcgaatatc ggacaactca
+    52621 tgtctattat tacaaattta cgatttaata gacatattaa tgtaacagtt ttacgatgtc
+    52681 cgataattta aaacttttta gactacccat gcagtatagt cccaaaactt taacaaagca
+    52741 agtttttaga cagtccaaaa acataaatca aagtttctgc actaaatcat agcattttac
+    52801 ctctcgtatt cactgacaat ctgtttttat ttttaaaaga ctttctaaat aaaactactt
+    52861 actagaaaat cggatgttta gaattggtta aattttcaaa tactgcccca aatatgaaac
+    52921 gctatctact ctatatcacg tgtattattg caactcgaag ccttgaatct atagctaata
+    52981 taagagaccc acacgaagga gggatttgtc acgtcgaagc agaatacttt tatccaggag
+    53041 tatgggaaaa atatggcgaa aaggagttga tttgtaacta ctggaaattt ttaggtgatg
+    53101 aagaccaaag aacattagaa tcagaattaa acgaagatac aactgaatca gagaatgaat
+    53161 ctagcgatta tgatagcctg gatgaaatgt atagtggata aacctatcca ttatgaacta
+    53221 attagtttaa aataaagact gtttatatat taataacaat ttgattttat tatatttata
+    53281 tgagaatcca ataaaaacta tatctagata ttggggtcgt ataaagataa atataccgta
+    53341 taaaaattta tacgggagtt ttatcaatat gcaaatacag agatttttat cattaatcat
+    53401 gaccgtttta tcaaacttca atttagatca tttatctacc tttgtaactg aattaaccta
+    53461 tctttcaatt ggtattggat ttatgttctt atgtatgagt ctatttttat gggtgtacaa
+    53521 aaaaaaatga aatattggtc caaaatgccg agtagatggg ttattgacgg tggtctaaaa
+    53581 aaatttagat actcatctaa taaccaaaat caaatgaatg cagcaaatat tgctgcatta
+    53641 atgacatttt taattatcgt aagtaaggca caaaaagatg aatttaatga tgagttaata
+    53701 acaaatttga cttataaaga attttcagag agtctaggca ttagtaggca atctataagc
+    53761 atggggttaa aagtattgga atccaataat attatttcaa ttaagagaat tggaagaaca
+    53821 aaccaatata tagtgaatca aaatgaagat aaaacgtggt gtaaaatccc aattcatgag
+    53881 ctagaaggca tattttgtag aagcttctcg ttgcgttcac aaattgaatt gtatgcacta
+    53941 aaattattta tttatttttc tgcaataaga gataaaaagt ttaagtattc aatggcatct
+    54001 tatctcaaga taactgaaaa aacaggaatt ccaaaagggt ttataaaaaa gacattatca
+    54061 ttcatgctgg taaatgaact actcagcaga gttgatagag gatacgataa cgttaatgga
+    54121 gagaaggtta atttacctaa ccaatattac ctaaaaaatt ataatgaact gatatattct
+    54181 aatagataaa atgatgggga gctaagctcc ccattgtttc attatttttc tagccgctgc
+    54241 ctagaactcc ctctacttgc tcattataag ctggccgaag ttgcactctg cgggtccctg
+    54301 ctatgtttta tgaccgaggg gacatttgcc ctgtcaatct aatctcttag atgtgcttaa
+    54361 tgttaagtat ttactaatta aatgtcaatc taattttaac tcttatgatt aactcttatg
+    54421 attaactctt atgattaact cttatgatta actcttatga ttaactctta tgattaactc
+    54481 ttatgattaa ctcttatgat taactcttat gattaactct tatgattaat tacaatggct
+    54541 aatcgttact taaaactcat ttaatcggtg caaataatgt aactgctgag atcatttcaa
+    54601 cttgtttgca atattgtcta atcactgctg ccgcgctttc aaatgttgtt cctgaagaag
+    54661 atatatcgtc aacgagtaat acatgtttcg catcagctgg taattttaca tgatcccaca
+    54721 aaaaatatgt aagtagcatc tattcttcgg tgctatgtct tttattgata atcccccttc
+    54781 gcttctcttt aatgcagtaa ttaaggactg ttttttatct gggggaattg tgttatcact
+    54841 tataacatcc tcaatcaatg ttttaggcgt ttttttcctg agaaaattat caataatatt
+    54901 tatgttaaat tttttctgta ataaacaagc taaatcacgc ccaatactat gtttagatgg
+    54961 catgagtatg atcacatcaa atggttgttc gatatgttct tcaaatggat attcatcaat
+    55021 cagcttttta gcgtattcat atacagcatt gatagtttca atatctgttg ttaacccttc
+    55081 agctcctttc atggcataca acatagggca attatcaccg ataggtctgc atttccctct
+    55141 tcgttcttta taacgcctaa ttatagagta tatagttatt tctccattat gttttaacat
+    55201 tgtttctttg ctagggtaag aagctataac aacccggtta tctttaattt caaacttcat
+    55261 atttttcttc tttttttgta attcttatta ttgtagcaaa aaaaacaaaa ggttaaagga
+    55321 atccctaacg ggattaaggg taatgtaata aaggtaacct ttccaaggga aaggtcttac
+    55381 ctgaaaaggc caaaaggctt tcaaaatggc tttaatattt atctccgatt tagaattatt
+    55441 tatttattga gatcgatgca taaatcaata ttcttttaca aaaaaggttc tgagttatgc
+    55501 tttcatctat ttttcataaa atcagaggga aaaaacaaga ttcccttaat atcacatcct
+    55561 ctctaaaaaa tctcaattca tcaacattca aagtggatga tgagggatgg ataaccccct
+    55621 ttactgcgtc agaattactc aattctgaat tacgccaaaa atacttaaat ttactttggc
+    55681 aacaagtatc aatgacgcaa gatatgttta atgagctcta taaaaaacct attgaacgtt
+    55741 atgctgaaat ggttcaatta ttaccagcat ctgaggccca tcatcatagc catttaggtg
+    55801 gaatgttaga tcatggtcta gaagtccttt catttgcgac aaaactccgg caaagctatg
+    55861 tattacctca gaatgctgcc cctgaagaac aatcacggca acgagatgct tggactgctg
+    55921 cagttattta tgcagcactt gtgcatgata taggtaaagt tattgtcgat atagaaattc
+    55981 agttgaaaga tggttcgcgt tggtttcctt ggctagggat accaacgctg ccttataaat
+    56041 tcaaatacat taaagggcgt gattatgagc ttcatccagt aatggggagt tatcttgcta
+    56101 gctatttaat acctaaagag gcatttgaat ggttggctgg atatcctgaa gcttttgcct
+    56161 ctttaatgta tgccatggct aaccataagg ataaatctgg tttattgtca gaaattgtac
+    56221 aaaaagcgga ccaaaacagc gtaactctcg ctttaggcgg tgatgtatca aaactggttc
+    56281 aaaaacctgg aacttcattt gcgaagcaaa ttgttatggc attacgttat ttactggaac
+    56341 ataaatttaa aattaatact ccaaaaggtc catctgacgg ttggttaaca gaagatgcac
+    56401 tatggttaat gagcaaacca acagcagatc aaattcgtgc ttatctttta gaacagggaa
+    56461 tttcagctcc agcagataat cctaaactat ttagtgaaat gcaatcctta gggattattg
+    56521 aaagtacgaa tgatggtact gcaatttggc attgtagaat taaagctgac tccggttggt
+    56581 gtccgcctaa agcattttct ctactcagaa taaagcccga agtagcctgg gaaaatttag
+    56641 ctgatagacc tagcgtattt ttaggtcgag ttgatattga agctgaagaa atatcaaata
+    56701 caaagataga ggaatcggta tctaatacaa atgcaggaat agacaatatt gatagtgaaa
+    56761 atacttctat atctatttcg tttgataaca tttctgaact aaaaccaata gaaacggaac
+    56821 aagttcaaaa aaatgaagat atgatggact tgatgatgga tttattctcg ccaacagaga
+    56881 aaacactgat tccagctgat gaaaaagaaa acaaagaaga cgtgattcaa aataatcaag
+    56941 ttgcaaaagg tcttcaaaat tctgatgttc ctcccgatac ttctacatct agagatagta
+    57001 aaaccatctc tggtgaatca tttgtagaat ggttaaaagc cggcattcta gggaatacgc
+    57061 tcacaattaa taattcaagt gccaaattac acattgtaca aggaaagtta tttttagtta
+    57121 ctccaggaat attccagatg tattttaata gtaaaggtat tgctaacttt accaaaaaag
+    57181 atatagaaag tttgcaatac agctttcaag atcttaaatt acacaagaaa taccatcagt
+    57241 cgaataaaga cagtgtaaat ttttggcgct gcaaagttgt tggtccaaga aaaacgtctc
+    57301 agttgattgg gtatttggtt gataaaaccg attatttttt cggtagtaaa attccaattg
+    57361 ataatttgca tttatcgctt attgaggaga attacaatga atagacttac atttgatatg
+    57421 ttacttgata aattttttta taccgtcacc tgcgtataga tacaataaag agttatgaaa
+    57481 aagcagttag acaattgcaa cataactgta atttaaaata tccagatgaa gtatcaaaat
+    57541 tattgatact tcaatggcgt aaagcagttg ttggtaaatc aattattgaa gtaacttgga
+    57601 atagttatgt tcgccagcta aaaaccatct tcaaatttgg cattgaaaac cagtttcttc
+    57661 cgttcacaaa aaatcctttt gatggtttat ttattaggga gggaaaacgg aaaagaaagg
+    57721 tctacagccc ttctgattta gataggttaa gttttggtat taaagaatca aaatatctcc
+    57781 ccgcaatact tcgtccgtta tggttcacta gggctctaat aatgacattt cgttatacgg
+    57841 caattcgccg ctctcaatta aataaactga gaatcaggga tatagacttg ctaaatcagg
+    57901 ttattcatat ttcaccagaa ataaacaaga accatgaata tcacatactt ccgatttctc
+    57961 acacacttta tccatacctt gataatctat taaacgagtt gaaaaaaatg aaacaatcgg
+    58021 cagatgctca gctttttaat ataaatcttt tttcaaaagc ggttaaacgt agagggaaag
+    58081 aaatgacagc agatcagata agttatttgt tcaaggttat atcaaagcat acaggggtga
+    58141 atagttcacc ccatagattt agacatacag ctgcaaccaa cttaatgaag aacccagaaa
+    58201 atttatatgt tgtaaaacaa cttctagggc ataaagatat taaggttact ttgtcatata
+    58261 ttgaaagtga tataagctct cttagaaaac atattgattg tttataacca tgaaagttta
+    58321 tgaggtactt tcggactttt ttcgctatag ttatacatag atctcatatc atttatacac
+    58381 ttcttaacta gcattccagc tttcccatag gataatggag ttcctttgtt atcattaaca
+    58441 atgactatat gaaacatata atataataaa ttaaagcgat aacatgatgg gaaatctggg
+    58501 tgtatgtgag gtttaagtat tgagaatact ccatgaggag ttagatcaac gaatactttt
+    58561 agatgtttga gcggaatatc attaagcaaa aaatctttca tttcattaag aatatgctta
+    58621 ggaaacttga tactttgata cataggccaa gttaaagcac ctctccatag aatgctaata
+    58681 acaaagtaca aaagcttttt ctccccctct tgattaagag aataaaaaga attttttcct
+    58741 tgatatttag aagcaatatc ttttagaaga gggggagcgt catcatataa tagttcagtt
+    58801 cccatattaa ttttatctag tacctctctt tgagggaatg cattttgtga aaaaaatctt
+    58861 tctccatttt ctgaaaaacg agcttcgcat tcaccgcaaa gtctgtggct agttatttgt
+    58921 ttagataagg ggatcaattt cccactttca ttttttatcg taatgtttgt atcagccttt
+    58981 ttagtgttat tcaaaacttt gtaaacaaat tttggaataa aatgactatc tcttaatgta
+    59041 gtatattttc cgcacaaagc acatgtttta tgattcatat agtttcctcc ttggagattg
+    59101 ataaataatt ttcagaataa aacattcagg ctttacaaac tagtattttt tatgtaagat
+    59161 ctcacttgtc tttaatggag tatattttct gcataaatca catgttttat cattcatata
+    59221 gtttcctcct tagagattga taaataattt tcagaataaa acattcaggc tttacaaact
+    59281 agtatttttt atgtaagatc ttacttgtcc acatagcgtt agtggatcga tcgtagtgta
+    59341 ttggctaggt acacgaaatt gatcagaaaa tatagtttta attttaatga tgt
+//
+
