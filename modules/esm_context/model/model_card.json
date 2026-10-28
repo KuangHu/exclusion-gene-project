@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "model_id": "esm2-center-pm3-late-fusion-2026-10-27",
+  "status": "exploratory_full_cohort_refit_not_externally_validated",
+  "signature": "esm2_t36_3B_UR50D:layer36:residue_mean:full_sequence:v1",
+  "dimension_per_protein": 2560,
+  "heads": [
+    {
+      "name": "center",
+      "path": "center.npz",
+      "sha256": "b2065d1ad5c28b95484ef8ee715cc47adfbbf5bf947f37357ac0b05c53b1e46b",
+      "threshold": 0.19176842352893592
+    },
+    {
+      "name": "masked_pm3",
+      "path": "masked_pm3.npz",
+      "sha256": "3f3f669d7018ea35b11281ee831b403dac13203dc1bd58d068cac383ad7adfc6",
+      "threshold": -0.08787842414430973
+    }
+  ],
+  "fusion": {
+    "head_order": [
+      "center",
+      "masked_pm3"
+    ],
+    "mean": [
+      -0.26919010134621746,
+      -0.027044677875897632
+    ],
+    "scale": [
+      2.795780527419499,
+      2.4470586142542508
+    ],
+    "alpha": 0.5,
+    "threshold": -0.33861103024669736,
+    "calibration": "Fixed 50:50 selected in prior internal comparison; normalizer and threshold from full-cohort grouped OOF scores before full refit.",
+    "threshold_by_source": {
+      "conjugation_control": -0.3687281842345537,
+      "GTDB_background": -0.33861103024669736
+    }
+  },
+  "training_centers": 21421,
+  "training_windows": 26436,
+  "training_manifest_sha256": "918beb23c00b858c994b65914c1e8955eb70657a19f066d8eeffb54424fae74e",
+  "training_hash_file": "training_center_hashes.txt",
+  "training_hash_file_sha256": "d91de0d8655c9f4cb55cd15d70b2542b54ea7b75bf823320fd8230252f87e4b9",
+  "training_cohort": "728 existing-label EEX; 741 conjugation comparators; 19952 provisional GTDB backgrounds; complete +/-7 common windows.",
+  "limitations": [
+    "No independent test of this all-data refit; prior paired CV describes the procedure.",
+    "77/78 TraS in one strict group.",
+    "Annotation-source, taxonomy, sequence length, and new +/-3-only coverage may differ from training.",
+    "Scores are not probabilities or functional confirmation.",
+    "No novelty shortlist without a separate existing class-matched conjugation anchor review within +/-7."
+  ],
+  "annotations_changed": false,
+  "embedding_reference_file": "embedding_reference.npz",
+  "embedding_reference_sha256": "2421a5a5ad664e17352da95f1a0aef309253fd6e4d0f8d9292c620f90b341891"
+}

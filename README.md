@@ -30,6 +30,12 @@ state: which classes are frozen, what each method produced, and what failed.
 
 ## Layout
 
+The independent [ESM context module](modules/esm_context/README.md) extracts short
+proteins from local PLSDB/IMGPR nucleotide records or complete CDS caches, retains
+±7 neighborhoods, and provides separate center/±3 ESM scores with exploratory
+late fusion. It includes resumable extraction, Slurm templates, and versioned
+model metadata; it does not change the curated release or source annotations.
+
 ```
 scripts/        numbered analysis steps; each docstring states what it tests
   lib/          frozen ORF caller, assertions (A1-A14), anchor decontamination
