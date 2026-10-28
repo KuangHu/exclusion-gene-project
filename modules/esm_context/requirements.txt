@@ -1,0 +1,4 @@
+# CPU extraction and NumPy scoring; compatible with the cluster Python 3.11 env.
+biopython==1.86
+numpy==2.4.6
+pyrodigal==3.7.1

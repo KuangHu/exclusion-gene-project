@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "heads": [
+    {
+      "head": "center",
+      "windows": 26436,
+      "portable_max_error": 0.0,
+      "iterations": 22
+    },
+    {
+      "head": "masked_pm3",
+      "windows": 26436,
+      "portable_max_error": 0.0,
+      "iterations": 19
+    }
+  ],
+  "fusion_threshold": -0.33861103024669736
+}

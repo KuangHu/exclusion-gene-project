@@ -1,0 +1,21 @@
+{
+  "source_repository": "https://github.com/KuangHu/DL_entry_exclusion_gene",
+  "source_commit": "ebd987c61696a2c1fd6017a137a4b2a63694aafa",
+  "original_helper_sha256": {
+    "embed.py": "66ca86959d30d999df201d5593ee6fa56c232b7919f88c6b91d0480f40475e42",
+    "embed_neighborhoods.py": "4524d3b8f59e1ba06bc55f6c1be1b8fc79281d9439e839ee38e6f26891ba07a7",
+    "neighborhood_io.py": "dcfcd3224693fd035c1498c7acb700dd9be6423b850d3cbcfd7e6999272b86a1"
+  },
+  "changes": [
+    "ESM2 vocabulary fallback",
+    "Classifier numerical reference check"
+  ],
+  "CPU_validation": {
+    "tests_passed": 12,
+    "python": "3.13.2",
+    "biopython": "1.88",
+    "numpy": "2.5.1",
+    "pyrodigal": "3.7.1"
+  },
+  "GPU_executed_during_packaging": false
+}

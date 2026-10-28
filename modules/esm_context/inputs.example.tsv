@@ -1,0 +1,3 @@
+dataset	path	format
+PLSDB	/path/to/plsdb/sequences.fasta	genome-fasta
+IMGPR	/path/to/imgpr/plasmids.fna.gz	genome-fasta
